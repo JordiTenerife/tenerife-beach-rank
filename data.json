@@ -3,30 +3,180 @@
     "nombre": "Las Teresitas",
     "municipio": "Santa Cruz de Tenerife",
     "zona": "Metropolitana",
-    "score": 6.5,
-    "detalles": [
-      "Viento calma"
+    "id_aemet": "3803806",
+    "coordenadas": [
+      28.5096,
+      -16.1869
     ],
+    "score": 10,
     "clima": {
       "t_max": 22,
-      "viento": 0,
-      "cielo": ""
+      "viento": 15,
+      "cielo": "Soleado"
     },
-    "actualizado": "08/01 20:19"
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
   },
   {
-    "nombre": "Las Vistas",
-    "municipio": "Arona",
+    "nombre": "Las Américas",
+    "municipio": "Adeje",
     "zona": "Sur",
-    "score": 6.5,
-    "detalles": [
-      "Viento calma"
+    "id_aemet": "3800116",
+    "coordenadas": [
+      28.0594,
+      -16.7333
     ],
+    "score": 10,
     "clima": {
-      "t_max": 20,
-      "viento": 0,
-      "cielo": ""
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
     },
-    "actualizado": "08/01 20:19"
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
+  },
+  {
+    "nombre": "Leocadio Machado",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "id_aemet": "3801705",
+    "coordenadas": [
+      28.0411,
+      -16.5417
+    ],
+    "score": 10,
+    "clima": {
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
+    },
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
+  },
+  {
+    "nombre": "Playa Jardín",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "id_aemet": "3802801",
+    "coordenadas": [
+      28.4111,
+      -16.5562
+    ],
+    "score": 10,
+    "clima": {
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
+    },
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
+  },
+  {
+    "nombre": "El Bollullo",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "id_aemet": "3802601",
+    "coordenadas": [
+      28.4184,
+      -16.5162
+    ],
+    "score": 10,
+    "clima": {
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
+    },
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
+  },
+  {
+    "nombre": "Bajamar",
+    "municipio": "San Cristóbal de La Laguna",
+    "zona": "Norte",
+    "id_aemet": "3802302",
+    "coordenadas": [
+      28.5567,
+      -16.3475
+    ],
+    "score": 10,
+    "clima": {
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
+    },
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
+  },
+  {
+    "nombre": "Porís de Abona",
+    "municipio": "Arico",
+    "zona": "Este",
+    "id_aemet": "3800504",
+    "coordenadas": [
+      28.1633,
+      -16.4322
+    ],
+    "score": 10,
+    "clima": {
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
+    },
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
+  },
+  {
+    "nombre": "San Marcos",
+    "municipio": "Icod de los Vinos",
+    "zona": "Norte",
+    "id_aemet": "3802201",
+    "coordenadas": [
+      28.3761,
+      -16.7208
+    ],
+    "score": 10,
+    "clima": {
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
+    },
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
+  },
+  {
+    "nombre": "Charco del Viento",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "id_aemet": "3801801",
+    "coordenadas": [
+      28.3842,
+      -16.6889
+    ],
+    "score": 10,
+    "clima": {
+      "t_max": 22,
+      "viento": 15,
+      "cielo": "Soleado"
+    },
+    "detalles": [
+      "Soleado",
+      "Viento: 15km/h"
+    ]
   }
 ]
