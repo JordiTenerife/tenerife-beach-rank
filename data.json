@@ -2,7 +2,7 @@
   {
     "nombre": "Las Teresitas",
     "municipio": "Santa Cruz de Tenerife",
-    "zona": "Norte",
+    "zona": "Metropolitana",
     "score": 6.5,
     "detalles": [
       "Viento calma"
@@ -12,6 +12,21 @@
       "viento": 0,
       "cielo": ""
     },
-    "actualizado": "08/01 18:27"
+    "actualizado": "08/01 20:19"
+  },
+  {
+    "nombre": "Las Vistas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "score": 6.5,
+    "detalles": [
+      "Viento calma"
+    ],
+    "clima": {
+      "t_max": 20,
+      "viento": 0,
+      "cielo": ""
+    },
+    "actualizado": "08/01 20:19"
   }
 ]
