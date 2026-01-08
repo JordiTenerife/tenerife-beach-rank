@@ -3,16 +3,29 @@ import json
 import time
 from datetime import datetime
 import urllib3
+import os
 
-# --- VERSIÓN 2.3 - MODO SAFARI (Completo) ---
-print("\n✅ VERSIÓN 2.3 CARGADA - SIMULANDO SAFARI\n")
+# --- VERSIÓN 2.4 - GITHUB ACTIONS ---
+print("\n✅ VERSIÓN 2.4 CARGADA - MODO NUBE\n")
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# 👇👇👇 1. PEGA TU CLAVE AQUÍ 👇👇👇
-API_KEY = "import os
-API_KEY = os.environ["AEMET_API_KEY"]" 
+# 👇 AQUÍ ESTÁ LA CORRECCIÓN 👇
+# Leemos la clave desde la "Caja Fuerte" de GitHub
+API_KEY = os.environ["AEMET_API_KEY"]
 
+INPUT_FILE = 'playas.json'
+OUTPUT_FILE = 'data.json'
+
+# 👇 AQUÍ ESTÁN LOS HEADERS 👇
+headers = {
+    'api_key': API_KEY,
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+    'Accept': 'application/json',
+    'Cache-Control': 'no-cache'
+}
+
+# ... (El resto del código déjalo como está) ...
 INPUT_FILE = 'playas.json'
 OUTPUT_FILE = 'data.json'
 
