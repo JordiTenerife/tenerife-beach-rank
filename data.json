@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Las Teresitas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Norte",
+    "score": 6.5,
+    "detalles": [
+      "Viento calma"
+    ],
+    "clima": {
+      "t_max": 22,
+      "viento": 0,
+      "cielo": ""
+    },
+    "actualizado": "08/01 18:11"
+  }
+]

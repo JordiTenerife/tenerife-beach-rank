@@ -1,0 +1,62 @@
+[
+  {
+    "id_aemet": "3803806",
+    "nombre": "Las Teresitas",
+    "zona": "Norte",
+    "municipio": "Santa Cruz de Tenerife"
+  },
+  {
+    "id_aemet": "3801704",
+    "nombre": "El Médano",
+    "zona": "Sur",
+    "municipio": "Granadilla de Abona"
+  },
+  {
+    "id_aemet": "3802802",
+    "nombre": "Playa Jardín",
+    "zona": "Norte",
+    "municipio": "Puerto de la Cruz"
+  },
+  {
+    "id_aemet": "3800602",
+    "nombre": "Las Vistas",
+    "zona": "Sur",
+    "municipio": "Arona"
+  },
+  {
+    "id_aemet": "3803810",
+    "nombre": "Benijo",
+    "zona": "Norte",
+    "municipio": "Santa Cruz de Tenerife"
+  },
+  {
+    "id_aemet": "3800104",
+    "nombre": "Fañabé",
+    "zona": "Sur",
+    "municipio": "Adeje"
+  },
+  {
+    "id_aemet": "3804001",
+    "nombre": "La Arena",
+    "zona": "Sur",
+    "municipio": "Santiago del Teide"
+  },
+  {
+    "id_aemet": "3803102",
+    "nombre": "El Socorro",
+    "zona": "Norte",
+    "municipio": "Los Realejos"
+  },
+  {
+    "id_aemet": "3800601",
+    "nombre": "Los Cristianos",
+    "zona": "Sur",
+    "municipio": "Arona"
+  },
+  {
+    "id_aemet": "3800101",
+    "nombre": "Troya",
+    "zona": "Sur",
+    "municipio": "Adeje"
+  }
+]
