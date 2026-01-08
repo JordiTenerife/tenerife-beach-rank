@@ -10,7 +10,8 @@ print("\n✅ VERSIÓN 2.3 CARGADA - SIMULANDO SAFARI\n")
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 👇👇👇 1. PEGA TU CLAVE AQUÍ 👇👇👇
-API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkb21pbmFyZWVsbXVuZG9AZ21haWwuY29tIiwianRpIjoiYTU3ODRkYTctZjRmMi00ODdhLWE4MTYtMzkzMGU5ZmEyMWVlIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Njc4MDc3MzYsInVzZXJJZCI6ImE1Nzg0ZGE3LWY0ZjItNDg3YS1hODE2LTM5MzBlOWZhMjFlZSIsInJvbGUiOiIifQ.FI8FHfjblsDLUIoUFa-QzKxl62eGfLBZe-lrLtFTs-U" 
+API_KEY = "import os
+API_KEY = os.environ["AEMET_API_KEY"]" 
 
 INPUT_FILE = 'playas.json'
 OUTPUT_FILE = 'data.json'
