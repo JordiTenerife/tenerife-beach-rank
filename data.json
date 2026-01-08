@@ -8,15 +8,395 @@
       28.5096,
       -16.1869
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Las Gaviotas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "id_aemet": "3803808",
+    "coordenadas": [
+      28.5175,
+      -16.1683
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Benijo",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "id_aemet": "3803810",
+    "coordenadas": [
+      28.5727,
+      -16.1843
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Almáciga",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "id_aemet": "3803811",
+    "coordenadas": [
+      28.5705,
+      -16.1983
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Roque de las Bodegas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "id_aemet": "3803812",
+    "coordenadas": [
+      28.5677,
+      -16.2058
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Antequera",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "id_aemet": "3803804",
+    "coordenadas": [
+      28.5441,
+      -16.1308
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Playa de Valleseco",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "id_aemet": "3803805",
+    "coordenadas": [
+      28.4839,
+      -16.2238
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Las Vistas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "id_aemet": "3800603",
+    "coordenadas": [
+      28.0536,
+      -16.7323
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Los Cristianos",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "id_aemet": "3800601",
+    "coordenadas": [
+      28.0504,
+      -16.7169
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Camisón",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "id_aemet": "3800604",
+    "coordenadas": [
+      28.0531,
+      -16.7347
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Las Galletas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "id_aemet": "3800605",
+    "coordenadas": [
+      28.0089,
+      -16.6575
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Ballena",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "id_aemet": "3800606",
+    "coordenadas": [
+      28.0069,
+      -16.6669
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Troya",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800101",
+    "coordenadas": [
+      28.0673,
+      -16.735
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Fañabé",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800104",
+    "coordenadas": [
+      28.0867,
+      -16.7383
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Torviscas",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800103",
+    "coordenadas": [
+      28.0822,
+      -16.7375
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Duque",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800110",
+    "coordenadas": [
+      28.0906,
+      -16.7428
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Enramada",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800109",
+    "coordenadas": [
+      28.0988,
+      -16.7516
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Diego Hernández",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800111",
+    "coordenadas": [
+      28.1066,
+      -16.7594
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Puertito de Adeje",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800108",
+    "coordenadas": [
+      28.1147,
+      -16.7644
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Playa del Bobo",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800102",
+    "coordenadas": [
+      28.0733,
+      -16.7372
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -28,15 +408,55 @@
       28.0594,
       -16.7333
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Médano",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "id_aemet": "3801704",
+    "coordenadas": [
+      28.0433,
+      -16.5386
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Tejita",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "id_aemet": "3801702",
+    "coordenadas": [
+      28.0336,
+      -16.5511
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -48,15 +468,35 @@
       28.0411,
       -16.5417
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Montaña Roja",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "id_aemet": "3801703",
+    "coordenadas": [
+      28.0311,
+      -16.5567
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -68,15 +508,55 @@
       28.4111,
       -16.5562
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Martiánez",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "id_aemet": "3802802",
+    "coordenadas": [
+      28.4178,
+      -16.5414
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "San Telmo",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "id_aemet": "3802803",
+    "coordenadas": [
+      28.4183,
+      -16.5489
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -88,15 +568,315 @@
       28.4184,
       -16.5162
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Los Patos",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "id_aemet": "3802602",
+    "coordenadas": [
+      28.4194,
+      -16.5089
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Ancón",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "id_aemet": "3802603",
+    "coordenadas": [
+      28.4208,
+      -16.5036
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Socorro",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "id_aemet": "3803102",
+    "coordenadas": [
+      28.3962,
+      -16.6023
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Fajana",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "id_aemet": "3803101",
+    "coordenadas": [
+      28.3997,
+      -16.6083
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Arena",
+    "municipio": "Santiago del Teide",
+    "zona": "Oeste",
+    "id_aemet": "3804001",
+    "coordenadas": [
+      28.2294,
+      -16.8413
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Los Guíos (Gigantes)",
+    "municipio": "Santiago del Teide",
+    "zona": "Oeste",
+    "id_aemet": "3804002",
+    "coordenadas": [
+      28.2461,
+      -16.8427
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Playa de San Juan",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "id_aemet": "3801901",
+    "coordenadas": [
+      28.1775,
+      -16.8142
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Abama",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "id_aemet": "3801904",
+    "coordenadas": [
+      28.1706,
+      -16.8028
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Alcalá",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "id_aemet": "3801902",
+    "coordenadas": [
+      28.2056,
+      -16.8317
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Punta Larga",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "id_aemet": "3801103",
+    "coordenadas": [
+      28.3667,
+      -16.3683
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Las Caletillas",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "id_aemet": "3801101",
+    "coordenadas": [
+      28.375,
+      -16.3611
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Arena (Mesa del Mar)",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
+    "id_aemet": "3804301",
+    "coordenadas": [
+      28.5033,
+      -16.4258
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Pris",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
+    "id_aemet": "3804302",
+    "coordenadas": [
+      28.5089,
+      -16.4217
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Puertito de Güímar",
+    "municipio": "Güímar",
+    "zona": "Este",
+    "id_aemet": "3802002",
+    "coordenadas": [
+      28.2953,
+      -16.3769
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Callao",
+    "municipio": "Güímar",
+    "zona": "Este",
+    "id_aemet": "3802003",
+    "coordenadas": [
+      28.2917,
+      -16.3792
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -108,15 +888,95 @@
       28.5567,
       -16.3475
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "El Arenal",
+    "municipio": "San Cristóbal de La Laguna",
+    "zona": "Norte",
+    "id_aemet": "3802303",
+    "coordenadas": [
+      28.5583,
+      -16.3417
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Jover",
+    "municipio": "San Cristóbal de La Laguna",
+    "zona": "Norte",
+    "id_aemet": "3802304",
+    "coordenadas": [
+      28.5417,
+      -16.3333
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Nea",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "id_aemet": "3803202",
+    "coordenadas": [
+      28.4064,
+      -16.3197
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Radazul",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "id_aemet": "3803201",
+    "coordenadas": [
+      28.4022,
+      -16.3236
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -128,15 +988,55 @@
       28.1633,
       -16.4322
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Abades",
+    "municipio": "Arico",
+    "zona": "Este",
+    "id_aemet": "3800503",
+    "coordenadas": [
+      28.1408,
+      -16.4419
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Tajao",
+    "municipio": "Arico",
+    "zona": "Este",
+    "id_aemet": "3800502",
+    "coordenadas": [
+      28.1103,
+      -16.4719
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -148,15 +1048,35 @@
       28.3761,
       -16.7208
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Agua Dulce",
+    "municipio": "Los Silos",
+    "zona": "Norte",
+    "id_aemet": "3804201",
+    "coordenadas": [
+      28.3725,
+      -16.8089
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   },
   {
@@ -168,15 +1088,115 @@
       28.3842,
       -16.6889
     ],
-    "score": 10,
+    "score": 0,
     "clima": {
-      "t_max": 22,
-      "viento": 15,
-      "cielo": "Soleado"
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
     },
     "detalles": [
-      "Soleado",
-      "Viento: 15km/h"
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Santo Domingo",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "id_aemet": "3801802",
+    "coordenadas": [
+      28.3861,
+      -16.6917
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Ajabo",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800115",
+    "coordenadas": [
+      28.1228,
+      -16.7769
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "La Caleta",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800107",
+    "coordenadas": [
+      28.1025,
+      -16.7561
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Varadero",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "id_aemet": "3801903",
+    "coordenadas": [
+      28.2069,
+      -16.8336
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
+    ]
+  },
+  {
+    "nombre": "Callao Salvaje",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "id_aemet": "3800114",
+    "coordenadas": [
+      28.1228,
+      -16.7769
+    ],
+    "score": 0,
+    "clima": {
+      "t_max": 0,
+      "viento": 0,
+      "cielo": "Sin datos"
+    },
+    "detalles": [
+      "Sin datos",
+      "Viento: 0km/h"
     ]
   }
 ]
