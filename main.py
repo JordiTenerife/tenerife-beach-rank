@@ -1,153 +1,137 @@
 import requests
 import json
 import time
-from datetime import datetime
-import urllib3
 import os
+import urllib3
 
-# --- VERSIÓN 2.4 - GITHUB ACTIONS ---
-print("\n✅ VERSIÓN 2.4 CARGADA - MODO NUBE\n")
+# --- VERSIÓN 4.0 - SOPORTE MAPAS Y 60 PLAYAS ---
+print("\n✅ INICIANDO ROBOT - MODO 60 PLAYAS\n")
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# 👇 AQUÍ ESTÁ LA CORRECCIÓN 👇
-# Leemos la clave desde la "Caja Fuerte" de GitHub
-API_KEY = os.environ["AEMET_API_KEY"]
+# LEEMOS LA CLAVE SECRETA
+try:
+    API_KEY = os.environ["AEMET_API_KEY"]
+except KeyError:
+    print("❌ ERROR: No encuentro la clave AEMET_API_KEY en los secretos.")
+    exit(1)
 
 INPUT_FILE = 'playas.json'
 OUTPUT_FILE = 'data.json'
 
-# 👇 AQUÍ ESTÁN LOS HEADERS 👇
 headers = {
     'api_key': API_KEY,
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
-    'Accept': 'application/json',
-    'Cache-Control': 'no-cache'
+    'Accept': 'application/json'
 }
 
-# ... (El resto del código déjalo como está) ...
-INPUT_FILE = 'playas.json'
-OUTPUT_FILE = 'data.json'
-
-# 👇👇👇 2. AQUÍ ESTÁN LOS HEADERS (El disfraz) 👇👇👇
-# Esto es lo que hace creer a AEMET que eres un navegador Safari
-headers = {
-    'api_key': API_KEY,
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
-    'Accept': 'application/json',
-    'Cache-Control': 'no-cache'
-}
-
-def extraer_valor(dato, clave):
-    """Saca el valor numérico de forma segura."""
-    if not dato: return 0
-    valor = dato.get(clave)
-    if valor is None: return 0
-    if isinstance(valor, (int, float)): return int(valor)
-    if isinstance(valor, list) and len(valor) > 0: return int(valor[0])
-    if isinstance(valor, dict): return int(valor.get('valor1', 0))
-    try: return int(valor)
-    except: return 0
-
-def calcular_score(datos_playa):
-    score = 5.0
-    log = []
-    
-    if 'prediccion' not in datos_playa or 'dia' not in datos_playa['prediccion']:
-        return None 
-        
-    dia_hoy = datos_playa['prediccion']['dia'][0]
-    
-    # Objetos
-    estado_cielo_obj = dia_hoy['estadoCielo'].get('13-19') or dia_hoy['estadoCielo'].get('08-14') or {}
-    viento_obj = dia_hoy['viento'].get('13-19') or dia_hoy['viento'].get('08-14') or {}
-    
-    # Valores
-    t_max = extraer_valor(dia_hoy['tMaxima'], 'valor1')
-    fuerza_viento = extraer_valor(viento_obj, 'velocidad')
-    desc_cielo = estado_cielo_obj.get('descripcion1', "") if estado_cielo_obj else ""
-    
-    # Algoritmo
-    if fuerza_viento > 30: score -= 4; log.append(f"Viento fuerte ({fuerza_viento}km/h)")
-    elif fuerza_viento > 20: score -= 2; log.append(f"Viento moderado ({fuerza_viento}km/h)")
-    elif fuerza_viento < 10: score += 1.5; log.append("Viento calma")
-    
-    if t_max > 25: score += 2; log.append(f"Calor {t_max}º")
-    elif t_max < 18: score -= 2; log.append(f"Fresco {t_max}º")
-    
-    if "despejado" in desc_cielo.lower(): score += 2; log.append("Soleado")
-    
-    return {
-        "score": max(0, min(10, round(score, 1))),
-        "razones": log,
-        "datos_brutos": {"t_max": t_max, "viento": fuerza_viento, "cielo": desc_cielo}
-    }
-
-def main():
-    print("🌊 Iniciando análisis...")
-    
+def obtener_datos_playa(id_playa):
+    url = f"https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/{id_playa}"
     try:
-        with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-            playas = json.load(f)
-    except FileNotFoundError:
-        print(f"❌ Error: No encuentro {INPUT_FILE}.")
-        return
+        # Paso 1: Pedir la URL de los datos
+        res1 = requests.get(url, headers=headers, verify=False, timeout=10)
+        if res1.status_code != 200:
+            return None
+        
+        datos_url = res1.json().get('datos')
+        if not datos_url:
+            return None
+
+        # Paso 2: Descargar los datos reales
+        res2 = requests.get(datos_url, verify=False, timeout=10)
+        if res2.status_code != 200:
+            return None
+        
+        # AEMET devuelve una lista, cogemos el primer elemento
+        raw_data = res2.json()
+        if isinstance(raw_data, list):
+            return raw_data[0]
+        return raw_data
+
+    except Exception as e:
+        print(f"⚠️ Error conectando con AEMET para ID {id_playa}: {e}")
+        return None
+
+def procesar_playas():
+    # Cargar lista de playas
+    with open(INPUT_FILE, 'r', encoding='utf-8') as f:
+        playas = json.load(f)
 
     resultados = []
+    
+    print(f"🏖️ Procesando {len(playas)} playas... (Esto tomará unos 3 minutos)")
 
     for i, playa in enumerate(playas):
-        print(f"[{i+1}/{len(playas)}] 📡 Consultando {playa['nombre']}...", end=" ", flush=True)
+        print(f"[{i+1}/{len(playas)}] Consultando: {playa['nombre']}...")
         
-        try:
-            url = f"https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/{playa['id_aemet']}"
-            
-            # Petición 1 (Obtener URL)
-            res = requests.get(url, headers=headers, verify=False, timeout=15)
-            
-            if res.status_code == 200:
-                data_url = res.json().get('datos')
-                if data_url:
-                    # Petición 2 (Bajar datos)
-                    res_datos = requests.get(data_url, headers=headers, verify=False, timeout=15)
-                    
-                    if res_datos.status_code == 200:
-                        datos = res_datos.json()
-                        datos = datos[0] if isinstance(datos, list) else datos
-                        analisis = calcular_score(datos)
-                        
-                        if analisis:
-                            print(f"✅ Nota: {analisis['score']}")
-                            resultados.append({
-                                "nombre": playa['nombre'],
-                                "municipio": playa['municipio'],
-                                "zona": playa['zona'],
-                                "score": analisis['score'],
-                                "detalles": analisis['razones'],
-                                "clima": analisis['datos_brutos'],
-                                "actualizado": datetime.now().strftime("%d/%m %H:%M")
-                            })
-                        else: print("⚠️ Datos vacíos")
-                    else: print("⚠️ Fallo descarga datos")
-                else: print("⚠️ AEMET no dio URL")
-            
-            elif res.status_code == 429:
-                print("\n🛑 STOP: Bloqueo de velocidad. Espera un rato.")
-                break
-            else:
-                print(f"⚠️ Error {res.status_code}")
-            
-        except Exception as e:
-            print(f"❌ Fallo: {e}")
+        datos = obtener_datos_playa(playa['id_aemet'])
         
-        time.sleep(3)
+        if datos and 'prediccion' in datos and 'dia' in datos['prediccion']:
+            # Cogemos la predicción de HOY (índice 0)
+            hoy = datos['prediccion']['dia'][0]
+            
+            # --- EXTRAER DATOS (Simplificados) ---
+            # Temperatura (buscamos la máxima)
+            try:
+                t_max = hoy['temperatura']['maxima']
+            except:
+                t_max = 22 # Valor por defecto si falla
+            
+            # Viento (valor numérico)
+            try:
+                # AEMET da el viento complejo, cogemos velocidad media del primer periodo
+                viento_valor = hoy['viento'][0]['velocidad']
+            except:
+                viento_valor = 15
 
-    if resultados:
-        resultados = sorted(resultados, key=lambda x: x['score'], reverse=True)
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump(resultados, f, ensure_ascii=False, indent=2)
-        print(f"\n🏆 GANADORA: {resultados[0]['nombre']} ({resultados[0]['score']})")
-    else:
-        print("\n💀 No se obtuvieron datos.")
+            # Cielo (descripción)
+            try:
+                cielo_desc = hoy['estadoCielo'][0]['descripcion1']
+                if not cielo_desc: cielo_desc = "Despejado"
+            except:
+                cielo_desc = "Soleado"
+
+            # --- CALCULAR NOTA (ALGORITMO SIMPLE) ---
+            score = 10
+            # Si hace mucho viento, bajamos nota
+            if viento_valor > 20: score -= 2
+            if viento_valor > 30: score -= 3
+            # Si hace frío, bajamos nota
+            if t_max < 20: score -= 2
+            if t_max < 18: score -= 3
+            
+            # Limites 0-10
+            score = max(0, min(10, score))
+
+            # Guardamos la ficha completa
+            resultados.append({
+                "nombre": playa["nombre"],
+                "municipio": playa["municipio"],
+                "zona": playa["zona"],
+                "id_aemet": playa["id_aemet"],
+                "coordenadas": playa.get("coordenadas"), # <--- IMPORTANTE: Copiamos las coordenadas
+                "score": score,
+                "clima": {
+                    "t_max": t_max,
+                    "viento": viento_valor,
+                    "cielo": cielo_desc
+                },
+                "detalles": [cielo_desc, f"Viento: {viento_valor}km/h"]
+            })
+        else:
+            print(f"❌ Fallo al obtener datos de {playa['nombre']}")
+        
+        # PAUSA OBLIGATORIA (Evita bloqueos de AEMET)
+        time.sleep(2) 
+
+    # Ordenar ranking: mejores primero
+    resultados.sort(key=lambda x: x['score'], reverse=True)
+
+    # Guardar archivo final
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(resultados, f, ensure_ascii=False, indent=2)
+    
+    print(f"\n✅ ÉXITO: {len(resultados)} playas guardadas en {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    main()
+    procesar_playas()
