@@ -1,23 +1,22 @@
 import requests
-import json
-import time
 import os
 import urllib3
-import random
 
-# --- VERSIÓN 5.0 - ANTI-BLOQUEO & MAPA FIX ---
-print("\n✅ INICIANDO ROBOT v5.0 - MODO ROBUSTO\n")
+print("\n🚑 INICIANDO DIAGNÓSTICO DE CONEXIÓN AEMET...\n")
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
+# 1. VERIFICAR LA LLAVE
 try:
     API_KEY = os.environ["AEMET_API_KEY"]
+    # Mostramos los primeros 4 caracteres para ver si la lee bien (sin revelar el resto)
+    print(f"🔑 Llave detectada: {API_KEY[:4]}...******")
+    print(f"📏 Longitud de la llave: {len(API_KEY)} caracteres")
 except KeyError:
-    print("❌ ERROR: Falta la API Key.")
+    print("❌ ERROR GRAVE: No encuentro la variable AEMET_API_KEY.")
     exit(1)
 
-INPUT_FILE = 'playas.json'
-OUTPUT_FILE = 'data.json'
+# 2. PROBAR CONEXIÓN (Playa de Las Teresitas)
+id_playa = "3803806"
+url = f"https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/{id_playa}"
 
 headers = {
     'api_key': API_KEY,
@@ -25,112 +24,33 @@ headers = {
     'Accept': 'application/json'
 }
 
-# Función con REINTENTOS
-def obtener_datos_con_reintentos(id_playa, intentos=3):
-    url = f"https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/{id_playa}"
+print(f"\n📡 Contactando con AEMET para playa {id_playa}...")
+
+try:
+    # Desactivar avisos SSL para ver limpio el error
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     
-    for i in range(intentos):
-        try:
-            # Paso 1
-            res1 = requests.get(url, headers=headers, verify=False, timeout=15)
-            if res1.status_code == 200:
-                datos_url = res1.json().get('datos')
-                if datos_url:
-                    # Paso 2
-                    res2 = requests.get(datos_url, verify=False, timeout=15)
-                    if res2.status_code == 200:
-                        raw = res2.json()
-                        return raw[0] if isinstance(raw, list) else raw
-            
-            # Si falla, esperamos un poco más antes de reintentar
-            print(f"   ⚠️ Intento {i+1} fallido. Reintentando en 5s...")
-            time.sleep(5)
-
-        except Exception as e:
-            print(f"   ⚠️ Error de red: {e}")
-            time.sleep(5)
+    response = requests.get(url, headers=headers, verify=False, timeout=10)
     
-    return None
+    print(f"\n📊 CÓDIGO DE RESPUESTA: {response.status_code}")
+    print(f"📝 MENSAJE DEL SERVIDOR: {response.text}\n")
 
-def procesar_playas():
-    with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-        playas = json.load(f)
+    if response.status_code == 200:
+        print("✅ ¡CONEXIÓN EXITOSA! La llave funciona y AEMET responde.")
+        print("El problema podría estar en el bucle de las 60 playas.")
+    elif response.status_code == 401:
+        print("⛔ ERROR 401: NO AUTORIZADO.")
+        print("Causas probables:")
+        print("1. La API Key está mal copiada.")
+        print("2. Tienes espacios en blanco al principio o final de la llave en GitHub Secrets.")
+        print("3. AEMET aún no ha activado la llave nueva (tarda unos minutos).")
+    elif response.status_code == 403 or response.status_code == 429:
+        print("🚫 ERROR 403/429: BLOQUEADO.")
+        print("AEMET ha bloqueado temporalmente la IP de GitHub.")
+    else:
+        print("⚠️ ERROR DESCONOCIDO.")
 
-    resultados = []
-    print(f"🏖️ Procesando {len(playas)} playas con sistema anti-bloqueo...")
+except Exception as e:
+    print(f"💥 ERROR DE PYTHON: {e}")
 
-    for i, playa in enumerate(playas):
-        print(f"[{i+1}/{len(playas)}] Consultando: {playa['nombre']}...", end=" ", flush=True)
-        
-        datos = obtener_datos_con_reintentos(playa['id_aemet'])
-        
-        # VALORES POR DEFECTO (Si falla AEMET, al menos mostramos la playa en el mapa)
-        t_max = 0
-        viento_valor = 0
-        cielo_desc = "Sin datos"
-        score = 0
-        datos_validos = False
-
-        if datos and 'prediccion' in datos and 'dia' in datos['prediccion']:
-            try:
-                hoy = datos['prediccion']['dia'][0]
-                
-                # Extracción segura de datos
-                t_max = int(hoy['temperatura']['maxima'])
-                
-                viento_lista = hoy.get('viento', [])
-                if viento_lista:
-                    viento_valor = int(viento_lista[0].get('velocidad', 10))
-                else:
-                    viento_valor = 10
-
-                cielo_lista = hoy.get('estadoCielo', [])
-                if cielo_lista:
-                    cielo_desc = cielo_lista[0].get('descripcion1', 'Despejado')
-                else:
-                    cielo_desc = "Despejado"
-
-                # ALGORITMO DE NOTA
-                score = 10
-                if viento_valor > 20: score -= 2
-                if viento_valor > 30: score -= 4
-                if t_max < 21: score -= 2
-                if t_max < 19: score -= 3
-                score = max(0, min(10, score))
-                
-                datos_validos = True
-                print("✅ OK")
-
-            except Exception as e:
-                print(f"❌ Error procesando datos: {e}")
-        else:
-            print("❌ Sin respuesta AEMET")
-
-        # GUARDAMOS SIEMPRE (Para que salga en el mapa aunque no haya clima)
-        resultados.append({
-            "nombre": playa["nombre"],
-            "municipio": playa["municipio"],
-            "zona": playa["zona"],
-            "id_aemet": playa["id_aemet"],
-            "coordenadas": playa.get("coordenadas"), 
-            "score": score if datos_validos else 0, # Nota 0 si no hay datos
-            "clima": {
-                "t_max": t_max,
-                "viento": viento_valor,
-                "cielo": cielo_desc
-            },
-            "detalles": [cielo_desc, f"Viento: {viento_valor}km/h"]
-        })
-        
-        # PAUSA ALEATORIA (3 a 6 segundos) PARA EVITAR BLOQUEO
-        time.sleep(random.uniform(3, 6))
-
-    resultados.sort(key=lambda x: x['score'], reverse=True)
-
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(resultados, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n✅ FINALIZADO: {len(resultados)} playas guardadas.")
-
-if __name__ == "__main__":
-    procesar_playas()
+print("\n🏁 DIAGNÓSTICO FINALIZADO.")
