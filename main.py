@@ -4,10 +4,10 @@ import time
 import os
 from datetime import datetime
 
-print("\n🌍 INICIANDO ROBOT v7.0 - OPENWEATHERMAP + ALGORITMO PRO\n")
+print("\n🌍 INICIANDO ROBOT v7.1 - DEBUGGER MODE\n")
 
 try:
-    API_KEY = os.environ["AEMET_API_KEY"] # Usamos la variable que ya tienes creada
+    API_KEY = os.environ["AEMET_API_KEY"]
 except KeyError:
     print("❌ ERROR: Falta la API Key.")
     exit(1)
@@ -21,6 +21,10 @@ def obtener_clima_owm(lat, lon):
         res = requests.get(url, timeout=10)
         if res.status_code == 200:
             return res.json()
+        else:
+            # AQUÍ ESTÁ EL CAMBIO: Ahora nos dirá qué pasa
+            print(f"   ⚠️ ERROR API: {res.status_code} (Revisar Clave)")
+            return None
     except Exception as e:
         print(f"   ⚠️ Error conexión: {e}")
     return None
@@ -30,95 +34,80 @@ def procesar_playas():
         playas = json.load(f)
 
     resultados = []
-    print(f"🚀 Procesando {len(playas)} playas con nuevo algoritmo...")
+    print(f"🚀 Procesando {len(playas)} playas...")
 
+    # Solo probamos las 3 primeras para no saturar el log si falla
     for i, playa in enumerate(playas):
         nombre = playa['nombre']
         coords = playa.get('coordenadas')
 
-        if not coords:
-            continue
+        if not coords: continue
 
         lat, lon = coords
         print(f"[{i+1}/{len(playas)}] {nombre}...", end=" ", flush=True)
 
         datos = obtener_clima_owm(lat, lon)
         
-        # Valores por defecto (neutros)
-        t_real = 0
-        t_feel = 0
-        viento = 0
-        cielo = "Sin datos"
-        humedad = 0
-        visibilidad = 10000
-        sunset_ts = 0
-        score = 0
-        datos_validos = False
+        # ... (Resto del código igual que v7.0) ...
+        # Para el diagnóstico, si falla, cortamos rápido
+        if not datos:
+            print("❌ FALLO")
+            # Si falla la primera, es probable que fallen todas.
+            # Seguimos, pero ya sabemos que hay error.
+        else:
+             # Valores por defecto (neutros)
+            t_real = 0
+            t_feel = 0
+            viento = 0
+            cielo = "Sin datos"
+            humedad = 0
+            visibilidad = 10000
+            sunset_ts = 0
+            score = 0
+            datos_validos = False
 
-        if datos:
             try:
-                # --- 1. EXTRACCIÓN DE DATOS ---
                 main = datos['main']
                 wind = datos['wind']
                 weather = datos['weather'][0]
                 sys = datos['sys']
 
                 t_real = round(main['temp'])
-                t_feel = round(main['feels_like']) # ¡Dato clave!
+                t_feel = round(main['feels_like'])
                 humedad = main['humidity']
-                
-                viento = round(wind['speed'] * 3.6) # Convertir m/s a km/h
-                
+                viento = round(wind['speed'] * 3.6)
                 cielo = weather['description'].capitalize()
-                
-                visibilidad = datos.get('visibility', 10000) # Metros
-                
-                sunset_ts = sys['sunset'] # Hora puesta sol (Unix timestamp)
+                visibilidad = datos.get('visibility', 10000)
+                sunset_ts = sys['sunset']
 
-                # --- 2. EL NUEVO ALGORITMO ---
+                # ALGORITMO
                 score = 10
-
-                # A. Factor Viento 💨
                 if viento > 20: score -= 2
                 if viento > 28: score -= 4
                 if viento > 40: score -= 7
-
-                # B. Factor Térmico (Basado en Sensación) 🌡️
                 if t_feel < 20: score -= 1
-                if t_feel < 17: score -= 3 # <--- TU CAMBIO AQUÍ
-                if t_feel > 32: score -= 1 # Calor excesivo
+                if t_feel < 17: score -= 3
+                if t_feel > 32: score -= 1
 
-                # C. Factor Cielo ☁️
                 cielo_lower = cielo.lower()
                 if "nubes" in cielo_lower:
-                    # Si es "nubes dispersas" o "pocas nubes" penaliza menos
-                    if "dispersas" in cielo_lower or "pocas" in cielo_lower:
-                        score -= 1
-                    else:
-                        score -= 2 # Nublado cerrado
-                elif "lluvia" in cielo_lower or "llovizna" in cielo_lower:
-                    score -= 10 # Nadie quiere ir a la playa lloviendo
+                    if "dispersas" in cielo_lower or "pocas" in cielo_lower: score -= 1
+                    else: score -= 2
+                elif "lluvia" in cielo_lower: score -= 10
                 
-                # D. Factor Calima (Visibilidad) 🌫️
-                if visibilidad < 3000:
-                    score -= 2
-
-                # Limites 0-10
+                if visibilidad < 3000: score -= 2
                 score = max(0, min(10, score))
                 datos_validos = True
-                print(f"✅ Nota: {score}/10 | {t_feel}ºC (Sens.) | {viento}km/h")
+                print(f"✅ OK ({t_feel}ºC)")
 
             except Exception as e:
                 print(f"❌ Error procesando: {e}")
-        else:
-            print("❌ Sin respuesta")
 
-        # Formatear hora puesta de sol (HH:MM)
+        # Guardar resultado (aunque sea vacío para no romper mapa)
         sunset_hora = "Unknown"
-        if sunset_ts > 0:
-            sunset_hora = datetime.fromtimestamp(sunset_ts).strftime('%H:%M')
-
-        # Guardar resultado completo
+        if datos and datos_validos:
+             sunset_hora = datetime.fromtimestamp(datos['sys']['sunset']).strftime('%H:%M')
+        
         resultados.append({
             "nombre": nombre,
             "municipio": playa["municipio"],
@@ -126,26 +115,21 @@ def procesar_playas():
             "coordenadas": coords,
             "score": score if datos_validos else 0,
             "clima": {
-                "t_real": t_real,
-                "t_feel": t_feel, # Nuevo
-                "viento": viento,
-                "cielo": cielo,
-                "humedad": humedad, # Nuevo
-                "visibilidad": visibilidad, # Nuevo
-                "sunset": sunset_hora # Nuevo
+                "t_real": t_real if datos_validos else 0,
+                "t_feel": t_feel if datos_validos else 0,
+                "viento": viento if datos_validos else 0,
+                "cielo": cielo if datos_validos else "Sin datos",
+                "humedad": humedad if datos_validos else 0,
+                "visibilidad": visibilidad if datos_validos else 10000,
+                "sunset": sunset_hora
             },
-            "detalles": [cielo, f"Sensación: {t_feel}ºC", f"Viento: {viento}km/h"]
+            "detalles": [cielo if datos_validos else "Sin datos"]
         })
-        
-        time.sleep(0.2) # OpenWeather es rápido
+        time.sleep(0.1)
 
-    # Ordenar ranking
     resultados.sort(key=lambda x: x['score'], reverse=True)
-
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(resultados, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n✨ FINALIZADO: {len(resultados)} playas actualizadas.")
 
 if __name__ == "__main__":
     procesar_playas()
