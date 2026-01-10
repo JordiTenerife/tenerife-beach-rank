@@ -4,7 +4,7 @@ import time
 import os
 from datetime import datetime
 
-print("\n🌍 INICIANDO ROBOT v7.1 - DEBUGGER MODE\n")
+print("\n🌍 INICIANDO ROBOT v7.2 - ROBUSTO\n")
 
 try:
     API_KEY = os.environ["AEMET_API_KEY"]
@@ -21,9 +21,11 @@ def obtener_clima_owm(lat, lon):
         res = requests.get(url, timeout=10)
         if res.status_code == 200:
             return res.json()
+        elif res.status_code == 401:
+            print(f"   ⛔ Error 401: La clave aun no esta activa (esperar 20 min).")
+            return None
         else:
-            # AQUÍ ESTÁ EL CAMBIO: Ahora nos dirá qué pasa
-            print(f"   ⚠️ ERROR API: {res.status_code} (Revisar Clave)")
+            print(f"   ⚠️ Error API: {res.status_code}")
             return None
     except Exception as e:
         print(f"   ⚠️ Error conexión: {e}")
@@ -36,7 +38,6 @@ def procesar_playas():
     resultados = []
     print(f"🚀 Procesando {len(playas)} playas...")
 
-    # Solo probamos las 3 primeras para no saturar el log si falla
     for i, playa in enumerate(playas):
         nombre = playa['nombre']
         coords = playa.get('coordenadas')
@@ -48,43 +49,38 @@ def procesar_playas():
 
         datos = obtener_clima_owm(lat, lon)
         
-        # ... (Resto del código igual que v7.0) ...
-        # Para el diagnóstico, si falla, cortamos rápido
-        if not datos:
-            print("❌ FALLO")
-            # Si falla la primera, es probable que fallen todas.
-            # Seguimos, pero ya sabemos que hay error.
-        else:
-             # Valores por defecto (neutros)
-            t_real = 0
-            t_feel = 0
-            viento = 0
-            cielo = "Sin datos"
-            humedad = 0
-            visibilidad = 10000
-            sunset_ts = 0
-            score = 0
-            datos_validos = False
+        # --- INICIALIZACIÓN SEGURA DE VARIABLES ---
+        # Definimos todo a 0 por defecto ANTES de intentar leer nada
+        t_real = 0
+        t_feel = 0
+        viento = 0
+        cielo = "Sin datos"
+        humedad = 0
+        visibilidad = 10000
+        score = 0
+        datos_validos = False
+        sunset_hora = "Unknown"
 
+        if datos:
             try:
-                main = datos['main']
-                wind = datos['wind']
-                weather = datos['weather'][0]
-                sys = datos['sys']
-
-                t_real = round(main['temp'])
-                t_feel = round(main['feels_like'])
-                humedad = main['humidity']
-                viento = round(wind['speed'] * 3.6)
-                cielo = weather['description'].capitalize()
+                # Extraemos datos solo si la respuesta es correcta
+                t_real = round(datos['main']['temp'])
+                t_feel = round(datos['main']['feels_like'])
+                humedad = datos['main']['humidity']
+                viento = round(datos['wind']['speed'] * 3.6)
+                cielo = datos['weather'][0]['description'].capitalize()
                 visibilidad = datos.get('visibility', 10000)
-                sunset_ts = sys['sunset']
+                
+                # Hora puesta de sol
+                ts = datos['sys']['sunset']
+                sunset_hora = datetime.fromtimestamp(ts).strftime('%H:%M')
 
-                # ALGORITMO
+                # --- ALGORITMO DE NOTA ---
                 score = 10
                 if viento > 20: score -= 2
                 if viento > 28: score -= 4
                 if viento > 40: score -= 7
+                
                 if t_feel < 20: score -= 1
                 if t_feel < 17: score -= 3
                 if t_feel > 32: score -= 1
@@ -96,40 +92,50 @@ def procesar_playas():
                 elif "lluvia" in cielo_lower: score -= 10
                 
                 if visibilidad < 3000: score -= 2
+                
                 score = max(0, min(10, score))
                 datos_validos = True
                 print(f"✅ OK ({t_feel}ºC)")
 
             except Exception as e:
-                print(f"❌ Error procesando: {e}")
+                print(f"❌ Error leyendo JSON: {e}")
+        else:
+            print("❌ Sin datos (401/429)")
 
-        # Guardar resultado (aunque sea vacío para no romper mapa)
-        sunset_hora = "Unknown"
-        if datos and datos_validos:
-             sunset_hora = datetime.fromtimestamp(datos['sys']['sunset']).strftime('%H:%M')
-        
+        # Guardamos SIEMPRE, haya datos o no
         resultados.append({
             "nombre": nombre,
             "municipio": playa["municipio"],
             "zona": playa["zona"],
             "coordenadas": coords,
-            "score": score if datos_validos else 0,
+            "score": score,
             "clima": {
-                "t_real": t_real if datos_validos else 0,
-                "t_feel": t_feel if datos_validos else 0,
-                "viento": viento if datos_validos else 0,
-                "cielo": cielo if datos_validos else "Sin datos",
-                "humedad": humedad if datos_validos else 0,
-                "visibilidad": visibilidad if datos_validos else 10000,
+                "t_real": t_real,
+                "t_feel": t_feel,
+                "viento": viento,
+                "cielo": cielo,
+                "humedad": humedad,
+                "visibilidad": visibilidad,
                 "sunset": sunset_hora
             },
-            "detalles": [cielo if datos_validos else "Sin datos"]
+            "detalles": [cielo]
         })
+        
+        # Si falló la autenticación (401), paramos el bucle para no spamear
+        if not datos_validos and i == 0:
+            print("🛑 DETENIENDO: La clave no funciona. Revisa si está activa.")
+            break 
+
         time.sleep(0.1)
 
-    resultados.sort(key=lambda x: x['score'], reverse=True)
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(resultados, f, ensure_ascii=False, indent=2)
+    # Si paramos por error, no sobrescribimos con datos vacíos para proteger la web
+    if len(resultados) > 1:
+        resultados.sort(key=lambda x: x['score'], reverse=True)
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            json.dump(resultados, f, ensure_ascii=False, indent=2)
+        print(f"\n✨ FINALIZADO: {len(resultados)} playas guardadas.")
+    else:
+        print("\n⚠️ PROCESO ABORTADO: No se ha actualizado el archivo para proteger los datos antiguos.")
 
 if __name__ == "__main__":
     procesar_playas()
