@@ -7,20 +7,18 @@
       28.5096,
       -16.1869
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 82,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:25"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
@@ -31,44 +29,18 @@
       28.5175,
       -16.1683
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 82,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:25"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Benijo",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5727,
-      -16.1843
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
@@ -79,68 +51,18 @@
       28.5705,
       -16.1983
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 81,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:25"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Roque de las Bodegas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5677,
-      -16.2058
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Antequera",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5441,
-      -16.1308
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
@@ -151,764 +73,18 @@
       28.4839,
       -16.2238
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 82,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:25"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Las Vistas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0536,
-      -16.7323
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Los Cristianos",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0504,
-      -16.7169
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Camisón",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0531,
-      -16.7347
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Las Galletas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0089,
-      -16.6575
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "La Ballena",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0069,
-      -16.6669
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Troya",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0673,
-      -16.735
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Fañabé",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0867,
-      -16.7383
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Torviscas",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0822,
-      -16.7375
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Duque",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0906,
-      -16.7428
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "La Enramada",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0988,
-      -16.7516
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Diego Hernández",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.1066,
-      -16.7594
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Puertito de Adeje",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.1147,
-      -16.7644
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Playa del Bobo",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0733,
-      -16.7372
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Las Américas",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0594,
-      -16.7333
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Médano",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0433,
-      -16.5386
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "La Tejita",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0336,
-      -16.5511
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Leocadio Machado",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0411,
-      -16.5417
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Montaña Roja",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0311,
-      -16.5567
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Playa Jardín",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4111,
-      -16.5562
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Martiánez",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4178,
-      -16.5414
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "San Telmo",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4183,
-      -16.5489
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Bollullo",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4184,
-      -16.5162
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Los Patos",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4194,
-      -16.5089
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Ancón",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4208,
-      -16.5036
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Socorro",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3962,
-      -16.6023
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "La Fajana",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3997,
-      -16.6083
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "La Arena",
-    "municipio": "Santiago del Teide",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.2294,
-      -16.8413
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Los Guíos (Gigantes)",
-    "municipio": "Santiago del Teide",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.2461,
-      -16.8427
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Playa de San Juan",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.1775,
-      -16.8142
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Abama",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.1706,
-      -16.8028
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Alcalá",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.2056,
-      -16.8317
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
@@ -919,20 +95,18 @@
       28.3667,
       -16.3683
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 78,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:26"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
@@ -943,68 +117,18 @@
       28.375,
       -16.3611
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 8,
+      "cielo": "Muy nuboso",
+      "humedad": 79,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:26"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "La Arena (Mesa del Mar)",
-    "municipio": "Tacoronte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5033,
-      -16.4258
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "El Pris",
-    "municipio": "Tacoronte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5089,
-      -16.4217
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
@@ -1015,20 +139,18 @@
       28.2953,
       -16.3769
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 3,
+      "cielo": "Muy nuboso",
+      "humedad": 74,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:26"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
@@ -1039,140 +161,370 @@
       28.2917,
       -16.3792
     ],
-    "score": 0,
+    "score": 9,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 3,
+      "cielo": "Muy nuboso",
+      "humedad": 74,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:26"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Muy nuboso"
     ]
   },
   {
-    "nombre": "Bajamar",
-    "municipio": "San Cristóbal de La Laguna",
-    "zona": "Norte",
+    "nombre": "Las Vistas",
+    "municipio": "Arona",
+    "zona": "Sur",
     "coordenadas": [
-      28.5567,
-      -16.3475
+      28.0536,
+      -16.7323
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
     ]
   },
   {
-    "nombre": "El Arenal",
-    "municipio": "San Cristóbal de La Laguna",
-    "zona": "Norte",
+    "nombre": "Los Cristianos",
+    "municipio": "Arona",
+    "zona": "Sur",
     "coordenadas": [
-      28.5583,
-      -16.3417
+      28.0504,
+      -16.7169
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
     ]
   },
   {
-    "nombre": "Jover",
-    "municipio": "San Cristóbal de La Laguna",
-    "zona": "Norte",
+    "nombre": "El Camisón",
+    "municipio": "Arona",
+    "zona": "Sur",
     "coordenadas": [
-      28.5417,
-      -16.3333
+      28.0531,
+      -16.7347
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
     ]
   },
   {
-    "nombre": "La Nea",
-    "municipio": "El Rosario",
-    "zona": "Este",
+    "nombre": "Las Galletas",
+    "municipio": "Arona",
+    "zona": "Sur",
     "coordenadas": [
-      28.4064,
-      -16.3197
+      28.0089,
+      -16.6575
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
     ]
   },
   {
-    "nombre": "Radazul",
-    "municipio": "El Rosario",
-    "zona": "Este",
+    "nombre": "La Ballena",
+    "municipio": "Arona",
+    "zona": "Sur",
     "coordenadas": [
-      28.4022,
-      -16.3236
+      28.0069,
+      -16.6669
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Troya",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0673,
+      -16.735
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Fañabé",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0867,
+      -16.7383
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Torviscas",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0822,
+      -16.7375
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "El Duque",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0906,
+      -16.7428
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "La Enramada",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0988,
+      -16.7516
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Playa del Bobo",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0733,
+      -16.7372
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Las Américas",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0594,
+      -16.7333
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "El Médano",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "coordenadas": [
+      28.0433,
+      -16.5386
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 63,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "La Tejita",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "coordenadas": [
+      28.0336,
+      -16.5511
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 63,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Leocadio Machado",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "coordenadas": [
+      28.0411,
+      -16.5417
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 63,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Montaña Roja",
+    "municipio": "Granadilla de Abona",
+    "zona": "Sur-Este",
+    "coordenadas": [
+      28.0311,
+      -16.5567
+    ],
+    "score": 8,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 63,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
     ]
   },
   {
@@ -1183,20 +535,18 @@
       28.1633,
       -16.4322
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 68,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:27"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
     ]
   },
   {
@@ -1207,20 +557,18 @@
       28.1408,
       -16.4419
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 63,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:27"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
     ]
   },
   {
@@ -1231,140 +579,18 @@
       28.1103,
       -16.4719
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 63,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:27"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "San Marcos",
-    "municipio": "Icod de los Vinos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3761,
-      -16.7208
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Agua Dulce",
-    "municipio": "Los Silos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3725,
-      -16.8089
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Charco del Viento",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3842,
-      -16.6889
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Santo Domingo",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3861,
-      -16.6917
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
-    ]
-  },
-  {
-    "nombre": "Ajabo",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.1228,
-      -16.7769
-    ],
-    "score": 0,
-    "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
-      "visibilidad": 10000,
-      "sunset": "Unknown"
-    },
-    "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
     ]
   },
   {
@@ -1375,20 +601,194 @@
       28.1025,
       -16.7561
     ],
-    "score": 0,
+    "score": 8,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "La Arena",
+    "municipio": "Santiago del Teide",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.2294,
+      -16.8413
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 8,
+      "cielo": "Algo de nubes",
+      "humedad": 72,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Los Guíos (Gigantes)",
+    "municipio": "Santiago del Teide",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.2461,
+      -16.8427
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 13,
+      "cielo": "Algo de nubes",
+      "humedad": 73,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Playa de San Juan",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.1775,
+      -16.8142
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 4,
+      "cielo": "Algo de nubes",
+      "humedad": 71,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Abama",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.1706,
+      -16.8028
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 4,
+      "cielo": "Algo de nubes",
+      "humedad": 73,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Alcalá",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.2056,
+      -16.8317
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 8,
+      "cielo": "Algo de nubes",
+      "humedad": 72,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Charco del Viento",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "coordenadas": [
+      28.3842,
+      -16.6889
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 21,
+      "cielo": "Muy nuboso",
+      "humedad": 79,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Santo Domingo",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "coordenadas": [
+      28.3861,
+      -16.6917
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 24,
+      "cielo": "Muy nuboso",
+      "humedad": 76,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Ajabo",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.1228,
+      -16.7769
+    ],
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 2,
+      "cielo": "Algo de nubes",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
     ]
   },
   {
@@ -1399,20 +799,18 @@
       28.2069,
       -16.8336
     ],
-    "score": 0,
+    "score": 7,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 8,
+      "cielo": "Algo de nubes",
+      "humedad": 72,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Algo de nubes"
     ]
   },
   {
@@ -1423,20 +821,502 @@
       28.1228,
       -16.7769
     ],
-    "score": 0,
+    "score": 7,
     "clima": {
-      "t_real": 0,
-      "t_feel": 0,
-      "viento": 0,
-      "cielo": "Sin datos",
-      "humedad": 0,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 2,
+      "cielo": "Algo de nubes",
+      "humedad": 64,
       "visibilidad": 10000,
-      "sunset": "Unknown"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Sin datos",
-      "Sensación: 0ºC",
-      "Viento: 0km/h"
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Benijo",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.5727,
+      -16.1843
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 15,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 81,
+      "visibilidad": 10000,
+      "sunset": "18:25"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Roque de las Bodegas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.5677,
+      -16.2058
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 81,
+      "visibilidad": 10000,
+      "sunset": "18:25"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Playa Jardín",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4111,
+      -16.5562
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 16,
+      "viento": 19,
+      "cielo": "Muy nuboso",
+      "humedad": 77,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Martiánez",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4178,
+      -16.5414
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 16,
+      "viento": 19,
+      "cielo": "Muy nuboso",
+      "humedad": 78,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "San Telmo",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4183,
+      -16.5489
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 16,
+      "viento": 19,
+      "cielo": "Muy nuboso",
+      "humedad": 78,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Bollullo",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4184,
+      -16.5162
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Los Patos",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4194,
+      -16.5089
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Ancón",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4208,
+      -16.5036
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 15,
+      "t_feel": 15,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Socorro",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.3962,
+      -16.6023
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 15,
+      "t_feel": 15,
+      "viento": 3,
+      "cielo": "Muy nuboso",
+      "humedad": 76,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "La Fajana",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.3997,
+      -16.6083
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 15,
+      "t_feel": 15,
+      "viento": 3,
+      "cielo": "Muy nuboso",
+      "humedad": 79,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "La Arena (Mesa del Mar)",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5033,
+      -16.4258
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 8,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Pris",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5089,
+      -16.4217
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 15,
+      "viento": 8,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Bajamar",
+    "municipio": "San Cristóbal de La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5567,
+      -16.3475
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 84,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Arenal",
+    "municipio": "San Cristóbal de La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5583,
+      -16.3417
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 84,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Jover",
+    "municipio": "San Cristóbal de La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5417,
+      -16.3333
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 14,
+      "t_feel": 13,
+      "viento": 7,
+      "cielo": "Muy nuboso",
+      "humedad": 85,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "La Nea",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.4064,
+      -16.3197
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 15,
+      "t_feel": 15,
+      "viento": 8,
+      "cielo": "Muy nuboso",
+      "humedad": 85,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Radazul",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.4022,
+      -16.3236
+    ],
+    "score": 6,
+    "clima": {
+      "t_real": 15,
+      "t_feel": 15,
+      "viento": 8,
+      "cielo": "Muy nuboso",
+      "humedad": 84,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Diego Hernández",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.1066,
+      -16.7594
+    ],
+    "score": 5,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 16,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "El Puertito de Adeje",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.1147,
+      -16.7644
+    ],
+    "score": 5,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 16,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 64,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "San Marcos",
+    "municipio": "Icod de los Vinos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.3761,
+      -16.7208
+    ],
+    "score": 4,
+    "clima": {
+      "t_real": 14,
+      "t_feel": 13,
+      "viento": 24,
+      "cielo": "Muy nuboso",
+      "humedad": 79,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Agua Dulce",
+    "municipio": "Los Silos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.3725,
+      -16.8089
+    ],
+    "score": 3,
+    "clima": {
+      "t_real": 14,
+      "t_feel": 13,
+      "viento": 27,
+      "cielo": "Nubes dispersas",
+      "humedad": 71,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Antequera",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.5441,
+      -16.1308
+    ],
+    "score": 2,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 23,
+      "cielo": "Nubes",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:25"
+    },
+    "detalles": [
+      "Nubes"
     ]
   }
 ]
