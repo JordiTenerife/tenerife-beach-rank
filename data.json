@@ -1,320 +1,5 @@
 [
   {
-    "nombre": "Puertito de Adeje",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.113,
-      -16.764
-    ],
-    "descripcion": {
-      "es": "🐢 Bahía tradicional hogar de tortugas marinas.",
-      "en": "🐢 Traditional bay, home to sea turtles.",
-      "de": "🐢 Traditionelle Bucht, Heimat von Meeresschildkröten.",
-      "fr": "🐢 Baie traditionnelle, habitat des tortues marines.",
-      "it": "🐢 Baia tradizionale, casa delle tartarughe marine.",
-      "nl": "🐢 Traditionele baai, thuisbasis van zeeschildpadden.",
-      "sv": "🐢 Traditionell vik, hem för havssköldpaddor.",
-      "no": "🐢 Tradisjonell bukt, hjem til havskilpadder.",
-      "da": "🐢 Traditionel bugt, hjemsted for havskildpadder.",
-      "fi": "🐢 Perinteinen lahti, merikilpikonnien koti."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 2,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa San Juan",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.1783,
-      -16.8133
-    ],
-    "descripcion": {
-      "es": "🌅 Playa familiar muy cuidada con el mejor clima.",
-      "en": "🌅 Well-kept family beach with the best climate.",
-      "de": "🌅 Gepflegter Familientstrand mit dem besten Klima.",
-      "fr": "🌅 Plage familiale bien entretenue avec le meilleur climat.",
-      "it": "🌅 Spiaggia per famiglie ben curata con il miglior clima.",
-      "nl": "🌅 Goed onderhouden familiestrand met het beste klimaat.",
-      "sv": "🌅 Välskött familjestrand med det bästa klimatet.",
-      "no": "🌅 Velholdt familiestrand med det beste klimaet.",
-      "da": "🌅 Velholdt familiestrand med det bedste klima.",
-      "fi": "🌅 Hyvin hoidettu perheranta parhaalla ilmastolla."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 5,
-      "cielo": "Nubes dispersas",
-      "humedad": 71,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Abama",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.169,
-      -16.802
-    ],
-    "descripcion": {
-      "es": "🏝️ Cala paradisíaca de arena dorada entre plataneras.",
-      "en": "🏝️ Paradise golden sand cove among banana trees.",
-      "de": "🏝️ Paradiesische goldene Sandbucht zwischen Bananenstauden.",
-      "fr": "🏝️ Crique paradisiaque de sable doré au milieu des bananiers.",
-      "it": "🏝️ Paradisiaca caletta di sabbia dorata tra i banani.",
-      "nl": "🏝️ Paradijselijke baai met goudkleurig zand tussen bananenbomen.",
-      "sv": "🏝️ Paradisiskt gyllene sandvik bland bananträd.",
-      "no": "🏝️ Paradisiske gyllen sandvik blant banantrær.",
-      "da": "🏝️ Paradisiske gylden sandbugt blandt banantræer.",
-      "fi": "🏝️ Paratiisimainen kultahiekkainen poukama banaanipuiden keskellä."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 4,
-      "cielo": "Nubes dispersas",
-      "humedad": 73,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Alcalá",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.198,
-      -16.832
-    ],
-    "descripcion": {
-      "es": "🐢 Piscinas naturales y calas donde ver tortugas.",
-      "en": "🐢 Natural pools and coves to see turtles.",
-      "de": "🐢 Natürliche Becken und Buchten, um Schildkröten zu sehen.",
-      "fr": "🐢 Piscines naturelles et criques pour voir des tortues.",
-      "it": "🐢 Piscine naturali e calette per vedere le tartarughe.",
-      "nl": "🐢 Natuurlijke zwembaden en baaien om schildpadden te zien.",
-      "sv": "🐢 Naturliga pooler och vikar för att se sköldpaddor.",
-      "no": "🐢 Naturlige bassenger og viker for å se skilpadder.",
-      "da": "🐢 Naturlige pools og bugter for at se skildpadder.",
-      "fi": "🐢 Luonnonaltaita ja poukamia kilpikonnien katseluun."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 5,
-      "cielo": "Nubes dispersas",
-      "humedad": 71,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Jaquita",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.195,
-      -16.828
-    ],
-    "descripcion": {
-      "es": "🌑 Arena negra y piscinas naturales cuidadas.",
-      "en": "🌑 Black sand and well-kept natural pools.",
-      "de": "🌑 Schwarzer Sand und gepflegte natürliche Becken.",
-      "fr": "🌑 Sable noir et piscines naturelles bien entretenues.",
-      "it": "🌑 Sabbia nera e piscine naturali ben curate.",
-      "nl": "🌑 Zwart zand en goed onderhouden natuurlijke zwembaden.",
-      "sv": "🌑 Svart sand och välskötta naturliga pooler.",
-      "no": "🌑 Svart sand og velholdte naturlige bassenger.",
-      "da": "🌑 Sort sand og velholdte naturlige pools.",
-      "fi": "🌑 Mustaa hiekkaa ja hyvin hoidettuja luonnonaltaita."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 5,
-      "cielo": "Nubes dispersas",
-      "humedad": 71,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de Mendez",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.202,
-      -16.835
-    ],
-    "descripcion": {
-      "es": "🤫 Cala rústica para atardeceres solitarios.",
-      "en": "🤫 Rustic cove for solitary sunsets.",
-      "de": "🤫 Rustikale Bucht für einsame Sonnenuntergänge.",
-      "fr": "🤫 Crique rustique pour couchers de soleil solitaires.",
-      "it": "🤫 Caletta rustica per tramonti solitari.",
-      "nl": "🤫 Rustieke baai voor eenzame zonsondergangen.",
-      "sv": "🤫 Rustik vik för ensamma solnedgångar.",
-      "no": "🤫 Rustikk vik for ensomme solnedganger.",
-      "da": "🤫 Rustik bugt til ensomme solnedgange.",
-      "fi": "🤫 Rustiikkinen poukama yksinäisiin auringonlaskuihin."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 4,
-      "cielo": "Nubes dispersas",
-      "humedad": 73,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de los Topos",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.185,
-      -16.82
-    ],
-    "descripcion": {
-      "es": "🧗 Zona rocosa de aguas transparentes.",
-      "en": "🧗 Rocky area with transparent waters.",
-      "de": "🧗 Felsiges Gebiet mit klarem Wasser.",
-      "fr": "🧗 Zone rocheuse aux eaux transparentes.",
-      "it": "🧗 Zona rocciosa con acque trasparenti.",
-      "nl": "🧗 Rotsachtig gebied met helder water.",
-      "sv": "🧗 Klippigt område med genomskinligt vatten.",
-      "no": "🧗 Klippeområde med klart vann.",
-      "da": "🧗 Klippeområde med gennemsigtigt vand.",
-      "fi": "🧗 Kivinen alue kirkkaalla vedellä."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 5,
-      "cielo": "Nubes dispersas",
-      "humedad": 71,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de la Chica",
-    "municipio": "Santiago del Teide",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.24,
-      -16.84
-    ],
-    "descripcion": {
-      "es": "👶 Rincón familiar y resguardado.",
-      "en": "👶 Family-friendly and sheltered spot.",
-      "de": "👶 Familienfreundliche und geschützte Ecke.",
-      "fr": "👶 Coin familial et abrité.",
-      "it": "👶 Angolo familiare e riparato.",
-      "nl": "👶 Gezinsvriendelijk en beschut plekje.",
-      "sv": "👶 Familjevänlig och skyddad plats.",
-      "no": "👶 Familievennlig og skjermet sted.",
-      "da": "👶 Familievenligt og beskyttet sted.",
-      "fi": "👶 Perheystävällinen ja suojaisa paikka."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 2,
-      "cielo": "Nubes dispersas",
-      "humedad": 74,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Fonsalía",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.188,
-      -16.835
-    ],
-    "descripcion": {
-      "es": "🌅 Zona costera abierta con buenas puestas de sol.",
-      "en": "🌅 Open coastal area with good sunsets.",
-      "de": "🌅 Offenes Küstengebiet mit schönen Sonnenuntergängen.",
-      "fr": "🌅 Zone côtière ouverte avec de beaux couchers de soleil.",
-      "it": "🌅 Zona costiera aperta con bei tramonti.",
-      "nl": "🌅 Open kustgebied met goede zonsondergangen.",
-      "sv": "🌅 Öppet kustområde med fina solnedgångar.",
-      "no": "🌅 Åpent kystområde med gode solnedganger.",
-      "da": "🌅 Åbent kystområde med gode solnedgange.",
-      "fi": "🌅 Avoin rannikkoalue hyvillä auringonlaskuilla."
-    },
-    "webcam": null,
-    "score": 9,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 5,
-      "cielo": "Nubes dispersas",
-      "humedad": 71,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
     "nombre": "Las Teresitas",
     "municipio": "Santa Cruz de Tenerife",
     "zona": "Metropolitana",
@@ -335,18 +20,94 @@
       "fi": "🏖️ Pääkaupungin ikoninen ranta. Kultaista hiekkaa ja tyyni vesi. Ihanteellinen perheille."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-teresitas.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 79,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Las Vistas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0515,
+      -16.7265
+    ],
+    "descripcion": {
+      "es": "♿ Playa accesible de arena dorada con todos los servicios. Aguas muy tranquilas.",
+      "en": "♿ Accessible golden sand beach with all amenities. Very calm waters.",
+      "de": "♿ Barrierefreier Goldstrand mit allen Annehmlichkeiten. Sehr ruhiges Wasser.",
+      "fr": "♿ Plage de sable doré accessible avec tous les services. Eaux très calmes.",
+      "it": "♿ Spiaggia di sabbia dorata accessibile con tutti i servizi. Acque molto calme.",
+      "nl": "♿ Toegankelijk goudkleurig zandstrand met alle voorzieningen. Zeer kalm water.",
+      "sv": "♿ Tillgänglig gyllene sandstrand med alla bekvämligheter. Mycket lugnt vatten.",
+      "no": "♿ Tilgjengelig strand med gyllen sand og alle fasiliteter. Veldig rolig vann.",
+      "da": "♿ Tilgængelig strand med gyldent sand og alle faciliteter. Meget roligt vand.",
+      "fi": "♿ Esteetön kultahiekkainen ranta kaikilla mukavuuksilla. Erittäin tyyni vesi."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-vistas.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Médano",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0435,
+      -16.538
+    ],
+    "descripcion": {
+      "es": "🪁 Paraíso del kitesurf y windsurf con ambiente bohemio. Vistas a Montaña Roja.",
+      "en": "🪁 Kitesurf and windsurf paradise with a bohemian vibe. Views of Red Mountain.",
+      "de": "🪁 Kitesurf- und Windsurfparadies mit Bohème-Atmosphäre. Blick auf den Roten Berg.",
+      "fr": "🪁 Paradis du kitesurf et de la planche à voile. Ambiance bohème et vue sur la Montagne Rouge.",
+      "it": "🪁 Paradiso del kitesurf e windsurf con atmosfera bohémien. Vista sulla Montagna Rossa.",
+      "nl": "🪁 Kitesurf- en windsurfparadijs met een bohemiensfeer. Uitzicht op de Rode Berg.",
+      "sv": "🪁 Kitesurf- och vindsurfparadis med bohemisk känsla. Utsikt över Röda berget.",
+      "no": "🪁 Kitesurf- og vindsurfparadis med bohemsk stemning. Utsikt over Det røde fjellet.",
+      "da": "🪁 Kitesurf- og vindsurfparadis med boheme-stemning. Udsigt til Det Røde Bjerg.",
+      "fi": "🪁 Leija- ja purjelautailun paratiisi boheemilla tunnelmalla. Näkymät Punaiselle vuorelle."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/el-medano.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -370,18 +131,57 @@
       "fi": "📸 Villin ja valokuvauksellisin ranta. Maagiset auringonlaskut ja musta hiekka."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
-      "t_real": 18,
-      "t_feel": 18,
+      "t_real": 17,
+      "t_feel": 17,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 78,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Fañabé",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.085,
+      -16.74
+    ],
+    "descripcion": {
+      "es": "💎 Playa extensa de arena clara y beach clubs. Ambiente exclusivo.",
+      "en": "💎 Extensive light sand beach with beach clubs. Exclusive atmosphere.",
+      "de": "💎 Weitläufiger heller Sandstrand mit Beach Clubs. Exklusive Atmosphäre.",
+      "fr": "💎 Grande plage de sable clair avec beach clubs. Ambiance exclusive.",
+      "it": "💎 Ampia spiaggia di sabbia chiara con beach club. Atmosfera esclusiva.",
+      "nl": "💎 Uitgestrekt licht zandstrand met strandclubs. Exclusieve sfeer.",
+      "sv": "💎 Vidsträckt ljus sandstrand med strandklubbar. Exklusiv atmosfär.",
+      "no": "💎 Lang strand med lys sand og strandklubber. Eksklusiv atmosfære.",
+      "da": "💎 Omfattende lys sandstrand med strandklubber. Eksklusiv atmosfære.",
+      "fi": "💎 Laaja vaaleahiekkainen ranta rantaklubeineen. Eksklusiivinen tunnelma."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-fanabe.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -405,18 +205,20 @@
       "fi": "🌺 Mustaa hiekkaa ja puutarhoja, suunnitellut César Manrique. Näkymät Teidelle."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puerto-de-la-cruz-playa-jardin.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 18,
-      "viento": 2,
+      "viento": 19,
       "cielo": "Algo de nubes",
-      "humedad": 75,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -440,18 +242,168 @@
       "fi": "🧘 Rauhan tyyssija ja mustaa hiekkaa kallioiden alla. Nudistiperinne."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
-      "t_real": 19,
+      "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 79,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "La Tejita",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0315,
+      -16.5576
+    ],
+    "descripcion": {
+      "es": "🌋 Gran playa de arena natural bajo la Montaña Roja. Zona nudista disponible.",
+      "en": "🌋 Large natural sand beach under the Red Mountain. Nudist area available.",
+      "de": "🌋 Großer Naturstrand unter dem Roten Berg. FKK-Bereich vorhanden.",
+      "fr": "🌋 Grande plage de sable naturel sous la Montagne Rouge. Zone nudiste disponible.",
+      "it": "🌋 Grande spiaggia di sabbia naturale sotto la Montagna Rossa. Zona nudista disponibile.",
+      "nl": "🌋 Groot natuurlijk zandstrand onder de Rode Berg. Naaktstrand beschikbaar.",
+      "sv": "🌋 Stor naturlig sandstrand under Röda berget. Nudistområde finns.",
+      "no": "🌋 Stor naturlig sandstrand under Det røde fjellet. Nudistområde tilgjengelig.",
+      "da": "🌋 Stor naturlig sandstrand under Det Røde Bjerg. Nudistområde tilgængeligt.",
+      "fi": "🌋 Suuri luonnonhiekkaranta Punaisen vuoren alla. Nudistialue saatavilla."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-la-tejita.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Los Cristianos",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.05,
+      -16.718
+    ],
+    "descripcion": {
+      "es": "⚓ Playa urbana clásica y tranquila junto al puerto. Muy familiar.",
+      "en": "⚓ Classic and quiet urban beach next to the port. Very family friendly.",
+      "de": "⚓ Klassischer und ruhiger Stadtstrand am Hafen. Sehr familienfreundlich.",
+      "fr": "⚓ Plage urbaine classique et calme à côté du port. Très familial.",
+      "it": "⚓ Spiaggia urbana classica e tranquilla vicino al porto. Molto adatta alle famiglie.",
+      "nl": "⚓ Klassiek en rustig stadsstrand naast de haven. Zeer gezinsvriendelijk.",
+      "sv": "⚓ Klassisk och lugn stadsstrand bredvid hamnen. Mycket familjevänlig.",
+      "no": "⚓ Klassisk og rolig bystrand ved siden av havnen. Veldig familievennlig.",
+      "da": "⚓ Klassisk og rolig bystrand ved siden af havnen. Meget familievenlig.",
+      "fi": "⚓ Klassinen ja rauhallinen kaupunkiranta sataman vieressä. Erittäin perheystävällinen."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-los-cristianos.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Duque",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0912,
+      -16.7432
+    ],
+    "descripcion": {
+      "es": "🎩 La playa más elegante y exclusiva del sur. Aguas turquesas.",
+      "en": "🎩 The most elegant and exclusive beach in the south. Turquoise waters.",
+      "de": "🎩 Der eleganteste und exklusivste Strand im Süden. Türkisfarbenes Wasser.",
+      "fr": "🎩 La plage la plus élégante et exclusive du sud. Eaux turquoises.",
+      "it": "🎩 La spiaggia più elegante ed esclusiva del sud. Acque turchesi.",
+      "nl": "🎩 Het meest elegante en exclusieve strand in het zuiden. Turquoise water.",
+      "sv": "🎩 Den mest eleganta och exklusiva stranden i söder. Turkos vatten.",
+      "no": "🎩 Den mest elegante og eksklusive stranden i sør. Turkis vann.",
+      "da": "🎩 Den mest elegante og eksklusive strand i syd. Turkisblåt vand.",
+      "fi": "🎩 Etelän tyylikkäin ja eksklusiivisin ranta. Turkoosi vesi."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-del-duque.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Troya",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0665,
+      -16.735
+    ],
+    "descripcion": {
+      "es": "🎉 Playa céntrica en Las Américas con mucha actividad y vida nocturna.",
+      "en": "🎉 Central beach in Las Américas with lots of activity and nightlife.",
+      "de": "🎉 Zentraler Strand in Las Américas mit viel Aktivität und Nachtleben.",
+      "fr": "🎉 Plage centrale de Las Américas avec beaucoup d'activité et de vie nocturne.",
+      "it": "🎉 Spiaggia centrale di Las Américas con molta attività e vita notturna.",
+      "nl": "🎉 Centraal strand in Las Américas met veel activiteit en nachtleven.",
+      "sv": "🎉 Central strand i Las Américas med mycket aktivitet och nattliv.",
+      "no": "🎉 Sentral strand i Las Américas med mye aktivitet og uteliv.",
+      "da": "🎉 Central strand i Las Américas med masser af aktivitet og natteliv.",
+      "fi": "🎉 Keskeinen ranta Las Américasissa, jossa on paljon toimintaa ja yöelämää."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-troya.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -475,18 +427,20 @@
       "fi": "🏄 Surffaajan paratiisi Anagassa. Mustaa hiekkaa ja tasaisia aaltoja."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 78,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -510,18 +464,20 @@
       "fi": "🐟 Tagananan perheranta tuoretta kalaa tarjoilevien ravintoloiden edessä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 78,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -545,18 +501,20 @@
       "fi": "🏄 Kaupunkiranta kuuluisan Lago Martiánezin vieressä. Suosittu surffaukseen."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puerto-de-la-cruz.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
-      "viento": 2,
+      "viento": 19,
       "cielo": "Algo de nubes",
-      "humedad": 75,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -580,18 +538,20 @@
       "fi": "🌴 Kaunis villi mustahiekkainen ranta banaaniviljelmien kätköissä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -615,18 +575,20 @@
       "fi": "🏄 Surffikatedraali uskomattomilla auringonlaskuilla. Sininen lippu."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/los-realejos-playa-el-socorro.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 2,
+      "viento": 16,
       "cielo": "Nubes dispersas",
-      "humedad": 78,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -650,18 +612,94 @@
       "fi": "🏔️ Ranta Los Gigantesin kallioiden juurella. Ainutlaatuiset näkymät."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/los-gigantes.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 2,
       "cielo": "Nubes dispersas",
-      "humedad": 74,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:29"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Las Américas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.06,
+      -16.733
+    ],
+    "descripcion": {
+      "es": "🏄 Zona surfera famosa por la ola 'La Izquierda'. Fondo de roca.",
+      "en": "🏄 Surf zone famous for 'The Left' wave. Reef break.",
+      "de": "🏄 Surfzone, berühmt für die Welle 'La Izquierda'. Riffbruch.",
+      "fr": "🏄 Zone de surf célèbre pour la vague 'La Izquierda'. Fond rocheux.",
+      "it": "🏄 Zona surf famosa per l'onda 'La Izquierda'. Fondale roccioso.",
+      "nl": "🏄 Surfzone beroemd om de golf 'La Izquierda'. Rotsbodem.",
+      "sv": "🏄 Surfzon känd för vågen 'La Izquierda'. Revbrytning.",
+      "no": "🏄 Surfesone kjent for bølgen 'La Izquierda'. Revbrytning.",
+      "da": "🏄 Surfzone kendt for bølgen 'La Izquierda'. Revbrud.",
+      "fi": "🏄 Surffialue, joka tunnetaan 'La Izquierda' -aallosta. Riuttapohja."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-las-americas.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Diego Hernández",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.103,
+      -16.757
+    ],
+    "descripcion": {
+      "es": "⛺ Playa salvaje de arena blanca y aguas turquesas. Zona hippie.",
+      "en": "⛺ Wild beach with white sand and turquoise waters. Hippie area.",
+      "de": "⛺ Wilder Strand mit weißem Sand und türkisfarbenem Wasser. Hippie-Zone.",
+      "fr": "⛺ Plage sauvage au sable blanc et aux eaux turquoises. Zone hippie.",
+      "it": "⛺ Spiaggia selvaggia di sabbia bianca e acque turchesi. Zona hippie.",
+      "nl": "⛺ Wild strand met wit zand en turquoise water. Hippiegebied.",
+      "sv": "⛺ Vild strand med vit sand och turkost vatten. Hippieområde.",
+      "no": "⛺ Vill strand med hvit sand og turkis vann. Hippieområde.",
+      "da": "⛺ Vild strand med hvidt sand og turkisblåt vand. Hippieområde.",
+      "fi": "⛺ Villi ranta valkoisella hiekalla ja turkoosilla vedellä. Hippialue."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -685,18 +723,20 @@
       "fi": "🏞️ Rauhallinen mustahiekkainen ranta näköalalla Teidelle. Perheystävällinen."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 77,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -720,18 +760,57 @@
       "fi": "🤿 Syvät vedet sopivat sukellukseen ja avomeriuintiin."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
-      "t_real": 19,
+      "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 78,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Abades",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.14,
+      -16.44
+    ],
+    "descripcion": {
+      "es": "👻 Playa de arena clara frente al pueblo fantasma. Buen snorkel.",
+      "en": "👻 Light sand beach facing the ghost town. Great snorkeling.",
+      "de": "👻 Heller Sandstrand gegenüber der Geisterstadt. Tolles Schnorcheln.",
+      "fr": "👻 Plage de sable clair face à la ville fantôme. Super snorkeling.",
+      "it": "👻 Spiaggia di sabbia chiara di fronte alla città fantasma. Ottimo snorkeling.",
+      "nl": "👻 Licht zandstrand tegenover de spookstad. Geweldig snorkelen.",
+      "sv": "👻 Ljus sandstrand mittemot spökstaden. Fantastisk snorkling.",
+      "no": "👻 Lys sandstrand som vender mot spøkelsesbyen. Flott snorkling.",
+      "da": "👻 Lys sandstrand overfor spøgelsesbyen. Fantastisk snorkling.",
+      "fi": "👻 Vaaleahiekkainen ranta kummituskaupunkia vastapäätä. Hieno snorklaus."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -755,18 +834,57 @@
       "fi": "🐕 Kilometrin mittainen rauhallinen ranta koira-alueella."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puertito-de-guimar.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 6,
       "cielo": "Algo de nubes",
-      "humedad": 74,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "La Caleta",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.1,
+      -16.759
+    ],
+    "descripcion": {
+      "es": "🦐 Aguas turquesas y rocas en pueblo gastronómico.",
+      "en": "🦐 Turquoise waters and rocks in a gastronomic village.",
+      "de": "🦐 Türkisfarbenes Wasser und Felsen in einem gastronomischen Dorf.",
+      "fr": "🦐 Eaux turquoises et rochers dans un village gastronomique.",
+      "it": "🦐 Acque turchesi e rocce in un villaggio gastronomico.",
+      "nl": "🦐 Turquoise water en rotsen in een gastronomisch dorp.",
+      "sv": "🦐 Turkos vatten och klippor i en gastronomisk by.",
+      "no": "🦐 Turkis vann og klipper i en gastronomisk landsby.",
+      "da": "🦐 Turkisblåt vand og klipper i en gastronomisk landsby.",
+      "fi": "🦐 Turkoosia vettä ja kiviä gastronomisessa kylässä."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/la-caleta-de-adeje.html",
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -790,18 +908,20 @@
       "fi": "🚤 Neitseellinen ranta, jonne pääsee vain meriteitse tai vaativalla vaelluksella."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
+      "t_real": 18,
+      "t_feel": 18,
       "viento": 17,
       "cielo": "Nubes dispersas",
-      "humedad": 83,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -825,18 +945,353 @@
       "fi": "🏊‍♂️ Moderni uimapaikka laitureilla. Ihanteellinen uimiseen."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Camisón",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0545,
+      -16.732
+    ],
+    "descripcion": {
+      "es": "🌴 Pequeña bahía de arena dorada muy protegida y verde.",
+      "en": "🌴 Small golden sand bay, very protected and green.",
+      "de": "🌴 Kleine goldene Sandbucht, sehr geschützt und grün.",
+      "fr": "🌴 Petite baie de sable doré, très protégée et verte.",
+      "it": "🌴 Piccola baia di sabbia dorata, molto protetta e verde.",
+      "nl": "🌴 Kleine baai met goudkleurig zand, zeer beschermd en groen.",
+      "sv": "🌴 Liten gyllene sandvik, mycket skyddad och grön.",
+      "no": "🌴 Liten bukt med gyllen sand, veldig beskyttet og grønn.",
+      "da": "🌴 Lille bugt med gyldent sand, meget beskyttet og grøn.",
+      "fi": "🌴 Pieni kultahiekkainen lahti, erittäin suojainen ja vehreä."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Las Galletas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0065,
+      -16.657
+    ],
+    "descripcion": {
+      "es": "🛶 Playa de arena oscura junto a la lonja de pescado.",
+      "en": "🛶 Dark sand beach next to the fish market.",
+      "de": "🛶 Dunkler Sandstrand neben dem Fischmarkt.",
+      "fr": "🛶 Plage de sable foncé à côté du marché aux poissons.",
+      "it": "🛶 Spiaggia di sabbia scura vicino al mercato del pesce.",
+      "nl": "🛶 Donker zandstrand naast de vismarkt.",
+      "sv": "🛶 Mörk sandstrand bredvid fiskmarknaden.",
+      "no": "🛶 Mørk sandstrand ved siden av fiskemarkedet.",
+      "da": "🛶 Mørk sandstrand ved siden af fiskemarkedet.",
+      "fi": "🛶 Tummahiekkainen ranta kalatorin vieressä."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "La Ballena",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.003,
+      -16.665
+    ],
+    "descripcion": {
+      "es": "🤫 Cala tranquila en Costa del Silencio.",
+      "en": "🤫 Quiet cove in Costa del Silencio.",
+      "de": "🤫 Ruhige Bucht an der Costa del Silencio.",
+      "fr": "🤫 Crique tranquille à Costa del Silencio.",
+      "it": "🤫 Caletta tranquilla a Costa del Silencio.",
+      "nl": "🤫 Rustige baai in Costa del Silencio.",
+      "sv": "🤫 Lugn vik i Costa del Silencio.",
+      "no": "🤫 Rolig vik i Costa del Silencio.",
+      "da": "🤫 Rolig bugt i Costa del Silencio.",
+      "fi": "🤫 Rauhallinen poukama Costa del Silenciossa."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Torviscas",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.081,
+      -16.738
+    ],
+    "descripcion": {
+      "es": "🏖️ Animada playa de arena gris con deportes acuáticos.",
+      "en": "🏖️ Lively grey sand beach with water sports.",
+      "de": "🏖️ Lebhafter grauer Sandstrand mit Wassersport.",
+      "fr": "🏖️ Plage de sable gris animée avec sports nautiques.",
+      "it": "🏖️ Vivace spiaggia di sabbia grigia con sport acquatici.",
+      "nl": "🏖️ Levendig grijs zandstrand met watersporten.",
+      "sv": "🏖️ Livlig grå sandstrand med vattensporter.",
+      "no": "🏖️ Livlig strand med grå sand og vannsport.",
+      "da": "🏖️ Livlig grå sandstrand med vandsport.",
+      "fi": "🏖️ Vilkas harmaahiekkainen ranta vesiurheilumahdollisuuksilla."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "La Enramada",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0965,
+      -16.751
+    ],
+    "descripcion": {
+      "es": "🍹 Playa de callaos famosa por su chiringuito al atardecer.",
+      "en": "🍹 Pebble beach famous for its sunset beach bar.",
+      "de": "🍹 Kieselstrand, berühmt für seine Strandbar bei Sonnenuntergang.",
+      "fr": "🍹 Plage de galets célèbre pour son bar de plage au coucher du soleil.",
+      "it": "🍹 Spiaggia di ciottoli famosa per il suo bar al tramonto.",
+      "nl": "🍹 Kiezelstrand beroemd om zijn strandbar bij zonsondergang.",
+      "sv": "🍹 Klapperstensstrand känd för sin strandbar vid solnedgången.",
+      "no": "🍹 Rullesteinstrand kjent for sin strandbar ved solnedgang.",
+      "da": "🍹 Rullestensstrand kendt for sin strandbar ved solnedgang.",
+      "fi": "🍹 Pikkukiviranta, joka tunnetaan auringonlaskun rantabaaristaan."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Puertito de Adeje",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.113,
+      -16.764
+    ],
+    "descripcion": {
+      "es": "🐢 Bahía tradicional hogar de tortugas marinas.",
+      "en": "🐢 Traditional bay, home to sea turtles.",
+      "de": "🐢 Traditionelle Bucht, Heimat von Meeresschildkröten.",
+      "fr": "🐢 Baie traditionnelle, habitat des tortues marines.",
+      "it": "🐢 Baia tradizionale, casa delle tartarughe marine.",
+      "nl": "🐢 Traditionele baai, thuisbasis van zeeschildpadden.",
+      "sv": "🐢 Traditionell vik, hem för havssköldpaddor.",
+      "no": "🐢 Tradisjonell bukt, hjem til havskilpadder.",
+      "da": "🐢 Traditionel bugt, hjemsted for havskildpadder.",
+      "fi": "🐢 Perinteinen lahti, merikilpikonnien koti."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 79,
+      "viento": 2,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Bobo",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.076,
+      -16.736
+    ],
+    "descripcion": {
+      "es": "🚶‍♂️ Playa cómoda y céntrica de aguas tranquilas.",
+      "en": "🚶‍♂️ Comfortable and central beach with calm waters.",
+      "de": "🚶‍♂️ Komfortabler und zentraler Strand mit ruhigem Wasser.",
+      "fr": "🚶‍♂️ Plage confortable et centrale aux eaux calmes.",
+      "it": "🚶‍♂️ Spiaggia comoda e centrale con acque calme.",
+      "nl": "🚶‍♂️ Comfortabel en centraal strand met kalm water.",
+      "sv": "🚶‍♂️ Bekväm och central strand med lugnt vatten.",
+      "no": "🚶‍♂️ Komfortabel og sentral strand med rolig vann.",
+      "da": "🚶‍♂️ Komfortabel og central strand med roligt vand.",
+      "fi": "🚶‍♂️ Mukava ja keskeinen ranta tyynellä vedellä."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Leocadio Machado",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.04,
+      -16.545
+    ],
+    "descripcion": {
+      "es": "🏄 Playa amplia ideal para deportes de viento.",
+      "en": "🏄 Wide beach ideal for wind sports.",
+      "de": "🏄 Breiter Strand, ideal für Windsportarten.",
+      "fr": "🏄 Large plage idéale pour les sports de vent.",
+      "it": "🏄 Ampia spiaggia ideale per gli sport ventosi.",
+      "nl": "🏄 Breed strand ideaal voor windsporten.",
+      "sv": "🏄 Bred strand perfekt för vindsporter.",
+      "no": "🏄 Bred strand ideell for vindsport.",
+      "da": "🏄 Bred strand ideel til vindsport.",
+      "fi": "🏄 Leveä ranta, joka sopii tuuliurheiluun."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Montaña Roja",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.032,
+      -16.55
+    ],
+    "descripcion": {
+      "es": "🌋 Calas íntimas protegidas a los pies del volcán.",
+      "en": "🌋 Intimate protected coves at the foot of the volcano.",
+      "de": "🌋 Intime geschützte Buchten am Fuße des Vulkans.",
+      "fr": "🌋 Criques intimes protégées au pied du volcan.",
+      "it": "🌋 Calette intime protette ai piedi del vulcano.",
+      "nl": "🌋 Intieme beschutte baaien aan de voet van de vulkaan.",
+      "sv": "🌋 Intima skyddade vikar vid foten av vulkanen.",
+      "no": "🌋 Intime beskyttede viker ved foten av vulkanen.",
+      "da": "🌋 Intime beskyttede bugter ved foden af vulkanen.",
+      "fi": "🌋 Intiimejä suojaisia poukamia tulivuoren juurella."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -860,18 +1315,20 @@
       "fi": "🦀 Luonnonaltaita aivan rantakadun varrella."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 18,
-      "viento": 2,
+      "viento": 19,
       "cielo": "Algo de nubes",
-      "humedad": 75,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -895,18 +1352,57 @@
       "fi": "🍑 Legendaarinen nudistiranta, villi ja leveä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 75,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Ancón",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.422,
+      -16.505
+    ],
+    "descripcion": {
+      "es": "🌿 Playa solitaria y salvaje de gran belleza.",
+      "en": "🌿 Solitary and wild beach of great beauty.",
+      "de": "🌿 Einsamer und wilder Strand von großer Schönheit.",
+      "fr": "🌿 Plage solitaire et sauvage d'une grande beauté.",
+      "it": "🌿 Spiaggia solitaria e selvaggia di grande bellezza.",
+      "nl": "🌿 Eenzaam en wild strand van grote schoonheid.",
+      "sv": "🌿 Ensam och vild strand av stor skönhet.",
+      "no": "🌿 Ensom og vill strand med stor skjønnhet.",
+      "da": "🌿 Ensom og vild strand af stor skønhed.",
+      "fi": "🌿 Yksinäinen ja villi ranta, jossa on suurta kauneutta."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -930,18 +1426,20 @@
       "fi": "🥾 Neitseellinen pikkukiviranta Rambla de Castron päässä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 2,
+      "viento": 16,
       "cielo": "Nubes dispersas",
-      "humedad": 78,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -965,18 +1463,131 @@
       "fi": "🌅 Luonnonallas ja avomeri kalastajakylässä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 77,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Playa San Juan",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.1783,
+      -16.8133
+    ],
+    "descripcion": {
+      "es": "🌅 Playa familiar muy cuidada con el mejor clima.",
+      "en": "🌅 Well-kept family beach with the best climate.",
+      "de": "🌅 Gepflegter Familientstrand mit dem besten Klima.",
+      "fr": "🌅 Plage familiale bien entretenue avec le meilleur climat.",
+      "it": "🌅 Spiaggia per famiglie ben curata con il miglior clima.",
+      "nl": "🌅 Goed onderhouden familiestrand met het beste klimaat.",
+      "sv": "🌅 Välskött familjestrand med det bästa klimatet.",
+      "no": "🌅 Velholdt familiestrand med det beste klimaet.",
+      "da": "🌅 Velholdt familiestrand med det bedste klima.",
+      "fi": "🌅 Hyvin hoidettu perheranta parhaalla ilmastolla."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 5,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Abama",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.169,
+      -16.802
+    ],
+    "descripcion": {
+      "es": "🏝️ Cala paradisíaca de arena dorada entre plataneras.",
+      "en": "🏝️ Paradise golden sand cove among banana trees.",
+      "de": "🏝️ Paradiesische goldene Sandbucht zwischen Bananenstauden.",
+      "fr": "🏝️ Crique paradisiaque de sable doré au milieu des bananiers.",
+      "it": "🏝️ Paradisiaca caletta di sabbia dorata tra i banani.",
+      "nl": "🏝️ Paradijselijke baai met goudkleurig zand tussen bananenbomen.",
+      "sv": "🏝️ Paradisiskt gyllene sandvik bland bananträd.",
+      "no": "🏝️ Paradisiske gyllen sandvik blant banantrær.",
+      "da": "🏝️ Paradisiske gylden sandbugt blandt banantræer.",
+      "fi": "🏝️ Paratiisimainen kultahiekkainen poukama banaanipuiden keskellä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 4,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Alcalá",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.198,
+      -16.832
+    ],
+    "descripcion": {
+      "es": "🐢 Piscinas naturales y calas donde ver tortugas.",
+      "en": "🐢 Natural pools and coves to see turtles.",
+      "de": "🐢 Natürliche Becken und Buchten, um Schildkröten zu sehen.",
+      "fr": "🐢 Piscines naturelles et criques pour voir des tortues.",
+      "it": "🐢 Piscine naturali e calette per vedere le tartarughe.",
+      "nl": "🐢 Natuurlijke zwembaden en baaien om schildpadden te zien.",
+      "sv": "🐢 Naturliga pooler och vikar för att se sköldpaddor.",
+      "no": "🐢 Naturlige bassenger og viker for å se skilpadder.",
+      "da": "🐢 Naturlige pools og bugter for at se skildpadder.",
+      "fi": "🐢 Luonnonaltaita ja poukamia kilpikonnien katseluun."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 5,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1000,18 +1611,20 @@
       "fi": "🏙️ Mukava kaupunkiranta rantakadulla."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1035,18 +1648,20 @@
       "fi": "🏘️ Suojaisia poukamia perheystävällisellä ilmapiirillä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1070,18 +1685,20 @@
       "fi": "🕍 Mustahiekkainen ranta basilikan edessä."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/candelaria.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1105,18 +1722,20 @@
       "fi": "🌾 Rustiikkinen kiviranta, ihanteellinen irtautumiseen."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 6,
       "cielo": "Algo de nubes",
-      "humedad": 74,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1140,18 +1759,20 @@
       "fi": "🌊 Vaikuttavia luonnonaltaita aaltoja vastapäätä."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/bajamar-piscinas-naturales.html",
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
+      "t_real": 18,
+      "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 77,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1175,18 +1796,20 @@
       "fi": "🏄 Mustahiekkainen surffijalokivi Bajamarin ja La Puntan välissä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
+      "t_real": 18,
+      "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 77,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1210,18 +1833,20 @@
       "fi": "🛶 Pieni satama luonnonaltaalla ja Teide-näkymillä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 77,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1245,18 +1870,94 @@
       "fi": "🏃‍♀️ Hieno mustahiekkainen ranta meripuistolla."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
-      "t_real": 19,
+      "t_real": 18,
       "t_feel": 18,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 78,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Porís de Abona",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.165,
+      -16.43
+    ],
+    "descripcion": {
+      "es": "🎣 Pueblo con encanto y playa resguardada.",
+      "en": "🎣 Charming village with sheltered beach.",
+      "de": "🎣 Charmantes Dorf mit geschütztem Strand.",
+      "fr": "🎣 Charmant village avec plage abritée.",
+      "it": "🎣 Affascinante villaggio con spiaggia riparata.",
+      "nl": "🎣 Charmant dorp met beschut strand.",
+      "sv": "🎣 Charmig by med skyddad strand.",
+      "no": "🎣 Sjarmerende landsby med skjermet strand.",
+      "da": "🎣 Charmerende landsby med beskyttet strand.",
+      "fi": "🎣 Viehättävä kylä suojaisella rannalla."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Tajao",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.11,
+      -16.468
+    ],
+    "descripcion": {
+      "es": "🦐 Cala de piedras en famoso pueblo gastronómico.",
+      "en": "🦐 Pebble cove in famous gastronomic village.",
+      "de": "🦐 Steinbucht in berühmtem Gastronomiedorf.",
+      "fr": "🦐 Crique de galets dans un célèbre village gastronomique.",
+      "it": "🦐 Caletta di sassi nel famoso villaggio gastronomico.",
+      "nl": "🦐 Kiezelbaai in beroemd gastronomisch dorp.",
+      "sv": "🦐 Stenvik i berömd gastronomisk by.",
+      "no": "🦐 Steinvik i kjent gastronomisk landsby.",
+      "da": "🦐 Stenvig i berømt gastronomisk landsby.",
+      "fi": "🦐 Kivinen poukama kuuluisassa gastronomisessa kylässä."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1280,18 +1981,131 @@
       "fi": "🐚 Suojainen mustahiekkainen lahti, erittäin turvallinen."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 18,
       "t_feel": 18,
       "viento": 14,
       "cielo": "Nubes dispersas",
-      "humedad": 77,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Agua Dulce",
+    "municipio": "Los Silos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.368,
+      -16.815
+    ],
+    "descripcion": {
+      "es": "🏄 Playa de callaos y arena negra en entorno rural.",
+      "en": "🏄 Pebble and black sand beach in rural setting.",
+      "de": "🏄 Kiesel- und schwarzer Sandstrand in ländlicher Umgebung.",
+      "fr": "🏄 Plage de galets et sable noir dans un cadre rural.",
+      "it": "🏄 Spiaggia di ciottoli e sabbia nera in ambiente rurale.",
+      "nl": "🏄 Kiezel- en zwart zandstrand in landelijke omgeving.",
+      "sv": "🏄 Klapperstens- och svart sandstrand i lantlig miljö.",
+      "no": "🏄 Rullesteins- og svart sandstrand i landlige omgivelser.",
+      "da": "🏄 Rullestens- og sort sandstrand i landlige omgivelser.",
+      "fi": "🏄 Pikkukivi- ja mustahiekkainen ranta maaseudulla."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 18,
+      "t_feel": 17,
+      "viento": 9,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Charco del Viento",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "coordenadas": [
+      28.385,
+      -16.635
+    ],
+    "descripcion": {
+      "es": "🌋 Espectacular charco volcánico de aguas cristalinas.",
+      "en": "🌋 Spectacular volcanic pool with crystal clear waters.",
+      "de": "🌋 Spektakuläres Vulkanbecken mit kristallklarem Wasser.",
+      "fr": "🌋 Spectaculaire piscine volcanique aux eaux cristallines.",
+      "it": "🌋 Spettacolare piscina vulcanica con acque cristalline.",
+      "nl": "🌋 Spectaculair vulkanisch bad met kristalhelder water.",
+      "sv": "🌋 Spektakulär vulkanisk pool med kristallklart vatten.",
+      "no": "🌋 Spektakulært vulkansk basseng med krystallklart vann.",
+      "da": "🌋 Spektakulær vulkansk pool med krystalklart vand.",
+      "fi": "🌋 Upea vulkaaninen allas kristallinkirkkaalla vedellä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 15,
+      "t_feel": 15,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Santo Domingo",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "coordenadas": [
+      28.38,
+      -16.64
+    ],
+    "descripcion": {
+      "es": "🧗‍♀️ Playa aislada con vistas a los roques del norte.",
+      "en": "🧗‍♀️ Secluded beach with views of the northern rocks.",
+      "de": "🧗‍♀️ Abgelegener Strand mit Blick auf die Nordfelsen.",
+      "fr": "🧗‍♀️ Plage isolée avec vue sur les rochers du nord.",
+      "it": "🧗‍♀️ Spiaggia isolata con vista sulle rocce del nord.",
+      "nl": "🧗‍♀️ Afgelegen strand met uitzicht op de noordelijke rotsen.",
+      "sv": "🧗‍♀️ Avskild strand med utsikt över de norra klipporna.",
+      "no": "🧗‍♀️ Tilbaketrukket strand med utsikt over de nordlige klippene.",
+      "da": "🧗‍♀️ Afsondret strand med udsigt over de nordlige klipper.",
+      "fi": "🧗‍♀️ Syrjäinen ranta näkymillä pohjoisen kallioille."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 16,
+      "t_feel": 15,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1315,18 +2129,94 @@
       "fi": "🏖️ Callao Salvajen hoidettu ranta."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
-      "t_feel": 19,
+      "t_feel": 18,
       "viento": 4,
       "cielo": "Nubes dispersas",
-      "humedad": 61,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:29"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "San Blas",
+    "municipio": "San Miguel",
+    "zona": "Sur",
+    "coordenadas": [
+      28.028,
+      -16.605
+    ],
+    "descripcion": {
+      "es": "🗿 Paisaje lunar y formas volcánicas junto al mar.",
+      "en": "🗿 Lunar landscape and volcanic shapes by the sea.",
+      "de": "🗿 Mondlandschaft und vulkanische Formen am Meer.",
+      "fr": "🗿 Paysage lunaire et formes volcaniques en bord de mer.",
+      "it": "🗿 Paesaggio lunare e forme vulcaniche in riva al mare.",
+      "nl": "🗿 Maanlandschap en vulkanische vormen aan zee.",
+      "sv": "🗿 Månlandskap och vulkaniska former vid havet.",
+      "no": "🗿 Månelandskap og vulkanske former ved sjøen.",
+      "da": "🗿 Månelandskab og vulkanske former ved havet.",
+      "fi": "🗿 Kuu-maisema ja vulkaaniset muodot meren äärellä."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Montaña Amarilla",
+    "municipio": "San Miguel",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0092,
+      -16.6385
+    ],
+    "descripcion": {
+      "es": "🐠 Rocas ocres y fondos marinos increíbles para snorkel.",
+      "en": "🐠 Ochre rocks and incredible seabeds for snorkeling.",
+      "de": "🐠 Ockerfarbene Felsen und unglaubliche Meeresgründe zum Schnorcheln.",
+      "fr": "🐠 Roches ocres et fonds marins incroyables pour le snorkeling.",
+      "it": "🐠 Rocce ocra e fondali incredibili per lo snorkeling.",
+      "nl": "🐠 Okerkleurige rotsen en ongelooflijke zeebodems om te snorkelen.",
+      "sv": "🐠 Ockrafärgade klippor och otroliga havsbottnar för snorkling.",
+      "no": "🐠 Okerfargede klipper og utrolig havbunn for snorkling.",
+      "da": "🐠 Okkerfarvede klipper og utrolig havbund til snorkling.",
+      "fi": "🐠 Okranväriset kalliot ja uskomattomat merenpohjat snorklaukseen."
+    },
+    "webcam": null,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 30,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1350,18 +2240,20 @@
       "fi": "🏘️ Rauhallinen ranta asuinalueella."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1385,18 +2277,20 @@
       "fi": "🤫 Pieni pikkukivipoukama, erittäin intiimi."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1420,18 +2314,20 @@
       "fi": "🥾 Neitseellinen ranta, jonne pääsee kävellen basilikalta."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -1455,543 +2351,57 @@
       "fi": "🏊‍♂️ Rannikkokulma tummalla hiekalla ja kirkkaalla vedellä."
     },
     "webcam": null,
-    "score": 8,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 13,
       "cielo": "Nubes dispersas",
-      "humedad": 76,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Nubes dispersas"
+      "Estimado (Clima)"
     ]
   },
   {
-    "nombre": "Masca",
-    "municipio": "Buenavista del Norte",
-    "zona": "Norte",
+    "nombre": "Playa del Horno",
+    "municipio": "Granadilla",
+    "zona": "Sur",
     "coordenadas": [
-      28.2889,
-      -16.8622
+      28.038,
+      -16.552
     ],
     "descripcion": {
-      "es": "🏔️ Playa salvaje al final del barranco.",
-      "en": "🏔️ Wild beach at the end of the ravine.",
-      "de": "🏔️ Wilder Strand am Ende der Schlucht.",
-      "fr": "🏔️ Plage sauvage au bout du ravin.",
-      "it": "🏔️ Spiaggia selvaggia alla fine del burrone.",
-      "nl": "🏔️ Wild strand aan het einde van de kloof.",
-      "sv": "🏔️ Vild strand i slutet av ravinen.",
-      "no": "🏔️ Vill strand ved enden av ravinen.",
-      "da": "🏔️ Vild strand for enden af kløften.",
-      "fi": "🏔️ Villi ranta rotkon päässä."
+      "es": "🏘️ Cala resguardada y tranquila cerca de El Confital.",
+      "en": "🏘️ Sheltered and quiet cove near El Confital.",
+      "de": "🏘️ Geschützte und ruhige Bucht in der Nähe von El Confital.",
+      "fr": "🏘️ Crique abritée et calme près d'El Confital.",
+      "it": "🏘️ Caletta riparata e tranquilla vicino a El Confital.",
+      "nl": "🏘️ Beschutte en rustige baai bij El Confital.",
+      "sv": "🏘️ Skyddad och lugn vik nära El Confital.",
+      "no": "🏘️ Skjermet og rolig vik nær El Confital.",
+      "da": "🏘️ Beskyttet og rolig bugt nær El Confital.",
+      "fi": "🏘️ Suojainen ja rauhallinen poukama lähellä El Confitalia."
     },
     "webcam": null,
-    "score": 8,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 2,
-      "cielo": "Nubes dispersas",
-      "humedad": 70,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Las Arenas",
-    "municipio": "Buenavista del Norte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.375,
-      -16.865
-    ],
-    "descripcion": {
-      "es": "🌋 Costa volcánica con senderos.",
-      "en": "🌋 Volcanic coast with trails.",
-      "de": "🌋 Vulkanküste mit Wanderwegen.",
-      "fr": "🌋 Côte volcanique avec sentiers.",
-      "it": "🌋 Costa vulcanica con sentieri.",
-      "nl": "🌋 Vulkanische kust met wandelpaden.",
-      "sv": "🌋 Vulkanisk kust med stigar.",
-      "no": "🌋 Vulkansk kyst med stier.",
-      "da": "🌋 Vulkansk kyst med stier.",
-      "fi": "🌋 Vulkaaninen rannikko poluilla."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 16,
-      "cielo": "Nubes dispersas",
-      "humedad": 71,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "El Fraile",
-    "municipio": "Buenavista del Norte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.38,
-      -16.86
-    ],
-    "descripcion": {
-      "es": "⛰️ Cala salvaje bajo el macizo de Teno.",
-      "en": "⛰️ Wild cove under the Teno massif.",
-      "de": "⛰️ Wilde Bucht unter dem Teno-Massiv.",
-      "fr": "⛰️ Crique sauvage sous le massif de Teno.",
-      "it": "⛰️ Caletta selvaggia sotto il massiccio del Teno.",
-      "nl": "⛰️ Wilde baai onder het Teno-massief.",
-      "sv": "⛰️ Vild vik under Teno-massivet.",
-      "no": "⛰️ Vill vik under Teno-massivet.",
-      "da": "⛰️ Vild bugt under Teno-massivet.",
-      "fi": "⛰️ Villi poukama Teno-massiivin alla."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 16,
-      "cielo": "Nubes dispersas",
-      "humedad": 71,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Consolación",
-    "municipio": "Garachico",
-    "zona": "Norte",
-    "coordenadas": [
-      28.372,
-      -16.78
-    ],
-    "descripcion": {
-      "es": "🏘️ Cala tranquila cerca del casco histórico.",
-      "en": "🏘️ Quiet cove near the historic center.",
-      "de": "🏘️ Ruhige Bucht in der Nähe des historischen Zentrums.",
-      "fr": "🏘️ Crique tranquille près du centre historique.",
-      "it": "🏘️ Caletta tranquilla vicino al centro storico.",
-      "nl": "🏘️ Rustige baai vlakbij het historische centrum.",
-      "sv": "🏘️ Lugn vik nära den historiska stadskärnan.",
-      "no": "🏘️ Rolig vik nær det historiske sentrum.",
-      "da": "🏘️ Rolig bugt nær det historiske centrum.",
-      "fi": "🏘️ Rauhallinen poukama historiallisen keskustan lähellä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 14,
-      "cielo": "Nubes dispersas",
-      "humedad": 75,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Las Aguas",
-    "municipio": "San Juan de la Rambla",
-    "zona": "Norte",
-    "coordenadas": [
-      28.395,
-      -16.66
-    ],
-    "descripcion": {
-      "es": "🌊 Impresionante rompiente en pueblo con encanto.",
-      "en": "🌊 Impressive surf break in charming village.",
-      "de": "🌊 Beeindruckende Brandung in charmantem Dorf.",
-      "fr": "🌊 Brisants impressionnants dans un village charmant.",
-      "it": "🌊 Impressionante frangente in un villaggio affascinante.",
-      "nl": "🌊 Indrukwekkende branding in charmant dorp.",
-      "sv": "🌊 Imponerande bränningar i charmig by.",
-      "no": "🌊 Imponerende brenninger i sjarmerende landsby.",
-      "da": "🌊 Imponerende brænding i charmerende landsby.",
-      "fi": "🌊 Vaikuttava tyrsky viehättävässä kylässä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 15,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa del Muelle",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.418,
-      -16.551
-    ],
-    "descripcion": {
-      "es": "🛶 Pequeña playa tradicional de pescadores.",
-      "en": "🛶 Small traditional fishermen's beach.",
-      "de": "🛶 Kleiner traditioneller Fischerstrand.",
-      "fr": "🛶 Petite plage traditionnelle de pêcheurs.",
-      "it": "🛶 Piccola spiaggia tradizionale di pescatori.",
-      "nl": "🛶 Klein traditioneel vissersstrand.",
-      "sv": "🛶 Liten traditionell fiskarstrand.",
-      "no": "🛶 Liten tradisjonell fiskerstrand.",
-      "da": "🛶 Lille traditionel fiskerstrand.",
-      "fi": "🛶 Pieni perinteinen kalastajaranta."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 2,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 75,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Los Roques",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.398,
-      -16.575
-    ],
-    "descripcion": {
-      "es": "📸 Playa fotogénica con grandes roques.",
-      "en": "📸 Photogenic beach with large rocks.",
-      "de": "📸 Fotogener Strand mit großen Felsen.",
-      "fr": "📸 Plage photogénique avec de grands rochers.",
-      "it": "📸 Spiaggia fotogenica con grandi rocce.",
-      "nl": "📸 Fotogeniek strand met grote rotsen.",
-      "sv": "📸 Fotogenisk strand med stora klippor.",
-      "no": "📸 Fotogen strand med store steiner.",
-      "da": "📸 Fotogen strand med store klipper.",
-      "fi": "📸 Valokuvauksellinen ranta suurilla kivillä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 2,
-      "cielo": "Nubes dispersas",
-      "humedad": 78,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Grimona",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.397,
-      -16.615
-    ],
-    "descripcion": {
-      "es": "🌴 Arena negra accesible rodeada de verde.",
-      "en": "🌴 Accessible black sand surrounded by green.",
-      "de": "🌴 Zugänglicher schwarzer Sand umgeben von Grün.",
-      "fr": "🌴 Sable noir accessible entouré de verdure.",
-      "it": "🌴 Sabbia nera accessibile circondata dal verde.",
-      "nl": "🌴 Toegankelijk zwart zand omgeven door groen.",
-      "sv": "🌴 Tillgänglig svart sand omgiven av grönska.",
-      "no": "🌴 Tilgjengelig svart sand omgitt av grønt.",
-      "da": "🌴 Tilgængeligt sort sand omgivet af grønt.",
-      "fi": "🌴 Saavutettava musta hiekka vihreän ympäröimänä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 2,
-      "cielo": "Nubes dispersas",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de Rojas",
-    "municipio": "El Sauzal",
-    "zona": "Norte",
-    "coordenadas": [
-      28.485,
-      -16.445
-    ],
-    "descripcion": {
-      "es": "💎 Cala escondida con aguas cristalinas.",
-      "en": "💎 Hidden cove with crystal clear waters.",
-      "de": "💎 Versteckte Bucht mit kristallklarem Wasser.",
-      "fr": "💎 Crique cachée aux eaux cristallines.",
-      "it": "💎 Caletta nascosta con acque cristalline.",
-      "nl": "💎 Verborgen baai met kristalhelder water.",
-      "sv": "💎 Gömd vik med kristallklart vatten.",
-      "no": "💎 Skjult vik med krystallklart vann.",
-      "da": "💎 Skjult bugt med krystalklart vand.",
-      "fi": "💎 Piilossa oleva poukama kristallinkirkkaalla vedellä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Garañona",
-    "municipio": "El Sauzal",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4979,
-      -16.4259
-    ],
-    "descripcion": {
-      "es": "🦅 Inmensa playa salvaje de difícil acceso.",
-      "en": "🦅 Immense wild beach difficult to access.",
-      "de": "🦅 Riesiger wilder Strand, schwer zugänglich.",
-      "fr": "🦅 Immense plage sauvage difficile d'accès.",
-      "it": "🦅 Immensa spiaggia selvaggia di difficile accesso.",
-      "nl": "🦅 Immens wild strand, moeilijk toegankelijk.",
-      "sv": "🦅 Enorm vild strand, svår att nå.",
-      "no": "🦅 Enorm vill strand som er vanskelig å nå.",
-      "da": "🦅 Enorm vild strand, svær at nå.",
-      "fi": "🦅 Valtava villi ranta, jonne on vaikea päästä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "El Caletón",
-    "municipio": "La Matanza",
-    "zona": "Norte",
-    "coordenadas": [
-      28.465,
-      -16.46
-    ],
-    "descripcion": {
-      "es": "☀️ Zona de baño tranquila y soleada.",
-      "en": "☀️ Quiet and sunny swimming area.",
-      "de": "☀️ Ruhiger und sonniger Badebereich.",
-      "fr": "☀️ Zone de baignade calme et ensoleillée.",
-      "it": "☀️ Zona balneare tranquilla e soleggiata.",
-      "nl": "☀️ Rustig en zonnig zwemgebied.",
-      "sv": "☀️ Lugnt och soligt badområde.",
-      "no": "☀️ Rolig og solrikt badeområde.",
-      "da": "☀️ Roligt og solrigt badeområde.",
-      "fi": "☀️ Rauhallinen ja aurinkoinen uimapaikka."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 76,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Tamadite",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.565,
-      -16.25
-    ],
-    "descripcion": {
-      "es": "🏞️ Playa espectacular al final del barranco de Afur.",
-      "en": "🏞️ Spectacular beach at the end of Afur ravine.",
-      "de": "🏞️ Spektakulärer Strand am Ende der Afur-Schlucht.",
-      "fr": "🏞️ Plage spectaculaire au bout du ravin d'Afur.",
-      "it": "🏞️ Spiaggia spettacolare alla fine del burrone di Afur.",
-      "nl": "🏞️ Spectaculair strand aan het einde van de Afur-kloof.",
-      "sv": "🏞️ Spektakulär strand i slutet av Afur-ravinen.",
-      "no": "🏞️ Spektakulær strand ved enden av Afur-ravinen.",
-      "da": "🏞️ Spektakulær strand for enden af Afur-kløften.",
-      "fi": "🏞️ Upea ranta Afurin rotkon päässä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 78,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "San Juanito",
-    "municipio": "La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5715,
-      -16.3139
-    ],
-    "descripcion": {
-      "es": "🌊 Zona de charcos cerca del faro.",
-      "en": "🌊 Puddle area near the lighthouse.",
-      "de": "🌊 Tümpelgebiet in der Nähe des Leuchtturms.",
-      "fr": "🌊 Zone de flaques près du phare.",
-      "it": "🌊 Zona di pozze vicino al faro.",
-      "nl": "🌊 Poelengebied bij de vuurtoren.",
-      "sv": "🌊 Pölområde nära fyren.",
-      "no": "🌊 Pyttområde nær fyret.",
-      "da": "🌊 Pyttområde nær fyret.",
-      "fi": "🌊 Lammikkoalue majakan lähellä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa del Castillo",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.411,
-      -16.559
-    ],
-    "descripcion": {
-      "es": "🏰 Arena negra junto al Castillo de San Felipe.",
-      "en": "🏰 Black sand next to San Felipe Castle.",
-      "de": "🏰 Schwarzer Sand neben der Burg San Felipe.",
-      "fr": "🏰 Sable noir à côté du château de San Felipe.",
-      "it": "🏰 Sabbia nera accanto al Castello di San Felipe.",
-      "nl": "🏰 Zwart zand naast het kasteel van San Felipe.",
-      "sv": "🏰 Svart sand bredvid San Felipe-slottet.",
-      "no": "🏰 Svart sand ved siden av San Felipe-slottet.",
-      "da": "🏰 Sort sand ved siden af San Felipe Slot.",
-      "fi": "🏰 Mustaa hiekkaa San Felipen linnan vieressä."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 2,
-      "cielo": "Algo de nubes",
-      "humedad": 75,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa Chica",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.412,
-      -16.556
-    ],
-    "descripcion": {
-      "es": "🦀 Cala íntima separada por rocas.",
-      "en": "🦀 Intimate cove separated by rocks.",
-      "de": "🦀 Intime Bucht, durch Felsen getrennt.",
-      "fr": "🦀 Crique intime séparée par des rochers.",
-      "it": "🦀 Caletta intima separata da rocce.",
-      "nl": "🦀 Intieme baai gescheiden door rotsen.",
-      "sv": "🦀 Intim vik separerad av klippor.",
-      "no": "🦀 Intim vik atskilt av steiner.",
-      "da": "🦀 Intim bugt adskilt af klipper.",
-      "fi": "🦀 Intiimi poukama kivien erottamana."
-    },
-    "webcam": null,
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 2,
-      "cielo": "Algo de nubes",
-      "humedad": 75,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -2016,17 +2426,19 @@
     },
     "webcam": null,
     "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 25,
       "cielo": "Algo de nubes",
-      "humedad": 73,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -2051,17 +2463,19 @@
     },
     "webcam": null,
     "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 25,
       "cielo": "Algo de nubes",
-      "humedad": 73,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -2086,997 +2500,19 @@
     },
     "webcam": null,
     "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
       "viento": 25,
       "cielo": "Algo de nubes",
-      "humedad": 73,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:27"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Ancón",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.422,
-      -16.505
-    ],
-    "descripcion": {
-      "es": "🌿 Playa solitaria y salvaje de gran belleza.",
-      "en": "🌿 Solitary and wild beach of great beauty.",
-      "de": "🌿 Einsamer und wilder Strand von großer Schönheit.",
-      "fr": "🌿 Plage solitaire et sauvage d'une grande beauté.",
-      "it": "🌿 Spiaggia solitaria e selvaggia di grande bellezza.",
-      "nl": "🌿 Eenzaam en wild strand van grote schoonheid.",
-      "sv": "🌿 Ensam och vild strand av stor skönhet.",
-      "no": "🌿 Ensom og vill strand med stor skjønnhet.",
-      "da": "🌿 Ensom og vild strand af stor skønhed.",
-      "fi": "🌿 Yksinäinen ja villi ranta, jossa on suurta kauneutta."
-    },
-    "webcam": null,
-    "score": 5,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 75,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Agua Dulce",
-    "municipio": "Los Silos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.368,
-      -16.815
-    ],
-    "descripcion": {
-      "es": "🏄 Playa de callaos y arena negra en entorno rural.",
-      "en": "🏄 Pebble and black sand beach in rural setting.",
-      "de": "🏄 Kiesel- und schwarzer Sandstrand in ländlicher Umgebung.",
-      "fr": "🏄 Plage de galets et sable noir dans un cadre rural.",
-      "it": "🏄 Spiaggia di ciottoli e sabbia nera in ambiente rurale.",
-      "nl": "🏄 Kiezel- en zwart zandstrand in landelijke omgeving.",
-      "sv": "🏄 Klapperstens- och svart sandstrand i lantlig miljö.",
-      "no": "🏄 Rullesteins- og svart sandstrand i landlige omgivelser.",
-      "da": "🏄 Rullestens- og sort sandstrand i landlige omgivelser.",
-      "fi": "🏄 Pikkukivi- ja mustahiekkainen ranta maaseudulla."
-    },
-    "webcam": null,
-    "score": 5,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 17,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 75,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Charco del Viento",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.385,
-      -16.635
-    ],
-    "descripcion": {
-      "es": "🌋 Espectacular charco volcánico de aguas cristalinas.",
-      "en": "🌋 Spectacular volcanic pool with crystal clear waters.",
-      "de": "🌋 Spektakuläres Vulkanbecken mit kristallklarem Wasser.",
-      "fr": "🌋 Spectaculaire piscine volcanique aux eaux cristallines.",
-      "it": "🌋 Spettacolare piscina vulcanica con acque cristalline.",
-      "nl": "🌋 Spectaculair vulkanisch bad met kristalhelder water.",
-      "sv": "🌋 Spektakulär vulkanisk pool med kristallklart vatten.",
-      "no": "🌋 Spektakulært vulkansk basseng med krystallklart vann.",
-      "da": "🌋 Spektakulær vulkansk pool med krystalklart vand.",
-      "fi": "🌋 Upea vulkaaninen allas kristallinkirkkaalla vedellä."
-    },
-    "webcam": null,
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 15,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Santo Domingo",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.38,
-      -16.64
-    ],
-    "descripcion": {
-      "es": "🧗‍♀️ Playa aislada con vistas a los roques del norte.",
-      "en": "🧗‍♀️ Secluded beach with views of the northern rocks.",
-      "de": "🧗‍♀️ Abgelegener Strand mit Blick auf die Nordfelsen.",
-      "fr": "🧗‍♀️ Plage isolée avec vue sur les rochers du nord.",
-      "it": "🧗‍♀️ Spiaggia isolata con vista sulle rocce del nord.",
-      "nl": "🧗‍♀️ Afgelegen strand met uitzicht op de noordelijke rotsen.",
-      "sv": "🧗‍♀️ Avskild strand med utsikt över de norra klipporna.",
-      "no": "🧗‍♀️ Tilbaketrukket strand med utsikt over de nordlige klippene.",
-      "da": "🧗‍♀️ Afsondret strand med udsigt over de nordlige klipper.",
-      "fi": "🧗‍♀️ Syrjäinen ranta näkymillä pohjoisen kallioille."
-    },
-    "webcam": null,
-    "score": 5,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 15,
-      "viento": 15,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Cueva del Agua",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.56,
-      -16.3
-    ],
-    "descripcion": {
-      "es": "🦕 Rincón aislado y jurásico en Anaga.",
-      "en": "🦕 Isolated and Jurassic corner in Anaga.",
-      "de": "🦕 Abgelegener und jurassischer Winkel in Anaga.",
-      "fr": "🦕 Coin isolé et jurassique à Anaga.",
-      "it": "🦕 Angolo isolato e giurassico ad Anaga.",
-      "nl": "🦕 Afgelegen en Jurassic hoekje in Anaga.",
-      "sv": "🦕 Isolerad och jurassisk hörna i Anaga.",
-      "no": "🦕 Isolert og jurassisk hjørne i Anaga.",
-      "da": "🦕 Isoleret og jurassisk hjørne i Anaga.",
-      "fi": "🦕 Eristäytynyt ja jurakautinen kulma Anagassa."
-    },
-    "webcam": null,
-    "score": 5,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 13,
-      "cielo": "Nubes dispersas",
-      "humedad": 78,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Roque Bermejo",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.58,
-      -16.14
-    ],
-    "descripcion": {
-      "es": "⛵ Aldea y playa virgen accesible por barco o pie.",
-      "en": "⛵ Village and virgin beach accessible by boat or foot.",
-      "de": "⛵ Dorf und unberührter Strand, per Boot oder zu Fuß erreichbar.",
-      "fr": "⛵ Village et plage vierge accessibles par bateau ou à pied.",
-      "it": "⛵ Villaggio e spiaggia vergine accessibili in barca o a piedi.",
-      "nl": "⛵ Dorp en maagdelijk strand bereikbaar per boot of te voet.",
-      "sv": "⛵ By och orörd strand nåbar med båt eller till fots.",
-      "no": "⛵ Landsby og jomfruelig strand tilgjengelig med båt eller til fots.",
-      "da": "⛵ Landsby og jomfruelig strand tilgængelig med båd eller til fods.",
-      "fi": "⛵ Kylä ja neitseellinen ranta, jonne pääsee veneellä tai kävellen."
-    },
-    "webcam": null,
-    "score": 5,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 17,
-      "cielo": "Nubes dispersas",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Las Vistas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0515,
-      -16.7265
-    ],
-    "descripcion": {
-      "es": "♿ Playa accesible de arena dorada con todos los servicios. Aguas muy tranquilas.",
-      "en": "♿ Accessible golden sand beach with all amenities. Very calm waters.",
-      "de": "♿ Barrierefreier Goldstrand mit allen Annehmlichkeiten. Sehr ruhiges Wasser.",
-      "fr": "♿ Plage de sable doré accessible avec tous les services. Eaux très calmes.",
-      "it": "♿ Spiaggia di sabbia dorata accessibile con tutti i servizi. Acque molto calme.",
-      "nl": "♿ Toegankelijk goudkleurig zandstrand met alle voorzieningen. Zeer kalm water.",
-      "sv": "♿ Tillgänglig gyllene sandstrand med alla bekvämligheter. Mycket lugnt vatten.",
-      "no": "♿ Tilgjengelig strand med gyllen sand og alle fasiliteter. Veldig rolig vann.",
-      "da": "♿ Tilgængelig strand med gyldent sand og alle faciliteter. Meget roligt vand.",
-      "fi": "♿ Esteetön kultahiekkainen ranta kaikilla mukavuuksilla. Erittäin tyyni vesi."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-vistas.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Médano",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0435,
-      -16.538
-    ],
-    "descripcion": {
-      "es": "🪁 Paraíso del kitesurf y windsurf con ambiente bohemio. Vistas a Montaña Roja.",
-      "en": "🪁 Kitesurf and windsurf paradise with a bohemian vibe. Views of Red Mountain.",
-      "de": "🪁 Kitesurf- und Windsurfparadies mit Bohème-Atmosphäre. Blick auf den Roten Berg.",
-      "fr": "🪁 Paradis du kitesurf et de la planche à voile. Ambiance bohème et vue sur la Montagne Rouge.",
-      "it": "🪁 Paradiso del kitesurf e windsurf con atmosfera bohémien. Vista sulla Montagna Rossa.",
-      "nl": "🪁 Kitesurf- en windsurfparadijs met een bohemiensfeer. Uitzicht op de Rode Berg.",
-      "sv": "🪁 Kitesurf- och vindsurfparadis med bohemisk känsla. Utsikt över Röda berget.",
-      "no": "🪁 Kitesurf- og vindsurfparadis med bohemsk stemning. Utsikt over Det røde fjellet.",
-      "da": "🪁 Kitesurf- og vindsurfparadis med boheme-stemning. Udsigt til Det Røde Bjerg.",
-      "fi": "🪁 Leija- ja purjelautailun paratiisi boheemilla tunnelmalla. Näkymät Punaiselle vuorelle."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/el-medano.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Fañabé",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.085,
-      -16.74
-    ],
-    "descripcion": {
-      "es": "💎 Playa extensa de arena clara y beach clubs. Ambiente exclusivo.",
-      "en": "💎 Extensive light sand beach with beach clubs. Exclusive atmosphere.",
-      "de": "💎 Weitläufiger heller Sandstrand mit Beach Clubs. Exklusive Atmosphäre.",
-      "fr": "💎 Grande plage de sable clair avec beach clubs. Ambiance exclusive.",
-      "it": "💎 Ampia spiaggia di sabbia chiara con beach club. Atmosfera esclusiva.",
-      "nl": "💎 Uitgestrekt licht zandstrand met strandclubs. Exclusieve sfeer.",
-      "sv": "💎 Vidsträckt ljus sandstrand med strandklubbar. Exklusiv atmosfär.",
-      "no": "💎 Lang strand med lys sand og strandklubber. Eksklusiv atmosfære.",
-      "da": "💎 Omfattende lys sandstrand med strandklubber. Eksklusiv atmosfære.",
-      "fi": "💎 Laaja vaaleahiekkainen ranta rantaklubeineen. Eksklusiivinen tunnelma."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-fanabe.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Tejita",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0315,
-      -16.5576
-    ],
-    "descripcion": {
-      "es": "🌋 Gran playa de arena natural bajo la Montaña Roja. Zona nudista disponible.",
-      "en": "🌋 Large natural sand beach under the Red Mountain. Nudist area available.",
-      "de": "🌋 Großer Naturstrand unter dem Roten Berg. FKK-Bereich vorhanden.",
-      "fr": "🌋 Grande plage de sable naturel sous la Montagne Rouge. Zone nudiste disponible.",
-      "it": "🌋 Grande spiaggia di sabbia naturale sotto la Montagna Rossa. Zona nudista disponibile.",
-      "nl": "🌋 Groot natuurlijk zandstrand onder de Rode Berg. Naaktstrand beschikbaar.",
-      "sv": "🌋 Stor naturlig sandstrand under Röda berget. Nudistområde finns.",
-      "no": "🌋 Stor naturlig sandstrand under Det røde fjellet. Nudistområde tilgjengelig.",
-      "da": "🌋 Stor naturlig sandstrand under Det Røde Bjerg. Nudistområde tilgængeligt.",
-      "fi": "🌋 Suuri luonnonhiekkaranta Punaisen vuoren alla. Nudistialue saatavilla."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-la-tejita.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Los Cristianos",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.05,
-      -16.718
-    ],
-    "descripcion": {
-      "es": "⚓ Playa urbana clásica y tranquila junto al puerto. Muy familiar.",
-      "en": "⚓ Classic and quiet urban beach next to the port. Very family friendly.",
-      "de": "⚓ Klassischer und ruhiger Stadtstrand am Hafen. Sehr familienfreundlich.",
-      "fr": "⚓ Plage urbaine classique et calme à côté du port. Très familial.",
-      "it": "⚓ Spiaggia urbana classica e tranquilla vicino al porto. Molto adatta alle famiglie.",
-      "nl": "⚓ Klassiek en rustig stadsstrand naast de haven. Zeer gezinsvriendelijk.",
-      "sv": "⚓ Klassisk och lugn stadsstrand bredvid hamnen. Mycket familjevänlig.",
-      "no": "⚓ Klassisk og rolig bystrand ved siden av havnen. Veldig familievennlig.",
-      "da": "⚓ Klassisk og rolig bystrand ved siden af havnen. Meget familievenlig.",
-      "fi": "⚓ Klassinen ja rauhallinen kaupunkiranta sataman vieressä. Erittäin perheystävällinen."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-los-cristianos.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Duque",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0912,
-      -16.7432
-    ],
-    "descripcion": {
-      "es": "🎩 La playa más elegante y exclusiva del sur. Aguas turquesas.",
-      "en": "🎩 The most elegant and exclusive beach in the south. Turquoise waters.",
-      "de": "🎩 Der eleganteste und exklusivste Strand im Süden. Türkisfarbenes Wasser.",
-      "fr": "🎩 La plage la plus élégante et exclusive du sud. Eaux turquoises.",
-      "it": "🎩 La spiaggia più elegante ed esclusiva del sud. Acque turchesi.",
-      "nl": "🎩 Het meest elegante en exclusieve strand in het zuiden. Turquoise water.",
-      "sv": "🎩 Den mest eleganta och exklusiva stranden i söder. Turkos vatten.",
-      "no": "🎩 Den mest elegante og eksklusive stranden i sør. Turkis vann.",
-      "da": "🎩 Den mest elegante og eksklusive strand i syd. Turkisblåt vand.",
-      "fi": "🎩 Etelän tyylikkäin ja eksklusiivisin ranta. Turkoosi vesi."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-del-duque.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Troya",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0665,
-      -16.735
-    ],
-    "descripcion": {
-      "es": "🎉 Playa céntrica en Las Américas con mucha actividad y vida nocturna.",
-      "en": "🎉 Central beach in Las Américas with lots of activity and nightlife.",
-      "de": "🎉 Zentraler Strand in Las Américas mit viel Aktivität und Nachtleben.",
-      "fr": "🎉 Plage centrale de Las Américas avec beaucoup d'activité et de vie nocturne.",
-      "it": "🎉 Spiaggia centrale di Las Américas con molta attività e vita notturna.",
-      "nl": "🎉 Centraal strand in Las Américas met veel activiteit en nachtleven.",
-      "sv": "🎉 Central strand i Las Américas med mycket aktivitet och nattliv.",
-      "no": "🎉 Sentral strand i Las Américas med mye aktivitet og uteliv.",
-      "da": "🎉 Central strand i Las Américas med masser af aktivitet og natteliv.",
-      "fi": "🎉 Keskeinen ranta Las Américasissa, jossa on paljon toimintaa ja yöelämää."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-troya.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Las Américas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.06,
-      -16.733
-    ],
-    "descripcion": {
-      "es": "🏄 Zona surfera famosa por la ola 'La Izquierda'. Fondo de roca.",
-      "en": "🏄 Surf zone famous for 'The Left' wave. Reef break.",
-      "de": "🏄 Surfzone, berühmt für die Welle 'La Izquierda'. Riffbruch.",
-      "fr": "🏄 Zone de surf célèbre pour la vague 'La Izquierda'. Fond rocheux.",
-      "it": "🏄 Zona surf famosa per l'onda 'La Izquierda'. Fondale roccioso.",
-      "nl": "🏄 Surfzone beroemd om de golf 'La Izquierda'. Rotsbodem.",
-      "sv": "🏄 Surfzon känd för vågen 'La Izquierda'. Revbrytning.",
-      "no": "🏄 Surfesone kjent for bølgen 'La Izquierda'. Revbrytning.",
-      "da": "🏄 Surfzone kendt for bølgen 'La Izquierda'. Revbrud.",
-      "fi": "🏄 Surffialue, joka tunnetaan 'La Izquierda' -aallosta. Riuttapohja."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-las-americas.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Diego Hernández",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.103,
-      -16.757
-    ],
-    "descripcion": {
-      "es": "⛺ Playa salvaje de arena blanca y aguas turquesas. Zona hippie.",
-      "en": "⛺ Wild beach with white sand and turquoise waters. Hippie area.",
-      "de": "⛺ Wilder Strand mit weißem Sand und türkisfarbenem Wasser. Hippie-Zone.",
-      "fr": "⛺ Plage sauvage au sable blanc et aux eaux turquoises. Zone hippie.",
-      "it": "⛺ Spiaggia selvaggia di sabbia bianca e acque turchesi. Zona hippie.",
-      "nl": "⛺ Wild strand met wit zand en turquoise water. Hippiegebied.",
-      "sv": "⛺ Vild strand med vit sand och turkost vatten. Hippieområde.",
-      "no": "⛺ Vill strand med hvit sand og turkis vann. Hippieområde.",
-      "da": "⛺ Vild strand med hvidt sand og turkisblåt vand. Hippieområde.",
-      "fi": "⛺ Villi ranta valkoisella hiekalla ja turkoosilla vedellä. Hippialue."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Caleta",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.1,
-      -16.759
-    ],
-    "descripcion": {
-      "es": "🦐 Aguas turquesas y rocas en pueblo gastronómico.",
-      "en": "🦐 Turquoise waters and rocks in a gastronomic village.",
-      "de": "🦐 Türkisfarbenes Wasser und Felsen in einem gastronomischen Dorf.",
-      "fr": "🦐 Eaux turquoises et rochers dans un village gastronomique.",
-      "it": "🦐 Acque turchesi e rocce in un villaggio gastronomico.",
-      "nl": "🦐 Turquoise water en rotsen in een gastronomisch dorp.",
-      "sv": "🦐 Turkos vatten och klippor i en gastronomisk by.",
-      "no": "🦐 Turkis vann og klipper i en gastronomisk landsby.",
-      "da": "🦐 Turkisblåt vand og klipper i en gastronomisk landsby.",
-      "fi": "🦐 Turkoosia vettä ja kiviä gastronomisessa kylässä."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/la-caleta-de-adeje.html",
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Camisón",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0545,
-      -16.732
-    ],
-    "descripcion": {
-      "es": "🌴 Pequeña bahía de arena dorada muy protegida y verde.",
-      "en": "🌴 Small golden sand bay, very protected and green.",
-      "de": "🌴 Kleine goldene Sandbucht, sehr geschützt und grün.",
-      "fr": "🌴 Petite baie de sable doré, très protégée et verte.",
-      "it": "🌴 Piccola baia di sabbia dorata, molto protetta e verde.",
-      "nl": "🌴 Kleine baai met goudkleurig zand, zeer beschermd en groen.",
-      "sv": "🌴 Liten gyllene sandvik, mycket skyddad och grön.",
-      "no": "🌴 Liten bukt med gyllen sand, veldig beskyttet og grønn.",
-      "da": "🌴 Lille bugt med gyldent sand, meget beskyttet og grøn.",
-      "fi": "🌴 Pieni kultahiekkainen lahti, erittäin suojainen ja vehreä."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Las Galletas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0065,
-      -16.657
-    ],
-    "descripcion": {
-      "es": "🛶 Playa de arena oscura junto a la lonja de pescado.",
-      "en": "🛶 Dark sand beach next to the fish market.",
-      "de": "🛶 Dunkler Sandstrand neben dem Fischmarkt.",
-      "fr": "🛶 Plage de sable foncé à côté du marché aux poissons.",
-      "it": "🛶 Spiaggia di sabbia scura vicino al mercato del pesce.",
-      "nl": "🛶 Donker zandstrand naast de vismarkt.",
-      "sv": "🛶 Mörk sandstrand bredvid fiskmarknaden.",
-      "no": "🛶 Mørk sandstrand ved siden av fiskemarkedet.",
-      "da": "🛶 Mørk sandstrand ved siden af fiskemarkedet.",
-      "fi": "🛶 Tummahiekkainen ranta kalatorin vieressä."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Ballena",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.003,
-      -16.665
-    ],
-    "descripcion": {
-      "es": "🤫 Cala tranquila en Costa del Silencio.",
-      "en": "🤫 Quiet cove in Costa del Silencio.",
-      "de": "🤫 Ruhige Bucht an der Costa del Silencio.",
-      "fr": "🤫 Crique tranquille à Costa del Silencio.",
-      "it": "🤫 Caletta tranquilla a Costa del Silencio.",
-      "nl": "🤫 Rustige baai in Costa del Silencio.",
-      "sv": "🤫 Lugn vik i Costa del Silencio.",
-      "no": "🤫 Rolig vik i Costa del Silencio.",
-      "da": "🤫 Rolig bugt i Costa del Silencio.",
-      "fi": "🤫 Rauhallinen poukama Costa del Silenciossa."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Torviscas",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.081,
-      -16.738
-    ],
-    "descripcion": {
-      "es": "🏖️ Animada playa de arena gris con deportes acuáticos.",
-      "en": "🏖️ Lively grey sand beach with water sports.",
-      "de": "🏖️ Lebhafter grauer Sandstrand mit Wassersport.",
-      "fr": "🏖️ Plage de sable gris animée avec sports nautiques.",
-      "it": "🏖️ Vivace spiaggia di sabbia grigia con sport acquatici.",
-      "nl": "🏖️ Levendig grijs zandstrand met watersporten.",
-      "sv": "🏖️ Livlig grå sandstrand med vattensporter.",
-      "no": "🏖️ Livlig strand med grå sand og vannsport.",
-      "da": "🏖️ Livlig grå sandstrand med vandsport.",
-      "fi": "🏖️ Vilkas harmaahiekkainen ranta vesiurheilumahdollisuuksilla."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Enramada",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0965,
-      -16.751
-    ],
-    "descripcion": {
-      "es": "🍹 Playa de callaos famosa por su chiringuito al atardecer.",
-      "en": "🍹 Pebble beach famous for its sunset beach bar.",
-      "de": "🍹 Kieselstrand, berühmt für seine Strandbar bei Sonnenuntergang.",
-      "fr": "🍹 Plage de galets célèbre pour son bar de plage au coucher du soleil.",
-      "it": "🍹 Spiaggia di ciottoli famosa per il suo bar al tramonto.",
-      "nl": "🍹 Kiezelstrand beroemd om zijn strandbar bij zonsondergang.",
-      "sv": "🍹 Klapperstensstrand känd för sin strandbar vid solnedgången.",
-      "no": "🍹 Rullesteinstrand kjent for sin strandbar ved solnedgang.",
-      "da": "🍹 Rullestensstrand kendt for sin strandbar ved solnedgang.",
-      "fi": "🍹 Pikkukiviranta, joka tunnetaan auringonlaskun rantabaaristaan."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Bobo",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.076,
-      -16.736
-    ],
-    "descripcion": {
-      "es": "🚶‍♂️ Playa cómoda y céntrica de aguas tranquilas.",
-      "en": "🚶‍♂️ Comfortable and central beach with calm waters.",
-      "de": "🚶‍♂️ Komfortabler und zentraler Strand mit ruhigem Wasser.",
-      "fr": "🚶‍♂️ Plage confortable et centrale aux eaux calmes.",
-      "it": "🚶‍♂️ Spiaggia comoda e centrale con acque calme.",
-      "nl": "🚶‍♂️ Comfortabel en centraal strand met kalm water.",
-      "sv": "🚶‍♂️ Bekväm och central strand med lugnt vatten.",
-      "no": "🚶‍♂️ Komfortabel og sentral strand med rolig vann.",
-      "da": "🚶‍♂️ Komfortabel og central strand med roligt vand.",
-      "fi": "🚶‍♂️ Mukava ja keskeinen ranta tyynellä vedellä."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Leocadio Machado",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.04,
-      -16.545
-    ],
-    "descripcion": {
-      "es": "🏄 Playa amplia ideal para deportes de viento.",
-      "en": "🏄 Wide beach ideal for wind sports.",
-      "de": "🏄 Breiter Strand, ideal für Windsportarten.",
-      "fr": "🏄 Large plage idéale pour les sports de vent.",
-      "it": "🏄 Ampia spiaggia ideale per gli sport ventosi.",
-      "nl": "🏄 Breed strand ideaal voor windsporten.",
-      "sv": "🏄 Bred strand perfekt för vindsporter.",
-      "no": "🏄 Bred strand ideell for vindsport.",
-      "da": "🏄 Bred strand ideel til vindsport.",
-      "fi": "🏄 Leveä ranta, joka sopii tuuliurheiluun."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Montaña Roja",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.032,
-      -16.55
-    ],
-    "descripcion": {
-      "es": "🌋 Calas íntimas protegidas a los pies del volcán.",
-      "en": "🌋 Intimate protected coves at the foot of the volcano.",
-      "de": "🌋 Intime geschützte Buchten am Fuße des Vulkans.",
-      "fr": "🌋 Criques intimes protégées au pied du volcan.",
-      "it": "🌋 Calette intime protette ai piedi del vulcano.",
-      "nl": "🌋 Intieme beschutte baaien aan de voet van de vulkaan.",
-      "sv": "🌋 Intima skyddade vikar vid foten av vulkanen.",
-      "no": "🌋 Intime beskyttede viker ved foten av vulkanen.",
-      "da": "🌋 Intime beskyttede bugter ved foden af vulkanen.",
-      "fi": "🌋 Intiimejä suojaisia poukamia tulivuoren juurella."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Tajao",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.11,
-      -16.468
-    ],
-    "descripcion": {
-      "es": "🦐 Cala de piedras en famoso pueblo gastronómico.",
-      "en": "🦐 Pebble cove in famous gastronomic village.",
-      "de": "🦐 Steinbucht in berühmtem Gastronomiedorf.",
-      "fr": "🦐 Crique de galets dans un célèbre village gastronomique.",
-      "it": "🦐 Caletta di sassi nel famoso villaggio gastronomico.",
-      "nl": "🦐 Kiezelbaai in beroemd gastronomisch dorp.",
-      "sv": "🦐 Stenvik i berömd gastronomisk by.",
-      "no": "🦐 Steinvik i kjent gastronomisk landsby.",
-      "da": "🦐 Stenvig i berømt gastronomisk landsby.",
-      "fi": "🦐 Kivinen poukama kuuluisassa gastronomisessa kylässä."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "San Blas",
-    "municipio": "San Miguel",
-    "zona": "Sur",
-    "coordenadas": [
-      28.028,
-      -16.605
-    ],
-    "descripcion": {
-      "es": "🗿 Paisaje lunar y formas volcánicas junto al mar.",
-      "en": "🗿 Lunar landscape and volcanic shapes by the sea.",
-      "de": "🗿 Mondlandschaft und vulkanische Formen am Meer.",
-      "fr": "🗿 Paysage lunaire et formes volcaniques en bord de mer.",
-      "it": "🗿 Paesaggio lunare e forme vulcaniche in riva al mare.",
-      "nl": "🗿 Maanlandschap en vulkanische vormen aan zee.",
-      "sv": "🗿 Månlandskap och vulkaniska former vid havet.",
-      "no": "🗿 Månelandskap og vulkanske former ved sjøen.",
-      "da": "🗿 Månelandskab og vulkanske former ved havet.",
-      "fi": "🗿 Kuu-maisema ja vulkaaniset muodot meren äärellä."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Montaña Amarilla",
-    "municipio": "San Miguel",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0092,
-      -16.6385
-    ],
-    "descripcion": {
-      "es": "🐠 Rocas ocres y fondos marinos increíbles para snorkel.",
-      "en": "🐠 Ochre rocks and incredible seabeds for snorkeling.",
-      "de": "🐠 Ockerfarbene Felsen und unglaubliche Meeresgründe zum Schnorcheln.",
-      "fr": "🐠 Roches ocres et fonds marins incroyables pour le snorkeling.",
-      "it": "🐠 Rocce ocra e fondali incredibili per lo snorkeling.",
-      "nl": "🐠 Okerkleurige rotsen en ongelooflijke zeebodems om te snorkelen.",
-      "sv": "🐠 Ockrafärgade klippor och otroliga havsbottnar för snorkling.",
-      "no": "🐠 Okerfargede klipper og utrolig havbunn for snorkling.",
-      "da": "🐠 Okkerfarvede klipper og utrolig havbund til snorkling.",
-      "fi": "🐠 Okranväriset kalliot ja uskomattomat merenpohjat snorklaukseen."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 61,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa del Horno",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.038,
-      -16.552
-    ],
-    "descripcion": {
-      "es": "🏘️ Cala resguardada y tranquila cerca de El Confital.",
-      "en": "🏘️ Sheltered and quiet cove near El Confital.",
-      "de": "🏘️ Geschützte und ruhige Bucht in der Nähe von El Confital.",
-      "fr": "🏘️ Crique abritée et calme près d'El Confital.",
-      "it": "🏘️ Caletta riparata e tranquilla vicino a El Confital.",
-      "nl": "🏘️ Beschutte en rustige baai bij El Confital.",
-      "sv": "🏘️ Skyddad och lugn vik nära El Confital.",
-      "no": "🏘️ Skjermet og rolig vik nær El Confital.",
-      "da": "🏘️ Beskyttet og rolig bugt nær El Confital.",
-      "fi": "🏘️ Suojainen ja rauhallinen poukama lähellä El Confitalia."
-    },
-    "webcam": null,
-    "score": 3,
-    "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3100,18 +2536,20 @@
       "fi": "🏊‍♂️ Luonnonallas ja ranta aidossa naapurustossa."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3135,18 +2573,20 @@
       "fi": "🤿 Rauhallinen alue, ihanteellinen snorklaukseen."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3170,18 +2610,20 @@
       "fi": "⚪ Villi valkokivinen poukama."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3205,18 +2647,20 @@
       "fi": "🏡 Rannikkokaupunginosa suojaisilla uimapaikoilla."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3240,18 +2684,20 @@
       "fi": "🌔 Neitseellinen kultahiekkainen ranta ja nudismia."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3275,18 +2721,20 @@
       "fi": "🦀 Luonnonaltaita laskuveden aikaan."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3310,18 +2758,20 @@
       "fi": "🐟 Vulkaanisia poukamia kalaravintoloiden vieressä."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3345,18 +2795,20 @@
       "fi": "🌵 Villi ranta majakan ja luonnon lähellä."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
-      "t_feel": 20,
+      "t_feel": 19,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 61,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:29"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
@@ -3380,88 +2832,834 @@
       "fi": "🛡️ Rauhallinen ranta sotabunkkereilla."
     },
     "webcam": null,
-    "score": 3,
+    "score": 6,
+    "bandera": "yellow",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 20,
       "viento": 30,
       "cielo": "Algo de nubes",
-      "humedad": 64,
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
-    "nombre": "Abades",
-    "municipio": "Arico",
-    "zona": "Este",
+    "nombre": "La Jaquita",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
     "coordenadas": [
-      28.14,
-      -16.44
+      28.195,
+      -16.828
     ],
     "descripcion": {
-      "es": "👻 Playa de arena clara frente al pueblo fantasma. Buen snorkel.",
-      "en": "👻 Light sand beach facing the ghost town. Great snorkeling.",
-      "de": "👻 Heller Sandstrand gegenüber der Geisterstadt. Tolles Schnorcheln.",
-      "fr": "👻 Plage de sable clair face à la ville fantôme. Super snorkeling.",
-      "it": "👻 Spiaggia di sabbia chiara di fronte alla città fantasma. Ottimo snorkeling.",
-      "nl": "👻 Licht zandstrand tegenover de spookstad. Geweldig snorkelen.",
-      "sv": "👻 Ljus sandstrand mittemot spökstaden. Fantastisk snorkling.",
-      "no": "👻 Lys sandstrand som vender mot spøkelsesbyen. Flott snorkling.",
-      "da": "👻 Lys sandstrand overfor spøgelsesbyen. Fantastisk snorkling.",
-      "fi": "👻 Vaaleahiekkainen ranta kummituskaupunkia vastapäätä. Hieno snorklaus."
+      "es": "🌑 Arena negra y piscinas naturales cuidadas.",
+      "en": "🌑 Black sand and well-kept natural pools.",
+      "de": "🌑 Schwarzer Sand und gepflegte natürliche Becken.",
+      "fr": "🌑 Sable noir et piscines naturelles bien entretenues.",
+      "it": "🌑 Sabbia nera e piscine naturali ben curate.",
+      "nl": "🌑 Zwart zand en goed onderhouden natuurlijke zwembaden.",
+      "sv": "🌑 Svart sand och välskötta naturliga pooler.",
+      "no": "🌑 Svart sand og velholdte naturlige bassenger.",
+      "da": "🌑 Sort sand og velholdte naturlige pools.",
+      "fi": "🌑 Mustaa hiekkaa ja hyvin hoidettuja luonnonaltaita."
     },
     "webcam": null,
-    "score": 2,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 20,
       "t_feel": 19,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 64,
+      "viento": 5,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
     ]
   },
   {
-    "nombre": "Porís de Abona",
-    "municipio": "Arico",
-    "zona": "Este",
+    "nombre": "Playa de Mendez",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
     "coordenadas": [
-      28.165,
-      -16.43
+      28.202,
+      -16.835
     ],
     "descripcion": {
-      "es": "🎣 Pueblo con encanto y playa resguardada.",
-      "en": "🎣 Charming village with sheltered beach.",
-      "de": "🎣 Charmantes Dorf mit geschütztem Strand.",
-      "fr": "🎣 Charmant village avec plage abritée.",
-      "it": "🎣 Affascinante villaggio con spiaggia riparata.",
-      "nl": "🎣 Charmant dorp met beschut strand.",
-      "sv": "🎣 Charmig by med skyddad strand.",
-      "no": "🎣 Sjarmerende landsby med skjermet strand.",
-      "da": "🎣 Charmerende landsby med beskyttet strand.",
-      "fi": "🎣 Viehättävä kylä suojaisella rannalla."
+      "es": "🤫 Cala rústica para atardeceres solitarios.",
+      "en": "🤫 Rustic cove for solitary sunsets.",
+      "de": "🤫 Rustikale Bucht für einsame Sonnenuntergänge.",
+      "fr": "🤫 Crique rustique pour couchers de soleil solitaires.",
+      "it": "🤫 Caletta rustica per tramonti solitari.",
+      "nl": "🤫 Rustieke baai voor eenzame zonsondergangen.",
+      "sv": "🤫 Rustik vik för ensamma solnedgångar.",
+      "no": "🤫 Rustikk vik for ensomme solnedganger.",
+      "da": "🤫 Rustik bugt til ensomme solnedgange.",
+      "fi": "🤫 Rustiikkinen poukama yksinäisiin auringonlaskuihin."
     },
     "webcam": null,
-    "score": 2,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 4,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Playa de los Topos",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.185,
+      -16.82
+    ],
+    "descripcion": {
+      "es": "🧗 Zona rocosa de aguas transparentes.",
+      "en": "🧗 Rocky area with transparent waters.",
+      "de": "🧗 Felsiges Gebiet mit klarem Wasser.",
+      "fr": "🧗 Zone rocheuse aux eaux transparentes.",
+      "it": "🧗 Zona rocciosa con acque trasparenti.",
+      "nl": "🧗 Rotsachtig gebied met helder water.",
+      "sv": "🧗 Klippigt område med genomskinligt vatten.",
+      "no": "🧗 Klippeområde med klart vann.",
+      "da": "🧗 Klippeområde med gennemsigtigt vand.",
+      "fi": "🧗 Kivinen alue kirkkaalla vedellä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 5,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Playa de la Chica",
+    "municipio": "Santiago del Teide",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.24,
+      -16.84
+    ],
+    "descripcion": {
+      "es": "👶 Rincón familiar y resguardado.",
+      "en": "👶 Family-friendly and sheltered spot.",
+      "de": "👶 Familienfreundliche und geschützte Ecke.",
+      "fr": "👶 Coin familial et abrité.",
+      "it": "👶 Angolo familiare e riparato.",
+      "nl": "👶 Gezinsvriendelijk en beschut plekje.",
+      "sv": "👶 Familjevänlig och skyddad plats.",
+      "no": "👶 Familievennlig og skjermet sted.",
+      "da": "👶 Familievenligt og beskyttet sted.",
+      "fi": "👶 Perheystävällinen ja suojaisa paikka."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 30,
-      "cielo": "Algo de nubes",
-      "humedad": 70,
+      "viento": 2,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
       "visibilidad": 10000,
-      "sunset": "18:28"
+      "sunset": "--:--"
     },
     "detalles": [
-      "Algo de nubes"
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Masca",
+    "municipio": "Buenavista del Norte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.2889,
+      -16.8622
+    ],
+    "descripcion": {
+      "es": "🏔️ Playa salvaje al final del barranco.",
+      "en": "🏔️ Wild beach at the end of the ravine.",
+      "de": "🏔️ Wilder Strand am Ende der Schlucht.",
+      "fr": "🏔️ Plage sauvage au bout du ravin.",
+      "it": "🏔️ Spiaggia selvaggia alla fine del burrone.",
+      "nl": "🏔️ Wild strand aan het einde van de kloof.",
+      "sv": "🏔️ Vild strand i slutet av ravinen.",
+      "no": "🏔️ Vill strand ved enden av ravinen.",
+      "da": "🏔️ Vild strand for enden af kløften.",
+      "fi": "🏔️ Villi ranta rotkon päässä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 2,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Las Arenas",
+    "municipio": "Buenavista del Norte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.375,
+      -16.865
+    ],
+    "descripcion": {
+      "es": "🌋 Costa volcánica con senderos.",
+      "en": "🌋 Volcanic coast with trails.",
+      "de": "🌋 Vulkanküste mit Wanderwegen.",
+      "fr": "🌋 Côte volcanique avec sentiers.",
+      "it": "🌋 Costa vulcanica con sentieri.",
+      "nl": "🌋 Vulkanische kust met wandelpaden.",
+      "sv": "🌋 Vulkanisk kust med stigar.",
+      "no": "🌋 Vulkansk kyst med stier.",
+      "da": "🌋 Vulkansk kyst med stier.",
+      "fi": "🌋 Vulkaaninen rannikko poluilla."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 16,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Fraile",
+    "municipio": "Buenavista del Norte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.38,
+      -16.86
+    ],
+    "descripcion": {
+      "es": "⛰️ Cala salvaje bajo el macizo de Teno.",
+      "en": "⛰️ Wild cove under the Teno massif.",
+      "de": "⛰️ Wilde Bucht unter dem Teno-Massiv.",
+      "fr": "⛰️ Crique sauvage sous le massif de Teno.",
+      "it": "⛰️ Caletta selvaggia sotto il massiccio del Teno.",
+      "nl": "⛰️ Wilde baai onder het Teno-massief.",
+      "sv": "⛰️ Vild vik under Teno-massivet.",
+      "no": "⛰️ Vill vik under Teno-massivet.",
+      "da": "⛰️ Vild bugt under Teno-massivet.",
+      "fi": "⛰️ Villi poukama Teno-massiivin alla."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 16,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "La Consolación",
+    "municipio": "Garachico",
+    "zona": "Norte",
+    "coordenadas": [
+      28.372,
+      -16.78
+    ],
+    "descripcion": {
+      "es": "🏘️ Cala tranquila cerca del casco histórico.",
+      "en": "🏘️ Quiet cove near the historic center.",
+      "de": "🏘️ Ruhige Bucht in der Nähe des historischen Zentrums.",
+      "fr": "🏘️ Crique tranquille près du centre historique.",
+      "it": "🏘️ Caletta tranquilla vicino al centro storico.",
+      "nl": "🏘️ Rustige baai vlakbij het historische centrum.",
+      "sv": "🏘️ Lugn vik nära den historiska stadskärnan.",
+      "no": "🏘️ Rolig vik nær det historiske sentrum.",
+      "da": "🏘️ Rolig bugt nær det historiske centrum.",
+      "fi": "🏘️ Rauhallinen poukama historiallisen keskustan lähellä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 14,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Las Aguas",
+    "municipio": "San Juan de la Rambla",
+    "zona": "Norte",
+    "coordenadas": [
+      28.395,
+      -16.66
+    ],
+    "descripcion": {
+      "es": "🌊 Impresionante rompiente en pueblo con encanto.",
+      "en": "🌊 Impressive surf break in charming village.",
+      "de": "🌊 Beeindruckende Brandung in charmantem Dorf.",
+      "fr": "🌊 Brisants impressionnants dans un village charmant.",
+      "it": "🌊 Impressionante frangente in un villaggio affascinante.",
+      "nl": "🌊 Indrukwekkende branding in charmant dorp.",
+      "sv": "🌊 Imponerande bränningar i charmig by.",
+      "no": "🌊 Imponerende brenninger i sjarmerende landsby.",
+      "da": "🌊 Imponerende brænding i charmerende landsby.",
+      "fi": "🌊 Vaikuttava tyrsky viehättävässä kylässä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Playa del Muelle",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.418,
+      -16.551
+    ],
+    "descripcion": {
+      "es": "🛶 Pequeña playa tradicional de pescadores.",
+      "en": "🛶 Small traditional fishermen's beach.",
+      "de": "🛶 Kleiner traditioneller Fischerstrand.",
+      "fr": "🛶 Petite plage traditionnelle de pêcheurs.",
+      "it": "🛶 Piccola spiaggia tradizionale di pescatori.",
+      "nl": "🛶 Klein traditioneel vissersstrand.",
+      "sv": "🛶 Liten traditionell fiskarstrand.",
+      "no": "🛶 Liten tradisjonell fiskerstrand.",
+      "da": "🛶 Lille traditionel fiskerstrand.",
+      "fi": "🛶 Pieni perinteinen kalastajaranta."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 19,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Los Roques",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.398,
+      -16.575
+    ],
+    "descripcion": {
+      "es": "📸 Playa fotogénica con grandes roques.",
+      "en": "📸 Photogenic beach with large rocks.",
+      "de": "📸 Fotogener Strand mit großen Felsen.",
+      "fr": "📸 Plage photogénique avec de grands rochers.",
+      "it": "📸 Spiaggia fotogenica con grandi rocce.",
+      "nl": "📸 Fotogeniek strand met grote rotsen.",
+      "sv": "📸 Fotogenisk strand med stora klippor.",
+      "no": "📸 Fotogen strand med store steiner.",
+      "da": "📸 Fotogen strand med store klipper.",
+      "fi": "📸 Valokuvauksellinen ranta suurilla kivillä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 18,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "La Grimona",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.397,
+      -16.615
+    ],
+    "descripcion": {
+      "es": "🌴 Arena negra accesible rodeada de verde.",
+      "en": "🌴 Accessible black sand surrounded by green.",
+      "de": "🌴 Zugänglicher schwarzer Sand umgeben von Grün.",
+      "fr": "🌴 Sable noir accessible entouré de verdure.",
+      "it": "🌴 Sabbia nera accessibile circondata dal verde.",
+      "nl": "🌴 Toegankelijk zwart zand omgeven door groen.",
+      "sv": "🌴 Tillgänglig svart sand omgiven av grönska.",
+      "no": "🌴 Tilgjengelig svart sand omgitt av grønt.",
+      "da": "🌴 Tilgængeligt sort sand omgivet af grønt.",
+      "fi": "🌴 Saavutettava musta hiekka vihreän ympäröimänä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Playa de Rojas",
+    "municipio": "El Sauzal",
+    "zona": "Norte",
+    "coordenadas": [
+      28.485,
+      -16.445
+    ],
+    "descripcion": {
+      "es": "💎 Cala escondida con aguas cristalinas.",
+      "en": "💎 Hidden cove with crystal clear waters.",
+      "de": "💎 Versteckte Bucht mit kristallklarem Wasser.",
+      "fr": "💎 Crique cachée aux eaux cristallines.",
+      "it": "💎 Caletta nascosta con acque cristalline.",
+      "nl": "💎 Verborgen baai met kristalhelder water.",
+      "sv": "💎 Gömd vik med kristallklart vatten.",
+      "no": "💎 Skjult vik med krystallklart vann.",
+      "da": "💎 Skjult bugt med krystalklart vand.",
+      "fi": "💎 Piilossa oleva poukama kristallinkirkkaalla vedellä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "La Garañona",
+    "municipio": "El Sauzal",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4979,
+      -16.4259
+    ],
+    "descripcion": {
+      "es": "🦅 Inmensa playa salvaje de difícil acceso.",
+      "en": "🦅 Immense wild beach difficult to access.",
+      "de": "🦅 Riesiger wilder Strand, schwer zugänglich.",
+      "fr": "🦅 Immense plage sauvage difficile d'accès.",
+      "it": "🦅 Immensa spiaggia selvaggia di difficile accesso.",
+      "nl": "🦅 Immens wild strand, moeilijk toegankelijk.",
+      "sv": "🦅 Enorm vild strand, svår att nå.",
+      "no": "🦅 Enorm vill strand som er vanskelig å nå.",
+      "da": "🦅 Enorm vild strand, svær at nå.",
+      "fi": "🦅 Valtava villi ranta, jonne on vaikea päästä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "El Caletón",
+    "municipio": "La Matanza",
+    "zona": "Norte",
+    "coordenadas": [
+      28.465,
+      -16.46
+    ],
+    "descripcion": {
+      "es": "☀️ Zona de baño tranquila y soleada.",
+      "en": "☀️ Quiet and sunny swimming area.",
+      "de": "☀️ Ruhiger und sonniger Badebereich.",
+      "fr": "☀️ Zone de baignade calme et ensoleillée.",
+      "it": "☀️ Zona balneare tranquilla e soleggiata.",
+      "nl": "☀️ Rustig en zonnig zwemgebied.",
+      "sv": "☀️ Lugnt och soligt badområde.",
+      "no": "☀️ Rolig og solrikt badeområde.",
+      "da": "☀️ Roligt og solrigt badeområde.",
+      "fi": "☀️ Rauhallinen ja aurinkoinen uimapaikka."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Cueva del Agua",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.56,
+      -16.3
+    ],
+    "descripcion": {
+      "es": "🦕 Rincón aislado y jurásico en Anaga.",
+      "en": "🦕 Isolated and Jurassic corner in Anaga.",
+      "de": "🦕 Abgelegener und jurassischer Winkel in Anaga.",
+      "fr": "🦕 Coin isolé et jurassique à Anaga.",
+      "it": "🦕 Angolo isolato e giurassico ad Anaga.",
+      "nl": "🦕 Afgelegen en Jurassic hoekje in Anaga.",
+      "sv": "🦕 Isolerad och jurassisk hörna i Anaga.",
+      "no": "🦕 Isolert og jurassisk hjørne i Anaga.",
+      "da": "🦕 Isoleret og jurassisk hjørne i Anaga.",
+      "fi": "🦕 Eristäytynyt ja jurakautinen kulma Anagassa."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Tamadite",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.565,
+      -16.25
+    ],
+    "descripcion": {
+      "es": "🏞️ Playa espectacular al final del barranco de Afur.",
+      "en": "🏞️ Spectacular beach at the end of Afur ravine.",
+      "de": "🏞️ Spektakulärer Strand am Ende der Afur-Schlucht.",
+      "fr": "🏞️ Plage spectaculaire au bout du ravin d'Afur.",
+      "it": "🏞️ Spiaggia spettacolare alla fine del burrone di Afur.",
+      "nl": "🏞️ Spectaculair strand aan het einde van de Afur-kloof.",
+      "sv": "🏞️ Spektakulär strand i slutet av Afur-ravinen.",
+      "no": "🏞️ Spektakulær strand ved enden av Afur-ravinen.",
+      "da": "🏞️ Spektakulær strand for enden af Afur-kløften.",
+      "fi": "🏞️ Upea ranta Afurin rotkon päässä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Roque Bermejo",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.58,
+      -16.14
+    ],
+    "descripcion": {
+      "es": "⛵ Aldea y playa virgen accesible por barco o pie.",
+      "en": "⛵ Village and virgin beach accessible by boat or foot.",
+      "de": "⛵ Dorf und unberührter Strand, per Boot oder zu Fuß erreichbar.",
+      "fr": "⛵ Village et plage vierge accessibles par bateau ou à pied.",
+      "it": "⛵ Villaggio e spiaggia vergine accessibili in barca o a piedi.",
+      "nl": "⛵ Dorp en maagdelijk strand bereikbaar per boot of te voet.",
+      "sv": "⛵ By och orörd strand nåbar med båt eller till fots.",
+      "no": "⛵ Landsby og jomfruelig strand tilgjengelig med båt eller til fots.",
+      "da": "⛵ Landsby og jomfruelig strand tilgængelig med båd eller til fods.",
+      "fi": "⛵ Kylä ja neitseellinen ranta, jonne pääsee veneellä tai kävellen."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 17,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Fonsalía",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.188,
+      -16.835
+    ],
+    "descripcion": {
+      "es": "🌅 Zona costera abierta con buenas puestas de sol.",
+      "en": "🌅 Open coastal area with good sunsets.",
+      "de": "🌅 Offenes Küstengebiet mit schönen Sonnenuntergängen.",
+      "fr": "🌅 Zone côtière ouverte avec de beaux couchers de soleil.",
+      "it": "🌅 Zona costiera aperta con bei tramonti.",
+      "nl": "🌅 Open kustgebied met goede zonsondergangen.",
+      "sv": "🌅 Öppet kustområde med fina solnedgångar.",
+      "no": "🌅 Åpent kystområde med gode solnedganger.",
+      "da": "🌅 Åbent kystområde med gode solnedgange.",
+      "fi": "🌅 Avoin rannikkoalue hyvillä auringonlaskuilla."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 5,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "San Juanito",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5715,
+      -16.3139
+    ],
+    "descripcion": {
+      "es": "🌊 Zona de charcos cerca del faro.",
+      "en": "🌊 Puddle area near the lighthouse.",
+      "de": "🌊 Tümpelgebiet in der Nähe des Leuchtturms.",
+      "fr": "🌊 Zone de flaques près du phare.",
+      "it": "🌊 Zona di pozze vicino al faro.",
+      "nl": "🌊 Poelengebied bij de vuurtoren.",
+      "sv": "🌊 Pölområde nära fyren.",
+      "no": "🌊 Pyttområde nær fyret.",
+      "da": "🌊 Pyttområde nær fyret.",
+      "fi": "🌊 Lammikkoalue majakan lähellä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Nubes dispersas",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Playa del Castillo",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.411,
+      -16.559
+    ],
+    "descripcion": {
+      "es": "🏰 Arena negra junto al Castillo de San Felipe.",
+      "en": "🏰 Black sand next to San Felipe Castle.",
+      "de": "🏰 Schwarzer Sand neben der Burg San Felipe.",
+      "fr": "🏰 Sable noir à côté du château de San Felipe.",
+      "it": "🏰 Sabbia nera accanto al Castello di San Felipe.",
+      "nl": "🏰 Zwart zand naast het kasteel van San Felipe.",
+      "sv": "🏰 Svart sand bredvid San Felipe-slottet.",
+      "no": "🏰 Svart sand ved siden av San Felipe-slottet.",
+      "da": "🏰 Sort sand ved siden af San Felipe Slot.",
+      "fi": "🏰 Mustaa hiekkaa San Felipen linnan vieressä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 19,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
+    ]
+  },
+  {
+    "nombre": "Playa Chica",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.412,
+      -16.556
+    ],
+    "descripcion": {
+      "es": "🦀 Cala íntima separada por rocas.",
+      "en": "🦀 Intimate cove separated by rocks.",
+      "de": "🦀 Intime Bucht, durch Felsen getrennt.",
+      "fr": "🦀 Crique intime séparée par des rochers.",
+      "it": "🦀 Caletta intima separata da rocce.",
+      "nl": "🦀 Intieme baai gescheiden door rotsen.",
+      "sv": "🦀 Intim vik separerad av klippor.",
+      "no": "🦀 Intim vik atskilt av steiner.",
+      "da": "🦀 Intim bugt adskilt af klipper.",
+      "fi": "🦀 Intiimi poukama kivien erottamana."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 19,
+      "cielo": "Algo de nubes",
+      "humedad": 0,
+      "visibilidad": 10000,
+      "sunset": "--:--"
+    },
+    "detalles": [
+      "Estimado (Clima)"
     ]
   }
 ]
