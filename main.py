@@ -4,12 +4,12 @@ import time
 import os
 from datetime import datetime
 
-print("\n🌍 INICIANDO ROBOT v15.0 - PUNTUACIÓN DE SEGURIDAD & RANKING\n")
+print("\n🌍 INICIANDO ROBOT v16.0 - PUNTUACIÓN HÍBRIDA (CLIMA + OFICIAL)\n")
 
 try:
     API_KEY = os.environ["AEMET_API_KEY"]
 except KeyError:
-    print("⚠️ Nota: Sin API Key de OpenWeather (funcionará solo con datos oficiales).")
+    print("⚠️ Nota: Sin API Key. Usando solo datos oficiales.")
     API_KEY = ""
 
 INPUT_FILE = 'playas.json'
@@ -82,12 +82,31 @@ def procesar_playas():
         coords = playa.get('coordenadas')
         nombre_norm = normalizar(nombre)
         
+        # Variables Clima
+        lat, lon = coords
+        datos_owm = obtener_clima_owm(lat, lon)
+        
+        t_real = 0
+        t_feel = 0
+        viento = 0
+        cielo = "Sin datos"
+        visibilidad = 10000
+        sunset_ts = 0
+        
+        if datos_owm:
+            t_real = round(datos_owm['main']['temp'])
+            t_feel = round(datos_owm['main']['feels_like'])
+            viento = round(datos_owm['wind']['speed'] * 3.6)
+            cielo = datos_owm['weather'][0]['description'].capitalize()
+            visibilidad = datos_owm.get('visibility', 10000)
+            sunset_ts = datos_owm['sys']['sunset']
+
+        # Variables Oficiales
         bandera_color = "gray"
         estado_texto = "Info no disponible"
         avisos_detectados = []
         origen = "Estimado"
         
-        # 1. Buscar Datos Oficiales
         encontrado = False
         for nombre_gob, props in mapa_gobierno.items():
             if nombre_norm in nombre_gob or nombre_gob in nombre_norm:
@@ -103,59 +122,46 @@ def procesar_playas():
                 encontrado = True
                 break
         
-        # 2. Datos Climáticos
-        lat, lon = coords
-        datos_owm = obtener_clima_owm(lat, lon)
-        
-        t_real = 0
-        t_feel = 0
-        viento = 0
-        cielo = "Sin datos"
-        visibilidad = 10000
-        
-        if datos_owm:
-            t_real = round(datos_owm['main']['temp'])
-            t_feel = round(datos_owm['main']['feels_like'])
-            viento = round(datos_owm['wind']['speed'] * 3.6)
-            cielo = datos_owm['weather'][0]['description'].capitalize()
-            visibilidad = datos_owm.get('visibility', 10000)
-            
-            # Si no hay bandera oficial, estimamos por viento
-            if not encontrado or bandera_color == "gray":
-                if viento > 35: bandera_color = "red"
-                elif viento > 20: bandera_color = "yellow"
-                else: bandera_color = "green"
-                estado_texto = "Estimado por Clima"
+        # Si no hay oficial, estimar bandera por viento
+        if not encontrado or bandera_color == "gray":
+            if viento > 35: bandera_color = "red"
+            elif viento > 20: bandera_color = "yellow"
+            else: bandera_color = "green"
+            estado_texto = "Estimado por Clima"
 
-        # --- ALGORITMO DE PUNTUACIÓN (SCORING) ---
-        score = 10 # Puntuación base
+        # --- ALGORITMO DE PUNTUACIÓN COMPLETO ---
+        score = 10 
         
-        # 1. Seguridad (Lo más importante)
-        if bandera_color == "red": score = 0        # Prohibido el baño
-        elif bandera_color == "black": score = 0    # Clausurada
-        elif bandera_color == "yellow": score -= 4  # Baño con precaución (penalización alta)
+        # 1. Penalizaciones CLIMÁTICAS (Recuperadas)
+        if t_feel < 20: score -= 1
+        if t_feel < 18: score -= 3  # Frío
         
-        # 2. Peligros Biológicos/Físicos
-        if "medusas" in avisos_detectados: score = 0       # Peligro directo
-        if "contaminacion" in avisos_detectados: score = 0 # Peligro salud
-        if "cerrada" in avisos_detectados: score = 0
+        if "nubes" in cielo.lower() or "cubierto" in cielo.lower():
+            if "dispersas" in cielo.lower() or "pocas" in cielo.lower(): score -= 1
+            else: score -= 2
+        if "lluvia" in cielo.lower(): score -= 5 # Lluvia molesta
         
-        # 3. Molestias (Solo restan si la playa sigue abierta)
-        if score > 0:
-            if "obras" in avisos_detectados: score -= 3
-            if "derrumbes" in avisos_detectados: score -= 3
-            
-            # Viento (Molestia física)
-            if viento > 30: score -= 4
-            elif viento > 20: score -= 2
-            
-            # Calima (Visibilidad)
-            if visibilidad < 3000: score -= 2
+        if visibilidad < 3000: score -= 2 # Calima
+        
+        if viento > 20: score -= 2
+        if viento > 28: score -= 4 # Viento fuerte resta aunque haya bandera verde
 
-        # Asegurar rango
+        # 2. Penalizaciones OFICIALES (Tu solicitud)
+        if bandera_color == "yellow": score -= 5
+        if bandera_color == "red": score -= 5
+        
+        if "medusas" in avisos_detectados: score -= 5
+        if "contaminacion" in avisos_detectados: score -= 5
+        if "obras" in avisos_detectados: score -= 3 # Molestia, no prohibición
+        
+        # 3. Penalización ELIMINATORIA (Playa cerrada)
+        if "cerrada" in avisos_detectados or bandera_color == "black": 
+            score -= 10 # Baja al fondo
+            
+        # Asegurar rango 0-10
         score = max(0, min(10, score))
 
-        print(f"[{bandera_color.upper()}] {nombre} -> Nota: {score} {avisos_detectados}")
+        print(f"[{bandera_color.upper()}] {nombre} -> Nota: {score}")
 
         resultados.append({
             "nombre": nombre,
@@ -174,7 +180,7 @@ def procesar_playas():
                 "viento": viento,
                 "cielo": cielo,
                 "visibilidad": visibilidad,
-                "sunset": datos_owm['sys']['sunset'] if datos_owm else 0
+                "sunset": sunset_ts
             },
             "detalles": [estado_texto]
         })
