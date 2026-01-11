@@ -303,7 +303,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 77,
+      "humedad": 78,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -543,7 +543,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 77,
+      "humedad": 78,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -735,7 +735,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 84,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -975,7 +975,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 84,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -1215,7 +1215,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 84,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -1455,7 +1455,7 @@
       "t_feel": 18,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 79,
+      "humedad": 80,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1479,7 +1479,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 84,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -2031,7 +2031,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 85,
+      "humedad": 86,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -2079,7 +2079,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 85,
+      "humedad": 86,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -2181,6 +2181,30 @@
     },
     "detalles": [
       "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Antequera",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.532,
+      -16.133
+    ],
+    "descripcion": "🚤 La playa más exclusiva por su difícil acceso (solo barco o caminata dura). Arena gris finísima y soledad absoluta bajo los acantilados de Anaga.",
+    "webcam": null,
+    "score": 6,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 24,
+      "cielo": "Muy nuboso",
+      "humedad": 85,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
     ]
   },
   {
@@ -2304,27 +2328,27 @@
     ]
   },
   {
-    "nombre": "Antequera",
+    "nombre": "Roque Bermejo",
     "municipio": "Santa Cruz de Tenerife",
     "zona": "Anaga",
     "coordenadas": [
-      28.532,
-      -16.133
+      28.58,
+      -16.14
     ],
-    "descripcion": "🚤 La playa más exclusiva por su difícil acceso (solo barco o caminata dura). Arena gris finísima y soledad absoluta bajo los acantilados de Anaga.",
+    "descripcion": "⛵ Aldea accesible solo a pie o en barco con una playa tranquila y virgen junto al Faro de Anaga.",
     "webcam": null,
     "score": 5,
     "clima": {
-      "t_real": 18,
+      "t_real": 19,
       "t_feel": 19,
-      "viento": 24,
-      "cielo": "Muy nuboso",
+      "viento": 25,
+      "cielo": "Nubes",
       "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
     "detalles": [
-      "Muy nuboso"
+      "Nubes"
     ]
   },
   {
@@ -2343,36 +2367,12 @@
       "t_feel": 17,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Roque Bermejo",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.58,
-      -16.14
-    ],
-    "descripcion": "⛵ Aldea accesible solo a pie o en barco con una playa tranquila y virgen junto al Faro de Anaga.",
-    "webcam": null,
-    "score": 2,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 25,
-      "cielo": "Nubes",
       "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
     "detalles": [
-      "Nubes"
+      "Muy nuboso"
     ]
   }
 ]
