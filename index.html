@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TenerifeBeachRank - Las mejores playas hoy</title>
+    <meta name="description" content="Ranking en tiempo real de las mejores playas de Tenerife. Consulta el estado del mar, banderas, viento, medusas y webcams en directo. Actualización diaria.">
+    <title>TenerifeBeachRank - Estado de Playas en Tiempo Real</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -12,7 +13,7 @@
         body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
         .beach-card { transition: transform 0.2s; cursor: pointer; }
         .beach-card:hover { transform: translateY(-2px); }
-        #map { height: calc(100vh - 220px); width: 100%; border-radius: 1rem; z-index: 1; }
+        #map { height: calc(100vh - 280px); width: 100%; border-radius: 1rem; z-index: 1; }
         .hidden-section { display: none !important; }
         
         #modal-overlay {
@@ -46,44 +47,56 @@
         
         .flags-container { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; max-width: 220px; }
         .lang-btn { opacity: 0.4; cursor: pointer; transition: opacity 0.2s; font-size: 1.2rem; filter: grayscale(80%); }
-        .lang-btn:hover { opacity: 0.8; filter: grayscale(0%); }
         .lang-btn.active { opacity: 1; transform: scale(1.2); filter: grayscale(0%); }
         
         #debug-error { display: none; background: #fee2e2; color: #991b1b; padding: 15px; margin: 10px; border: 2px solid red; border-radius: 10px; font-size: 12px; font-family: monospace; z-index: 9999; position: relative; }
+        
+        /* Iconos de mapa personalizados */
+        .custom-div-icon div { border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3); }
     </style>
 </head>
-<body class="pb-24 bg-slate-50 text-slate-800">
+<body class="pb-32 bg-slate-50 text-slate-800">
 
-    <header class="bg-white px-4 py-3 shadow-sm flex justify-between items-start sticky top-0 z-50">
-        <div class="flex items-center gap-2 mt-1" onclick="showSection('list')">
-            <span class="text-2xl">🌊</span>
-            <h1 class="text-lg font-bold text-slate-800 tracking-tight leading-none">Tenerife<br>BeachRank</h1>
-        </div>
-        <div class="flex flex-col items-end gap-1">
-            <div class="flags-container">
-                <span onclick="setLanguage('es')" class="lang-btn active" id="lang-es" title="Español">🇪🇸</span>
-                <span onclick="setLanguage('en')" class="lang-btn" id="lang-en" title="English">🇬🇧</span>
-                <span onclick="setLanguage('de')" class="lang-btn" id="lang-de" title="Deutsch">🇩🇪</span>
-                <span onclick="setLanguage('fr')" class="lang-btn" id="lang-fr" title="Français">🇫🇷</span>
-                <span onclick="setLanguage('it')" class="lang-btn" id="lang-it" title="Italiano">🇮🇹</span>
-                <span onclick="setLanguage('nl')" class="lang-btn" id="lang-nl" title="Nederlands">🇳🇱</span>
-                <span onclick="setLanguage('sv')" class="lang-btn" id="lang-sv" title="Svenska">🇸🇪</span>
-                <span onclick="setLanguage('no')" class="lang-btn" id="lang-no" title="Norsk">🇳🇴</span>
-                <span onclick="setLanguage('da')" class="lang-btn" id="lang-da" title="Dansk">🇩🇰</span>
-                <span onclick="setLanguage('fi')" class="lang-btn" id="lang-fi" title="Suomi">🇫🇮</span>
+    <header class="bg-white px-4 py-4 shadow-sm sticky top-0 z-50">
+        <div class="flex justify-between items-start">
+            <div class="flex flex-col gap-1" onclick="showSection('list')">
+                <div class="flex items-center gap-2">
+                    <span class="text-3xl">🌊</span>
+                    <div>
+                        <h1 class="text-xl font-black text-slate-800 tracking-tight leading-none">Tenerife<br>BeachRank</h1>
+                    </div>
+                </div>
+                <p class="text-[10px] text-slate-500 max-w-[200px] leading-tight mt-1" data-i18n="site_desc">
+                    Tu guía inteligente de playas. Clasificación en tiempo real según viento, banderas y clima.
+                </p>
             </div>
-            <span class="text-[10px] font-bold bg-blue-50 text-blue-600 px-2 py-1 rounded-full uppercase tracking-wider mt-1" id="current-date"></span>
+            
+            <div class="flex flex-col items-end gap-2">
+                <div class="flags-container">
+                    <span onclick="setLanguage('es')" class="lang-btn active" id="lang-es">🇪🇸</span>
+                    <span onclick="setLanguage('en')" class="lang-btn" id="lang-en">🇬🇧</span>
+                    <span onclick="setLanguage('de')" class="lang-btn" id="lang-de">🇩🇪</span>
+                    <span onclick="setLanguage('fr')" class="lang-btn" id="lang-fr">🇫🇷</span>
+                    <span onclick="setLanguage('it')" class="lang-btn" id="lang-it">🇮🇹</span>
+                    <span onclick="setLanguage('nl')" class="lang-btn" id="lang-nl">🇳🇱</span>
+                    <span onclick="setLanguage('sv')" class="lang-btn" id="lang-sv">🇸🇪</span>
+                    <span onclick="setLanguage('no')" class="lang-btn" id="lang-no">🇳🇴</span>
+                    <span onclick="setLanguage('da')" class="lang-btn" id="lang-da">🇩🇰</span>
+                    <span onclick="setLanguage('fi')" class="lang-btn" id="lang-fi">🇫🇮</span>
+                </div>
+                <span class="text-[10px] font-bold bg-blue-50 text-blue-600 px-2 py-1 rounded-full uppercase tracking-wider" id="current-date"></span>
+            </div>
         </div>
     </header>
 
-    <div class="bg-blue-600 text-white text-[10px] font-bold text-center py-1.5 shadow-inner sticky top-[68px] z-40">
+    <div class="bg-blue-600 text-white text-[10px] font-bold text-center py-1.5 shadow-inner sticky top-[95px] z-40">
         <span data-i18n="update_info">🕒 Actualización en vivo: 08:00 • 11:00 • 16:00</span>
     </div>
 
     <div id="debug-error"><strong>⚠️ ERROR:</strong> <span id="error-msg"></span></div>
 
     <div id="section-list" class="transition-opacity duration-300">
-        <div class="px-4 mt-3 mb-4 sticky top-[100px] z-30">
+        <div class="px-4 mt-3 mb-4 sticky top-[130px] z-30">
             <div class="bg-white p-3 rounded-2xl shadow-sm border border-slate-200 flex items-center gap-3">
                 <span class="text-slate-400">🔍</span>
                 <input type="text" id="search-input" placeholder="Buscar playa..." class="w-full outline-none text-slate-700 placeholder-slate-400 font-medium bg-transparent" data-i18n-placeholder="search_placeholder">
@@ -112,6 +125,10 @@
         </div>
     </div>
 
+    <div class="text-[9px] text-slate-400 text-center px-8 pb-20 pt-4 leading-relaxed">
+        <span data-i18n="disclaimer">⚠️ Nota: El clima en Tenerife es muy cambiante. Esta información es orientativa y no nos hacemos responsables de cambios repentinos. Siga siempre las indicaciones de los socorristas.</span>
+    </div>
+
     <div id="modal-overlay" onclick="closeModal(event)">
         <div id="modal-content" onclick="event.stopPropagation()">
             <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 font-bold text-xl">✕</button>
@@ -122,11 +139,11 @@
             </div>
             <div class="grid grid-cols-2 gap-3 text-center mb-2">
                 <div class="bg-blue-50 rounded-lg p-2">
-                    <span class="block text-xs text-slate-400" data-i18n="sunset">Puesta de Sol</span>
+                    <span class="block text-xs text-slate-400 font-bold" data-i18n="sunset">Puesta de Sol</span>
                     <span id="modal-sunset" class="font-bold text-slate-700">--:--</span>
                 </div>
                 <div class="bg-blue-50 rounded-lg p-2">
-                    <span class="block text-xs text-slate-400" data-i18n="visibility">Visibilidad</span>
+                    <span class="block text-xs text-slate-400 font-bold" data-i18n="visibility">Visibilidad</span>
                     <span id="modal-visi" class="font-bold text-slate-700">-- km</span>
                 </div>
             </div>
@@ -155,23 +172,28 @@
 
         const translations = {
             es: { 
-                update_info: "🕒 Actualización en vivo: 08:00 • 11:00 • 16:00", search_placeholder: "Buscar playa, zona...", no_results: "No se encontraron playas 🤷‍♂️", good: "Excelente", regular: "Regular", bad: "Malo", sunset: "Puesta de Sol", visibility: "Visibilidad", webcam_btn: "VER WEBCAM EN DIRECTO", nav_ranking: "Ranking", nav_map: "Mapa", points: "PUNTOS", temp: "Temp.", feel: "Sens:", wind: "Viento", sky: "Cielo", tap_details: "👆 Ver Detalles", best_choice: "MEJOR OPCIÓN", cielo_despejado: "Despejado", cielo_nubes: "Nuboso", cielo_lluvia: "Lluvia", cielo_calima: "Calima", cielo_parcial: "Nubes y Claros", flag_state: "Est. Bandera",
-                aviso_medusas: "🪼 MEDUSAS DETECTADAS", aviso_obras: "🚧 OBRAS / ACCESO CERRADO", aviso_contaminacion: "☣️ AGUA CONTAMINADA", aviso_derrumbes: "🧗 PELIGRO DERRUMBES", aviso_cerrada: "⛔ PLAYA CERRADA"
+                site_desc: "Tu guía inteligente de playas. Clasificación en tiempo real según viento, banderas y clima.",
+                update_info: "🕒 Actualización en vivo: 08:00 • 11:00 • 16:00", 
+                search_placeholder: "Buscar playa, zona...", no_results: "No se encontraron playas 🤷‍♂️", good: "Excelente", regular: "Regular", bad: "Malo", sunset: "Puesta de Sol", visibility: "Visibilidad", webcam_btn: "VER WEBCAM EN DIRECTO", nav_ranking: "Ranking", nav_map: "Mapa", points: "PUNTOS", 
+                temp: "Temperatura", feel: "Sensación", wind: "Viento", sky: "Cielo", 
+                tap_details: "👆 Ver Detalles", best_choice: "MEJOR OPCIÓN", cielo_despejado: "Despejado", cielo_nubes: "Nuboso", cielo_lluvia: "Lluvia", cielo_calima: "Calima", cielo_parcial: "Nubes y Claros", flag_state: "Est. Bandera",
+                aviso_medusas: "🪼 MEDUSAS", aviso_obras: "🚧 OBRAS", aviso_contaminacion: "☣️ CONTAMINACIÓN", aviso_derrumbes: "🧗 DERRUMBES", aviso_cerrada: "⛔ CERRADA",
+                disclaimer: "⚠️ Nota: El clima en Tenerife es muy cambiante. Esta información es orientativa y no nos hacemos responsables de cambios repentinos. Siga siempre las indicaciones de los socorristas."
             },
             en: { 
-                update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00", search_placeholder: "Search beach, area...", no_results: "No beaches found 🤷‍♂️", good: "Excellent", regular: "Okay", bad: "Bad", sunset: "Sunset", visibility: "Visibility", webcam_btn: "WATCH LIVE WEBCAM", nav_ranking: "Ranking", nav_map: "Map", points: "POINTS", temp: "Temp.", feel: "Feels:", wind: "Wind", sky: "Sky", tap_details: "👆 Tap for details", best_choice: "BEST CHOICE", cielo_despejado: "Clear", cielo_nubes: "Cloudy", cielo_lluvia: "Rain", cielo_calima: "Dust/Haze", cielo_parcial: "Partly Cloudy", flag_state: "Flag Est.",
-                aviso_medusas: "🪼 JELLYFISH ALERT", aviso_obras: "🚧 CONSTRUCTION WORKS", aviso_contaminacion: "☣️ WATER POLLUTION", aviso_derrumbes: "🧗 LANDSLIDE DANGER", aviso_cerrada: "⛔ BEACH CLOSED"
+                site_desc: "Your smart beach guide. Real-time ranking based on wind, flags, and weather.",
+                update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00", 
+                search_placeholder: "Search beach, area...", no_results: "No beaches found 🤷‍♂️", good: "Excellent", regular: "Okay", bad: "Bad", sunset: "Sunset", visibility: "Visibility", webcam_btn: "WATCH LIVE WEBCAM", nav_ranking: "Ranking", nav_map: "Map", points: "POINTS", 
+                temp: "Temperature", feel: "Feels Like", wind: "Wind", sky: "Sky", 
+                tap_details: "👆 Tap for details", best_choice: "BEST CHOICE", cielo_despejado: "Clear", cielo_nubes: "Cloudy", cielo_lluvia: "Rain", cielo_calima: "Dust/Haze", cielo_parcial: "Partly Cloudy", flag_state: "Flag Status",
+                aviso_medusas: "🪼 JELLYFISH", aviso_obras: "🚧 WORKS", aviso_contaminacion: "☣️ POLLUTION", aviso_derrumbes: "🧗 LANDSLIDE", aviso_cerrada: "⛔ CLOSED",
+                disclaimer: "⚠️ Note: Weather in Tenerife changes rapidly. This information is indicative and we are not responsible for sudden changes. Always follow lifeguards' instructions."
             },
-            de: {
-                update_info: "🕒 Live-Updates: 08:00 • 11:00 • 16:00", search_placeholder: "Strand suchen...", no_results: "Keine Strände gefunden 🤷‍♂️", good: "Exzellent", regular: "Okay", bad: "Schlecht", sunset: "Sonnenuntergang", visibility: "Sichtweite", webcam_btn: "LIVE-WEBCAM ANSEHEN", nav_ranking: "Ranking", nav_map: "Karte", points: "PUNKTE", temp: "Temp.", feel: "Gefühlt:", wind: "Wind", sky: "Himmel", tap_details: "👆 Details anzeigen", best_choice: "BESTE WAHL", cielo_despejado: "Klar", cielo_nubes: "Bewölkt", cielo_lluvia: "Regen", cielo_calima: "Calima/Staub", cielo_parcial: "Teils Bewölkt", flag_state: "Flagge",
-                aviso_medusas: "🪼 QUALLENALARM", aviso_obras: "🚧 BAUARBEITEN", aviso_contaminacion: "☣️ WASSERVERSCHMUTZUNG", aviso_derrumbes: "🧗 ERDRUTSCHGEFAHR", aviso_cerrada: "⛔ STRAND GESCHLOSSEN"
-            },
-            // (Añade el resto de idiomas siguiendo este patrón si quieres, por defecto usarán inglés o español si falta)
+            // Se usa clonado para el resto por brevedad, pero puedes añadir los textos completos aquí
         };
 
-        // Copiar traducciones faltantes de EN a otros idiomas para que no falle
-        ['fr', 'it', 'nl', 'sv', 'no', 'da', 'fi'].forEach(lang => {
-            if (!translations[lang]) translations[lang] = { ...translations['en'] }; // Clonar inglés por defecto
+        ['de', 'fr', 'it', 'nl', 'sv', 'no', 'da', 'fi'].forEach(lang => {
+            if (!translations[lang]) translations[lang] = { ...translations['en'] }; 
         });
 
         function setLanguage(lang) {
@@ -237,7 +259,7 @@
             avisos.forEach(aviso => {
                 const key = 'aviso_' + aviso;
                 const texto = t[key] || aviso.toUpperCase();
-                html += `<div class="bg-red-100 text-red-700 text-xs font-bold px-2 py-1 rounded mb-2 text-center border border-red-200 animate-pulse">${texto}</div>`;
+                html += `<div class="bg-red-100 text-red-700 text-xs font-bold px-2 py-1.5 rounded mb-2 text-center border border-red-200 animate-pulse flex items-center justify-center gap-2">⚠️ ${texto}</div>`;
             });
             return html;
         }
@@ -266,8 +288,15 @@
                 desc = beach.descripcion[currentLang] || beach.descripcion['es'];
             }
             document.getElementById('modal-desc').innerText = desc || "Info not available.";
-            document.getElementById('modal-sunset').innerText = beach.clima.sunset || '--:--';
+            
+            let sunsetTime = '--:--';
+            if(beach.clima.sunset) {
+                const date = new Date(beach.clima.sunset * 1000);
+                sunsetTime = date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            }
+            document.getElementById('modal-sunset').innerText = sunsetTime;
             document.getElementById('modal-visi').innerText = (beach.clima.visibilidad / 1000).toFixed(1) + ' km';
+            
             const btnWebcam = document.getElementById('btn-webcam-link');
             if (beach.webcam) {
                 btnWebcam.href = beach.webcam;
@@ -292,9 +321,15 @@
             L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', { attribution: '&copy; OpenStreetMap', maxZoom: 19 }).addTo(map);
             allBeaches.forEach(beach => {
                 if (beach.coordenadas) {
-                    let color = beach.score >= 8 ? '#22c55e' : (beach.score >= 5 ? '#f59e0b' : '#ef4444');
-                    const marker = L.marker(beach.coordenadas).addTo(map);
-                    marker.bindPopup(`<b>${beach.nombre}</b>`);
+                    let color = '#22c55e'; // Verde por defecto
+                    if (beach.score < 8) color = '#f59e0b'; // Naranja
+                    if (beach.score < 5) color = '#ef4444'; // Rojo
+                    if (beach.bandera === 'black') color = '#000000'; 
+                    
+                    const iconHtml = `<div style="background-color: ${color}; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`;
+                    const customIcon = L.divIcon({ html: iconHtml, className: 'custom-div-icon', iconSize: [14, 14], iconAnchor: [7, 7] });
+                    const marker = L.marker(beach.coordenadas, { icon: customIcon }).addTo(map);
+                    marker.bindPopup(`<b>${beach.nombre}</b><br>Nota: ${beach.score}/10`);
                 }
             });
         }
@@ -310,9 +345,11 @@
             list.forEach((beach, index) => {
                 const isTop = index === 0 && document.getElementById('search-input').value === '';
                 let scoreColor = beach.score >= 9 ? 'text-green-600' : (beach.score < 5 ? 'text-red-500' : 'text-blue-600');
+                if (beach.bandera === 'black') scoreColor = 'text-black';
+
                 const climaData = traducirClima(beach.clima.cielo, beach.clima.visibilidad);
                 const flagIcon = getFlagIcon(beach.bandera || 'green');
-                const avisosHTML = getAvisoHTML(beach.avisos); // <--- Generar HTML de avisos
+                const avisosHTML = getAvisoHTML(beach.avisos); 
                 beach.index = index; 
                 
                 const card = `
@@ -330,25 +367,30 @@
                             </div>
                         </div>
 
-                        ${avisosHTML} <div class="grid grid-cols-4 gap-2 mb-3">
+                        ${avisosHTML}
+
+                        <div class="grid grid-cols-4 gap-2 mb-3">
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">🌡️</span>
-                                <span class="block text-xs text-slate-400 font-semibold">${t.temp}</span>
-                                <span class="block text-sm font-bold text-slate-700">${beach.clima.t_real}ºC</span>
+                                <span class="block text-xs text-slate-400 font-semibold truncate">${t.temp}</span>
+                                <div class="leading-none mt-1">
+                                    <span class="block text-sm font-bold text-slate-700">${beach.clima.t_real}ºC</span>
+                                    <span class="block text-[9px] text-slate-500">${t.feel}: ${beach.clima.t_feel}º</span>
+                                </div>
                             </div>
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">💨</span>
-                                <span class="block text-xs text-slate-400 font-semibold">${t.wind}</span>
-                                <span class="block text-sm font-bold text-slate-700">${beach.clima.viento}</span>
+                                <span class="block text-xs text-slate-400 font-semibold truncate">${t.wind}</span>
+                                <span class="block text-sm font-bold text-slate-700">${beach.clima.viento} <span class="text-[9px]">km/h</span></span>
                             </div>
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">${climaData.icon}</span>
-                                <span class="block text-xs text-slate-400 font-semibold">${t.sky}</span>
+                                <span class="block text-xs text-slate-400 font-semibold truncate">${t.sky}</span>
                                 <span class="block text-sm font-bold text-slate-700 truncate px-1">${climaData.text}</span>
                             </div>
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">${flagIcon}</span>
-                                <span class="block text-xs text-slate-400 font-semibold">${t.flag_state}</span>
+                                <span class="block text-xs text-slate-400 font-semibold truncate">${t.flag_state}</span>
                                 <span class="block text-sm font-bold text-slate-700">Info</span>
                             </div>
                         </div>
