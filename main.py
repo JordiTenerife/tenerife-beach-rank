@@ -4,7 +4,7 @@ import time
 import os
 from datetime import datetime
 
-print("\n🌍 INICIANDO ROBOT v13.0 - DETECTOR DE PELIGROS (MEDUSAS/OBRAS)\n")
+print("\n🌍 INICIANDO ROBOT v15.0 - PUNTUACIÓN DE SEGURIDAD & RANKING\n")
 
 try:
     API_KEY = os.environ["AEMET_API_KEY"]
@@ -15,9 +15,8 @@ except KeyError:
 INPUT_FILE = 'playas.json'
 OUTPUT_FILE = 'data.json'
 
-# --- ENLACE OFICIAL DE TU CAPTURA (YA PUESTO) ---
+# ENLACE OFICIAL DEL GOBIERNO DE CANARIAS
 URL_OFICIAL_BANDERAS = "https://idecan.grafcan.es/servicios/rest/services/Costas/Playas_Zonas_Bano/MapServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*"
-# ------------------------------------------------
 
 MAPA_COLORES = {
     "VERDE": "green", "AMARILLA": "yellow", "ROJA": "red", 
@@ -36,11 +35,10 @@ def obtener_clima_owm(lat, lon):
 def obtener_datos_oficiales():
     try:
         print(f"📡 Conectando con Servidor Gobierno...")
-        headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'Referer': 'https://visor.grafcan.es/' }
+        headers = { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://visor.grafcan.es/' }
         res = requests.get(URL_OFICIAL_BANDERAS, headers=headers, timeout=20)
         if res.status_code == 200:
             data = res.json()
-            # En Grafcan los datos suelen venir en 'features'
             return data.get('features', [])
     except Exception as e:
         print(f"❌ Error conexión gobierno: {e}")
@@ -51,9 +49,7 @@ def normalizar(texto):
     return texto.lower().replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').strip()
 
 def detectar_avisos(propiedades):
-    """Escanea todo el texto oficial buscando peligros"""
     avisos = []
-    # Convertimos todos los valores del gobierno a un solo texto gigante en mayúsculas
     texto_completo = str(propiedades.values()).upper()
     
     if "MEDUSA" in texto_completo: avisos.append("medusas")
@@ -62,7 +58,7 @@ def detectar_avisos(propiedades):
     if "DERRUMBE" in texto_completo or "DESPRENDI" in texto_completo: avisos.append("derrumbes")
     if "CERRADA" in texto_completo or "PROHIBIDO" in texto_completo: avisos.append("cerrada")
     
-    return list(set(avisos)) # Eliminar duplicados
+    return list(set(avisos))
 
 def procesar_playas():
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:
@@ -70,14 +66,11 @@ def procesar_playas():
 
     features_gobierno = obtener_datos_oficiales()
     
-    # Mapeo rápido
     mapa_gobierno = {}
     for item in features_gobierno:
         try:
-            # Grafcan usa 'attributes' normalmente
             props = item.get('attributes', item.get('properties', {}))
-            # Buscamos el nombre en varios campos posibles
-            nombre = props.get('NOMBRE', props.get('DENOMINACION', props.get('TOPONIMO', '')))
+            nombre = props.get('NOMBRE', props.get('DENOMINACION', ''))
             if nombre: mapa_gobierno[normalizar(nombre)] = props
         except: continue
 
@@ -92,54 +85,77 @@ def procesar_playas():
         bandera_color = "gray"
         estado_texto = "Info no disponible"
         avisos_detectados = []
+        origen = "Estimado"
         
-        # 1. Buscar en Gobierno (Coincidencia aproximada)
+        # 1. Buscar Datos Oficiales
         encontrado = False
         for nombre_gob, props in mapa_gobierno.items():
             if nombre_norm in nombre_gob or nombre_gob in nombre_norm:
-                # Detectar Bandera
                 valores = str(props.values()).upper()
                 if "ROJA" in valores: bandera_color = "red"
                 elif "AMARILLA" in valores: bandera_color = "yellow"
                 elif "VERDE" in valores: bandera_color = "green"
                 elif "NEGRA" in valores: bandera_color = "black"
                 
-                # Detectar Avisos (Medusas, Obras...)
                 avisos_detectados = detectar_avisos(props)
-                
-                estado_texto = "Oficial"
+                estado_texto = "Datos Oficiales"
+                origen = "Oficial"
                 encontrado = True
                 break
         
-        # 2. Plan B (Clima) si no hay dato oficial
-        if not encontrado or bandera_color == "gray":
-            datos_owm = obtener_clima_owm(coords[0], coords[1])
-            t_real, t_feel, viento, cielo = "--", "--", "--", "Sin datos"
+        # 2. Datos Climáticos
+        lat, lon = coords
+        datos_owm = obtener_clima_owm(lat, lon)
+        
+        t_real = 0
+        t_feel = 0
+        viento = 0
+        cielo = "Sin datos"
+        visibilidad = 10000
+        
+        if datos_owm:
+            t_real = round(datos_owm['main']['temp'])
+            t_feel = round(datos_owm['main']['feels_like'])
+            viento = round(datos_owm['wind']['speed'] * 3.6)
+            cielo = datos_owm['weather'][0]['description'].capitalize()
+            visibilidad = datos_owm.get('visibility', 10000)
             
-            if datos_owm:
-                viento = round(datos_owm['wind']['speed'] * 3.6)
-                t_real = round(datos_owm['main']['temp'])
-                t_feel = round(datos_owm['main']['feels_like'])
-                cielo = datos_owm['weather'][0]['description'].capitalize()
-                
+            # Si no hay bandera oficial, estimamos por viento
+            if not encontrado or bandera_color == "gray":
                 if viento > 35: bandera_color = "red"
                 elif viento > 20: bandera_color = "yellow"
                 else: bandera_color = "green"
-                estado_texto = "Estimado (Clima)"
-        else:
-            # Rellenar clima básico aunque tengamos bandera oficial
-            t_real, t_feel, viento, cielo = "--", "--", "--", estado_texto
+                estado_texto = "Estimado por Clima"
 
-        # Puntuación final (Si hay medusas o caca, bajamos a 0)
-        score = 5
-        if bandera_color == "green": score = 10
-        elif bandera_color == "yellow": score = 6
-        elif bandera_color == "red": score = 2
-        elif bandera_color == "black": score = 0
+        # --- ALGORITMO DE PUNTUACIÓN (SCORING) ---
+        score = 10 # Puntuación base
         
-        if avisos_detectados: score = 0 # Penalización máxima por peligros
+        # 1. Seguridad (Lo más importante)
+        if bandera_color == "red": score = 0        # Prohibido el baño
+        elif bandera_color == "black": score = 0    # Clausurada
+        elif bandera_color == "yellow": score -= 4  # Baño con precaución (penalización alta)
+        
+        # 2. Peligros Biológicos/Físicos
+        if "medusas" in avisos_detectados: score = 0       # Peligro directo
+        if "contaminacion" in avisos_detectados: score = 0 # Peligro salud
+        if "cerrada" in avisos_detectados: score = 0
+        
+        # 3. Molestias (Solo restan si la playa sigue abierta)
+        if score > 0:
+            if "obras" in avisos_detectados: score -= 3
+            if "derrumbes" in avisos_detectados: score -= 3
+            
+            # Viento (Molestia física)
+            if viento > 30: score -= 4
+            elif viento > 20: score -= 2
+            
+            # Calima (Visibilidad)
+            if visibilidad < 3000: score -= 2
 
-        print(f"[{'⚠️' if avisos_detectados else '✅'}] {nombre} -> {bandera_color} {avisos_detectados}")
+        # Asegurar rango
+        score = max(0, min(10, score))
+
+        print(f"[{bandera_color.upper()}] {nombre} -> Nota: {score} {avisos_detectados}")
 
         resultados.append({
             "nombre": nombre,
@@ -151,12 +167,20 @@ def procesar_playas():
             "score": score,
             "bandera": bandera_color,
             "avisos": avisos_detectados,
+            "origen": origen,
             "clima": {
-                "t_real": t_real, "t_feel": t_feel, "viento": viento, "cielo": cielo,
-                "humedad": 0, "visibilidad": 10000, "sunset": "--:--"
+                "t_real": t_real,
+                "t_feel": t_feel,
+                "viento": viento,
+                "cielo": cielo,
+                "visibilidad": visibilidad,
+                "sunset": datos_owm['sys']['sunset'] if datos_owm else 0
             },
             "detalles": [estado_texto]
         })
+
+    # --- ORDENAR: De mayor puntuación a menor ---
+    resultados.sort(key=lambda x: x['score'], reverse=True)
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(resultados, f, ensure_ascii=False, indent=2)
