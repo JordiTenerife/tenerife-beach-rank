@@ -195,11 +195,8 @@
                 const isTop = index === 0 && document.getElementById('search-input').value === '';
                 let scoreColor = beach.score >= 9 ? 'text-green-600' : (beach.score < 5 ? 'text-red-500' : 'text-blue-600');
                 
-                // Icono dinámico
                 const iconoSielo = getIconoClima(beach.clima.cielo, beach.clima.visibilidad);
 
-                // Pasamos el objeto beach entero al onclick, pero necesitamos serializarlo con cuidado
-                // Truco: asignamos el índice para buscarlo en el array global
                 beach.index = index; 
 
                 const card = `
@@ -252,10 +249,7 @@
                 const response = await fetch('data.json?v=' + new Date().getTime());
                 if (!response.ok) throw new Error("No data");
                 allBeaches = await response.json();
-                
-                // Mapear indices para el modal
                 allBeaches = allBeaches.map((b, i) => ({...b, index: i}));
-                
                 renderBeaches(allBeaches);
             } catch (error) {
                 console.error(error);
