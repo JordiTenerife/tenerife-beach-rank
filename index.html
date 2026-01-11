@@ -10,12 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
-        .beach-card { transition: transform 0.2s; }
+        .beach-card { transition: transform 0.2s; cursor: pointer; }
         .beach-card:hover { transform: translateY(-2px); }
         #map { height: calc(100vh - 180px); width: 100%; border-radius: 1rem; z-index: 1; }
         .hidden-section { display: none !important; }
-        /* Animación suave para la nota */
-        .score-badge { background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%); }
+        
+        /* Modal Styles */
+        #modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5); z-index: 1000;
+            display: none; align-items: center; justify-content: center;
+            backdrop-filter: blur(4px);
+        }
+        #modal-content {
+            background: white; width: 90%; max-width: 500px;
+            border-radius: 1.5rem; padding: 1.5rem;
+            position: relative; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            animation: modalPop 0.3s ease-out;
+        }
+        @keyframes modalPop {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
     </style>
 </head>
 <body class="pb-24 bg-slate-50 text-slate-800">
@@ -29,28 +45,23 @@
     </header>
 
     <div id="section-list" class="transition-opacity duration-300">
-        
         <div class="px-4 mt-4 mb-4 sticky top-[70px] z-40">
             <div class="bg-white p-3 rounded-2xl shadow-sm border border-slate-200 flex items-center gap-3">
                 <span class="text-slate-400">🔍</span>
-                <input type="text" id="search-input" placeholder="Buscar playa, zona o municipio..." 
+                <input type="text" id="search-input" placeholder="Buscar playa..." 
                        class="w-full outline-none text-slate-700 placeholder-slate-400 font-medium bg-transparent">
             </div>
         </div>
-
         <main class="px-4 pb-4">
             <div id="beach-list" class="space-y-3">
                 <div class="animate-pulse flex space-x-4 p-4 bg-white rounded-2xl">
                     <div class="flex-1 space-y-4 py-1">
                         <div class="h-4 bg-slate-200 rounded w-3/4"></div>
-                        <div class="space-y-2">
-                            <div class="h-4 bg-slate-200 rounded"></div>
-                            <div class="h-4 bg-slate-200 rounded w-5/6"></div>
-                        </div>
+                        <div class="space-y-2"><div class="h-4 bg-slate-200 rounded"></div></div>
                     </div>
                 </div>
             </div>
-            <p id="no-results" class="hidden text-center text-slate-400 mt-10">No encontramos playas con ese nombre 🤷‍♂️</p>
+            <p id="no-results" class="hidden text-center text-slate-400 mt-10">No se encontraron playas 🤷‍♂️</p>
         </main>
     </div>
 
@@ -59,6 +70,29 @@
             <div id="map"></div>
             <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur px-3 py-2 rounded-lg text-xs font-bold shadow-md z-[1000]">
                 🟢 Excelente &nbsp; 🟠 Regular &nbsp; 🔴 Malo
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-overlay" onclick="closeModal(event)">
+        <div id="modal-content" onclick="event.stopPropagation()">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600">✕</button>
+            <h2 id="modal-title" class="text-2xl font-black text-slate-800 mb-1">Nombre Playa</h2>
+            <p id="modal-municipio" class="text-xs font-bold text-blue-600 uppercase tracking-wide mb-4">Municipio</p>
+            
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 mb-4">
+                <p id="modal-desc" class="text-sm text-slate-600 leading-relaxed">Descripción aquí...</p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3 text-center">
+                <div class="bg-blue-50 rounded-lg p-2">
+                    <span class="block text-xs text-slate-400">Puesta de Sol</span>
+                    <span id="modal-sunset" class="font-bold text-slate-700">--:--</span>
+                </div>
+                <div class="bg-blue-50 rounded-lg p-2">
+                    <span class="block text-xs text-slate-400">Visibilidad</span>
+                    <span id="modal-visi" class="font-bold text-slate-700">-- km</span>
+                </div>
             </div>
         </div>
     </div>
@@ -73,7 +107,7 @@
     </nav>
 
     <script>
-        // Fecha actual bonita
+        // Fecha
         const options = { weekday: 'long', day: 'numeric', month: 'short' };
         let fecha = new Date().toLocaleDateString('es-ES', options);
         document.getElementById('current-date').innerText = fecha.charAt(0).toUpperCase() + fecha.slice(1);
@@ -81,7 +115,20 @@
         let allBeaches = [];
         let map = null;
 
-        // --- LÓGICA DE PESTAÑAS ---
+        // Lógica de Iconos Avanzada
+        function getIconoClima(clima, visibilidad) {
+            const desc = clima.toLowerCase();
+            if (desc.includes('lluvia') || desc.includes('llovizna')) return '🌧️';
+            if (desc.includes('tormenta')) return '⛈️';
+            // Calima: si visibilidad < 4km o dice polvo/arena
+            if (visibilidad < 4000 || desc.includes('polvo') || desc.includes('arena') || desc.includes('calima')) {
+                return '🏜️'; 
+            }
+            if (desc.includes('nube') || desc.includes('cubierto')) return '☁️';
+            if (desc.includes('dispersas') || desc.includes('pocas')) return '⛅';
+            return '☀️';
+        }
+
         function showSection(section) {
             document.getElementById('section-list').classList.add('hidden-section');
             document.getElementById('section-map').classList.add('hidden-section');
@@ -91,14 +138,29 @@
             if (section === 'list') {
                 document.getElementById('section-list').classList.remove('hidden-section');
                 document.getElementById('btn-list').classList.add('text-blue-600');
-            } else if (section === 'map') {
+            } else {
                 document.getElementById('section-map').classList.remove('hidden-section');
                 document.getElementById('btn-map').classList.add('text-blue-600');
                 setTimeout(initMap, 100); 
             }
         }
 
-        // --- MAPA ---
+        // Modal Logic
+        function openModal(beach) {
+            document.getElementById('modal-title').innerText = beach.nombre;
+            document.getElementById('modal-municipio').innerText = beach.municipio + ' • ' + beach.zona;
+            document.getElementById('modal-desc').innerText = beach.descripcion || "No hay descripción disponible.";
+            document.getElementById('modal-sunset').innerText = beach.clima.sunset || '--:--';
+            document.getElementById('modal-visi').innerText = (beach.clima.visibilidad / 1000).toFixed(1) + ' km';
+            
+            document.getElementById('modal-overlay').style.display = 'flex';
+        }
+
+        function closeModal(e) {
+            if (e && e.target.id !== 'modal-overlay') return; // Solo cerrar si click fuera
+            document.getElementById('modal-overlay').style.display = 'none';
+        }
+
         function initMap() {
             if (map) { map.invalidateSize(); return; }
             map = L.map('map').setView([28.2916, -16.6291], 10);
@@ -112,13 +174,12 @@
                     const iconHtml = `<div style="background-color: ${color}; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div>`;
                     const customIcon = L.divIcon({ html: iconHtml, className: 'custom-div-icon', iconSize: [14, 14], iconAnchor: [7, 7] });
                     
-                    L.marker(beach.coordenadas, { icon: customIcon }).addTo(map)
-                        .bindPopup(`<div class="text-center font-sans"><h3 class="font-bold text-sm">${beach.nombre}</h3><div class="text-lg font-black text-blue-600 my-1">${beach.score}/10</div><span class="text-xs text-slate-500">${beach.clima.cielo}</span></div>`);
+                    const marker = L.marker(beach.coordenadas, { icon: customIcon }).addTo(map);
+                    marker.bindPopup(`<b>${beach.nombre}</b><br>Nota: ${beach.score}/10`);
                 }
             });
         }
 
-        // --- RENDERIZADO DE TARJETAS (NUEVO DISEÑO) ---
         function renderBeaches(list) {
             const container = document.getElementById('beach-list');
             const noResults = document.getElementById('no-results');
@@ -127,28 +188,23 @@
             if (list.length === 0) {
                 noResults.classList.remove('hidden');
                 return;
-            } else {
-                noResults.classList.add('hidden');
             }
+            noResults.classList.add('hidden');
 
             list.forEach((beach, index) => {
                 const isTop = index === 0 && document.getElementById('search-input').value === '';
+                let scoreColor = beach.score >= 9 ? 'text-green-600' : (beach.score < 5 ? 'text-red-500' : 'text-blue-600');
                 
-                // Colores dinámicos para la nota
-                let scoreColor = 'text-blue-600';
-                if(beach.score >= 9) scoreColor = 'text-green-600';
-                else if(beach.score < 5) scoreColor = 'text-red-500';
+                // Icono dinámico
+                const iconoSielo = getIconoClima(beach.clima.cielo, beach.clima.visibilidad);
 
-                // Icono cielo (OpenWeather)
-                let iconoSielo = '☀️';
-                const desc = beach.clima.cielo.toLowerCase();
-                if(desc.includes('nube') || desc.includes('cubierto')) iconoSielo = '🌥️';
-                if(desc.includes('lluvia')) iconoSielo = '🌧️';
-                if(desc.includes('claro') || desc.includes('despejado')) iconoSielo = '☀️';
+                // Pasamos el objeto beach entero al onclick, pero necesitamos serializarlo con cuidado
+                // Truco: asignamos el índice para buscarlo en el array global
+                beach.index = index; 
 
                 const card = `
-                    <div class="beach-card bg-white rounded-2xl shadow-sm border border-slate-100 p-4 relative overflow-hidden">
-                        ${isTop ? '<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 to-blue-500"></div><span class="absolute top-2 right-2 bg-green-100 text-green-700 text-[9px] font-bold px-2 py-0.5 rounded-full border border-green-200">MEJOR OPCIÓN HOY</span>' : ''}
+                    <div onclick="openModal(allBeaches[${index}])" class="beach-card bg-white rounded-2xl shadow-sm border border-slate-100 p-4 relative overflow-hidden">
+                        ${isTop ? '<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 to-blue-500"></div><span class="absolute top-2 right-2 bg-green-100 text-green-700 text-[9px] font-bold px-2 py-0.5 rounded-full border border-green-200">MEJOR OPCIÓN</span>' : ''}
                         
                         <div class="flex justify-between items-start mb-3">
                             <div>
@@ -164,28 +220,26 @@
                         <div class="grid grid-cols-3 gap-2 mb-3">
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">🌡️</span>
-                                <span class="block text-xs text-slate-400 font-semibold">Sensación</span>
-                                <span class="block text-sm font-bold text-slate-700">${beach.clima.t_feel}ºC</span>
+                                <span class="block text-xs text-slate-400 font-semibold">Temp.</span>
+                                <span class="block text-sm font-bold text-slate-700">${beach.clima.t_real}ºC</span>
+                                <span class="block text-[9px] text-slate-500 leading-none mt-1">Sens: ${beach.clima.t_feel}º</span>
                             </div>
+                            
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">💨</span>
                                 <span class="block text-xs text-slate-400 font-semibold">Viento</span>
                                 <span class="block text-sm font-bold text-slate-700">${beach.clima.viento} <span class="text-[9px]">km/h</span></span>
                             </div>
+                            
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">${iconoSielo}</span>
                                 <span class="block text-xs text-slate-400 font-semibold">Cielo</span>
-                                <span class="block text-sm font-bold text-slate-700 truncate">${beach.clima.cielo}</span>
+                                <span class="block text-sm font-bold text-slate-700 truncate px-1">${beach.clima.cielo}</span>
                             </div>
                         </div>
 
-                        <div class="flex justify-between items-center text-[10px] text-slate-400 font-medium border-t border-slate-50 pt-2 px-1">
-                            <div class="flex items-center gap-1">
-                                <span>💧 Humedad: ${beach.clima.humedad}%</span>
-                            </div>
-                            <div class="flex items-center gap-1">
-                                <span>🌅 Puesta sol: ${beach.clima.sunset || '--:--'}</span>
-                            </div>
+                        <div class="flex justify-center">
+                           <span class="text-[10px] text-blue-500 font-semibold bg-blue-50 px-3 py-1 rounded-full">👆 Toca para ver detalles</span>
                         </div>
                     </div>
                 `;
@@ -195,25 +249,25 @@
 
         async function loadBeaches() {
             try {
-                // Truco del timestamp para evitar caché
                 const response = await fetch('data.json?v=' + new Date().getTime());
                 if (!response.ok) throw new Error("No data");
                 allBeaches = await response.json();
+                
+                // Mapear indices para el modal
+                allBeaches = allBeaches.map((b, i) => ({...b, index: i}));
+                
                 renderBeaches(allBeaches);
             } catch (error) {
                 console.error(error);
-                // Si falla, reintentar en 2 segundos
                 setTimeout(loadBeaches, 2000);
             }
         }
 
-        // Buscador
         document.getElementById('search-input').addEventListener('input', (e) => {
             const txt = e.target.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             const filtered = allBeaches.filter(b => 
                 b.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt) || 
-                b.municipio.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt) ||
-                (b.zona && b.zona.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt))
+                b.municipio.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt)
             );
             renderBeaches(filtered);
         });
