@@ -51,7 +51,6 @@
         
         #debug-error { display: none; background: #fee2e2; color: #991b1b; padding: 15px; margin: 10px; border: 2px solid red; border-radius: 10px; font-size: 12px; font-family: monospace; z-index: 9999; position: relative; }
         
-        /* Iconos de mapa personalizados */
         .custom-div-icon div { border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3); }
     </style>
 </head>
@@ -177,7 +176,7 @@
                 search_placeholder: "Buscar playa, zona...", no_results: "No se encontraron playas 🤷‍♂️", good: "Excelente", regular: "Regular", bad: "Malo", sunset: "Puesta de Sol", visibility: "Visibilidad", webcam_btn: "VER WEBCAM EN DIRECTO", nav_ranking: "Ranking", nav_map: "Mapa", points: "PUNTOS", 
                 temp: "Temperatura", feel: "Sensación", wind: "Viento", sky: "Cielo", 
                 tap_details: "👆 Ver Detalles", best_choice: "MEJOR OPCIÓN", cielo_despejado: "Despejado", cielo_nubes: "Nuboso", cielo_lluvia: "Lluvia", cielo_calima: "Calima", cielo_parcial: "Nubes y Claros", flag_state: "Est. Bandera",
-                aviso_medusas: "🪼 MEDUSAS", aviso_obras: "🚧 OBRAS", aviso_contaminacion: "☣️ CONTAMINACIÓN", aviso_derrumbes: "🧗 DERRUMBES", aviso_cerrada: "⛔ CERRADA",
+                aviso_medusas: "🪼 MEDUSAS DETECTADAS", aviso_obras: "🚧 OBRAS / ACCESO CERRADO", aviso_contaminacion: "☣️ AGUA CONTAMINADA", aviso_derrumbes: "🧗 PELIGRO DERRUMBES", aviso_cerrada: "⛔ PLAYA CERRADA",
                 disclaimer: "⚠️ Nota: El clima en Tenerife es muy cambiante. Esta información es orientativa y no nos hacemos responsables de cambios repentinos. Siga siempre las indicaciones de los socorristas."
             },
             en: { 
@@ -186,15 +185,58 @@
                 search_placeholder: "Search beach, area...", no_results: "No beaches found 🤷‍♂️", good: "Excellent", regular: "Okay", bad: "Bad", sunset: "Sunset", visibility: "Visibility", webcam_btn: "WATCH LIVE WEBCAM", nav_ranking: "Ranking", nav_map: "Map", points: "POINTS", 
                 temp: "Temperature", feel: "Feels Like", wind: "Wind", sky: "Sky", 
                 tap_details: "👆 Tap for details", best_choice: "BEST CHOICE", cielo_despejado: "Clear", cielo_nubes: "Cloudy", cielo_lluvia: "Rain", cielo_calima: "Dust/Haze", cielo_parcial: "Partly Cloudy", flag_state: "Flag Status",
-                aviso_medusas: "🪼 JELLYFISH", aviso_obras: "🚧 WORKS", aviso_contaminacion: "☣️ POLLUTION", aviso_derrumbes: "🧗 LANDSLIDE", aviso_cerrada: "⛔ CLOSED",
+                aviso_medusas: "🪼 JELLYFISH ALERT", aviso_obras: "🚧 CONSTRUCTION WORKS", aviso_contaminacion: "☣️ WATER POLLUTION", aviso_derrumbes: "🧗 LANDSLIDE DANGER", aviso_cerrada: "⛔ BEACH CLOSED",
                 disclaimer: "⚠️ Note: Weather in Tenerife changes rapidly. This information is indicative and we are not responsible for sudden changes. Always follow lifeguards' instructions."
             },
-            // Se usa clonado para el resto por brevedad, pero puedes añadir los textos completos aquí
+            de: {
+                site_desc: "Ihr smarter Strandführer. Echtzeit-Ranking basierend auf Wind, Flaggen und Wetter.",
+                update_info: "🕒 Live-Updates: 08:00 • 11:00 • 16:00", search_placeholder: "Strand suchen...", no_results: "Keine Strände gefunden 🤷‍♂️", good: "Exzellent", regular: "Okay", bad: "Schlecht", sunset: "Sonnenuntergang", visibility: "Sichtweite", webcam_btn: "LIVE-WEBCAM ANSEHEN", nav_ranking: "Ranking", nav_map: "Karte", points: "PUNKTE", temp: "Temperatur", feel: "Gefühlt", wind: "Wind", sky: "Himmel", tap_details: "👆 Details anzeigen", best_choice: "BESTE WAHL", cielo_despejado: "Klar", cielo_nubes: "Bewölkt", cielo_lluvia: "Regen", cielo_calima: "Calima/Staub", cielo_parcial: "Teils Bewölkt", flag_state: "Flagge",
+                aviso_medusas: "🪼 QUALLENALARM", aviso_obras: "🚧 BAUARBEITEN", aviso_contaminacion: "☣️ WASSERVERSCHMUTZUNG", aviso_derrumbes: "🧗 ERDRUTSCHGEFAHR", aviso_cerrada: "⛔ STRAND GESCHLOSSEN",
+                disclaimer: "⚠️ Hinweis: Das Wetter auf Teneriffa ändert sich schnell. Diese Informationen sind indikativ. Folgen Sie immer den Anweisungen der Rettungsschwimmer."
+            },
+            fr: {
+                site_desc: "Votre guide de plage intelligent. Classement en temps réel basé sur le vent, les drapeaux et la météo.",
+                update_info: "🕒 Mise à jour: 08:00 • 11:00 • 16:00", search_placeholder: "Chercher plage...", no_results: "Aucune plage trouvée 🤷‍♂️", good: "Excellent", regular: "Moyen", bad: "Mauvais", sunset: "Coucher soleil", visibility: "Visibilité", webcam_btn: "VOIR WEBCAM EN DIRECT", nav_ranking: "Classement", nav_map: "Carte", points: "POINTS", temp: "Température", feel: "Ressenti", wind: "Vent", sky: "Ciel", tap_details: "👆 Voir détails", best_choice: "MEILLEUR CHOIX", cielo_despejado: "Dégagé", cielo_nubes: "Nuageux", cielo_lluvia: "Pluie", cielo_calima: "Brume/Sable", cielo_parcial: "Éclaircies", flag_state: "Drapeau",
+                aviso_medusas: "🪼 MÉDUSES", aviso_obras: "🚧 TRAVAUX", aviso_contaminacion: "☣️ POLLUTION", aviso_derrumbes: "🧗 ÉBOULEMENTS", aviso_cerrada: "⛔ FERMÉ",
+                disclaimer: "⚠️ Note: Le climat à Tenerife change rapidement. Ces informations sont indicatives. Suivez toujours les instructions des sauveteurs."
+            },
+            it: {
+                site_desc: "La tua guida intelligente alle spiagge. Classifica in tempo reale basata su vento, bandiere e meteo.",
+                update_info: "🕒 Aggiornamento: 08:00 • 11:00 • 16:00", search_placeholder: "Cerca spiaggia...", no_results: "Nessuna spiaggia trovata 🤷‍♂️", good: "Eccellente", regular: "Regolare", bad: "Male", sunset: "Tramonto", visibility: "Visibilità", webcam_btn: "VEDI WEBCAM LIVE", nav_ranking: "Classifica", nav_map: "Mappa", points: "PUNTI", temp: "Temperatura", feel: "Percepita", wind: "Vento", sky: "Cielo", tap_details: "👆 Vedi dettagli", best_choice: "SCELTA MIGLIORE", cielo_despejado: "Sereno", cielo_nubes: "Nuvoloso", cielo_lluvia: "Pioggia", cielo_calima: "Foschia/Sabbia", cielo_parcial: "Parz. Nuvoloso", flag_state: "Bandiera",
+                aviso_medusas: "🪼 MEDUSE", aviso_obras: "🚧 LAVORI", aviso_contaminacion: "☣️ INQUINAMENTO", aviso_derrumbes: "🧗 FRANE", aviso_cerrada: "⛔ CHIUSO",
+                disclaimer: "⚠️ Nota: Il tempo a Tenerife cambia rapidamente. Queste informazioni sono indicative. Seguire sempre le istruzioni dei bagnini."
+            },
+            nl: {
+                site_desc: "Uw slimme strandgids. Real-time ranglijst gebaseerd op wind, vlaggen en weer.",
+                update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00", search_placeholder: "Zoek strand...", no_results: "Geen stranden gevonden 🤷‍♂️", good: "Uitstekend", regular: "Matig", bad: "Slecht", sunset: "Zonsondergang", visibility: "Zicht", webcam_btn: "BEKIJK LIVE WEBCAM", nav_ranking: "Ranglijst", nav_map: "Kaart", points: "PUNTEN", temp: "Temperatuur", feel: "Gevoel", wind: "Wind", sky: "Hemel", tap_details: "👆 Bekijk details", best_choice: "BESTE KEUZE", cielo_despejado: "Helder", cielo_nubes: "Bewolkt", cielo_lluvia: "Regen", cielo_calima: "Calima/Stof", cielo_parcial: "Half bewolkt", flag_state: "Vlag",
+                aviso_medusas: "🪼 KWALLEN", aviso_obras: "🚧 WERKEN", aviso_contaminacion: "☣️ VERVUILING", aviso_derrumbes: "🧗 AARDVERSCHUIVING", aviso_cerrada: "⛔ GESLOTEN",
+                disclaimer: "⚠️ Let op: Het weer op Tenerife verandert snel. Deze informatie is indicatief. Volg altijd de instructies van de strandwachten."
+            },
+            sv: {
+                site_desc: "Din smarta strandguide. Realtidsrankning baserad på vind, flaggor och väder.",
+                update_info: "🕒 Liveuppdatering: 08:00 • 11:00 • 16:00", search_placeholder: "Sök strand...", no_results: "Inga stränder hittades 🤷‍♂️", good: "Utmärkt", regular: "Okej", bad: "Dåligt", sunset: "Solnedgång", visibility: "Sikt", webcam_btn: "SE LIVE WEBBKAMERA", nav_ranking: "Topplista", nav_map: "Karta", points: "POÄNG", temp: "Temperatur", feel: "Känns", wind: "Vind", sky: "Himmel", tap_details: "👆 Se detaljer", best_choice: "BÄSTA VALET", cielo_despejado: "Klart", cielo_nubes: "Molnigt", cielo_lluvia: "Regn", cielo_calima: "Calima/Damm", cielo_parcial: "Halvklart", flag_state: "Flagga",
+                aviso_medusas: "🪼 MANETER", aviso_obras: "🚧 ARBETE PÅGÅR", aviso_contaminacion: "☣️ FÖRORENING", aviso_derrumbes: "🧗 RASRISK", aviso_cerrada: "⛔ STÄNGD",
+                disclaimer: "⚠️ Obs: Vädret på Teneriffa ändras snabbt. Denna information är vägledande. Följ alltid livräddarnas instruktioner."
+            },
+            no: {
+                site_desc: "Din smarte strandguide. Sanntidsrangering basert på vind, flagg og vær.",
+                update_info: "🕒 Live-oppdatering: 08:00 • 11:00 • 16:00", search_placeholder: "Søk strand...", no_results: "Ingen strender funnet 🤷‍♂️", good: "Utmerket", regular: "Helt ok", bad: "Dårlig", sunset: "Solnedgang", visibility: "Sikt", webcam_btn: "SE LIVE WEBKAMERA", nav_ranking: "Toppliste", nav_map: "Kart", points: "POENG", temp: "Temperatur", feel: "Føles", wind: "Vind", sky: "Himmel", tap_details: "👆 Se detaljer", best_choice: "BESTE VALG", cielo_despejado: "Klart", cielo_nubes: "Skyet", cielo_lluvia: "Regn", cielo_calima: "Calima/Støv", cielo_parcial: "Delvis skyet", flag_state: "Flagg",
+                aviso_medusas: "🪼 MANETER", aviso_obras: "🚧 ARBEID PÅGÅR", aviso_contaminacion: "☣️ FORURENSNING", aviso_derrumbes: "🧗 RASFARE", aviso_cerrada: "⛔ STENGT",
+                disclaimer: "⚠️ Merk: Været på Tenerife endres raskt. Denne informasjonen er veiledende. Følg alltid badevaktenes instruksjoner."
+            },
+            da: {
+                site_desc: "Din smarte strandguide. Realtidsrangering baseret på vind, flag og vejr.",
+                update_info: "🕒 Live opdatering: 08:00 • 11:00 • 16:00", search_placeholder: "Søg strand...", no_results: "Ingen strande fundet 🤷‍♂️", good: "Fremragende", regular: "Ok", bad: "Dårligt", sunset: "Solnedgang", visibility: "Sigtbarhed", webcam_btn: "SE LIVE WEBCAM", nav_ranking: "Rangering", nav_map: "Kort", points: "POINT", temp: "Temperatur", feel: "Føles", wind: "Vind", sky: "Himmel", tap_details: "👆 Se detaljer", best_choice: "BEDSTE VALG", cielo_despejado: "Klart", cielo_nubes: "Skyet", cielo_lluvia: "Regn", cielo_calima: "Calima/Støv", cielo_parcial: "Halvskyet", flag_state: "Flag",
+                aviso_medusas: "🪼 GOPLER", aviso_obras: "🚧 ARBEJDE", aviso_contaminacion: "☣️ FORURENING", aviso_derrumbes: "🧗 NESTYRTNINGSFARE", aviso_cerrada: "⛔ LUKKET",
+                disclaimer: "⚠️ Bemærk: Vejret på Tenerife ændrer sig hurtigt. Denne information er vejledende. Følg altid livreddernes anvisninger."
+            },
+            fi: {
+                site_desc: "Älykäs rantaopas. Reaaliaikainen ranking tuulen, lippujen ja sään perusteella.",
+                update_info: "🕒 Live-päivitys: 08:00 • 11:00 • 16:00", search_placeholder: "Etsi rantaa...", no_results: "Ei rantoja löytynyt 🤷‍♂️", good: "Erinomainen", regular: "Kohtalainen", bad: "Huono", sunset: "Auringonlasku", visibility: "Näkyvyys", webcam_btn: "KATSO LIVE-KAMERA", nav_ranking: "Ranking", nav_map: "Kartta", points: "PISTETTÄ", temp: "Lämpö", feel: "Tuntuu", wind: "Tuuli", sky: "Taivas", tap_details: "👆 Katso tiedot", best_choice: "PARAS VALINTA", cielo_despejado: "Selkeä", cielo_nubes: "Pilvinen", cielo_lluvia: "Sade", cielo_calima: "Calima/Pöly", cielo_parcial: "Puolipilvinen", flag_state: "Lippu",
+                aviso_medusas: "🪼 MEDUUSOJA", aviso_obras: "🚧 TYÖMAA", aviso_contaminacion: "☣️ SAASTUMINEN", aviso_derrumbes: "🧗 VYÖRYMÄVAARA", aviso_cerrada: "⛔ SULJETTU",
+                disclaimer: "⚠️ Huom: Teneriffan sää muuttuu nopeasti. Nämä tiedot ovat suuntaa-antavia. Noudata aina hengenpelastajien ohjeita."
+            }
         };
-
-        ['de', 'fr', 'it', 'nl', 'sv', 'no', 'da', 'fi'].forEach(lang => {
-            if (!translations[lang]) translations[lang] = { ...translations['en'] }; 
-        });
 
         function setLanguage(lang) {
             currentLang = lang;
@@ -321,15 +363,12 @@
             L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', { attribution: '&copy; OpenStreetMap', maxZoom: 19 }).addTo(map);
             allBeaches.forEach(beach => {
                 if (beach.coordenadas) {
-                    let color = '#22c55e'; // Verde por defecto
-                    if (beach.score < 8) color = '#f59e0b'; // Naranja
-                    if (beach.score < 5) color = '#ef4444'; // Rojo
-                    if (beach.bandera === 'black') color = '#000000'; 
-                    
+                    let color = beach.score >= 8 ? '#22c55e' : (beach.score >= 5 ? '#f59e0b' : '#ef4444');
+                    if (beach.bandera === 'black') color = '#000000';
                     const iconHtml = `<div style="background-color: ${color}; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`;
                     const customIcon = L.divIcon({ html: iconHtml, className: 'custom-div-icon', iconSize: [14, 14], iconAnchor: [7, 7] });
                     const marker = L.marker(beach.coordenadas, { icon: customIcon }).addTo(map);
-                    marker.bindPopup(`<b>${beach.nombre}</b><br>Nota: ${beach.score}/10`);
+                    marker.bindPopup(`<b>${beach.nombre}</b><br>${translations[currentLang].points}: ${beach.score}/10`);
                 }
             });
         }
