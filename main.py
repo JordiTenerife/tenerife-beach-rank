@@ -4,133 +4,163 @@ import time
 import os
 from datetime import datetime
 
-print("\n🌍 INICIANDO ROBOT v9.0 - WEBCAMS & ICONOS\n")
+print("\n🌍 INICIANDO ROBOT v13.0 - DETECTOR DE PELIGROS (MEDUSAS/OBRAS)\n")
 
 try:
     API_KEY = os.environ["AEMET_API_KEY"]
 except KeyError:
-    print("❌ ERROR: Falta la API Key.")
-    exit(1)
+    print("⚠️ Nota: Sin API Key de OpenWeather (funcionará solo con datos oficiales).")
+    API_KEY = ""
 
 INPUT_FILE = 'playas.json'
 OUTPUT_FILE = 'data.json'
 
+# --- ENLACE OFICIAL DE TU CAPTURA (YA PUESTO) ---
+URL_OFICIAL_BANDERAS = "https://idecan.grafcan.es/servicios/rest/services/Costas/Playas_Zonas_Bano/MapServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*"
+# ------------------------------------------------
+
+MAPA_COLORES = {
+    "VERDE": "green", "AMARILLA": "yellow", "ROJA": "red", 
+    "NEGRA": "black", "CERRADA": "black", "PROHIBIDO": "red"
+}
+
 def obtener_clima_owm(lat, lon):
+    if not API_KEY: return None
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_KEY}&units=metric&lang=es"
     try:
         res = requests.get(url, timeout=10)
+        return res.json() if res.status_code == 200 else None
+    except:
+        return None
+
+def obtener_datos_oficiales():
+    try:
+        print(f"📡 Conectando con Servidor Gobierno...")
+        headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'Referer': 'https://visor.grafcan.es/' }
+        res = requests.get(URL_OFICIAL_BANDERAS, headers=headers, timeout=20)
         if res.status_code == 200:
-            return res.json()
-        elif res.status_code == 401:
-            print(f"   ⛔ Error 401: Revisar Clave.")
-            return None
-        else:
-            print(f"   ⚠️ Error API: {res.status_code}")
-            return None
+            data = res.json()
+            # En Grafcan los datos suelen venir en 'features'
+            return data.get('features', [])
     except Exception as e:
-        print(f"   ⚠️ Error conexión: {e}")
-    return None
+        print(f"❌ Error conexión gobierno: {e}")
+    return []
+
+def normalizar(texto):
+    if not texto: return ""
+    return texto.lower().replace('á','a').replace('é','e').replace('í','i').replace('ó','o').replace('ú','u').strip()
+
+def detectar_avisos(propiedades):
+    """Escanea todo el texto oficial buscando peligros"""
+    avisos = []
+    # Convertimos todos los valores del gobierno a un solo texto gigante en mayúsculas
+    texto_completo = str(propiedades.values()).upper()
+    
+    if "MEDUSA" in texto_completo: avisos.append("medusas")
+    if "OBRA" in texto_completo: avisos.append("obras")
+    if "VERTIDO" in texto_completo or "FECAL" in texto_completo or "CONTAMINA" in texto_completo or "MICROALGA" in texto_completo or "E.COLI" in texto_completo: avisos.append("contaminacion")
+    if "DERRUMBE" in texto_completo or "DESPRENDI" in texto_completo: avisos.append("derrumbes")
+    if "CERRADA" in texto_completo or "PROHIBIDO" in texto_completo: avisos.append("cerrada")
+    
+    return list(set(avisos)) # Eliminar duplicados
 
 def procesar_playas():
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-        playas = json.load(f)
+        mis_playas = json.load(f)
+
+    features_gobierno = obtener_datos_oficiales()
+    
+    # Mapeo rápido
+    mapa_gobierno = {}
+    for item in features_gobierno:
+        try:
+            # Grafcan usa 'attributes' normalmente
+            props = item.get('attributes', item.get('properties', {}))
+            # Buscamos el nombre en varios campos posibles
+            nombre = props.get('NOMBRE', props.get('DENOMINACION', props.get('TOPONIMO', '')))
+            if nombre: mapa_gobierno[normalizar(nombre)] = props
+        except: continue
 
     resultados = []
-    print(f"🚀 Procesando {len(playas)} playas...")
+    print(f"🚀 Analizando {len(mis_playas)} playas...")
 
-    for i, playa in enumerate(playas):
+    for playa in mis_playas:
         nombre = playa['nombre']
         coords = playa.get('coordenadas')
-        descripcion = playa.get('descripcion', 'Información no disponible.')
-        webcam = playa.get('webcam', None) # <--- CAPTURAMOS WEBCAM
-
-        if not coords: continue
-
-        lat, lon = coords
-        print(f"[{i+1}/{len(playas)}] {nombre}...", end=" ", flush=True)
-
-        datos = obtener_clima_owm(lat, lon)
+        nombre_norm = normalizar(nombre)
         
-        t_real = 0
-        t_feel = 0
-        viento = 0
-        cielo = "Sin datos"
-        humedad = 0
-        visibilidad = 10000
-        score = 0
-        datos_validos = False
-        sunset_hora = "Unknown"
-
-        if datos:
-            try:
-                t_real = round(datos['main']['temp'])
-                t_feel = round(datos['main']['feels_like'])
-                humedad = datos['main']['humidity']
-                viento = round(datos['wind']['speed'] * 3.6)
-                cielo = datos['weather'][0]['description'] # Minúscula para procesar mejor
-                visibilidad = datos.get('visibility', 10000)
-                ts = datos['sys']['sunset']
-                sunset_hora = datetime.fromtimestamp(ts).strftime('%H:%M')
-
-                # --- ALGORITMO ---
-                score = 10
-                if viento > 20: score -= 2
-                if viento > 28: score -= 4
-                if viento > 40: score -= 7
+        bandera_color = "gray"
+        estado_texto = "Info no disponible"
+        avisos_detectados = []
+        
+        # 1. Buscar en Gobierno (Coincidencia aproximada)
+        encontrado = False
+        for nombre_gob, props in mapa_gobierno.items():
+            if nombre_norm in nombre_gob or nombre_gob in nombre_norm:
+                # Detectar Bandera
+                valores = str(props.values()).upper()
+                if "ROJA" in valores: bandera_color = "red"
+                elif "AMARILLA" in valores: bandera_color = "yellow"
+                elif "VERDE" in valores: bandera_color = "green"
+                elif "NEGRA" in valores: bandera_color = "black"
                 
-                if t_feel < 20: score -= 1
-                if t_feel < 18: score -= 3  
-                if t_feel > 32: score -= 1
-
-                cielo_lower = cielo.lower()
-                if "nubes" in cielo_lower or "nuboso" in cielo_lower or "cubierto" in cielo_lower:
-                    if "dispersas" in cielo_lower or "pocas" in cielo_lower or "algo" in cielo_lower: score -= 1
-                    else: score -= 2
-                elif "lluvia" in cielo_lower or "llovizna" in cielo_lower: 
-                    score -= 10
+                # Detectar Avisos (Medusas, Obras...)
+                avisos_detectados = detectar_avisos(props)
                 
-                if visibilidad < 3000: score -= 2
+                estado_texto = "Oficial"
+                encontrado = True
+                break
+        
+        # 2. Plan B (Clima) si no hay dato oficial
+        if not encontrado or bandera_color == "gray":
+            datos_owm = obtener_clima_owm(coords[0], coords[1])
+            t_real, t_feel, viento, cielo = "--", "--", "--", "Sin datos"
+            
+            if datos_owm:
+                viento = round(datos_owm['wind']['speed'] * 3.6)
+                t_real = round(datos_owm['main']['temp'])
+                t_feel = round(datos_owm['main']['feels_like'])
+                cielo = datos_owm['weather'][0]['description'].capitalize()
                 
-                score = max(0, min(10, score))
-                datos_validos = True
-                
-                # Capitalizar para mostrar bonito
-                cielo_display = cielo.capitalize()
-                print(f"✅ OK")
-
-            except Exception as e:
-                print(f"❌ Error datos: {e}")
-                cielo_display = "Error"
+                if viento > 35: bandera_color = "red"
+                elif viento > 20: bandera_color = "yellow"
+                else: bandera_color = "green"
+                estado_texto = "Estimado (Clima)"
         else:
-            print("❌ Sin respuesta")
-            cielo_display = "Sin datos"
+            # Rellenar clima básico aunque tengamos bandera oficial
+            t_real, t_feel, viento, cielo = "--", "--", "--", estado_texto
+
+        # Puntuación final (Si hay medusas o caca, bajamos a 0)
+        score = 5
+        if bandera_color == "green": score = 10
+        elif bandera_color == "yellow": score = 6
+        elif bandera_color == "red": score = 2
+        elif bandera_color == "black": score = 0
+        
+        if avisos_detectados: score = 0 # Penalización máxima por peligros
+
+        print(f"[{'⚠️' if avisos_detectados else '✅'}] {nombre} -> {bandera_color} {avisos_detectados}")
 
         resultados.append({
             "nombre": nombre,
             "municipio": playa["municipio"],
             "zona": playa["zona"],
             "coordenadas": coords,
-            "descripcion": descripcion,
-            "webcam": webcam, # <--- GUARDAMOS WEBCAM
+            "descripcion": playa.get('descripcion', {}),
+            "webcam": playa.get('webcam', None),
             "score": score,
+            "bandera": bandera_color,
+            "avisos": avisos_detectados,
             "clima": {
-                "t_real": t_real,
-                "t_feel": t_feel,
-                "viento": viento,
-                "cielo": cielo_display,
-                "humedad": humedad,
-                "visibilidad": visibilidad,
-                "sunset": sunset_hora
+                "t_real": t_real, "t_feel": t_feel, "viento": viento, "cielo": cielo,
+                "humedad": 0, "visibilidad": 10000, "sunset": "--:--"
             },
-            "detalles": [cielo_display]
+            "detalles": [estado_texto]
         })
-        time.sleep(0.1)
 
-    if len(resultados) > 0:
-        resultados.sort(key=lambda x: x['score'], reverse=True)
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump(resultados, f, ensure_ascii=False, indent=2)
-        print("\n✨ FINALIZADO.")
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(resultados, f, ensure_ascii=False, indent=2)
+    print("\n✨ FINALIZADO.")
 
 if __name__ == "__main__":
     procesar_playas()
