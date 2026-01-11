@@ -1,1163 +1,20 @@
 [
   {
-    "nombre": "Las Teresitas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
-    "coordenadas": [
-      28.5096,
-      -16.1869
-    ],
-    "score": 9,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 87,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Las Gaviotas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
-    "coordenadas": [
-      28.5175,
-      -16.1683
-    ],
-    "score": 9,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 86,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "La Fajana",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3997,
-      -16.6083
-    ],
-    "score": 9,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 14,
-      "cielo": "Cielo claro",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Charco del Viento",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3842,
-      -16.6889
-    ],
-    "score": 9,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 15,
-      "cielo": "Cielo claro",
-      "humedad": 82,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Santo Domingo",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3861,
-      -16.6917
-    ],
-    "score": 9,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 16,
-      "cielo": "Cielo claro",
-      "humedad": 79,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Benijo",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5727,
-      -16.1843
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Almáciga",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5705,
-      -16.1983
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Roque de las Bodegas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5677,
-      -16.2058
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 15,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Playa de Valleseco",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
-    "coordenadas": [
-      28.4839,
-      -16.2238
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 87,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Playa Jardín",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4111,
-      -16.5562
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 15,
-      "cielo": "Cielo claro",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Martiánez",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4178,
-      -16.5414
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 15,
-      "cielo": "Cielo claro",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "San Telmo",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4183,
-      -16.5489
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 15,
-      "cielo": "Cielo claro",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "El Bollullo",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4184,
-      -16.5162
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Los Patos",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4194,
-      -16.5089
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "El Ancón",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4208,
-      -16.5036
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "El Socorro",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3962,
-      -16.6023
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 14,
-      "cielo": "Cielo claro",
-      "humedad": 73,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Punta Larga",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.3667,
-      -16.3683
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 7,
-      "cielo": "Muy nuboso",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Las Caletillas",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.375,
-      -16.3611
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 16,
-      "cielo": "Muy nuboso",
-      "humedad": 82,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "La Arena (Mesa del Mar)",
-    "municipio": "Tacoronte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5033,
-      -16.4258
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 16,
-      "cielo": "Muy nuboso",
-      "humedad": 87,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "El Pris",
-    "municipio": "Tacoronte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5089,
-      -16.4217
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 16,
-      "cielo": "Muy nuboso",
-      "humedad": 86,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Bajamar",
-    "municipio": "San Cristóbal de La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5567,
-      -16.3475
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 8,
-      "cielo": "Muy nuboso",
-      "humedad": 85,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "El Arenal",
-    "municipio": "San Cristóbal de La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5583,
-      -16.3417
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 8,
-      "cielo": "Muy nuboso",
-      "humedad": 86,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Jover",
-    "municipio": "San Cristóbal de La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5417,
-      -16.3333
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 14,
-      "t_feel": 13,
-      "viento": 8,
-      "cielo": "Muy nuboso",
-      "humedad": 86,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "La Nea",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.4064,
-      -16.3197
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 16,
-      "cielo": "Muy nuboso",
-      "humedad": 88,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Radazul",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.4022,
-      -16.3236
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 16,
-      "cielo": "Muy nuboso",
-      "humedad": 87,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "San Marcos",
-    "municipio": "Icod de los Vinos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3761,
-      -16.7208
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 13,
-      "t_feel": 12,
-      "viento": 16,
-      "cielo": "Cielo claro",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Agua Dulce",
-    "municipio": "Los Silos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.3725,
-      -16.8089
-    ],
-    "score": 6,
-    "clima": {
-      "t_real": 13,
-      "t_feel": 12,
-      "viento": 17,
-      "cielo": "Cielo claro",
-      "humedad": 73,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Las Vistas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0536,
-      -16.7323
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Los Cristianos",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0504,
-      -16.7169
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "El Camisón",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0531,
-      -16.7347
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Las Galletas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0089,
-      -16.6575
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Ballena",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0069,
-      -16.6669
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Troya",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0673,
-      -16.735
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Fañabé",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0867,
-      -16.7383
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Torviscas",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0822,
-      -16.7375
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "El Duque",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0906,
-      -16.7428
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Enramada",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0988,
-      -16.7516
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Diego Hernández",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.1066,
-      -16.7594
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 14,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
     "nombre": "El Puertito de Adeje",
     "municipio": "Adeje",
     "zona": "Sur",
     "coordenadas": [
-      28.1147,
-      -16.7644
+      28.113,
+      -16.764
     ],
-    "score": 5,
+    "descripcion": "Famosa por ser reserva de tortugas marinas. Pequeña bahía con encanto tradicional.",
+    "score": 7,
     "clima": {
-      "t_real": 15,
-      "t_feel": 14,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa del Bobo",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0733,
-      -16.7372
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Las Américas",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0594,
-      -16.7333
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "El Médano",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0433,
-      -16.5386
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Tejita",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0336,
-      -16.5511
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Leocadio Machado",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0411,
-      -16.5417
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Montaña Roja",
-    "municipio": "Granadilla de Abona",
-    "zona": "Sur-Este",
-    "coordenadas": [
-      28.0311,
-      -16.5567
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "El Puertito de Güímar",
-    "municipio": "Güímar",
-    "zona": "Este",
-    "coordenadas": [
-      28.2953,
-      -16.3769
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 16,
+      "t_real": 18,
+      "t_feel": 18,
       "viento": 3,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Callao",
-    "municipio": "Güímar",
-    "zona": "Este",
-    "coordenadas": [
-      28.2917,
-      -16.3792
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 3,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Porís de Abona",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.1633,
-      -16.4322
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 73,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Abades",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.1408,
-      -16.4419
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Tajao",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.1103,
-      -16.4719
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Caleta",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.1025,
-      -16.7561
-    ],
-    "score": 5,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 9,
-      "cielo": "Nubes dispersas",
-      "humedad": 67,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Antequera",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5441,
-      -16.1308
-    ],
-    "score": 4,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 19,
-      "cielo": "Nubes",
-      "humedad": 88,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes"
-    ]
-  },
-  {
-    "nombre": "La Arena",
-    "municipio": "Santiago del Teide",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.2294,
-      -16.8413
-    ],
-    "score": 4,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 15,
-      "viento": 5,
       "cielo": "Algo de nubes",
-      "humedad": 72,
+      "humedad": 62,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1170,16 +27,17 @@
     "municipio": "Santiago del Teide",
     "zona": "Oeste",
     "coordenadas": [
-      28.2461,
-      -16.8427
+      28.245,
+      -16.842
     ],
-    "score": 4,
+    "descripcion": "Espectacular playa a los pies de los acantilados de Los Gigantes. Vistas impresionantes.",
+    "score": 7,
     "clima": {
-      "t_real": 16,
-      "t_feel": 15,
-      "viento": 6,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 3,
       "cielo": "Algo de nubes",
-      "humedad": 73,
+      "humedad": 63,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1192,38 +50,17 @@
     "municipio": "Guía de Isora",
     "zona": "Oeste",
     "coordenadas": [
-      28.1775,
-      -16.8142
+      28.178,
+      -16.818
     ],
-    "score": 4,
+    "descripcion": "Playa familiar muy tranquila junto al puerto, con paseo marítimo y restaurantes.",
+    "score": 7,
     "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 4,
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 5,
       "cielo": "Algo de nubes",
-      "humedad": 70,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Abama",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.1706,
-      -16.8028
-    ],
-    "score": 4,
-    "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 4,
-      "cielo": "Algo de nubes",
-      "humedad": 74,
+      "humedad": 62,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1236,16 +73,845 @@
     "municipio": "Guía de Isora",
     "zona": "Oeste",
     "coordenadas": [
-      28.2056,
-      -16.8317
+      28.198,
+      -16.832
     ],
-    "score": 4,
+    "descripcion": "Pequeñas calas de arena negra y piscinas naturales.",
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 5,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Playa Jardín",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4115,
+      -16.558
+    ],
+    "descripcion": "Diseñada por César Manrique, rodeada de jardines tropicales y con vistas al Teide.",
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 5,
+      "cielo": "Cielo claro",
+      "humedad": 85,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Martiánez",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.418,
+      -16.543
+    ],
+    "descripcion": "Playa urbana de arena negra junto al famoso Lago Martiánez. Popular para surf.",
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 5,
+      "cielo": "Cielo claro",
+      "humedad": 85,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "San Telmo",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4185,
+      -16.549
+    ],
+    "descripcion": "Pequeña cala de rocas y charcos naturales en pleno paseo marítimo.",
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 5,
+      "cielo": "Cielo claro",
+      "humedad": 85,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "El Socorro",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.395,
+      -16.602
+    ],
+    "descripcion": "La meca del surf en el norte. Bandera azul y muy accesible.",
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 5,
+      "cielo": "Cielo claro",
+      "humedad": 82,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "La Fajana",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.399,
+      -16.59
+    ],
+    "descripcion": "Playa virgen de callaos y arena negra al final de Rambla de Castro.",
+    "score": 6,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 5,
+      "cielo": "Cielo claro",
+      "humedad": 82,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "San Marcos",
+    "municipio": "Icod de los Vinos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.374,
+      -16.723
+    ],
+    "descripcion": "Playa de arena negra en una bahía protegida, muy segura para el baño.",
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 13,
+      "cielo": "Cielo claro",
+      "humedad": 75,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Agua Dulce",
+    "municipio": "Los Silos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.368,
+      -16.815
+    ],
+    "descripcion": "Playa de callaos y arena negra, famosa por el surf.",
+    "score": 6,
     "clima": {
       "t_real": 16,
       "t_feel": 15,
-      "viento": 5,
+      "viento": 10,
+      "cielo": "Cielo claro",
+      "humedad": 65,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Charco del Viento",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "coordenadas": [
+      28.385,
+      -16.635
+    ],
+    "descripcion": "No es playa, sino un espectacular charco volcánico abierto al mar.",
+    "score": 6,
+    "clima": {
+      "t_real": 14,
+      "t_feel": 13,
+      "viento": 12,
+      "cielo": "Cielo claro",
+      "humedad": 75,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Santo Domingo",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "coordenadas": [
+      28.38,
+      -16.64
+    ],
+    "descripcion": "Pequeña playa poco transitada, acceso algo complicado.",
+    "score": 6,
+    "clima": {
+      "t_real": 14,
+      "t_feel": 14,
+      "viento": 12,
+      "cielo": "Cielo claro",
+      "humedad": 75,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Las Vistas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0515,
+      -16.7265
+    ],
+    "descripcion": "Una de las playas más largas y accesibles del sur. Arena dorada, mar en calma y todos los servicios.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
       "cielo": "Algo de nubes",
-      "humedad": 72,
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Los Cristianos",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.05,
+      -16.718
+    ],
+    "descripcion": "Playa urbana en el corazón del pueblo marinero. Aguas muy tranquilas y barcos de pesca.",
+    "score": 5,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "El Camisón",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0545,
+      -16.732
+    ],
+    "descripcion": "Pequeña cala de arena dorada rodeada de palmeras y hoteles, protegida del oleaje.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Las Galletas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0065,
+      -16.657
+    ],
+    "descripcion": "Playa de callaos y arena oscura junto al puerto pesquero. Muy auténtica.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "La Ballena",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.003,
+      -16.665
+    ],
+    "descripcion": "Pequeña cala tranquila en Costa del Silencio.",
+    "score": 5,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Troya",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0665,
+      -16.735
+    ],
+    "descripcion": "La playa de la fiesta y el ambiente joven en Las Américas. Arena volcánica y mucha vida.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Fañabé",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.085,
+      -16.74
+    ],
+    "descripcion": "Extensa playa de arena clara con un gran paseo marítimo y beach clubs.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Torviscas",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.081,
+      -16.738
+    ],
+    "descripcion": "Contigua a Fañabé, ofrece las mismas comodidades y aguas tranquilas gracias a los rompeolas.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "El Duque",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0912,
+      -16.7432
+    ],
+    "descripcion": "La playa más elegante del sur. Arena gris clara, sombrillas de bambú y ambiente exclusivo.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "La Enramada",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0965,
+      -16.751
+    ],
+    "descripcion": "Playa de callaos con un chiringuito muy famoso para ver la puesta de sol con música en directo.",
+    "score": 5,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Diego Hernández",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.103,
+      -16.757
+    ],
+    "descripcion": "La 'Playa de los Hippies'. Una bahía salvaje de arena blanca y aguas turquesas. Acceso a pie.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Playa del Bobo",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.076,
+      -16.736
+    ],
+    "descripcion": "Pequeña y céntrica, ideal para quien se aloja en Costa Adeje y no quiere caminar.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Las Américas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.06,
+      -16.733
+    ],
+    "descripcion": "Famosa por sus olas para el surf (zona La Izquierda) y ambiente turístico.",
+    "score": 5,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "El Médano",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0435,
+      -16.538
+    ],
+    "descripcion": "El paraíso del windsurf y kitesurf. Ambiente relajado y vistas a la Montaña Roja.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 55,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "La Tejita",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0315,
+      -16.5576
+    ],
+    "descripcion": "La playa de arena natural más grande de la isla, a los pies de Montaña Roja. Zona nudista disponible.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 55,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Leocadio Machado",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.04,
+      -16.545
+    ],
+    "descripcion": "La continuación del Médano, perfecta para deportes de viento.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 55,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Montaña Roja",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.032,
+      -16.55
+    ],
+    "descripcion": "Pequeñas calas a los pies del volcán, íntimas y protegidas.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 55,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "El Puertito de Güímar",
+    "municipio": "Güímar",
+    "zona": "Este",
+    "coordenadas": [
+      28.293,
+      -16.377
+    ],
+    "descripcion": "Playa extensa de arena negra y callaos, muy tranquila y familiar.",
+    "score": 5,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "humedad": 89,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Callao",
+    "municipio": "Güímar",
+    "zona": "Este",
+    "coordenadas": [
+      28.29,
+      -16.38
+    ],
+    "descripcion": "Playa rústica ideal para pasear con perros en algunas zonas.",
+    "score": 5,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "humedad": 89,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Porís de Abona",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.165,
+      -16.43
+    ],
+    "descripcion": "Pueblo pesquero con mucho encanto y una playa tranquila de arena clara.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 63,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Abades",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.14,
+      -16.44
+    ],
+    "descripcion": "Playa de arena dorada protegida, famosa por los buceadores y el pueblo fantasma cercano.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 55,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Tajao",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.11,
+      -16.468
+    ],
+    "descripcion": "Pequeña cala de callaos en un pueblo famoso por sus restaurantes de pescado.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 55,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "La Caleta",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.1,
+      -16.759
+    ],
+    "descripcion": "Zona rocosa con aguas cristalinas, famosa por sus restaurantes de marisco.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "San Blas",
+    "municipio": "San Miguel",
+    "zona": "Sur",
+    "coordenadas": [
+      28.028,
+      -16.605
+    ],
+    "descripcion": "Playa curiosa de arena negra y rocas en la zona de Golf del Sur.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 55,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Montaña Amarilla",
+    "municipio": "San Miguel",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0092,
+      -16.6385
+    ],
+    "descripcion": "Monumento natural. Rocas de formas caprichosas y aguas transparentes para snorkel.",
+    "score": 5,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 18,
+      "viento": 22,
+      "cielo": "Algo de nubes",
+      "humedad": 62,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Antequera",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.532,
+      -16.133
+    ],
+    "descripcion": "Playa virgen accesible solo por mar o tras una dura caminata. Arena fina y gris, un paraíso solitario.",
+    "score": 4,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 20,
+      "cielo": "Nubes",
+      "humedad": 90,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Nubes"
+    ]
+  },
+  {
+    "nombre": "Abama",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.169,
+      -16.802
+    ],
+    "descripcion": "Cala exclusiva de arena dorada construida por el hotel, pero de acceso público.",
+    "score": 4,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 17,
+      "viento": 4,
+      "cielo": "Algo de nubes",
+      "humedad": 63,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1258,16 +924,17 @@
     "municipio": "Adeje",
     "zona": "Sur",
     "coordenadas": [
-      28.1228,
-      -16.7769
+      28.145,
+      -16.778
     ],
+    "descripcion": "Playa en Callao Salvaje, recientemente acondicionada con arena gris.",
     "score": 4,
     "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 4,
+      "t_real": 18,
+      "t_feel": 17,
+      "viento": 5,
       "cielo": "Algo de nubes",
-      "humedad": 68,
+      "humedad": 62,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1276,47 +943,440 @@
     ]
   },
   {
-    "nombre": "Varadero",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
+    "nombre": "Las Teresitas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
     "coordenadas": [
-      28.2069,
-      -16.8336
+      28.5096,
+      -16.1869
     ],
-    "score": 4,
+    "descripcion": "La playa más famosa de Santa Cruz. Arena dorada traída del Sáhara, aguas tranquilas gracias a su rompeolas y llena de chiringuitos. Ideal para familias.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 91,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Las Gaviotas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "coordenadas": [
+      28.5135,
+      -16.1755
+    ],
+    "descripcion": "Playa de arena negra volcánica bajo un acantilado. Es mixta (nudista/textil) y tiene un ambiente muy local y tranquilo.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 90,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Benijo",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.5745,
+      -16.1853
+    ],
+    "descripcion": "La joya salvaje de Anaga. Espectacular para ver atardeceres con los Roques de Anaga de fondo. Ojo con las corrientes.",
+    "score": 0,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 89,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Almáciga",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.571,
+      -16.195
+    ],
+    "descripcion": "Playa de arena negra ideal para surfistas principiantes y medios. Ambiente rústico y natural.",
+    "score": 0,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 89,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Roque de las Bodegas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.5685,
+      -16.205
+    ],
+    "descripcion": "La más accesible de Taganana, con restaurantes de pescado fresco justo enfrente.",
+    "score": 0,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 89,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Playa de Valleseco",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "coordenadas": [
+      28.483,
+      -16.23
+    ],
+    "descripcion": "Zona de baño urbana y recuperada recientemente, popular entre los locales para un chapuzón rápido.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 92,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "El Bollullo",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4175,
+      -16.52
+    ],
+    "descripcion": "Preciosa playa salvaje de arena negra volcánica. Acceso por un sendero entre plataneras.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Los Patos",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.42,
+      -16.51
+    ],
+    "descripcion": "Playa nudista legendaria, amplia y de arena negra finísima. Acceso difícil.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "El Ancón",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.422,
+      -16.505
+    ],
+    "descripcion": "Playa salvaje y solitaria, vecina de Los Patos.",
+    "score": 0,
     "clima": {
       "t_real": 16,
       "t_feel": 15,
-      "viento": 5,
-      "cielo": "Algo de nubes",
-      "humedad": 72,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 87,
       "visibilidad": 10000,
-      "sunset": "18:29"
+      "sunset": "18:27"
     },
     "detalles": [
-      "Algo de nubes"
+      "Llovizna ligera"
     ]
   },
   {
-    "nombre": "Callao Salvaje",
-    "municipio": "Adeje",
-    "zona": "Sur",
+    "nombre": "La Arena (Mesa del Mar)",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
     "coordenadas": [
-      28.1228,
-      -16.7769
+      28.5002,
+      -16.4245
     ],
-    "score": 4,
+    "descripcion": "Tranquila playa de arena negra protegida del oleaje, con vistas al Teide.",
+    "score": 0,
     "clima": {
-      "t_real": 15,
-      "t_feel": 15,
-      "viento": 4,
-      "cielo": "Algo de nubes",
-      "humedad": 68,
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 21,
+      "cielo": "Llovizna ligera",
+      "humedad": 92,
       "visibilidad": 10000,
-      "sunset": "18:29"
+      "sunset": "18:27"
     },
     "detalles": [
-      "Algo de nubes"
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "El Pris",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.508,
+      -16.425
+    ],
+    "descripcion": "Zona de baño tradicional junto a un puerto de pescadores y piscina natural.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 21,
+      "cielo": "Llovizna ligera",
+      "humedad": 92,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Punta Larga",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.365,
+      -16.365
+    ],
+    "descripcion": "Playa urbana cómoda con paseo marítimo, muy popular entre locales.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 94,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Las Caletillas",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.375,
+      -16.36
+    ],
+    "descripcion": "Calas de arena negra y callaos, ambiente familiar.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 21,
+      "cielo": "Llovizna ligera",
+      "humedad": 95,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "La Arena (Candelaria)",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.351,
+      -16.368
+    ],
+    "descripcion": "Frente a la Basílica de Candelaria, arena negra y estatuas guanches cerca.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 93,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Bajamar",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.556,
+      -16.345
+    ],
+    "descripcion": "Famosa por sus piscinas naturales y la fuerza del mar rompiendo en el dique.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 90,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "El Arenal",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.558,
+      -16.34
+    ],
+    "descripcion": "Entre Bajamar y Punta del Hidalgo, una joya surfera.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 15,
+      "cielo": "Llovizna ligera",
+      "humedad": 90,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Jover",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.537,
+      -16.385
+    ],
+    "descripcion": "Pequeño puerto con piscina natural y vistas al Teide.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 21,
+      "cielo": "Llovizna ligera",
+      "humedad": 90,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "La Nea",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.402,
+      -16.305
+    ],
+    "descripcion": "Playa de arena negra fina recuperada, con un parque agradable para pasear.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 21,
+      "cielo": "Llovizna ligera",
+      "humedad": 94,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
+    ]
+  },
+  {
+    "nombre": "Radazul",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.398,
+      -16.31
+    ],
+    "descripcion": "Zona de baño de mar abierto y pequeñas playas, ideal para buceo y snorkel.",
+    "score": 0,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 21,
+      "cielo": "Llovizna ligera",
+      "humedad": 94,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Llovizna ligera"
     ]
   }
 ]
