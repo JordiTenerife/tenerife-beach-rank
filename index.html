@@ -12,10 +12,11 @@
         body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
         .beach-card { transition: transform 0.2s; cursor: pointer; }
         .beach-card:hover { transform: translateY(-2px); }
-        #map { height: calc(100vh - 180px); width: 100%; border-radius: 1rem; z-index: 1; }
+        /* Ajustamos la altura del mapa restando cabeceras y menú */
+        #map { height: calc(100vh - 220px); width: 100%; border-radius: 1rem; z-index: 1; }
         .hidden-section { display: none !important; }
         
-        /* Modal Styles */
+        /* Estilos del Modal (Ventana Emergente) */
         #modal-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(0,0,0,0.5); z-index: 1000;
@@ -27,12 +28,13 @@
             border-radius: 1.5rem; padding: 1.5rem;
             position: relative; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
             animation: modalPop 0.3s ease-out;
-            max-height: 90vh; overflow-y: auto; /* Scroll si es muy largo */
+            max-height: 90vh; overflow-y: auto;
         }
         @keyframes modalPop {
             from { transform: scale(0.95); opacity: 0; }
             to { transform: scale(1); opacity: 1; }
         }
+        
         /* Botón Webcam */
         .btn-webcam {
             background-color: #ef4444; color: white;
@@ -51,7 +53,7 @@
 </head>
 <body class="pb-24 bg-slate-50 text-slate-800">
 
-    <header class="bg-white p-4 shadow-sm flex justify-between items-center sticky top-0 z-50">
+    <header class="bg-white px-4 py-3 shadow-sm flex justify-between items-center sticky top-0 z-50">
         <div class="flex items-center gap-2" onclick="showSection('list')">
             <span class="text-2xl">🌊</span>
             <h1 class="text-lg font-bold text-slate-800 tracking-tight">TenerifeBeachRank</h1>
@@ -59,14 +61,19 @@
         <span class="text-[10px] font-bold bg-blue-50 text-blue-600 px-2 py-1 rounded-full uppercase tracking-wider" id="current-date"></span>
     </header>
 
+    <div class="bg-blue-600 text-white text-[10px] font-bold text-center py-1.5 shadow-inner sticky top-[52px] z-40">
+        🕒 Actualización en vivo: 08:00 • 11:00 • 16:00
+    </div>
+
     <div id="section-list" class="transition-opacity duration-300">
-        <div class="px-4 mt-4 mb-4 sticky top-[70px] z-40">
+        <div class="px-4 mt-3 mb-4 sticky top-[85px] z-30">
             <div class="bg-white p-3 rounded-2xl shadow-sm border border-slate-200 flex items-center gap-3">
                 <span class="text-slate-400">🔍</span>
-                <input type="text" id="search-input" placeholder="Buscar playa..." 
+                <input type="text" id="search-input" placeholder="Buscar playa, zona..." 
                        class="w-full outline-none text-slate-700 placeholder-slate-400 font-medium bg-transparent">
             </div>
         </div>
+        
         <main class="px-4 pb-4">
             <div id="beach-list" class="space-y-3">
                 <div class="animate-pulse flex space-x-4 p-4 bg-white rounded-2xl">
@@ -92,6 +99,7 @@
     <div id="modal-overlay" onclick="closeModal(event)">
         <div id="modal-content" onclick="event.stopPropagation()">
             <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 font-bold text-xl">✕</button>
+            
             <h2 id="modal-title" class="text-2xl font-black text-slate-800 mb-1 pr-6">Nombre Playa</h2>
             <p id="modal-municipio" class="text-xs font-bold text-blue-600 uppercase tracking-wide mb-4">Municipio</p>
             
@@ -126,7 +134,7 @@
     </nav>
 
     <script>
-        // Fecha
+        // --- 1. CONFIGURACIÓN FECHA ---
         const options = { weekday: 'long', day: 'numeric', month: 'short' };
         let fecha = new Date().toLocaleDateString('es-ES', options);
         document.getElementById('current-date').innerText = fecha.charAt(0).toUpperCase() + fecha.slice(1);
@@ -134,36 +142,37 @@
         let allBeaches = [];
         let map = null;
 
-        // --- LÓGICA DE ICONOS CORREGIDA (SOLO APARECE SOL SI ESTÁ DESPEJADO) ---
+        // --- 2. LÓGICA DE ICONOS (ESTRICTA) ---
         function getIconoClima(clima, visibilidad) {
             const desc = clima.toLowerCase();
             
-            // 1. Lluvia/Tormenta
+            // Prioridad 1: Lluvia
             if (desc.includes('lluvia') || desc.includes('llovizna')) return '🌧️';
             if (desc.includes('tormenta')) return '⛈️';
             
-            // 2. Calima (Prioridad si baja visibilidad o lo dice explícitamente)
+            // Prioridad 2: Calima (Arena/Polvo o baja visibilidad)
             if (visibilidad < 4000 || desc.includes('polvo') || desc.includes('arena') || desc.includes('calima')) {
                 return '🏜️'; 
             }
 
-            // 3. Nublado Total (Sin sol)
+            // Prioridad 3: Nublado (Sin sol)
+            // Si dice "muy nuboso", "cubierto" o "nubes", pero NO dice "dispersas" ni "pocas"
             if (desc.includes('muy nuboso') || desc.includes('cubierto') || desc.includes('nubes') || desc.includes('fragmentadas')) {
-                // Si dice "dispersas" o "pocas" NO entra aquí, entra abajo
                 if (!desc.includes('dispersas') && !desc.includes('pocas') && !desc.includes('algo')) {
                     return '☁️'; 
                 }
             }
 
-            // 4. Nubes y Sol
+            // Prioridad 4: Nubes y Claros
             if (desc.includes('nube') || desc.includes('nuboso') || desc.includes('dispersas') || desc.includes('pocas') || desc.includes('algo')) {
                 return '⛅';
             }
 
-            // 5. Sol (Por defecto o despejado)
+            // Prioridad 5: Sol (Despejado)
             return '☀️';
         }
 
+        // --- 3. NAVEGACIÓN (TABS) ---
         function showSection(section) {
             document.getElementById('section-list').classList.add('hidden-section');
             document.getElementById('section-map').classList.add('hidden-section');
@@ -180,7 +189,7 @@
             }
         }
 
-        // Modal Logic
+        // --- 4. GESTIÓN DEL MODAL ---
         function openModal(beach) {
             document.getElementById('modal-title').innerText = beach.nombre;
             document.getElementById('modal-municipio').innerText = beach.municipio + ' • ' + beach.zona;
@@ -188,14 +197,14 @@
             document.getElementById('modal-sunset').innerText = beach.clima.sunset || '--:--';
             document.getElementById('modal-visi').innerText = (beach.clima.visibilidad / 1000).toFixed(1) + ' km';
             
-            // Lógica Webcam
+            // Mostrar u ocultar botón Webcam
             const btnWebcam = document.getElementById('btn-webcam-link');
             if (beach.webcam) {
                 btnWebcam.href = beach.webcam;
-                btnWebcam.classList.remove('hidden'); // Mostrar botón
+                btnWebcam.classList.remove('hidden');
                 btnWebcam.classList.add('flex');
             } else {
-                btnWebcam.classList.add('hidden'); // Ocultar botón
+                btnWebcam.classList.add('hidden');
                 btnWebcam.classList.remove('flex');
             }
             
@@ -207,6 +216,7 @@
             document.getElementById('modal-overlay').style.display = 'none';
         }
 
+        // --- 5. INICIALIZAR MAPA ---
         function initMap() {
             if (map) { map.invalidateSize(); return; }
             map = L.map('map').setView([28.2916, -16.6291], 10);
@@ -219,13 +229,13 @@
                     let color = beach.score >= 8 ? '#22c55e' : (beach.score >= 5 ? '#f59e0b' : '#ef4444');
                     const iconHtml = `<div style="background-color: ${color}; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div>`;
                     const customIcon = L.divIcon({ html: iconHtml, className: 'custom-div-icon', iconSize: [14, 14], iconAnchor: [7, 7] });
-                    
                     const marker = L.marker(beach.coordenadas, { icon: customIcon }).addTo(map);
                     marker.bindPopup(`<b>${beach.nombre}</b><br>Nota: ${beach.score}/10`);
                 }
             });
         }
 
+        // --- 6. RENDERIZAR LISTA ---
         function renderBeaches(list) {
             const container = document.getElementById('beach-list');
             const noResults = document.getElementById('no-results');
@@ -242,7 +252,6 @@
                 let scoreColor = beach.score >= 9 ? 'text-green-600' : (beach.score < 5 ? 'text-red-500' : 'text-blue-600');
                 
                 const iconoSielo = getIconoClima(beach.clima.cielo, beach.clima.visibilidad);
-
                 beach.index = index; 
 
                 const card = `
@@ -267,13 +276,11 @@
                                 <span class="block text-sm font-bold text-slate-700">${beach.clima.t_real}ºC</span>
                                 <span class="block text-[9px] text-slate-500 leading-none mt-1">Sens: ${beach.clima.t_feel}º</span>
                             </div>
-                            
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">💨</span>
                                 <span class="block text-xs text-slate-400 font-semibold">Viento</span>
                                 <span class="block text-sm font-bold text-slate-700">${beach.clima.viento} <span class="text-[9px]">km/h</span></span>
                             </div>
-                            
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">${iconoSielo}</span>
                                 <span class="block text-xs text-slate-400 font-semibold">Cielo</span>
@@ -282,7 +289,7 @@
                         </div>
 
                         <div class="flex justify-center items-center gap-2">
-                           <span class="text-[10px] text-blue-500 font-semibold bg-blue-50 px-3 py-1 rounded-full">👆 Detalles</span>
+                           <span class="text-[10px] text-blue-500 font-semibold bg-blue-50 px-3 py-1 rounded-full">👆 Ver Detalles</span>
                            ${beach.webcam ? '<span class="text-[9px] text-white font-bold bg-red-500 px-2 py-1 rounded-full animate-pulse">🔴 CAM</span>' : ''}
                         </div>
                     </div>
@@ -291,11 +298,15 @@
             });
         }
 
+        // --- 7. CARGA DE DATOS ---
         async function loadBeaches() {
             try {
+                // Evitamos caché añadiendo timestamp
                 const response = await fetch('data.json?v=' + new Date().getTime());
                 if (!response.ok) throw new Error("No data");
                 allBeaches = await response.json();
+                
+                // Mapeamos índice para el modal
                 allBeaches = allBeaches.map((b, i) => ({...b, index: i}));
                 renderBeaches(allBeaches);
             } catch (error) {
@@ -304,11 +315,13 @@
             }
         }
 
+        // --- 8. BUSCADOR ---
         document.getElementById('search-input').addEventListener('input', (e) => {
             const txt = e.target.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             const filtered = allBeaches.filter(b => 
                 b.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt) || 
-                b.municipio.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt)
+                b.municipio.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt) ||
+                (b.zona && b.zona.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(txt))
             );
             renderBeaches(filtered);
         });
