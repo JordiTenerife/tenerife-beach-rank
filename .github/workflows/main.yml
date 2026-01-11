@@ -3,7 +3,7 @@ name: Actualizar Ranking Diario
 on:
   schedule:
     # Se ejecuta a las 07:00 UTC (08:00 Canarias)
-    - cron: '0 7 * * *'
+    - cron: '0 8,11,16 * * *'
   workflow_dispatch: # Permite pulsar el botón manualmente para probar
 
 permissions:
