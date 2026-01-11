@@ -159,7 +159,12 @@
     </nav>
 
     <script>
-        // --- CHIVATO DE ERRORES (Visible en pantalla) ---
+        // --- VARIABLES GLOBALES INICIALIZADAS ---
+        let currentLang = 'es';
+        let allBeaches = [];
+        let map = null;
+
+        // --- CHIVATO DE ERRORES ---
         window.onerror = function(msg, url, line) {
             const box = document.getElementById('debug-error');
             const txt = document.getElementById('error-msg');
@@ -168,7 +173,6 @@
             return false;
         };
 
-        let currentLang = 'es';
         const translations = {
             es: { update_info: "🕒 Actualización en vivo: 08:00 • 11:00 • 16:00", search_placeholder: "Buscar playa, zona...", no_results: "No se encontraron playas 🤷‍♂️", good: "Excelente", regular: "Regular", bad: "Malo", sunset: "Puesta de Sol", visibility: "Visibilidad", webcam_btn: "VER WEBCAM EN DIRECTO", nav_ranking: "Ranking", nav_map: "Mapa", points: "PUNTOS", temp: "Temp.", feel: "Sens:", wind: "Viento", sky: "Cielo", tap_details: "👆 Ver Detalles", best_choice: "MEJOR OPCIÓN", cielo_despejado: "Despejado", cielo_nubes: "Nuboso", cielo_lluvia: "Lluvia", cielo_calima: "Calima", cielo_parcial: "Nubes y Claros" },
             en: { update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00", search_placeholder: "Search beach, area...", no_results: "No beaches found 🤷‍♂️", good: "Excellent", regular: "Okay", bad: "Bad", sunset: "Sunset", visibility: "Visibility", webcam_btn: "WATCH LIVE WEBCAM", nav_ranking: "Ranking", nav_map: "Map", points: "POINTS", temp: "Temp.", feel: "Feels:", wind: "Wind", sky: "Sky", tap_details: "👆 Tap for details", best_choice: "BEST CHOICE", cielo_despejado: "Clear", cielo_nubes: "Cloudy", cielo_lluvia: "Rain", cielo_calima: "Dust/Haze", cielo_parcial: "Partly Cloudy" },
@@ -200,25 +204,13 @@
                     el.placeholder = translations[lang][key];
                 }
             });
-            if (allBeaches.length > 0) renderBeaches(allBeaches);
-        }
-
-        // --- MODO SEGURO DE IDIOMA ---
-        try {
-            const userLang = navigator.language || navigator.userLanguage;
-            const shortLang = userLang.substring(0, 2);
-            setLanguage(translations[shortLang] ? shortLang : 'es');
-        } catch (e) {
-            console.error(e);
-            setLanguage('es'); // Si falla, forzar español
+            // Corrección aquí: solo renderizar si ya hay datos
+            if (allBeaches && allBeaches.length > 0) renderBeaches(allBeaches);
         }
 
         const options = { weekday: 'long', day: 'numeric', month: 'short' };
         let fecha = new Date().toLocaleDateString('es-ES', options);
         document.getElementById('current-date').innerText = fecha.charAt(0).toUpperCase() + fecha.slice(1);
-
-        let allBeaches = [];
-        let map = null;
 
         function getIconoClima(clima, visibilidad) {
             const desc = clima ? clima.toLowerCase() : "";
@@ -240,7 +232,6 @@
             else if (icon === '🏜️') textKey = 'cielo_calima';
             else if (icon === '⛅') textKey = 'cielo_parcial';
             
-            // Seguridad si falta traducción
             const text = (translations[currentLang] && translations[currentLang][textKey]) ? translations[currentLang][textKey] : cielo;
             return { icon, text };
         }
@@ -297,7 +288,7 @@
                     const iconHtml = `<div style="background-color: ${color}; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div>`;
                     const customIcon = L.divIcon({ html: iconHtml, className: 'custom-div-icon', iconSize: [14, 14], iconAnchor: [7, 7] });
                     const marker = L.marker(beach.coordenadas, { icon: customIcon }).addTo(map);
-                    marker.bindPopup(`<b>${beach.nombre}</b><br>Nota: ${beach.score}/10`);
+                    marker.bindPopup(`<b>${beach.nombre}</b><br>${translations[currentLang].points}: ${beach.score}/10`);
                 }
             });
         }
@@ -312,7 +303,6 @@
             }
             noResults.classList.add('hidden');
             
-            // SEGURIDAD: Si el idioma no carga, usar español
             const t = translations[currentLang] || translations['es'];
 
             list.forEach((beach, index) => {
@@ -379,8 +369,18 @@
                 renderBeaches(allBeaches);
             } catch (error) {
                 console.error("Error cargando:", error);
-                throw error; // Esto disparará el window.onerror de arriba
+                throw error;
             }
+        }
+
+        // --- INICIAR ---
+        try {
+            const userLang = navigator.language || navigator.userLanguage;
+            const shortLang = userLang.substring(0, 2);
+            setLanguage(translations[shortLang] ? shortLang : 'es');
+        } catch (e) {
+            console.error(e);
+            setLanguage('es'); 
         }
 
         loadBeaches();
