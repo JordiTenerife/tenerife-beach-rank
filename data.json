@@ -207,7 +207,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 75,
+      "humedad": 77,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -231,7 +231,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 76,
+      "humedad": 78,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -255,7 +255,7 @@
       "t_feel": 19,
       "viento": 11,
       "cielo": "Cielo claro",
-      "humedad": 76,
+      "humedad": 79,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -303,7 +303,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 76,
+      "humedad": 77,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -327,7 +327,7 @@
       "t_feel": 20,
       "viento": 6,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -351,7 +351,7 @@
       "t_feel": 19,
       "viento": 11,
       "cielo": "Cielo claro",
-      "humedad": 75,
+      "humedad": 77,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -375,7 +375,7 @@
       "t_feel": 19,
       "viento": 12,
       "cielo": "Cielo claro",
-      "humedad": 69,
+      "humedad": 72,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -519,7 +519,7 @@
       "t_feel": 19,
       "viento": 12,
       "cielo": "Cielo claro",
-      "humedad": 69,
+      "humedad": 72,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -543,7 +543,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 76,
+      "humedad": 77,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -567,7 +567,7 @@
       "t_feel": 18,
       "viento": 11,
       "cielo": "Cielo claro",
-      "humedad": 75,
+      "humedad": 77,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -591,7 +591,7 @@
       "t_feel": 19,
       "viento": 11,
       "cielo": "Cielo claro",
-      "humedad": 76,
+      "humedad": 79,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -615,7 +615,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 75,
+      "humedad": 77,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -639,7 +639,7 @@
       "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 75,
+      "humedad": 77,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -663,7 +663,7 @@
       "t_feel": 19,
       "viento": 10,
       "cielo": "Nubes dispersas",
-      "humedad": 72,
+      "humedad": 73,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -687,7 +687,7 @@
       "t_feel": 19,
       "viento": 10,
       "cielo": "Nubes dispersas",
-      "humedad": 72,
+      "humedad": 73,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -711,7 +711,7 @@
       "t_feel": 19,
       "viento": 7,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -731,11 +731,11 @@
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-teresitas.html",
     "score": 7,
     "clima": {
-      "t_real": 19,
+      "t_real": 18,
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -759,7 +759,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -807,7 +807,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 82,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -831,7 +831,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -855,7 +855,7 @@
       "t_feel": 18,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 82,
+      "humedad": 83,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -903,7 +903,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -927,7 +927,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -951,7 +951,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -975,7 +975,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -996,10 +996,10 @@
     "score": 7,
     "clima": {
       "t_real": 18,
-      "t_feel": 19,
+      "t_feel": 18,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 82,
+      "humedad": 83,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -1020,10 +1020,10 @@
     "score": 7,
     "clima": {
       "t_real": 18,
-      "t_feel": 19,
+      "t_feel": 18,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 82,
+      "humedad": 83,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -1047,7 +1047,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 77,
+      "humedad": 79,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1071,7 +1071,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1095,7 +1095,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1119,7 +1119,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1143,7 +1143,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1167,7 +1167,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1191,7 +1191,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1215,7 +1215,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -1239,7 +1239,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1263,7 +1263,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1287,7 +1287,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1311,7 +1311,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1335,7 +1335,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1359,7 +1359,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1431,7 +1431,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 77,
+      "humedad": 79,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1455,7 +1455,7 @@
       "t_feel": 18,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 78,
+      "humedad": 79,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1479,7 +1479,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1503,7 +1503,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 79,
+      "humedad": 80,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1551,7 +1551,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 78,
+      "humedad": 79,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1575,7 +1575,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 82,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -1595,11 +1595,11 @@
     "webcam": null,
     "score": 7,
     "clima": {
-      "t_real": 19,
+      "t_real": 18,
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 82,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1671,7 +1671,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1695,7 +1695,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 79,
+      "humedad": 80,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1719,7 +1719,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 77,
+      "humedad": 78,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1743,7 +1743,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 78,
+      "humedad": 79,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1767,7 +1767,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 79,
+      "humedad": 80,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -1983,7 +1983,7 @@
       "t_feel": 20,
       "viento": 28,
       "cielo": "Algo de nubes",
-      "humedad": 56,
+      "humedad": 54,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -2031,7 +2031,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -2051,11 +2051,11 @@
     "webcam": null,
     "score": 7,
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
+      "t_real": 18,
+      "t_feel": 18,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 83,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
@@ -2079,33 +2079,9 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 84,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:27"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Cueva del Agua",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.56,
-      -16.3
-    ],
-    "descripcion": "🦕 Rincón aislado en la costa de Anaga. Naturaleza jurásica y soledad.",
-    "webcam": null,
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 19,
-      "cielo": "Muy nuboso",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:26"
     },
     "detalles": [
       "Muy nuboso"
@@ -2127,7 +2103,7 @@
       "t_feel": 18,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 81,
+      "humedad": 83,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -2151,7 +2127,7 @@
       "t_feel": 19,
       "viento": 19,
       "cielo": "Muy nuboso",
-      "humedad": 82,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -2223,7 +2199,7 @@
       "t_feel": 16,
       "viento": 11,
       "cielo": "Cielo claro",
-      "humedad": 69,
+      "humedad": 72,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -2247,7 +2223,7 @@
       "t_feel": 16,
       "viento": 11,
       "cielo": "Cielo claro",
-      "humedad": 69,
+      "humedad": 72,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -2343,6 +2319,30 @@
       "t_feel": 19,
       "viento": 24,
       "cielo": "Muy nuboso",
+      "humedad": 85,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Cueva del Agua",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.56,
+      -16.3
+    ],
+    "descripcion": "🦕 Rincón aislado en la costa de Anaga. Naturaleza jurásica y soledad.",
+    "webcam": null,
+    "score": 4,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 19,
+      "cielo": "Muy nuboso",
       "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
@@ -2367,7 +2367,7 @@
       "t_feel": 17,
       "viento": 25,
       "cielo": "Nubes",
-      "humedad": 84,
+      "humedad": 85,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
