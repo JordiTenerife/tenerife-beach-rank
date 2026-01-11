@@ -32,7 +32,6 @@
             from { transform: scale(0.95); opacity: 0; }
             to { transform: scale(1); opacity: 1; }
         }
-        
         .btn-webcam {
             background-color: #ef4444; color: white;
             font-weight: bold; padding: 10px 20px; border-radius: 12px;
@@ -46,14 +45,14 @@
             animation: blink 1.5s infinite;
         }
         @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
-
-        /* Estilo para selector de idioma (Scroll horizontal en móviles muy pequeños) */
-        .flags-container {
-            display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; max-width: 220px;
-        }
+        
+        .flags-container { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; max-width: 220px; }
         .lang-btn { opacity: 0.4; cursor: pointer; transition: opacity 0.2s; font-size: 1.2rem; filter: grayscale(80%); }
         .lang-btn:hover { opacity: 0.8; filter: grayscale(0%); }
         .lang-btn.active { opacity: 1; transform: scale(1.2); filter: grayscale(0%); }
+        
+        /* Error Box */
+        #error-box { display: none; background: #fee2e2; border: 1px solid #ef4444; color: #b91c1c; padding: 1rem; margin: 1rem; border-radius: 0.5rem; text-align: center; }
     </style>
 </head>
 <body class="pb-24 bg-slate-50 text-slate-800">
@@ -63,7 +62,6 @@
             <span class="text-2xl">🌊</span>
             <h1 class="text-lg font-bold text-slate-800 tracking-tight leading-none">Tenerife<br>BeachRank</h1>
         </div>
-        
         <div class="flex flex-col items-end gap-1">
             <div class="flags-container">
                 <span onclick="setLanguage('es')" class="lang-btn active" id="lang-es" title="Español">🇪🇸</span>
@@ -89,13 +87,17 @@
         <div class="px-4 mt-3 mb-4 sticky top-[100px] z-30">
             <div class="bg-white p-3 rounded-2xl shadow-sm border border-slate-200 flex items-center gap-3">
                 <span class="text-slate-400">🔍</span>
-                <input type="text" id="search-input" placeholder="Buscar playa..." 
-                       class="w-full outline-none text-slate-700 placeholder-slate-400 font-medium bg-transparent"
-                       data-i18n-placeholder="search_placeholder">
+                <input type="text" id="search-input" placeholder="Buscar playa..." class="w-full outline-none text-slate-700 placeholder-slate-400 font-medium bg-transparent" data-i18n-placeholder="search_placeholder">
             </div>
         </div>
         
         <main class="px-4 pb-4">
+            <div id="error-box">
+                <p>⚠️ <b>Error cargando datos</b></p>
+                <p class="text-xs mt-1" id="error-msg">Conectando...</p>
+                <button onclick="location.reload()" class="mt-2 bg-red-100 px-3 py-1 rounded text-xs font-bold">Reintentar</button>
+            </div>
+
             <div id="beach-list" class="space-y-3">
                 <div class="animate-pulse flex space-x-4 p-4 bg-white rounded-2xl">
                     <div class="flex-1 space-y-4 py-1">
@@ -122,11 +124,9 @@
             <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 font-bold text-xl">✕</button>
             <h2 id="modal-title" class="text-2xl font-black text-slate-800 mb-1 pr-6">Nombre Playa</h2>
             <p id="modal-municipio" class="text-xs font-bold text-blue-600 uppercase tracking-wide mb-4">Municipio</p>
-            
             <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 mb-4">
                 <p id="modal-desc" class="text-sm text-slate-600 leading-relaxed">Descripción aquí...</p>
             </div>
-
             <div class="grid grid-cols-2 gap-3 text-center mb-2">
                 <div class="bg-blue-50 rounded-lg p-2">
                     <span class="block text-xs text-slate-400" data-i18n="sunset">Puesta de Sol</span>
@@ -137,7 +137,6 @@
                     <span id="modal-visi" class="font-bold text-slate-700">-- km</span>
                 </div>
             </div>
-
             <a id="btn-webcam-link" href="#" target="_blank" class="hidden btn-webcam">
                 <div class="live-dot"></div> <span data-i18n="webcam_btn">VER WEBCAM EN DIRECTO</span>
             </a>
@@ -154,206 +153,41 @@
     </nav>
 
     <script>
-        // --- SISTEMA DE TRADUCCIÓN INTERNACIONAL ---
         let currentLang = 'es';
-        
         const translations = {
-            // ESPAÑOL
-            es: {
-                update_info: "🕒 Actualización en vivo: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Buscar playa, zona...",
-                no_results: "No se encontraron playas 🤷‍♂️",
-                good: "Excelente", regular: "Regular", bad: "Malo",
-                sunset: "Puesta de Sol", visibility: "Visibilidad",
-                webcam_btn: "VER WEBCAM EN DIRECTO",
-                nav_ranking: "Ranking", nav_map: "Mapa",
-                points: "PUNTOS",
-                temp: "Temp.", feel: "Sens:", wind: "Viento", sky: "Cielo",
-                tap_details: "👆 Ver Detalles",
-                best_choice: "MEJOR OPCIÓN",
-                cielo_despejado: "Despejado", cielo_nubes: "Nuboso", cielo_lluvia: "Lluvia",
-                cielo_calima: "Calima", cielo_parcial: "Nubes y Claros"
-            },
-            // INGLÉS
-            en: {
-                update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Search beach, area...",
-                no_results: "No beaches found 🤷‍♂️",
-                good: "Excellent", regular: "Okay", bad: "Bad",
-                sunset: "Sunset", visibility: "Visibility",
-                webcam_btn: "WATCH LIVE WEBCAM",
-                nav_ranking: "Ranking", nav_map: "Map",
-                points: "POINTS",
-                temp: "Temp.", feel: "Feels:", wind: "Wind", sky: "Sky",
-                tap_details: "👆 Tap for details",
-                best_choice: "BEST CHOICE",
-                cielo_despejado: "Clear", cielo_nubes: "Cloudy", cielo_lluvia: "Rain",
-                cielo_calima: "Dust/Haze", cielo_parcial: "Partly Cloudy"
-            },
-            // ALEMÁN
-            de: {
-                update_info: "🕒 Live-Updates: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Strand suchen...",
-                no_results: "Keine Strände gefunden 🤷‍♂️",
-                good: "Exzellent", regular: "Okay", bad: "Schlecht",
-                sunset: "Sonnenuntergang", visibility: "Sichtweite",
-                webcam_btn: "LIVE-WEBCAM ANSEHEN",
-                nav_ranking: "Ranking", nav_map: "Karte",
-                points: "PUNKTE",
-                temp: "Temp.", feel: "Gefühlt:", wind: "Wind", sky: "Himmel",
-                tap_details: "👆 Details anzeigen",
-                best_choice: "BESTE WAHL",
-                cielo_despejado: "Klar", cielo_nubes: "Bewölkt", cielo_lluvia: "Regen",
-                cielo_calima: "Calima/Staub", cielo_parcial: "Teils Bewölkt"
-            },
-            // FRANCÉS
-            fr: {
-                update_info: "🕒 Mise à jour: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Chercher plage...",
-                no_results: "Aucune plage trouvée 🤷‍♂️",
-                good: "Excellent", regular: "Moyen", bad: "Mauvais",
-                sunset: "Coucher soleil", visibility: "Visibilité",
-                webcam_btn: "VOIR WEBCAM EN DIRECT",
-                nav_ranking: "Classement", nav_map: "Carte",
-                points: "POINTS",
-                temp: "Temp.", feel: "Ressenti:", wind: "Vent", sky: "Ciel",
-                tap_details: "👆 Voir détails",
-                best_choice: "MEILLEUR CHOIX",
-                cielo_despejado: "Dégagé", cielo_nubes: "Nuageux", cielo_lluvia: "Pluie",
-                cielo_calima: "Brume/Sable", cielo_parcial: "Éclaircies"
-            },
-            // ITALIANO
-            it: {
-                update_info: "🕒 Aggiornamento: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Cerca spiaggia...",
-                no_results: "Nessuna spiaggia trovata 🤷‍♂️",
-                good: "Eccellente", regular: "Regolare", bad: "Male",
-                sunset: "Tramonto", visibility: "Visibilità",
-                webcam_btn: "VEDI WEBCAM LIVE",
-                nav_ranking: "Classifica", nav_map: "Mappa",
-                points: "PUNTI",
-                temp: "Temp.", feel: "Percepita:", wind: "Vento", sky: "Cielo",
-                tap_details: "👆 Vedi dettagli",
-                best_choice: "SCELTA MIGLIORE",
-                cielo_despejado: "Sereno", cielo_nubes: "Nuvoloso", cielo_lluvia: "Pioggia",
-                cielo_calima: "Foschia/Sabbia", cielo_parcial: "Parz. Nuvoloso"
-            },
-            // HOLANDÉS (PAÍSES BAJOS / BÉLGICA)
-            nl: {
-                update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Zoek strand...",
-                no_results: "Geen stranden gevonden 🤷‍♂️",
-                good: "Uitstekend", regular: "Matig", bad: "Slecht",
-                sunset: "Zonsondergang", visibility: "Zicht",
-                webcam_btn: "BEKIJK LIVE WEBCAM",
-                nav_ranking: "Ranglijst", nav_map: "Kaart",
-                points: "PUNTEN",
-                temp: "Temp.", feel: "Gevoel:", wind: "Wind", sky: "Hemel",
-                tap_details: "👆 Bekijk details",
-                best_choice: "BESTE KEUZE",
-                cielo_despejado: "Helder", cielo_nubes: "Bewolkt", cielo_lluvia: "Regen",
-                cielo_calima: "Calima/Stof", cielo_parcial: "Half bewolkt"
-            },
-            // SUECO
-            sv: {
-                update_info: "🕒 Liveuppdatering: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Sök strand...",
-                no_results: "Inga stränder hittades 🤷‍♂️",
-                good: "Utmärkt", regular: "Okej", bad: "Dåligt",
-                sunset: "Solnedgång", visibility: "Sikt",
-                webcam_btn: "SE LIVE WEBBKAMERA",
-                nav_ranking: "Topplista", nav_map: "Karta",
-                points: "POÄNG",
-                temp: "Temp.", feel: "Känns:", wind: "Vind", sky: "Himmel",
-                tap_details: "👆 Se detaljer",
-                best_choice: "BÄSTA VALET",
-                cielo_despejado: "Klart", cielo_nubes: "Molnigt", cielo_lluvia: "Regn",
-                cielo_calima: "Calima/Damm", cielo_parcial: "Halvklart"
-            },
-            // NORUEGO
-            no: {
-                update_info: "🕒 Live-oppdatering: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Søk strand...",
-                no_results: "Ingen strender funnet 🤷‍♂️",
-                good: "Utmerket", regular: "Helt ok", bad: "Dårlig",
-                sunset: "Solnedgang", visibility: "Sikt",
-                webcam_btn: "SE LIVE WEBKAMERA",
-                nav_ranking: "Toppliste", nav_map: "Kart",
-                points: "POENG",
-                temp: "Temp.", feel: "Føles:", wind: "Vind", sky: "Himmel",
-                tap_details: "👆 Se detaljer",
-                best_choice: "BESTE VALG",
-                cielo_despejado: "Klart", cielo_nubes: "Skyet", cielo_lluvia: "Regn",
-                cielo_calima: "Calima/Støv", cielo_parcial: "Delvis skyet"
-            },
-            // DANÉS
-            da: {
-                update_info: "🕒 Live opdatering: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Søg strand...",
-                no_results: "Ingen strande fundet 🤷‍♂️",
-                good: "Fremragende", regular: "Ok", bad: "Dårligt",
-                sunset: "Solnedgang", visibility: "Sigtbarhed",
-                webcam_btn: "SE LIVE WEBCAM",
-                nav_ranking: "Rangering", nav_map: "Kort",
-                points: "POINT",
-                temp: "Temp.", feel: "Føles:", wind: "Vind", sky: "Himmel",
-                tap_details: "👆 Se detaljer",
-                best_choice: "BEDSTE VALG",
-                cielo_despejado: "Klart", cielo_nubes: "Skyet", cielo_lluvia: "Regn",
-                cielo_calima: "Calima/Støv", cielo_parcial: "Halvskyet"
-            },
-            // FINLANDÉS
-            fi: {
-                update_info: "🕒 Live-päivitys: 08:00 • 11:00 • 16:00",
-                search_placeholder: "Etsi rantaa...",
-                no_results: "Ei rantoja löytynyt 🤷‍♂️",
-                good: "Erinomainen", regular: "Kohtalainen", bad: "Huono",
-                sunset: "Auringonlasku", visibility: "Näkyvyys",
-                webcam_btn: "KATSO LIVE-KAMERA",
-                nav_ranking: "Ranking", nav_map: "Kartta",
-                points: "PISTETTÄ",
-                temp: "Lämpö", feel: "Tuntuu:", wind: "Tuuli", sky: "Taivas",
-                tap_details: "👆 Katso tiedot",
-                best_choice: "PARAS VALINTA",
-                cielo_despejado: "Selkeä", cielo_nubes: "Pilvinen", cielo_lluvia: "Sade",
-                cielo_calima: "Calima/Pöly", cielo_parcial: "Puolipilvinen"
-            }
+            es: { update_info: "🕒 Actualización en vivo: 08:00 • 11:00 • 16:00", search_placeholder: "Buscar playa, zona...", no_results: "No se encontraron playas 🤷‍♂️", good: "Excelente", regular: "Regular", bad: "Malo", sunset: "Puesta de Sol", visibility: "Visibilidad", webcam_btn: "VER WEBCAM EN DIRECTO", nav_ranking: "Ranking", nav_map: "Mapa", points: "PUNTOS", temp: "Temp.", feel: "Sens:", wind: "Viento", sky: "Cielo", tap_details: "👆 Ver Detalles", best_choice: "MEJOR OPCIÓN", cielo_despejado: "Despejado", cielo_nubes: "Nuboso", cielo_lluvia: "Lluvia", cielo_calima: "Calima", cielo_parcial: "Nubes y Claros" },
+            en: { update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00", search_placeholder: "Search beach, area...", no_results: "No beaches found 🤷‍♂️", good: "Excellent", regular: "Okay", bad: "Bad", sunset: "Sunset", visibility: "Visibility", webcam_btn: "WATCH LIVE WEBCAM", nav_ranking: "Ranking", nav_map: "Map", points: "POINTS", temp: "Temp.", feel: "Feels:", wind: "Wind", sky: "Sky", tap_details: "👆 Tap for details", best_choice: "BEST CHOICE", cielo_despejado: "Clear", cielo_nubes: "Cloudy", cielo_lluvia: "Rain", cielo_calima: "Dust/Haze", cielo_parcial: "Partly Cloudy" },
+            de: { update_info: "🕒 Live-Updates: 08:00 • 11:00 • 16:00", search_placeholder: "Strand suchen...", no_results: "Keine Strände gefunden 🤷‍♂️", good: "Exzellent", regular: "Okay", bad: "Schlecht", sunset: "Sonnenuntergang", visibility: "Sichtweite", webcam_btn: "LIVE-WEBCAM ANSEHEN", nav_ranking: "Ranking", nav_map: "Karte", points: "PUNKTE", temp: "Temp.", feel: "Gefühlt:", wind: "Wind", sky: "Himmel", tap_details: "👆 Details anzeigen", best_choice: "BESTE WAHL", cielo_despejado: "Klar", cielo_nubes: "Bewölkt", cielo_lluvia: "Regen", cielo_calima: "Calima/Staub", cielo_parcial: "Teils Bewölkt" },
+            fr: { update_info: "🕒 Mise à jour: 08:00 • 11:00 • 16:00", search_placeholder: "Chercher plage...", no_results: "Aucune plage trouvée 🤷‍♂️", good: "Excellent", regular: "Moyen", bad: "Mauvais", sunset: "Coucher soleil", visibility: "Visibilité", webcam_btn: "VOIR WEBCAM EN DIRECT", nav_ranking: "Classement", nav_map: "Carte", points: "POINTS", temp: "Temp.", feel: "Ressenti:", wind: "Vent", sky: "Ciel", tap_details: "👆 Voir détails", best_choice: "MEILLEUR CHOIX", cielo_despejado: "Dégagé", cielo_nubes: "Nuageux", cielo_lluvia: "Pluie", cielo_calima: "Brume/Sable", cielo_parcial: "Éclaircies" },
+            it: { update_info: "🕒 Aggiornamento: 08:00 • 11:00 • 16:00", search_placeholder: "Cerca spiaggia...", no_results: "Nessuna spiaggia trovata 🤷‍♂️", good: "Eccellente", regular: "Regolare", bad: "Male", sunset: "Tramonto", visibility: "Visibilità", webcam_btn: "VEDI WEBCAM LIVE", nav_ranking: "Classifica", nav_map: "Mappa", points: "PUNTI", temp: "Temp.", feel: "Percepita:", wind: "Vento", sky: "Cielo", tap_details: "👆 Vedi dettagli", best_choice: "SCELTA MIGLIORE", cielo_despejado: "Sereno", cielo_nubes: "Nuvoloso", cielo_lluvia: "Pioggia", cielo_calima: "Foschia/Sabbia", cielo_parcial: "Parz. Nuvoloso" },
+            nl: { update_info: "🕒 Live updates: 08:00 • 11:00 • 16:00", search_placeholder: "Zoek strand...", no_results: "Geen stranden gevonden 🤷‍♂️", good: "Uitstekend", regular: "Matig", bad: "Slecht", sunset: "Zonsondergang", visibility: "Zicht", webcam_btn: "BEKIJK LIVE WEBCAM", nav_ranking: "Ranglijst", nav_map: "Kaart", points: "PUNTEN", temp: "Temp.", feel: "Gevoel:", wind: "Wind", sky: "Hemel", tap_details: "👆 Bekijk details", best_choice: "BESTE KEUZE", cielo_despejado: "Helder", cielo_nubes: "Bewolkt", cielo_lluvia: "Regen", cielo_calima: "Calima/Stof", cielo_parcial: "Half bewolkt" },
+            sv: { update_info: "🕒 Liveuppdatering: 08:00 • 11:00 • 16:00", search_placeholder: "Sök strand...", no_results: "Inga stränder hittades 🤷‍♂️", good: "Utmärkt", regular: "Okej", bad: "Dåligt", sunset: "Solnedgång", visibility: "Sikt", webcam_btn: "SE LIVE WEBBKAMERA", nav_ranking: "Topplista", nav_map: "Karta", points: "POÄNG", temp: "Temp.", feel: "Känns:", wind: "Vind", sky: "Himmel", tap_details: "👆 Se detaljer", best_choice: "BÄSTA VALET", cielo_despejado: "Klart", cielo_nubes: "Molnigt", cielo_lluvia: "Regn", cielo_calima: "Calima/Damm", cielo_parcial: "Halvklart" },
+            no: { update_info: "🕒 Live-oppdatering: 08:00 • 11:00 • 16:00", search_placeholder: "Søk strand...", no_results: "Ingen strender funnet 🤷‍♂️", good: "Utmerket", regular: "Helt ok", bad: "Dårlig", sunset: "Solnedgang", visibility: "Sikt", webcam_btn: "SE LIVE WEBKAMERA", nav_ranking: "Toppliste", nav_map: "Kart", points: "POENG", temp: "Temp.", feel: "Føles:", wind: "Vind", sky: "Himmel", tap_details: "👆 Se detaljer", best_choice: "BESTE VALG", cielo_despejado: "Klart", cielo_nubes: "Skyet", cielo_lluvia: "Regn", cielo_calima: "Calima/Støv", cielo_parcial: "Delvis skyet" },
+            da: { update_info: "🕒 Live opdatering: 08:00 • 11:00 • 16:00", search_placeholder: "Søg strand...", no_results: "Ingen strande fundet 🤷‍♂️", good: "Fremragende", regular: "Ok", bad: "Dårligt", sunset: "Solnedgang", visibility: "Sigtbarhed", webcam_btn: "SE LIVE WEBCAM", nav_ranking: "Rangering", nav_map: "Kort", points: "POINT", temp: "Temp.", feel: "Føles:", wind: "Vind", sky: "Himmel", tap_details: "👆 Se detaljer", best_choice: "BEDSTE VALG", cielo_despejado: "Klart", cielo_nubes: "Skyet", cielo_lluvia: "Regn", cielo_calima: "Calima/Støv", cielo_parcial: "Halvskyet" },
+            fi: { update_info: "🕒 Live-päivitys: 08:00 • 11:00 • 16:00", search_placeholder: "Etsi rantaa...", no_results: "Ei rantoja löytynyt 🤷‍♂️", good: "Erinomainen", regular: "Kohtalainen", bad: "Huono", sunset: "Auringonlasku", visibility: "Näkyvyys", webcam_btn: "KATSO LIVE-KAMERA", nav_ranking: "Ranking", nav_map: "Kartta", points: "PISTETTÄ", temp: "Lämpö", feel: "Tuntuu:", wind: "Tuuli", sky: "Taivas", tap_details: "👆 Katso tiedot", best_choice: "PARAS VALINTA", cielo_despejado: "Selkeä", cielo_nubes: "Pilvinen", cielo_lluvia: "Sade", cielo_calima: "Calima/Pöly", cielo_parcial: "Puolipilvinen" }
         };
 
         function setLanguage(lang) {
             currentLang = lang;
-            
-            // Actualizar botones bandera
             document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
             const activeBtn = document.getElementById('lang-' + lang);
             if(activeBtn) activeBtn.classList.add('active');
 
-            // Traducir elementos estáticos
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 if (translations[lang][key]) el.innerText = translations[lang][key];
             });
-
-            // Traducir placeholdes
             document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
                 const key = el.getAttribute('data-i18n-placeholder');
                 if (translations[lang][key]) el.placeholder = translations[lang][key];
             });
-
-            // Re-renderizar lista
             if (allBeaches.length > 0) renderBeaches(allBeaches);
         }
 
-        // Detectar idioma del navegador automáticamente
         const userLang = navigator.language || navigator.userLanguage;
         const shortLang = userLang.substring(0, 2);
-        if (translations[shortLang]) {
-            setLanguage(shortLang);
-        } else {
-            setLanguage('es'); // Por defecto español
-        }
+        setLanguage(translations[shortLang] ? shortLang : 'es');
 
-        // --- CÓDIGO FUNCIONAL ---
         const options = { weekday: 'long', day: 'numeric', month: 'short' };
         let fecha = new Date().toLocaleDateString('es-ES', options);
         document.getElementById('current-date').innerText = fecha.charAt(0).toUpperCase() + fecha.slice(1);
@@ -362,7 +196,7 @@
         let map = null;
 
         function getIconoClima(clima, visibilidad) {
-            const desc = clima.toLowerCase();
+            const desc = clima ? clima.toLowerCase() : "";
             if (desc.includes('lluvia') || desc.includes('llovizna')) return '🌧️';
             if (desc.includes('tormenta')) return '⛈️';
             if (visibilidad < 4000 || desc.includes('polvo') || desc.includes('arena') || desc.includes('calima')) return '🏜️'; 
@@ -376,12 +210,10 @@
         function traducirClima(cielo, visibilidad) {
             const icon = getIconoClima(cielo, visibilidad);
             let textKey = 'cielo_despejado';
-            
             if (icon === '☁️') textKey = 'cielo_nubes';
             else if (icon === '🌧️' || icon === '⛈️') textKey = 'cielo_lluvia';
             else if (icon === '🏜️') textKey = 'cielo_calima';
             else if (icon === '⛅') textKey = 'cielo_parcial';
-            
             return { icon, text: translations[currentLang][textKey] };
         }
 
@@ -390,7 +222,6 @@
             document.getElementById('section-map').classList.add('hidden-section');
             document.getElementById('btn-list').classList.remove('text-blue-600');
             document.getElementById('btn-map').classList.remove('text-blue-600');
-
             if (section === 'list') {
                 document.getElementById('section-list').classList.remove('hidden-section');
                 document.getElementById('btn-list').classList.add('text-blue-600');
@@ -404,17 +235,13 @@
         function openModal(beach) {
             document.getElementById('modal-title').innerText = beach.nombre;
             document.getElementById('modal-municipio').innerText = beach.municipio + ' • ' + beach.zona;
-            
-            // INTENTO DE TRADUCCIÓN DE DESCRIPCIÓN
             let desc = beach.descripcion;
             if (typeof beach.descripcion === 'object') {
                 desc = beach.descripcion[currentLang] || beach.descripcion['es'];
             }
             document.getElementById('modal-desc').innerText = desc || "Info not available.";
-            
             document.getElementById('modal-sunset').innerText = beach.clima.sunset || '--:--';
             document.getElementById('modal-visi').innerText = (beach.clima.visibilidad / 1000).toFixed(1) + ' km';
-            
             const btnWebcam = document.getElementById('btn-webcam-link');
             if (beach.webcam) {
                 btnWebcam.href = beach.webcam;
@@ -435,10 +262,7 @@
         function initMap() {
             if (map) { map.invalidateSize(); return; }
             map = L.map('map').setView([28.2916, -16.6291], 10);
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-                attribution: '&copy; OpenStreetMap', maxZoom: 19
-            }).addTo(map);
-
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', { attribution: '&copy; OpenStreetMap', maxZoom: 19 }).addTo(map);
             allBeaches.forEach(beach => {
                 if (beach.coordenadas) {
                     let color = beach.score >= 8 ? '#22c55e' : (beach.score >= 5 ? '#f59e0b' : '#ef4444');
@@ -454,26 +278,20 @@
             const container = document.getElementById('beach-list');
             const noResults = document.getElementById('no-results');
             container.innerHTML = '';
-
             if (list.length === 0) {
                 noResults.classList.remove('hidden');
                 return;
             }
             noResults.classList.add('hidden');
-
             const t = translations[currentLang];
-
             list.forEach((beach, index) => {
                 const isTop = index === 0 && document.getElementById('search-input').value === '';
                 let scoreColor = beach.score >= 9 ? 'text-green-600' : (beach.score < 5 ? 'text-red-500' : 'text-blue-600');
-                
                 const climaData = traducirClima(beach.clima.cielo, beach.clima.visibilidad);
                 beach.index = index; 
-
                 const card = `
                     <div onclick="openModal(allBeaches[${index}])" class="beach-card bg-white rounded-2xl shadow-sm border border-slate-100 p-4 relative overflow-hidden">
                         ${isTop ? `<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 to-blue-500"></div><span class="absolute top-2 right-2 bg-green-100 text-green-700 text-[9px] font-bold px-2 py-0.5 rounded-full border border-green-200">${t.best_choice}</span>` : ''}
-                        
                         <div class="flex justify-between items-start mb-3">
                             <div>
                                 <h3 class="text-lg font-bold text-slate-800 leading-tight">${beach.nombre}</h3>
@@ -484,7 +302,6 @@
                                 <span class="text-[10px] text-slate-400 font-bold -mt-1">${t.points}</span>
                             </div>
                         </div>
-
                         <div class="grid grid-cols-3 gap-2 mb-3">
                             <div class="bg-blue-50 rounded-xl p-2 text-center border border-blue-100">
                                 <span class="block text-xl mb-1">🌡️</span>
@@ -503,28 +320,13 @@
                                 <span class="block text-sm font-bold text-slate-700 truncate px-1">${climaData.text}</span>
                             </div>
                         </div>
-
                         <div class="flex justify-center items-center gap-2">
                            <span class="text-[10px] text-blue-500 font-semibold bg-blue-50 px-3 py-1 rounded-full">${t.tap_details}</span>
                            ${beach.webcam ? '<span class="text-[9px] text-white font-bold bg-red-500 px-2 py-1 rounded-full animate-pulse">🔴 CAM</span>' : ''}
                         </div>
-                    </div>
-                `;
+                    </div>`;
                 container.innerHTML += card;
             });
-        }
-
-        async function loadBeaches() {
-            try {
-                const response = await fetch('data.json?v=' + new Date().getTime());
-                if (!response.ok) throw new Error("No data");
-                allBeaches = await response.json();
-                allBeaches = allBeaches.map((b, i) => ({...b, index: i}));
-                renderBeaches(allBeaches);
-            } catch (error) {
-                console.error(error);
-                setTimeout(loadBeaches, 2000);
-            }
         }
 
         document.getElementById('search-input').addEventListener('input', (e) => {
@@ -535,6 +337,23 @@
             );
             renderBeaches(filtered);
         });
+
+        async function loadBeaches() {
+            try {
+                // Forzar recarga evitando caché
+                const response = await fetch('data.json?v=' + new Date().getTime());
+                if (!response.ok) throw new Error("Error HTTP: " + response.status);
+                allBeaches = await response.json();
+                allBeaches = allBeaches.map((b, i) => ({...b, index: i}));
+                renderBeaches(allBeaches);
+            } catch (error) {
+                console.error("Error cargando:", error);
+                document.getElementById('error-box').style.display = 'block';
+                document.getElementById('error-msg').innerText = error.message;
+                // Reintentar en 3 segundos
+                setTimeout(loadBeaches, 3000);
+            }
+        }
 
         loadBeaches();
     </script>
