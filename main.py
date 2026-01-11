@@ -4,7 +4,7 @@ import time
 import os
 from datetime import datetime
 
-print("\n🌍 INICIANDO ROBOT v8.0 - 100 PLAYAS & SEO\n")
+print("\n🌍 INICIANDO ROBOT v9.0 - WEBCAMS & ICONOS\n")
 
 try:
     API_KEY = os.environ["AEMET_API_KEY"]
@@ -41,8 +41,8 @@ def procesar_playas():
     for i, playa in enumerate(playas):
         nombre = playa['nombre']
         coords = playa.get('coordenadas')
-        # Capturamos la descripción. Si no hay, ponemos un texto por defecto
-        descripcion = playa.get('descripcion', 'Información no disponible por el momento.')
+        descripcion = playa.get('descripcion', 'Información no disponible.')
+        webcam = playa.get('webcam', None) # <--- CAPTURAMOS WEBCAM
 
         if not coords: continue
 
@@ -67,60 +67,62 @@ def procesar_playas():
                 t_feel = round(datos['main']['feels_like'])
                 humedad = datos['main']['humidity']
                 viento = round(datos['wind']['speed'] * 3.6)
-                cielo = datos['weather'][0]['description'].capitalize()
+                cielo = datos['weather'][0]['description'] # Minúscula para procesar mejor
                 visibilidad = datos.get('visibility', 10000)
                 ts = datos['sys']['sunset']
                 sunset_hora = datetime.fromtimestamp(ts).strftime('%H:%M')
 
-                # --- ALGORITMO ACTUALIZADO ---
+                # --- ALGORITMO ---
                 score = 10
-                # Viento
                 if viento > 20: score -= 2
                 if viento > 28: score -= 4
                 if viento > 40: score -= 7
                 
-                # Temperatura (NUEVO: < 18 resta 3)
                 if t_feel < 20: score -= 1
                 if t_feel < 18: score -= 3  
                 if t_feel > 32: score -= 1
 
-                # Cielo y Lluvia
                 cielo_lower = cielo.lower()
-                if "nubes" in cielo_lower:
-                    if "dispersas" in cielo_lower or "pocas" in cielo_lower: score -= 1
+                if "nubes" in cielo_lower or "nuboso" in cielo_lower or "cubierto" in cielo_lower:
+                    if "dispersas" in cielo_lower or "pocas" in cielo_lower or "algo" in cielo_lower: score -= 1
                     else: score -= 2
                 elif "lluvia" in cielo_lower or "llovizna" in cielo_lower: 
                     score -= 10
                 
-                # Calima
                 if visibilidad < 3000: score -= 2
                 
                 score = max(0, min(10, score))
                 datos_validos = True
-                print(f"✅ OK ({t_feel}ºC)")
+                
+                # Capitalizar para mostrar bonito
+                cielo_display = cielo.capitalize()
+                print(f"✅ OK")
 
             except Exception as e:
                 print(f"❌ Error datos: {e}")
+                cielo_display = "Error"
         else:
             print("❌ Sin respuesta")
+            cielo_display = "Sin datos"
 
         resultados.append({
             "nombre": nombre,
             "municipio": playa["municipio"],
             "zona": playa["zona"],
             "coordenadas": coords,
-            "descripcion": descripcion, # Importante para la web
+            "descripcion": descripcion,
+            "webcam": webcam, # <--- GUARDAMOS WEBCAM
             "score": score,
             "clima": {
                 "t_real": t_real,
                 "t_feel": t_feel,
                 "viento": viento,
-                "cielo": cielo,
+                "cielo": cielo_display,
                 "humedad": humedad,
                 "visibilidad": visibilidad,
                 "sunset": sunset_hora
             },
-            "detalles": [cielo]
+            "detalles": [cielo_display]
         })
         time.sleep(0.1)
 
