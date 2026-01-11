@@ -1,25 +1,170 @@
 [
   {
-    "nombre": "Valleseco",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
+    "nombre": "Playa San Juan",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
     "coordenadas": [
-      28.483,
-      -16.23
+      28.1783,
+      -16.8133
     ],
-    "descripcion": "Nueva zona de baño recuperada para la ciudad. Plataformas y accesos cómodos para un chapuzón rápido.",
-    "score": 9,
+    "descripcion": "🌅 El mejor clima de la isla. Playa familiar de arena y callao, protegida por el puerto. Paseo marítimo muy cuidado y aguas cristalinas. Muy tranquila.",
+    "webcam": null,
+    "score": 10,
     "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Muy nuboso",
-      "humedad": 83,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
+      "cielo": "Cielo claro",
+      "humedad": 60,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "18:29"
     },
     "detalles": [
-      "Muy nuboso"
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Alcalá",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.198,
+      -16.832
+    ],
+    "descripcion": "🐢 Paseo marítimo precioso con varias calas de arena negra y piscinas naturales. Zona tranquila y muy cuidada.",
+    "webcam": null,
+    "score": 10,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
+      "cielo": "Cielo claro",
+      "humedad": 60,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "La Jaquita (Alcalá)",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.195,
+      -16.828
+    ],
+    "descripcion": "🌑 Playas de arena negra fina y piscinas naturales. Atardeceres espectaculares sobre La Gomera.",
+    "webcam": null,
+    "score": 10,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
+      "cielo": "Cielo claro",
+      "humedad": 60,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Playa de Mendez",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.202,
+      -16.835
+    ],
+    "descripcion": "🤫 Cala rústica y poco conocida, ideal para ver atardeceres en soledad absoluta.",
+    "webcam": null,
+    "score": 10,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 5,
+      "cielo": "Cielo claro",
+      "humedad": 60,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Playa de los Topos",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.185,
+      -16.82
+    ],
+    "descripcion": "🧗 Zona rocosa y de callaos con aguas muy limpias y transparentes.",
+    "webcam": null,
+    "score": 10,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
+      "cielo": "Cielo claro",
+      "humedad": 60,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Playa de la Chica",
+    "municipio": "Santiago del Teide",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.24,
+      -16.84
+    ],
+    "descripcion": "👶 Pequeño rincón de baño en Puerto de Santiago, muy resguardado y familiar.",
+    "webcam": null,
+    "score": 10,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 4,
+      "cielo": "Cielo claro",
+      "humedad": 61,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Fonsalía",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.188,
+      -16.835
+    ],
+    "descripcion": "🌅 Zona costera abierta, tranquila y con buenas puestas de sol sobre el mar.",
+    "webcam": null,
+    "score": 10,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
+      "cielo": "Cielo claro",
+      "humedad": 60,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
     ]
   },
   {
@@ -30,14 +175,15 @@
       28.4115,
       -16.558
     ],
-    "descripcion": "Obra de César Manrique. Jardines tropicales, arena negra y el Teide de fondo.",
+    "descripcion": "🌺 Obra maestra de César Manrique. Playa de arena negra rodeada de jardines exóticos y cascadas, con el Teide de fondo. Cuenta con rompeolas lateral, pero respeta las banderas de baño.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puerto-de-la-cruz-playa-jardin.html",
     "score": 9,
     "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 80,
+      "humedad": 78,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -53,16 +199,89 @@
       28.418,
       -16.543
     ],
-    "descripcion": "Playa urbana de arena negra junto al famoso Lago. Zona popular para surfistas.",
+    "descripcion": "🏄 Playa urbana de arena negra situada junto al famoso Lago Martiánez. Tiene una zona protegida por dique y otra abierta ideal para bodyboard y surf.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puerto-de-la-cruz.html",
     "score": 9,
     "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 80,
+      "humedad": 78,
       "visibilidad": 10000,
       "sunset": "18:27"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "El Socorro",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.395,
+      -16.602
+    ],
+    "descripcion": "🏄 La catedral del surf en el norte. Bandera Azul, arena negra fina y atardeceres increíbles. Muy accesible, cuenta con Wi-Fi gratis y cafetería 'El Quinto'.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/los-realejos-playa-el-socorro.html",
+    "score": 9,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 11,
+      "cielo": "Cielo claro",
+      "humedad": 79,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Los Gigantes (Los Guíos)",
+    "municipio": "Santiago del Teide",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.245,
+      -16.842
+    ],
+    "descripcion": "🏔️ Bañarse bajo paredes de roca de 600 metros de altura no tiene precio. Pequeña playa de arena negra junto al puerto deportivo. Aguas tranquilas y vistas imponentes.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/los-gigantes.html",
+    "score": 9,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 4,
+      "cielo": "Cielo claro",
+      "humedad": 61,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Abama",
+    "municipio": "Guía de Isora",
+    "zona": "Oeste",
+    "coordenadas": [
+      28.169,
+      -16.802
+    ],
+    "descripcion": "🏝️ Una playa de postal. Cala de arena dorada encajonada entre plataneras y el hotel de lujo. Acceso público (hay que bajar muchas escaleras o usar el funicular del hotel si eres cliente).",
+    "webcam": null,
+    "score": 9,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 19,
+      "viento": 6,
+      "cielo": "Cielo claro",
+      "humedad": 61,
+      "visibilidad": 10000,
+      "sunset": "18:29"
     },
     "detalles": [
       "Cielo claro"
@@ -76,19 +295,44 @@
       28.4185,
       -16.549
     ],
-    "descripcion": "Piscinas naturales y calitas en pleno paseo marítimo. Bandera azul.",
+    "descripcion": "🦀 Encantadora zona de baño en el paseo marítimo con charcos naturales que se llenan en pleamar. Bandera azul. Ideal para snorkel cuando el mar está calma.",
+    "webcam": null,
     "score": 9,
     "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 80,
+      "humedad": 78,
       "visibilidad": 10000,
       "sunset": "18:27"
     },
     "detalles": [
       "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Puertito de Adeje",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.113,
+      -16.764
+    ],
+    "descripcion": "🐢 Pequeña bahía tradicional donde el tiempo se detiene. Famosa por ser hogar de tortugas marinas (respétalas, no las toques).",
+    "webcam": null,
+    "score": 9,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 6,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
     ]
   },
   {
@@ -99,16 +343,65 @@
       28.399,
       -16.59
     ],
-    "descripcion": "Playa virgen de callaos al final del sendero de Rambla de Castro.",
+    "descripcion": "🥾 Playa virgen de callaos grandes al final del sendero de la Rambla de Castro. Entorno natural protegido precioso.",
+    "webcam": null,
+    "score": 9,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 11,
+      "cielo": "Cielo claro",
+      "humedad": 77,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "San Marcos",
+    "municipio": "Icod de los Vinos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.374,
+      -16.723
+    ],
+    "descripcion": "🐚 Bahía en forma de concha muy abrigada de los vientos del norte. Arena negra y ambiente familiar y seguro.",
+    "webcam": null,
     "score": 9,
     "clima": {
       "t_real": 18,
       "t_feel": 18,
-      "viento": 3,
+      "viento": 12,
       "cielo": "Cielo claro",
-      "humedad": 79,
+      "humedad": 73,
       "visibilidad": 10000,
       "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Agua Dulce",
+    "municipio": "Los Silos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.368,
+      -16.815
+    ],
+    "descripcion": "🏄 Playa de callaos y arena negra. Frecuentada por surfistas locales cuando hay buenas condiciones. Entorno rural.",
+    "webcam": null,
+    "score": 9,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 9,
+      "cielo": "Cielo claro",
+      "humedad": 63,
+      "visibilidad": 10000,
+      "sunset": "18:29"
     },
     "detalles": [
       "Cielo claro"
@@ -122,12 +415,13 @@
       28.2889,
       -16.8622
     ],
-    "descripcion": "El final del famoso barranco. Playa salvaje accesible por barco o trekking.",
+    "descripcion": "🏔️ El final del barranco más famoso. Playa salvaje de arena negra bajo acantilados gigantes. Solo accesible por barco o bajando el barranco (con permiso).",
+    "webcam": null,
     "score": 9,
     "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 2,
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 4,
       "cielo": "Cielo claro",
       "humedad": 60,
       "visibilidad": 10000,
@@ -145,14 +439,15 @@
       28.375,
       -16.865
     ],
-    "descripcion": "Playa volcánica con senderos costeros espectaculares.",
+    "descripcion": "🌋 Costa volcánica con senderos espectaculares y calas de roca.",
+    "webcam": null,
     "score": 9,
     "clima": {
       "t_real": 19,
-      "t_feel": 18,
+      "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 64,
+      "humedad": 63,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -168,1100 +463,20 @@
       28.38,
       -16.86
     ],
-    "descripcion": "Cala salvaje bajo el macizo de Teno.",
+    "descripcion": "⛰️ Cala salvaje bajo el macizo de Teno. Naturaleza en estado puro.",
+    "webcam": null,
     "score": 9,
     "clima": {
       "t_real": 19,
-      "t_feel": 18,
+      "t_feel": 19,
       "viento": 14,
       "cielo": "Cielo claro",
-      "humedad": 64,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Playa del Muelle",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.418,
-      -16.551
-    ],
-    "descripcion": "Pequeña playa de pescadores dentro del muelle. Sabor tradicional.",
-    "score": 9,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "La Grimona",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.397,
-      -16.615
-    ],
-    "descripcion": "Playa de arena negra accesible desde la carretera, rodeada de verde.",
-    "score": 9,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "San Juanito",
-    "municipio": "La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5715,
-      -16.3139
-    ],
-    "descripcion": "Cerca del faro de La Punta. Zona de charcos y mar abierto.",
-    "score": 9,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Muy nuboso",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Playa del Castillo",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.411,
-      -16.559
-    ],
-    "descripcion": "Junto al Castillo de San Felipe. Arena negra y ambiente relajado.",
-    "score": 9,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Playa Chica",
-    "municipio": "Puerto de la Cruz",
-    "zona": "Norte",
-    "coordenadas": [
-      28.412,
-      -16.556
-    ],
-    "descripcion": "Cala íntima separada de Playa Jardín por rocas volcánicas.",
-    "score": 9,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Punta Larga",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.365,
-      -16.365
-    ],
-    "descripcion": "Avenida marítima llena de vida y calas cómodas para el baño diario.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Las Caletillas",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.375,
-      -16.36
-    ],
-    "descripcion": "Sucesión de calas de arena gruesa y callao. Ambiente muy local.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 19,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 82,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Arena (Candelaria)",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.351,
-      -16.368
-    ],
-    "descripcion": "Frente a la Basílica. Arena negra volcánica y estatuas guanches vigilando.",
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Puertito de Güímar",
-    "municipio": "Güímar",
-    "zona": "Este",
-    "coordenadas": [
-      28.293,
-      -16.377
-    ],
-    "descripcion": "Playa kilométrica de arena negra y callao. Muy tranquila incluso en verano.",
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Callao",
-    "municipio": "Güímar",
-    "zona": "Este",
-    "coordenadas": [
-      28.29,
-      -16.38
-    ],
-    "descripcion": "Zona rústica y tranquila, perfecta para pasear junto al mar.",
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 77,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Bajamar",
-    "municipio": "La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.556,
-      -16.345
-    ],
-    "descripcion": "Famosa por sus inmensas piscinas naturales y el espectáculo del oleaje rompiendo.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Nubes dispersas",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "El Arenal",
-    "municipio": "La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.558,
-      -16.34
-    ],
-    "descripcion": "Joya escondida entre Bajamar y La Punta. Surf y desconexión total.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Nubes dispersas",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "La Nea",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.402,
-      -16.305
-    ],
-    "descripcion": "Playa de arena negra fina regenerada con un precioso parque marítimo.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Nubes dispersas",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Radazul",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.398,
-      -16.31
-    ],
-    "descripcion": "Puerto deportivo y playas de mar abierto. Aguas profundas ideales para buceo.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Nubes dispersas",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de la Viuda",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.362,
-      -16.363
-    ],
-    "descripcion": "Playa amplia y tranquila, ideal para desconectar cerca del pueblo.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de Lima",
-    "municipio": "Arafo",
-    "zona": "Este",
-    "coordenadas": [
-      28.335,
-      -16.368
-    ],
-    "descripcion": "Pequeña cala de callaos poco transitada, muy íntima.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 79,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de Samarines",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.348,
-      -16.37
-    ],
-    "descripcion": "Playa virgen a la que se llega caminando desde la Basílica. Naturaleza pura.",
-    "score": 8,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de Ayosa",
-    "municipio": "Candelaria",
-    "zona": "Este",
-    "coordenadas": [
-      28.358,
-      -16.365
-    ],
-    "descripcion": "Pequeño rincón costero de arena oscura y aguas claras.",
-    "score": 8,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 10,
-      "cielo": "Nubes dispersas",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Puertito de Adeje",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.113,
-      -16.764
-    ],
-    "descripcion": "Reserva de tortugas marinas. Pequeña bahía tradicional donde el tiempo parece detenerse.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 3,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Arena (Mesa del Mar)",
-    "municipio": "Tacoronte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.5002,
-      -16.4245
-    ],
-    "descripcion": "Tranquila playa de arena negra con vistas directas al Teide. Muy familiar.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Algo de nubes",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Pris",
-    "municipio": "Tacoronte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.508,
-      -16.425
-    ],
-    "descripcion": "Puerto pesquero tradicional con una piscina natural y zona de baño en mar abierto.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Algo de nubes",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Los Guíos",
-    "municipio": "Santiago del Teide",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.245,
-      -16.842
-    ],
-    "descripcion": "Ubicada justo debajo de los Acantilados de los Gigantes. Vistas que quitan el hipo.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 3,
-      "cielo": "Algo de nubes",
       "humedad": 63,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
     "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa San Juan",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.1783,
-      -16.8133
-    ],
-    "descripcion": "Playa modelo: paseo marítimo, aguas tranquilas, arena y el mejor clima de la isla.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 5,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Abama",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.169,
-      -16.802
-    ],
-    "descripcion": "Cala paradisíaca de arena dorada rodeada de plataneras. Acceso público pero entorno exclusivo.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 4,
-      "cielo": "Algo de nubes",
-      "humedad": 63,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Alcalá",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.198,
-      -16.832
-    ],
-    "descripcion": "Piscinas naturales y pequeñas calas de arena negra donde bañarse con tortugas.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 5,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Ajabo",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.145,
-      -16.778
-    ],
-    "descripcion": "Playa de Callao Salvaje, acondicionada con arena y jardines.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 5,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Jaquita (Alcalá)",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.195,
-      -16.828
-    ],
-    "descripcion": "Playas de arena negra y piscinas naturales en un paseo marítimo precioso.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 5,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa de Mendez",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.202,
-      -16.835
-    ],
-    "descripcion": "Cala rústica y poco conocida, ideal para ver atardeceres en soledad.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 4,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa de los Topos",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.185,
-      -16.82
-    ],
-    "descripcion": "Zona rocosa y de callaos con aguas muy limpias.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 5,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa de la Chica",
-    "municipio": "Santiago del Teide",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.24,
-      -16.84
-    ],
-    "descripcion": "Pequeño rincón de baño en Puerto de Santiago, muy familiar.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 18,
-      "viento": 3,
-      "cielo": "Algo de nubes",
-      "humedad": 63,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Playa de Rojas",
-    "municipio": "El Sauzal",
-    "zona": "Norte",
-    "coordenadas": [
-      28.485,
-      -16.445
-    ],
-    "descripcion": "Cala escondida con aguas cristalinas y cuevas naturales.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Algo de nubes",
-      "humedad": 85,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Garañona",
-    "municipio": "El Sauzal",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4979,
-      -16.4259
-    ],
-    "descripcion": "Inmensa playa salvaje bajo acantilados verticales. Acceso muy difícil, solo expertos.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 8,
-      "cielo": "Algo de nubes",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Caletón",
-    "municipio": "La Matanza",
-    "zona": "Norte",
-    "coordenadas": [
-      28.465,
-      -16.46
-    ],
-    "descripcion": "Zona de baño tranquila con mucho sol de tarde.",
-    "score": 7,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 19,
-      "viento": 17,
-      "cielo": "Algo de nubes",
-      "humedad": 86,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Fonsalía",
-    "municipio": "Guía de Isora",
-    "zona": "Oeste",
-    "coordenadas": [
-      28.188,
-      -16.835
-    ],
-    "descripcion": "Zona costera abierta, tranquila y con buenas puestas de sol.",
-    "score": 7,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 5,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Almáciga",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.571,
-      -16.195
-    ],
-    "descripcion": "Paraíso surfero en el corazón de Anaga. Arena negra y olas constantes en un entorno rural y auténtico.",
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 20,
-      "cielo": "Muy nuboso",
-      "humedad": 82,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "Roque de las Bodegas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.5685,
-      -16.205
-    ],
-    "descripcion": "La playa más familiar de Taganana, situada frente a restaurantes de pescado fresco. Mezcla de arena y callaos.",
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 20,
-      "cielo": "Muy nuboso",
-      "humedad": 82,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Muy nuboso"
-    ]
-  },
-  {
-    "nombre": "El Bollullo",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.4175,
-      -16.52
-    ],
-    "descripcion": "Espectacular playa salvaje de arena negra. El acceso entre plataneras es mágico.",
-    "score": 6,
-    "clima": {
-      "t_real": 18,
-      "t_feel": 17,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
       "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Los Patos",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.42,
-      -16.51
-    ],
-    "descripcion": "Legendaria playa nudista. Inmensa, salvaje y de arena negra finísima. Acceso difícil.",
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "El Ancón",
-    "municipio": "La Orotava",
-    "zona": "Norte",
-    "coordenadas": [
-      28.422,
-      -16.505
-    ],
-    "descripcion": "La 'hermana secreta' de Los Patos. Solitaria, salvaje y de belleza abrumadora.",
-    "score": 6,
-    "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 80,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "El Socorro",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.395,
-      -16.602
-    ],
-    "descripcion": "Catedral del surf norteño. Bandera azul, arena negra y atardeceres de película.",
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 3,
-      "cielo": "Cielo claro",
-      "humedad": 81,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "San Marcos",
-    "municipio": "Icod de los Vinos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.374,
-      -16.723
-    ],
-    "descripcion": "Bahía abrigada en forma de concha. Arena negra y aguas seguras todo el año.",
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 13,
-      "cielo": "Cielo claro",
-      "humedad": 74,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Agua Dulce",
-    "municipio": "Los Silos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.368,
-      -16.815
-    ],
-    "descripcion": "Playa de callaos y arena negra frecuentada por surfistas locales.",
-    "score": 6,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 10,
-      "cielo": "Cielo claro",
-      "humedad": 65,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Charco del Viento",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.385,
-      -16.635
-    ],
-    "descripcion": "Espectacular brazo de lava que protege una piscina natural de aguas cristalinas.",
-    "score": 6,
-    "clima": {
-      "t_real": 14,
-      "t_feel": 14,
-      "viento": 12,
-      "cielo": "Cielo claro",
-      "humedad": 74,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Santo Domingo",
-    "municipio": "La Guancha",
-    "zona": "Norte",
-    "coordenadas": [
-      28.38,
-      -16.64
-    ],
-    "descripcion": "Pequeña playa poco conocida con vistas a los roques del norte.",
-    "score": 6,
-    "clima": {
-      "t_real": 14,
-      "t_feel": 14,
-      "viento": 12,
-      "cielo": "Cielo claro",
-      "humedad": 74,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Cielo claro"
-    ]
-  },
-  {
-    "nombre": "Playa de las Eras",
-    "municipio": "Fasnia",
-    "zona": "Este",
-    "coordenadas": [
-      28.188,
-      -16.418
-    ],
-    "descripcion": "Playa protegida por una escollera, aguas muy calmas y arena negra.",
-    "score": 6,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 21,
-      "cielo": "Nubes dispersas",
-      "humedad": 72,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa de los Roques",
-    "municipio": "Fasnia",
-    "zona": "Este",
-    "coordenadas": [
-      28.195,
-      -16.412
-    ],
-    "descripcion": "Entorno salvaje con formaciones rocosas impresionantes frente al mar.",
-    "score": 6,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 21,
-      "cielo": "Nubes dispersas",
-      "humedad": 72,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
-    ]
-  },
-  {
-    "nombre": "Playa del Abrigo",
-    "municipio": "Fasnia",
-    "zona": "Este",
-    "coordenadas": [
-      28.205,
-      -16.405
-    ],
-    "descripcion": "Pequeña cala de callaos frecuentada solo por locales.",
-    "score": 6,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 21,
-      "cielo": "Nubes dispersas",
-      "humedad": 72,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
     ]
   },
   {
@@ -1272,14 +487,15 @@
       28.372,
       -16.78
     ],
-    "descripcion": "Cala tranquila cerca del casco histórico de Garachico.",
-    "score": 6,
+    "descripcion": "🏘️ Cala tranquila cerca del casco histórico de Garachico. Vistas bonitas.",
+    "webcam": null,
+    "score": 9,
     "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 14,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
       "cielo": "Cielo claro",
-      "humedad": 66,
+      "humedad": 65,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1295,16 +511,41 @@
       28.395,
       -16.66
     ],
-    "descripcion": "Impresionante rompiente y zona de baño en un pueblo con encanto.",
-    "score": 6,
+    "descripcion": "🌊 Impresionante rompiente y zona de baño en un pueblo con mucho encanto. Cuidado con el mar.",
+    "webcam": null,
+    "score": 9,
     "clima": {
-      "t_real": 17,
-      "t_feel": 16,
-      "viento": 13,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 12,
       "cielo": "Cielo claro",
-      "humedad": 74,
+      "humedad": 73,
       "visibilidad": 10000,
       "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Playa del Muelle",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
+    "coordenadas": [
+      28.418,
+      -16.551
+    ],
+    "descripcion": "🛶 Pequeña playa de pescadores dentro del muelle. Sabor tradicional y aguas calmas.",
+    "webcam": null,
+    "score": 9,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 14,
+      "cielo": "Cielo claro",
+      "humedad": 78,
+      "visibilidad": 10000,
+      "sunset": "18:27"
     },
     "detalles": [
       "Cielo claro"
@@ -1318,12 +559,37 @@
       28.398,
       -16.575
     ],
-    "descripcion": "Playa fotogénica con roques volcánicos emergiendo del mar.",
-    "score": 6,
+    "descripcion": "📸 Playa muy fotogénica con grandes roques volcánicos emergiendo del mar. Arena negra.",
+    "webcam": null,
+    "score": 9,
     "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 3,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 11,
+      "cielo": "Cielo claro",
+      "humedad": 77,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "La Grimona",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.397,
+      -16.615
+    ],
+    "descripcion": "🌴 Playa de arena negra accesible desde la carretera, rodeada de vegetación verde.",
+    "webcam": null,
+    "score": 9,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 11,
       "cielo": "Cielo claro",
       "humedad": 79,
       "visibilidad": 10000,
@@ -1334,44 +600,142 @@
     ]
   },
   {
-    "nombre": "Cueva del Agua",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
+    "nombre": "Playa del Castillo",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
     "coordenadas": [
-      28.56,
-      -16.3
+      28.411,
+      -16.559
     ],
-    "descripcion": "Rincón aislado en la costa de Anaga, naturaleza en estado puro.",
-    "score": 6,
+    "descripcion": "🏰 Junto al Castillo de San Felipe. Arena negra y ambiente relajado.",
+    "webcam": null,
+    "score": 9,
     "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 8,
-      "cielo": "Muy nuboso",
-      "humedad": 84,
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 14,
+      "cielo": "Cielo claro",
+      "humedad": 78,
       "visibilidad": 10000,
-      "sunset": "18:26"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Muy nuboso"
+      "Cielo claro"
     ]
   },
   {
-    "nombre": "Tamadite",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
+    "nombre": "Playa Chica",
+    "municipio": "Puerto de la Cruz",
+    "zona": "Norte",
     "coordenadas": [
-      28.565,
-      -16.25
+      28.412,
+      -16.556
     ],
-    "descripcion": "Final del barranco de Afur. Playa de callaos y arena negra en un entorno jurásico.",
-    "score": 6,
+    "descripcion": "🦀 Cala íntima separada de Playa Jardín por rocas volcánicas. Muy acogedora.",
+    "webcam": null,
+    "score": 9,
     "clima": {
-      "t_real": 16,
-      "t_feel": 16,
-      "viento": 20,
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 14,
+      "cielo": "Cielo claro",
+      "humedad": 78,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Puertito de Güímar",
+    "municipio": "Güímar",
+    "zona": "Este",
+    "coordenadas": [
+      28.293,
+      -16.377
+    ],
+    "descripcion": "🐕 Playa kilométrica de arena negra y callao. Cuenta con un paseo marítimo muy largo y zona habilitada para perros al final de la playa.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puertito-de-guimar.html",
+    "score": 8,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 5,
+      "cielo": "Nubes dispersas",
+      "humedad": 74,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Callao",
+    "municipio": "Güímar",
+    "zona": "Este",
+    "coordenadas": [
+      28.29,
+      -16.38
+    ],
+    "descripcion": "🌾 Playa rústica de callaos (piedras). Muy tranquila, ideal para desconectar o pescar.",
+    "webcam": null,
+    "score": 8,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 5,
+      "cielo": "Nubes dispersas",
+      "humedad": 74,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Ajabo",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.145,
+      -16.778
+    ],
+    "descripcion": "🏖️ Playa principal de Callao Salvaje. Acondicionada recientemente con arena gris y jardines. Tiene chiringuito.",
+    "webcam": null,
+    "score": 8,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 7,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Las Teresitas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "coordenadas": [
+      28.5096,
+      -16.1869
+    ],
+    "descripcion": "🏖️ La playa capitalina por excelencia. Kilómetro y medio de arena dorada traída del Sáhara. Gracias a su rompeolas, el agua es como una piscina, ideal para niños y paddle surf. 🚗 Gran aparcamiento gratuito. 🍹 Chiringuitos a pie de arena.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-teresitas.html",
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
       "cielo": "Muy nuboso",
-      "humedad": 81,
+      "humedad": 87,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
@@ -1387,14 +751,63 @@
       28.0515,
       -16.7265
     ],
-    "descripcion": "Inmensa playa de arena dorada con bandera azul. Aguas calmas, accesibilidad total y rodeada de ocio.",
-    "score": 5,
+    "descripcion": "♿ Una de las playas más accesibles de Europa. Arena dorada y aguas tranquilas entre Los Cristianos y Las Américas. Cuenta con duchas, hamacas y una isla artificial en el centro. 🍽️ Rodeada de restaurantes y comercios.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-vistas.html",
+    "score": 7,
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Bajamar",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.556,
+      -16.345
+    ],
+    "descripcion": "🌊 Famosa por sus impresionantes piscinas naturales frente al mar abierto. Bandera Azul. Un espectáculo ver las olas romper contra el dique. Accesible y con ambiente muy familiar y local.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/bajamar-piscinas-naturales.html",
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 16,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Fañabé",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.085,
+      -16.74
+    ],
+    "descripcion": "💎 Playa de arena clara con excelentes servicios y Beach Clubs exclusivos. Aguas tranquilas gracias a los diques. Perfecta para quien busca comodidad, deportes acuáticos y un atardecer de lujo.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-fanabe.html",
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1410,152 +823,15 @@
       28.05,
       -16.718
     ],
-    "descripcion": "Playa urbana con encanto marinero. Aguas muy tranquilas protegidas por el puerto. Ideal para niños.",
-    "score": 5,
+    "descripcion": "⚓ Playa urbana con sabor marinero. Aguas muy calmas protegidas por el puerto. Ideal para personas mayores y niños. Rodeada de heladerías y con vistas a los ferrys que van a La Gomera.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-los-cristianos.html",
+    "score": 7,
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "El Camisón",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0545,
-      -16.732
-    ],
-    "descripcion": "Pequeña bahía de arena dorada rodeada de palmeras. Muy protegida del viento y el oleaje.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Las Galletas",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0065,
-      -16.657
-    ],
-    "descripcion": "Playa de arena oscura y callaos junto a la lonja de pescado. Ambiente auténtico y local.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "La Ballena",
-    "municipio": "Arona",
-    "zona": "Sur",
-    "coordenadas": [
-      28.003,
-      -16.665
-    ],
-    "descripcion": "Cala tranquila en Costa del Silencio, ideal para desconectar lejos de las masas.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Troya",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0665,
-      -16.735
-    ],
-    "descripcion": "El corazón de la fiesta y el turismo en Las Américas. Arena volcánica y mucha actividad.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Fañabé",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.085,
-      -16.74
-    ],
-    "descripcion": "Extensa playa de arena clara con excelentes servicios, beach clubs y deportes acuáticos.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Torviscas",
-    "municipio": "Adeje",
-    "zona": "Sur",
-    "coordenadas": [
-      28.081,
-      -16.738
-    ],
-    "descripcion": "Continuación de Fañabé, ofrece aguas tranquilas gracias a sus rompeolas. Muy turística.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 58,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1571,14 +847,15 @@
       28.0912,
       -16.7432
     ],
-    "descripcion": "La playa más chic del sur. Arena grisácea, aguas turquesas y un paseo marítimo de lujo.",
-    "score": 5,
+    "descripcion": "🎩 La zona más elegante de Costa Adeje. Playa de arena grisácea fina y aguas turquesas. Servicios de alta gama, sombrillas de bambú y paseo marítimo de lujo.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-del-duque.html",
+    "score": 7,
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 58,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1587,21 +864,142 @@
     ]
   },
   {
-    "nombre": "La Enramada",
+    "nombre": "Troya",
     "municipio": "Adeje",
     "zona": "Sur",
     "coordenadas": [
-      28.0965,
-      -16.751
+      28.0665,
+      -16.735
     ],
-    "descripcion": "Playa de callaos famosa por su chiringuito al atardecer y el vuelo de parapentes.",
-    "score": 5,
+    "descripcion": "🎉 El corazón de Las Américas. Playa de arena volcánica protegida por diques. Mucha actividad, gente joven y zona de ocio nocturno y restaurantes a un paso.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-troya.html",
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Las Gaviotas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "coordenadas": [
+      28.5135,
+      -16.1755
+    ],
+    "descripcion": "🧘 Refugio de paz a 5 min de la capital. Arena negra bajo acantilados. Tradicionalmente nudista (mixta). Ambiente local y respetuoso. Aparcamiento limitado, ve temprano.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Almáciga",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.571,
+      -16.195
+    ],
+    "descripcion": "🏄 Playa rural de arena negra en Anaga. La favorita de los surfistas de la zona por sus olas constantes. Ambiente auténtico y rústico. Cuidado con el oleaje al bañarse.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Roque de las Bodegas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.5685,
+      -16.205
+    ],
+    "descripcion": "🐟 La playa principal de Taganana. Mezcla arena y piedra. Famosa por los restaurantes de pescado fresco que hay justo enfrente. Ideal para ir a comer y darse un baño.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Bollullo",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4175,
+      -16.52
+    ],
+    "descripcion": "🌴 Un paraíso escondido. Playa virgen de arena negra volcánica. El acceso a pie entre plataneras es mágico (aunque la subida cuesta). Chiringuito en el acantilado con vistas.",
+    "webcam": null,
+    "score": 7,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Las Américas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.06,
+      -16.733
+    ],
+    "descripcion": "🏄 Zona surfera por excelencia (La Izquierda). Fondo de roca volcánica y olas de calidad. Ambiente internacional y puesta de sol vibrante.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-de-las-americas.html",
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 58,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1617,14 +1015,255 @@
       28.103,
       -16.757
     ],
-    "descripcion": "La 'Playa de los Hippies'. Bahía salvaje de arena blanca y agua turquesa. Naturismo y libertad.",
-    "score": 5,
+    "descripcion": "⛺ Conocida como 'La Caleta de los Hippies'. Playa salvaje de arena blanca y agua turquesa. Acceso solo a pie por senderos. Naturismo y desconexión total.",
+    "webcam": null,
+    "score": 7,
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "La Arena (Mesa del Mar)",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5002,
+      -16.4245
+    ],
+    "descripcion": "🏞️ Playa amplia de arena negra muy tranquila, protegida del oleaje norteño. Se accede a través de un túnel peatonal. Vistas directas al Teide.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Radazul",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.398,
+      -16.31
+    ],
+    "descripcion": "🤿 El paraíso del buceo y la apnea. Aguas profundas y cristalinas. Cuenta con dos pequeñas playas y una zona de plataforma para saltar al mar.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 16,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "La Nea",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.402,
+      -16.305
+    ],
+    "descripcion": "🏃‍♀️ Playa de arena negra fina regenerada, con un parque marítimo precioso para pasear o correr. Familiar y muy cercana a Santa Cruz.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 16,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "La Caleta",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.1,
+      -16.759
+    ],
+    "descripcion": "🦐 Pueblo famoso por su gastronomía marinera. Zonas de baño en roca y escaleras al mar. Aguas de un azul intenso y muy limpias.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/la-caleta-de-adeje.html",
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Valleseco",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "coordenadas": [
+      28.483,
+      -16.23
+    ],
+    "descripcion": "🏊‍♂️ Zona de baño moderna (Los Charcos). Plataformas de madera, accesos fáciles y aguas tranquilas. Ideal para nadar.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 16,
+      "cielo": "Muy nuboso",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Camisón",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0545,
+      -16.732
+    ],
+    "descripcion": "🌴 Pequeña bahía de arena dorada rodeada de palmeras y hoteles. Muy protegida por diques, el mar es un plato. Perfecta para relax.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Las Galletas",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0065,
+      -16.657
+    ],
+    "descripcion": "🛶 Playa estrecha de arena oscura y callaos junto a la lonja. Puedes comprar pescado fresco y ver la vida local. Aguas tranquilas.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "La Ballena",
+    "municipio": "Arona",
+    "zona": "Sur",
+    "coordenadas": [
+      28.003,
+      -16.665
+    ],
+    "descripcion": "🤫 Cala tranquila en Costa del Silencio. Aguas cristalinas y fondos rocosos interesantes. Poca afluencia turística.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Torviscas",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.081,
+      -16.738
+    ],
+    "descripcion": "🏖️ Hermana de Fañabé. Playa animada, con deportes acuáticos (motos de agua, paracaídas) y chiringuitos. Arena gris y mar en calma.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "La Enramada",
+    "municipio": "Adeje",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0965,
+      -16.751
+    ],
+    "descripcion": "🍹 Playa de callaos volcánicos. Famosa por el 'Coqueluche', un chiringuito ideal para ver la puesta de sol con música. Zona de aterrizaje de parapentes.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1640,14 +1279,15 @@
       28.076,
       -16.736
     ],
-    "descripcion": "Céntrica y cómoda, perfecta para quienes se alojan en la zona y buscan tranquilidad.",
-    "score": 5,
+    "descripcion": "🚶‍♂️ Playa céntrica y cómoda de arena fina. Ideal si te alojas cerca y no quieres caminar. Aguas seguras.",
+    "webcam": null,
+    "score": 7,
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 58,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1656,26 +1296,411 @@
     ]
   },
   {
-    "nombre": "Las Américas",
-    "municipio": "Arona",
-    "zona": "Sur",
+    "nombre": "Los Patos",
+    "municipio": "La Orotava",
+    "zona": "Norte",
     "coordenadas": [
-      28.06,
-      -16.733
+      28.42,
+      -16.51
     ],
-    "descripcion": "Meca del surf en el sur de Tenerife. Fondo de roca volcánica y olas de clase mundial.",
-    "score": 5,
+    "descripcion": "🍑 Playa legendaria del nudismo en Canarias. Muy ancha, salvaje y de arena negra finísima. El acceso suele ser complicado por el estado del sendero.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Pris",
+    "municipio": "Tacoronte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.508,
+      -16.425
+    ],
+    "descripcion": "🌅 Puestas de sol increíbles con el Teide de fondo. Zona de baño tradicional y piscina natural. Famoso por su cofradía de pescadores.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Punta Larga",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.365,
+      -16.365
+    ],
+    "descripcion": "🏙️ Playa urbana cómoda a lo largo de la Avenida Marítima. Mezcla de grava y arena. Gimnasio al aire libre y muchas cafeterías.",
+    "webcam": null,
+    "score": 7,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 82,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Las Caletillas",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.375,
+      -16.36
+    ],
+    "descripcion": "🏘️ Sucesión de calas protegidas por escolleras. Ambiente muy familiar y local, con aguas tranquilas.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 83,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "La Arena (Candelaria)",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.351,
+      -16.368
+    ],
+    "descripcion": "🕍 Justo frente a la Basílica de la Virgen de Candelaria. Arena negra volcánica. Báñate bajo la mirada de las estatuas de los Guanches.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/candelaria.html",
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Arenal",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.558,
+      -16.34
+    ],
+    "descripcion": "🏄 Joya escondida entre Bajamar y La Punta. Arena negra y olas potentes. Solo accesible a pie o con marea baja desde Bajamar.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 16,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Jover",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.537,
+      -16.385
+    ],
+    "descripcion": "🛶 Pequeño puertito en Tejina con piscina natural. Vistas privilegiadas a la costa norte y al Teide. Duchas y acceso fácil.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Montaña Amarilla",
+    "municipio": "San Miguel",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0092,
+      -16.6385
+    ],
+    "descripcion": "🐠 Monumento Natural. Rocas de color amarillo ocre esculpidas por el viento. Fondos marinos increíbles, agua turquesa. Imprescindible snorkel.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 58,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
     "detalles": [
       "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Playa de la Viuda",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.362,
+      -16.363
+    ],
+    "descripcion": "🏘️ Playa amplia y tranquila en zona residencial. Poco turística, ideal para estar tranquilo cerca del pueblo.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 82,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Playa de Lima",
+    "municipio": "Arafo",
+    "zona": "Este",
+    "coordenadas": [
+      28.335,
+      -16.368
+    ],
+    "descripcion": "🤫 El secreto de los locales. Pequeña cala de callaos donde reina la tranquilidad absoluta.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 79,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Playa de Samarines",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.348,
+      -16.37
+    ],
+    "descripcion": "🥾 Playa virgen a la que se llega caminando 10 min desde la Basílica. Naturaleza pura y brisa marina.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 80,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Playa de Ayosa",
+    "municipio": "Candelaria",
+    "zona": "Este",
+    "coordenadas": [
+      28.358,
+      -16.365
+    ],
+    "descripcion": "🏊‍♂️ Pequeño rincón costero de arena oscura y aguas claras. Acceso fácil.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 82,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Colmenares",
+    "municipio": "San Miguel",
+    "zona": "Sur",
+    "coordenadas": [
+      28.015,
+      -16.62
+    ],
+    "descripcion": "🌵 Playa salvaje cerca del faro de Punta de Rasca. Senderos, cactus y naturaleza árida.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 58,
+      "visibilidad": 10000,
+      "sunset": "18:29"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Playa de Rojas",
+    "municipio": "El Sauzal",
+    "zona": "Norte",
+    "coordenadas": [
+      28.485,
+      -16.445
+    ],
+    "descripcion": "💎 Cala escondida con aguas cristalinas y cuevas naturales. Acceso por carretera estrecha.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "La Garañona",
+    "municipio": "El Sauzal",
+    "zona": "Norte",
+    "coordenadas": [
+      28.4979,
+      -16.4259
+    ],
+    "descripcion": "🦅 Inmensa playa salvaje bajo acantilados verticales. Acceso muy difícil y peligroso (solo expertos).",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Caletón",
+    "municipio": "La Matanza",
+    "zona": "Norte",
+    "coordenadas": [
+      28.465,
+      -16.46
+    ],
+    "descripcion": "☀️ Zona de baño tranquila con mucho sol de tarde. Aguas limpias.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "San Juanito",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5715,
+      -16.3139
+    ],
+    "descripcion": "🌊 Cerca del faro de La Punta del Hidalgo. Zona de charcos y mar abierto.",
+    "webcam": null,
+    "score": 7,
+    "clima": {
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
     ]
   },
   {
@@ -1686,14 +1711,15 @@
       28.0435,
       -16.538
     ],
-    "descripcion": "Paraíso del windsurf y kitesurf. Ambiente bohemio, arena natural y vistas a Montaña Roja.",
-    "score": 5,
+    "descripcion": "🏄 La meca del windsurf y kitesurf. Ambiente bohemio y deportivo con vistas espectaculares a la Montaña Roja. Arena natural grisácea. ⚠️ Suele hacer viento, ideal para deportes pero revisa el pronóstico si vas a tomar el sol.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/el-medano.html",
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -1709,88 +1735,20 @@
       28.0315,
       -16.5576
     ],
-    "descripcion": "La mayor playa de arena natural de la isla. A los pies del volcán Montaña Roja. Zona nudista.",
-    "score": 5,
+    "descripcion": "🌋 La mayor playa de arena natural de Tenerife (1km). Situada bajo el volcán Montaña Roja. Zona tranquila y virgen. Tiene una zona nudista en el extremo cercano a la montaña.",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-la-tejita.html",
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
     "detalles": [
       "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Leocadio Machado",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.04,
-      -16.545
-    ],
-    "descripcion": "Playa ancha de arena dorada, perfecta para pasear o iniciarse en deportes de viento.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 55,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Montaña Roja",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.032,
-      -16.55
-    ],
-    "descripcion": "Pequeñas calas íntimas a los pies del volcán, protegidas del viento.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 55,
-      "visibilidad": 10000,
-      "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Jover",
-    "municipio": "La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.537,
-      -16.385
-    ],
-    "descripcion": "Puertito con piscina natural y vistas privilegiadas al Teide.",
-    "score": 5,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 8,
-      "cielo": "Nubes dispersas",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:27"
-    },
-    "detalles": [
-      "Nubes dispersas"
     ]
   },
   {
@@ -1801,12 +1759,13 @@
       28.165,
       -16.43
     ],
-    "descripcion": "Pueblo con encanto, faro icónico y playa de arena dorada muy tranquila.",
-    "score": 5,
+    "descripcion": "🎣 Pueblo costero con mucho encanto. Playa pequeña de arena dorada y barcas de pesca. Muy resguardada del viento habitual de la zona.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
-      "t_feel": 18,
-      "viento": 22,
+      "t_feel": 19,
+      "viento": 26,
       "cielo": "Algo de nubes",
       "humedad": 64,
       "visibilidad": 10000,
@@ -1824,14 +1783,63 @@
       28.14,
       -16.44
     ],
-    "descripcion": "Playa de arena clara y aguas turquesas. Un imán para buceadores y familias.",
-    "score": 5,
+    "descripcion": "👻 Playa de arena clara y aguas turquesas frente al 'pueblo fantasma' (antigua leprosería). Fondo marino muy rico, ideal para buceo sencillo.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Leocadio Machado",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.04,
+      -16.545
+    ],
+    "descripcion": "🪁 Continuación de la playa del Médano. El suelo es de arena dorada. Espectáculo visual de cientos de cometas de Kitesurf en el aire.",
+    "webcam": null,
+    "score": 6,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 59,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Montaña Roja",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.032,
+      -16.55
+    ],
+    "descripcion": "🌋 Pequeñas calas íntimas de arena y roca a los pies del volcán. Si buscas privacidad cerca del Médano, este es tu sitio.",
+    "webcam": null,
+    "score": 6,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 26,
+      "cielo": "Algo de nubes",
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -1847,14 +1855,15 @@
       28.11,
       -16.468
     ],
-    "descripcion": "Pequeña cala de callaos en el pueblo donde mejor se come pescado en la isla.",
-    "score": 5,
+    "descripcion": "🦐 Pequeña cala de callaos en el pueblo gastronómico por excelencia. Lo típico: baño rápido y luego mariscada en el pueblo.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -1863,26 +1872,51 @@
     ]
   },
   {
-    "nombre": "La Caleta",
-    "municipio": "Adeje",
-    "zona": "Sur",
+    "nombre": "Charco del Viento",
+    "municipio": "La Guancha",
+    "zona": "Norte",
     "coordenadas": [
-      28.1,
-      -16.759
+      28.385,
+      -16.635
     ],
-    "descripcion": "Pueblo gastronómico con zonas de baño en roca y aguas turquesas.",
-    "score": 5,
+    "descripcion": "🌋 No es playa, es un espectáculo. Brazos de lava que crean una piscina natural de aguas cristalinas y verdes. Imprescindible gafas de buceo.",
+    "webcam": null,
+    "score": 6,
     "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 11,
+      "cielo": "Cielo claro",
+      "humedad": 73,
       "visibilidad": 10000,
-      "sunset": "18:29"
+      "sunset": "18:28"
     },
     "detalles": [
-      "Algo de nubes"
+      "Cielo claro"
+    ]
+  },
+  {
+    "nombre": "Santo Domingo",
+    "municipio": "La Guancha",
+    "zona": "Norte",
+    "coordenadas": [
+      28.38,
+      -16.64
+    ],
+    "descripcion": "🧗‍♀️ Pequeña playa poco transitada con vistas a los roques del norte. Acceso empinado.",
+    "webcam": null,
+    "score": 6,
+    "clima": {
+      "t_real": 16,
+      "t_feel": 16,
+      "viento": 11,
+      "cielo": "Cielo claro",
+      "humedad": 73,
+      "visibilidad": 10000,
+      "sunset": "18:28"
+    },
+    "detalles": [
+      "Cielo claro"
     ]
   },
   {
@@ -1893,37 +1927,15 @@
       28.028,
       -16.605
     ],
-    "descripcion": "Curiosa mezcla de arena negra, roca y formas volcánicas en Golf del Sur.",
-    "score": 5,
+    "descripcion": "🗿 Paisaje lunar junto al mar. Formas volcánicas curiosas y arena negra en la zona de Golf del Sur.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
-      "visibilidad": 10000,
-      "sunset": "18:29"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Montaña Amarilla",
-    "municipio": "San Miguel",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0092,
-      -16.6385
-    ],
-    "descripcion": "Monumento Natural. Rocas ocres esculpidas por el viento y fondos marinos increíbles.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:29"
     },
@@ -1939,19 +1951,92 @@
       28.038,
       -16.552
     ],
-    "descripcion": "Cala resguardada cerca de El Confital, tranquila y solitaria.",
-    "score": 5,
+    "descripcion": "🏘️ Cala resguardada cerca de El Confital. Tranquila y solitaria, lejos del bullicio del Médano.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
     "detalles": [
       "Algo de nubes"
+    ]
+  },
+  {
+    "nombre": "Playa de las Eras",
+    "municipio": "Fasnia",
+    "zona": "Este",
+    "coordenadas": [
+      28.188,
+      -16.418
+    ],
+    "descripcion": "🛡️ Playa protegida por una escollera que deja el agua como un plato. Arena negra. Muy segura.",
+    "webcam": null,
+    "score": 6,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 21,
+      "cielo": "Nubes dispersas",
+      "humedad": 68,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Playa de los Roques",
+    "municipio": "Fasnia",
+    "zona": "Este",
+    "coordenadas": [
+      28.195,
+      -16.412
+    ],
+    "descripcion": "📸 Entorno salvaje con dos grandes roques volcánicos frente a la playa. Muy fotogénica.",
+    "webcam": null,
+    "score": 6,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 21,
+      "cielo": "Nubes dispersas",
+      "humedad": 68,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
+    ]
+  },
+  {
+    "nombre": "Playa del Abrigo",
+    "municipio": "Fasnia",
+    "zona": "Este",
+    "coordenadas": [
+      28.205,
+      -16.405
+    ],
+    "descripcion": "🎣 Pequeña cala de callaos frecuentada casi exclusivamente por vecinos de la zona.",
+    "webcam": null,
+    "score": 6,
+    "clima": {
+      "t_real": 19,
+      "t_feel": 19,
+      "viento": 21,
+      "cielo": "Nubes dispersas",
+      "humedad": 68,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Nubes dispersas"
     ]
   },
   {
@@ -1962,14 +2047,15 @@
       28.125,
       -16.455
     ],
-    "descripcion": "Piscina natural y pequeña playa en un barrio pesquero muy auténtico.",
-    "score": 5,
+    "descripcion": "🏊‍♂️ Piscina natural y pequeña playa en un barrio pesquero muy auténtico y tranquilo.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -1985,14 +2071,15 @@
       28.118,
       -16.46
     ],
-    "descripcion": "Zona tranquila de baño, ideal para snorkel en días de calma.",
-    "score": 5,
+    "descripcion": "🤿 Zona tranquila de baño con fondos rocosos, ideal para snorkel en días de calma.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -2008,14 +2095,15 @@
       28.105,
       -16.475
     ],
-    "descripcion": "Cala salvaje de piedras blancas y aguas cristalinas. Poca gente.",
-    "score": 5,
+    "descripcion": "⚪ Cala salvaje de piedras blancas redondeadas y aguas cristalinas. Poca gente siempre.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -2031,14 +2119,15 @@
       28.13,
       -16.45
     ],
-    "descripcion": "Barrio costero con encanto y zonas de baño protegidas.",
-    "score": 5,
+    "descripcion": "🏡 Barrio costero con mucho encanto y zonas de baño protegidas del oleaje.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -2054,14 +2143,15 @@
       28.0582,
       -16.5216
     ],
-    "descripcion": "Playa virgen de arena dorada escondida tras un cráter volcánico. Nudismo.",
-    "score": 5,
+    "descripcion": "🌔 Playa virgen de arena dorada escondida tras un antiguo cráter volcánico. Zona nudista y muy tranquila.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -2077,14 +2167,15 @@
       28.028,
       -16.57
     ],
-    "descripcion": "Zona de callaos y charcos naturales perfectos para la bajamar.",
-    "score": 5,
+    "descripcion": "🦀 Zona de callaos y charcos naturales perfectos para explorar en la bajamar.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
@@ -2100,39 +2191,17 @@
       28.028,
       -16.59
     ],
-    "descripcion": "Pequeñas calas volcánicas junto al famoso puerto gastronómico.",
-    "score": 5,
+    "descripcion": "🐟 Pequeñas calas volcánicas junto al famoso puerto gastronómico. Date un baño antes de comer pescado.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
-    },
-    "detalles": [
-      "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Colmenares",
-    "municipio": "San Miguel",
-    "zona": "Sur",
-    "coordenadas": [
-      28.015,
-      -16.62
-    ],
-    "descripcion": "Playa salvaje cerca del faro de Punta de Rasca. Senderos y naturaleza.",
-    "score": 5,
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Algo de nubes",
-      "humedad": 62,
-      "visibilidad": 10000,
-      "sunset": "18:29"
     },
     "detalles": [
       "Algo de nubes"
@@ -2146,65 +2215,20 @@
       28.0502,
       -16.5302
     ],
-    "descripcion": "Playa tranquila cerca del Médano, arena dorada y búnkeres de la guerra.",
-    "score": 5,
+    "descripcion": "🛡️ Playa tranquila cerca del Médano, arena dorada y búnkeres de la Guerra Civil. Menos viento que en la playa principal.",
+    "webcam": null,
+    "score": 6,
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Algo de nubes",
-      "humedad": 55,
+      "humedad": 59,
       "visibilidad": 10000,
       "sunset": "18:28"
     },
     "detalles": [
       "Algo de nubes"
-    ]
-  },
-  {
-    "nombre": "Las Teresitas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
-    "coordenadas": [
-      28.5096,
-      -16.1869
-    ],
-    "descripcion": "La playa más emblemática de la capital. Kilómetro y medio de arena dorada y aguas tranquilas gracias a su rompeolas. Ideal para familias y caminatas.",
-    "score": 4,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 20,
-      "cielo": "Nubes",
-      "humedad": 84,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes"
-    ]
-  },
-  {
-    "nombre": "Las Gaviotas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
-    "coordenadas": [
-      28.5135,
-      -16.1755
-    ],
-    "descripcion": "Refugio de libertad y naturaleza. Playa de arena negra volcánica bajo un imponente acantilado. Tradición nudista y ambiente muy local.",
-    "score": 4,
-    "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 20,
-      "cielo": "Nubes",
-      "humedad": 83,
-      "visibilidad": 10000,
-      "sunset": "18:26"
-    },
-    "detalles": [
-      "Nubes"
     ]
   },
   {
@@ -2215,19 +2239,20 @@
       28.532,
       -16.133
     ],
-    "descripcion": "Playa virgen y solitaria accesible solo por mar o tras una dura caminata. Arena gris finísima y aguas cristalinas.",
-    "score": 4,
+    "descripcion": "🚤 La playa más exclusiva por su difícil acceso (solo barco o caminata dura). Arena gris finísima y soledad absoluta bajo los acantilados de Anaga.",
+    "webcam": null,
+    "score": 5,
     "clima": {
-      "t_real": 17,
-      "t_feel": 17,
-      "viento": 20,
-      "cielo": "Nubes",
-      "humedad": 89,
+      "t_real": 18,
+      "t_feel": 18,
+      "viento": 24,
+      "cielo": "Muy nuboso",
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
     "detalles": [
-      "Nubes"
+      "Muy nuboso"
     ]
   },
   {
@@ -2238,19 +2263,92 @@
       28.5745,
       -16.1853
     ],
-    "descripcion": "El atardecer más fotogénico de Canarias. Playa salvaje de arena negra con vistas a los Roques de Anaga. Precaución con el oleaje.",
-    "score": 2,
+    "descripcion": "📸 La playa más fotogénica y salvaje de la isla. Arena negra volcánica, roques emergiendo del mar y atardeceres mágicos. ⚠️ Ojo: No hay vigilancia y las corrientes son fuertes. Acceso por escaleras.",
+    "webcam": null,
+    "score": 4,
     "clima": {
       "t_real": 17,
       "t_feel": 17,
-      "viento": 21,
-      "cielo": "Nubes",
-      "humedad": 82,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
     "detalles": [
-      "Nubes"
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "El Ancón",
+    "municipio": "La Orotava",
+    "zona": "Norte",
+    "coordenadas": [
+      28.422,
+      -16.505
+    ],
+    "descripcion": "🌿 Playa salvaje y solitaria, vecina de Los Patos. Rodeada de acantilados verdes. Belleza abrumadora y soledad garantizada.",
+    "webcam": null,
+    "score": 4,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 81,
+      "visibilidad": 10000,
+      "sunset": "18:27"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Cueva del Agua",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.56,
+      -16.3
+    ],
+    "descripcion": "🦕 Rincón aislado en la costa de Anaga. Naturaleza jurásica y soledad.",
+    "webcam": null,
+    "score": 4,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 16,
+      "cielo": "Muy nuboso",
+      "humedad": 87,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
+    ]
+  },
+  {
+    "nombre": "Tamadite",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.565,
+      -16.25
+    ],
+    "descripcion": "🏞️ Final del barranco de Afur. Playa de callaos y arena negra en un entorno espectacular.",
+    "webcam": null,
+    "score": 4,
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 13,
+      "cielo": "Muy nuboso",
+      "humedad": 86,
+      "visibilidad": 10000,
+      "sunset": "18:26"
+    },
+    "detalles": [
+      "Muy nuboso"
     ]
   },
   {
@@ -2261,14 +2359,15 @@
       28.58,
       -16.14
     ],
-    "descripcion": "Aldea accesible solo a pie o en barco con una playa tranquila y virgen.",
+    "descripcion": "⛵ Aldea accesible solo a pie o en barco con una playa tranquila y virgen junto al Faro de Anaga.",
+    "webcam": null,
     "score": 2,
     "clima": {
       "t_real": 16,
       "t_feel": 16,
-      "viento": 21,
+      "viento": 25,
       "cielo": "Nubes",
-      "humedad": 89,
+      "humedad": 84,
       "visibilidad": 10000,
       "sunset": "18:26"
     },
