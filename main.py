@@ -4,7 +4,7 @@ import time
 import os
 from datetime import datetime
 
-print("\n🌍 INICIANDO ROBOT v8.0 - INFO EXTENDIDA\n")
+print("\n🌍 INICIANDO ROBOT v8.0 - 100 PLAYAS & SEO\n")
 
 try:
     API_KEY = os.environ["AEMET_API_KEY"]
@@ -41,7 +41,7 @@ def procesar_playas():
     for i, playa in enumerate(playas):
         nombre = playa['nombre']
         coords = playa.get('coordenadas')
-        # Capturamos la descripción del JSON original
+        # Capturamos la descripción. Si no hay, ponemos un texto por defecto
         descripcion = playa.get('descripcion', 'Información no disponible por el momento.')
 
         if not coords: continue
@@ -79,9 +79,9 @@ def procesar_playas():
                 if viento > 28: score -= 4
                 if viento > 40: score -= 7
                 
-                # Temperatura (Cambio solicitado: < 18 resta 3)
+                # Temperatura (NUEVO: < 18 resta 3)
                 if t_feel < 20: score -= 1
-                if t_feel < 18: score -= 3  # <--- CAMBIO AQUÍ
+                if t_feel < 18: score -= 3  
                 if t_feel > 32: score -= 1
 
                 # Cielo y Lluvia
@@ -109,7 +109,7 @@ def procesar_playas():
             "municipio": playa["municipio"],
             "zona": playa["zona"],
             "coordenadas": coords,
-            "descripcion": descripcion, # Guardamos la descripción para la web
+            "descripcion": descripcion, # Importante para la web
             "score": score,
             "clima": {
                 "t_real": t_real,
