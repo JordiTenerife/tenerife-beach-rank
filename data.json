@@ -25,11 +25,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 13,
+      "t_real": 21,
+      "t_feel": 21,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071329
     },
     "detalles": [
@@ -62,11 +62,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071330
     },
     "detalles": [
@@ -100,8 +100,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 19,
+      "t_feel": 22,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071416
@@ -136,11 +136,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 13,
+      "t_real": 21,
+      "t_feel": 21,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071326
     },
     "detalles": [
@@ -173,11 +173,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071333
     },
     "detalles": [
@@ -210,11 +210,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071333
     },
     "detalles": [
@@ -248,8 +248,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 19,
+      "t_feel": 22,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071412
@@ -284,11 +284,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071407
     },
     "detalles": [
@@ -321,9 +321,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 2,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071426
@@ -358,9 +358,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 5,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071479
@@ -397,9 +397,9 @@
     "clima": {
       "t_real": 22,
       "t_feel": 22,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071386
     },
     "detalles": [
@@ -433,85 +433,11 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 22,
-      "viento": 13,
-      "cielo": "Cielo claro",
-      "visibilidad": 7000,
-      "sunset": 1775071356
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Puertito de Güímar",
-    "municipio": "Güímar",
-    "zona": "Este",
-    "coordenadas": [
-      28.293,
-      -16.377
-    ],
-    "descripcion": {
-      "es": "Playa extensa y tranquila de arena negra. Muy local, cuenta con zona para perros y largo paseo marítimo.",
-      "en": "Extensive and quiet black sand beach. Very local, features a dog area and long promenade.",
-      "de": "Weitläufiger und ruhiger schwarzer Sandstrand. Sehr lokal, mit Hundebereich und langer Promenade.",
-      "fr": "Vaste plage calme de sable noir. Très locale, avec zone pour chiens et longue promenade.",
-      "it": "Estesa e tranquilla spiaggia di sabbia nera. Molto locale, dispone di area cani e lungo lungomare.",
-      "nl": "Uitgestrekt en rustig zwart zandstrand. Zeer lokaal, met hondenzone en lange promenade.",
-      "sv": "Vidsträckt och lugn svart sandstrand. Mycket lokal, har hundområde och lång strandpromenad.",
-      "no": "Utstrakt og rolig svart sandstrand. Veldig lokal, har hundeområde og lang promenade.",
-      "da": "Omfattende og rolig sort sandstrand. Meget lokal, har hundeområde og lang promenade.",
-      "fi": "Laaja ja rauhallinen mustahiekkainen ranta. Erittäin paikallinen, koira-alue ja pitkä rantakatu."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puertito-de-guimar.html",
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
       "t_feel": 21,
-      "viento": 6,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1775071369
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Antequera",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.532,
-      -16.133
-    ],
-    "descripcion": {
-      "es": "Playa virgen y exclusiva. Solo accesible por barco o caminata difícil. Arena gris fina y soledad total.",
-      "en": "Virgin and exclusive beach. Only accessible by boat or difficult hike. Fine grey sand and total solitude.",
-      "de": "Unberührter und exklusiver Strand. Nur per Boot oder schwieriger Wanderung erreichbar. Feiner grauer Sand und totale Einsamkeit.",
-      "fr": "Plage vierge et exclusive. Accessible uniquement par bateau ou randonnée difficile. Sable gris fin et solitude totale.",
-      "it": "Spiaggia vergine ed esclusiva. Accessibile solo in barca o camminata difficile. Sabbia grigia fine e solitudine totale.",
-      "nl": "Maagdelijk en exclusief strand. Alleen bereikbaar per boot of moeilijke wandeling. Fijn grijs zand en totale eenzaamheid.",
-      "sv": "Orörd och exklusiv strand. Endast tillgänglig med båt eller svår vandring. Fin grå sand och total ensamhet.",
-      "no": "Jomfruelig og eksklusiv strand. Kun tilgjengelig med båt eller vanskelig tur. Fin grå sand og total ensomhet.",
-      "da": "Jomfruelig og eksklusiv strand. Kun tilgængelig med båd eller svær vandretur. Fint gråt sand og total ensomhed.",
-      "fi": "Neitseellinen ja eksklusiivinen ranta. Pääsy vain veneellä tai vaikealla vaelluksella. Hienoa harmaata hiekkaa ja täydellinen yksinäisyys."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 20,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1775071317
+      "visibilidad": 8000,
+      "sunset": 1775071356
     },
     "detalles": [
       "Estimado por Clima"
@@ -543,11 +469,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
+      "t_real": 21,
       "t_feel": 21,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071339
     },
     "detalles": [
@@ -580,9 +506,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 4,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071457
@@ -618,8 +544,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 19,
+      "t_feel": 22,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071414
@@ -654,11 +580,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
+      "t_real": 22,
       "t_feel": 21,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071404
     },
     "detalles": [
@@ -693,9 +619,9 @@
     "clima": {
       "t_real": 20,
       "t_feel": 20,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071403
     },
     "detalles": [
@@ -728,9 +654,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 2,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071423
@@ -767,9 +693,9 @@
     "clima": {
       "t_real": 22,
       "t_feel": 22,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071386
     },
     "detalles": [
@@ -802,8 +728,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 3,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -839,9 +765,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 23,
-      "viento": 4,
+      "t_real": 23,
+      "t_feel": 22,
+      "viento": 1,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071468
@@ -876,8 +802,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 24,
+      "t_feel": 23,
       "viento": 3,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -913,11 +839,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
     },
     "detalles": [
@@ -951,10 +877,10 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 13,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071367
     },
     "detalles": [
@@ -988,48 +914,11 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 13,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Callao",
-    "municipio": "Güímar",
-    "zona": "Este",
-    "coordenadas": [
-      28.29,
-      -16.38
-    ],
-    "descripcion": {
-      "es": "Playa rústica de piedras. Muy tranquila, ideal para desconectar o pescar.",
-      "en": "Rustic pebble beach. Very quiet, ideal for disconnecting or fishing.",
-      "de": "Rustikaler Steinstrand. Sehr ruhig, ideal zum Abschalten oder Angeln.",
-      "fr": "Plage rustique de galets. Très calme, idéale pour déconnecter ou pêcher.",
-      "it": "Spiaggia rustica di sassi. Molto tranquilla, ideale per staccare o pescare.",
-      "nl": "Rustiek kiezelstrand. Zeer rustig, ideaal om te ontsnappen of te vissen.",
-      "sv": "Rustik stenstrand. Mycket lugn, perfekt för avkoppling eller fiske.",
-      "no": "Rustikk steinstrand. Veldig rolig, ideell for å koble av eller fiske.",
-      "da": "Rustik stenstrand. Meget rolig, ideel til at koble af eller fiske.",
-      "fi": "Rustiikkinen kiviranta. Erittäin rauhallinen, ihanteellinen irtautumiseen tai kalastukseen."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
-      "t_feel": 21,
-      "viento": 6,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1775071369
     },
     "detalles": [
       "Estimado por Clima"
@@ -1062,10 +951,10 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 13,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
     },
     "detalles": [
@@ -1099,10 +988,10 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 13,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
     },
     "detalles": [
@@ -1137,9 +1026,9 @@
     "clima": {
       "t_real": 21,
       "t_feel": 21,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071377
     },
     "detalles": [
@@ -1172,11 +1061,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 13,
+      "t_real": 21,
+      "t_feel": 21,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071355
     },
     "detalles": [
@@ -1210,8 +1099,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 23,
-      "viento": 12,
+      "t_feel": 24,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071454
@@ -1247,8 +1136,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 22,
-      "viento": 12,
+      "t_feel": 23,
+      "viento": 16,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071476
@@ -1283,9 +1172,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 20,
-      "t_feel": 20,
-      "viento": 12,
+      "t_real": 21,
+      "t_feel": 21,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071433
@@ -1321,8 +1210,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 21,
-      "t_feel": 20,
-      "viento": 12,
+      "t_feel": 21,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071434
@@ -1394,11 +1283,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
     },
     "detalles": [
@@ -1432,10 +1321,10 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
     },
     "detalles": [
@@ -1469,10 +1358,10 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 13,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
     },
     "detalles": [
@@ -1505,11 +1394,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071368
     },
     "detalles": [
@@ -1542,8 +1431,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 24,
+      "t_feel": 23,
       "viento": 3,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1579,9 +1468,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 25,
-      "viento": 4,
+      "t_real": 24,
+      "t_feel": 23,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071476
@@ -1617,7 +1506,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 24,
-      "t_feel": 24,
+      "t_feel": 23,
       "viento": 3,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1653,9 +1542,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 5,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071479
@@ -1692,7 +1581,7 @@
     "clima": {
       "t_real": 23,
       "t_feel": 23,
-      "viento": 11,
+      "viento": 17,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071485
@@ -1729,7 +1618,7 @@
     "clima": {
       "t_real": 23,
       "t_feel": 23,
-      "viento": 15,
+      "viento": 18,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071468
@@ -1765,8 +1654,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 23,
-      "viento": 12,
+      "t_feel": 24,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071440
@@ -1802,8 +1691,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 19,
+      "t_feel": 22,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071414
@@ -1838,9 +1727,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 2,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071419
@@ -1875,9 +1764,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 2,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071429
@@ -1914,9 +1803,9 @@
     "clima": {
       "t_real": 22,
       "t_feel": 22,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071390
     },
     "detalles": [
@@ -1949,11 +1838,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071386
     },
     "detalles": [
@@ -1986,11 +1875,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 13,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071393
     },
     "detalles": [
@@ -2025,9 +1914,9 @@
     "clima": {
       "t_real": 20,
       "t_feel": 20,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071358
     },
     "detalles": [
@@ -2060,11 +1949,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 13,
+      "t_real": 20,
+      "t_feel": 20,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071346
     },
     "detalles": [
@@ -2097,8 +1986,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 24,
+      "t_feel": 23,
       "viento": 3,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -2134,11 +2023,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
+      "t_real": 21,
       "t_feel": 21,
-      "viento": 13,
+      "viento": 7,
       "cielo": "Cielo claro",
-      "visibilidad": 7000,
+      "visibilidad": 8000,
       "sunset": 1775071361
     },
     "detalles": [
@@ -2172,8 +2061,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 19,
+      "t_feel": 22,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071416
@@ -2209,8 +2098,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 19,
+      "t_feel": 22,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071416
@@ -2220,98 +2109,98 @@
     ]
   },
   {
-    "nombre": "Playa de las Eras",
-    "municipio": "Fasnia",
+    "nombre": "Puertito de Güímar",
+    "municipio": "Güímar",
     "zona": "Este",
     "coordenadas": [
-      28.188,
-      -16.418
+      28.293,
+      -16.377
     ],
     "descripcion": {
-      "es": "Protegida por escollera, agua como un plato. Arena negra y segura.",
-      "en": "Protected by breakwater, flat water. Black sand and safe.",
-      "de": "Durch Wellenbrecher geschützt, flaches Wasser. Schwarzer Sand und sicher.",
-      "fr": "Protégée par digue, eau plate. Sable noir et sûre.",
-      "it": "Protetta da scogliera, acqua piatta. Sabbia nera e sicura.",
-      "nl": "Beschermd door golfbreker, vlak water. Zwart zand en veilig.",
-      "sv": "Skyddad av vågbrytare, platt vatten. Svart sand och säker.",
-      "no": "Beskyttet av molo, flatt vann. Svart sand og trygg.",
-      "da": "Beskyttet af bølgebryder, fladt vand. Sort sand og sikker.",
-      "fi": "Aallonmurtajan suojaama, tyyni vesi. Mustaa hiekkaa ja turvallinen."
+      "es": "Playa extensa y tranquila de arena negra. Muy local, cuenta con zona para perros y largo paseo marítimo.",
+      "en": "Extensive and quiet black sand beach. Very local, features a dog area and long promenade.",
+      "de": "Weitläufiger und ruhiger schwarzer Sandstrand. Sehr lokal, mit Hundebereich und langer Promenade.",
+      "fr": "Vaste plage calme de sable noir. Très locale, avec zone pour chiens et longue promenade.",
+      "it": "Estesa e tranquilla spiaggia di sabbia nera. Molto locale, dispone di area cani e lungo lungomare.",
+      "nl": "Uitgestrekt en rustig zwart zandstrand. Zeer lokaal, met hondenzone en lange promenade.",
+      "sv": "Vidsträckt och lugn svart sandstrand. Mycket lokal, har hundområde och lång strandpromenad.",
+      "no": "Utstrakt og rolig svart sandstrand. Veldig lokal, har hundeområde og lang promenade.",
+      "da": "Omfattende og rolig sort sandstrand. Meget lokal, har hundeområde og lang promenade.",
+      "fi": "Laaja ja rauhallinen mustahiekkainen ranta. Erittäin paikallinen, koira-alue ja pitkä rantakatu."
     },
-    "webcam": null,
-    "score": 3,
-    "bandera": "yellow",
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puertito-de-guimar.html",
+    "score": 8,
+    "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 25,
-      "cielo": "Cielo claro",
+      "t_feel": 22,
+      "viento": 6,
+      "cielo": "Algo de nubes",
       "visibilidad": 10000,
-      "sunset": 1775071376
+      "sunset": 1775071369
     },
     "detalles": [
       "Estimado por Clima"
     ]
   },
   {
-    "nombre": "Playa de los Roques",
-    "municipio": "Fasnia",
+    "nombre": "Callao",
+    "municipio": "Güímar",
     "zona": "Este",
     "coordenadas": [
-      28.195,
-      -16.412
+      28.29,
+      -16.38
     ],
     "descripcion": {
-      "es": "Entorno salvaje con grandes roques volcánicos frente a la playa.",
-      "en": "Wild environment with large volcanic rocks facing the beach.",
-      "de": "Wilde Umgebung mit großen Vulkanfelsen vor dem Strand.",
-      "fr": "Environnement sauvage avec de grands rochers volcaniques face à la plage.",
-      "it": "Ambiente selvaggio con grandi rocce vulcaniche di fronte alla spiaggia.",
-      "nl": "Wilde omgeving met grote vulkanische rotsen tegenover het strand.",
-      "sv": "Vild miljö med stora vulkaniska klippor framför stranden.",
-      "no": "Ville omgivelser med store vulkanske steiner som vender mot stranden.",
-      "da": "Vilde omgivelser med store vulkanske klipper der vender mod stranden.",
-      "fi": "Villi ympäristö suurilla vulkaanisilla kivillä rannan edessä."
+      "es": "Playa rústica de piedras. Muy tranquila, ideal para desconectar o pescar.",
+      "en": "Rustic pebble beach. Very quiet, ideal for disconnecting or fishing.",
+      "de": "Rustikaler Steinstrand. Sehr ruhig, ideal zum Abschalten oder Angeln.",
+      "fr": "Plage rustique de galets. Très calme, idéale pour déconnecter ou pêcher.",
+      "it": "Spiaggia rustica di sassi. Molto tranquilla, ideale per staccare o pescare.",
+      "nl": "Rustiek kiezelstrand. Zeer rustig, ideaal om te ontsnappen of te vissen.",
+      "sv": "Rustik stenstrand. Mycket lugn, perfekt för avkoppling eller fiske.",
+      "no": "Rustikk steinstrand. Veldig rolig, ideell for å koble av eller fiske.",
+      "da": "Rustik stenstrand. Meget rolig, ideel til at koble af eller fiske.",
+      "fi": "Rustiikkinen kiviranta. Erittäin rauhallinen, ihanteellinen irtautumiseen tai kalastukseen."
     },
     "webcam": null,
-    "score": 3,
-    "bandera": "yellow",
+    "score": 8,
+    "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
       "t_real": 22,
-      "t_feel": 21,
-      "viento": 25,
-      "cielo": "Cielo claro",
+      "t_feel": 22,
+      "viento": 6,
+      "cielo": "Algo de nubes",
       "visibilidad": 10000,
-      "sunset": 1775071375
+      "sunset": 1775071369
     },
     "detalles": [
       "Estimado por Clima"
     ]
   },
   {
-    "nombre": "Playa del Abrigo",
-    "municipio": "Fasnia",
-    "zona": "Este",
+    "nombre": "Antequera",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
     "coordenadas": [
-      28.205,
-      -16.405
+      28.532,
+      -16.133
     ],
     "descripcion": {
-      "es": "Pequeña cala de callaos frecuentada por locales.",
-      "en": "Small pebble cove frequented by locals.",
-      "de": "Kleine Kieselbucht, von Einheimischen besucht.",
-      "fr": "Petite crique de galets fréquentée par les locaux.",
-      "it": "Piccola caletta di ciottoli frequentata da locali.",
-      "nl": "Kleine kiezelbaai bezocht door de lokale bevolking.",
-      "sv": "Liten klapperstensvik som besöks av lokalbefolkningen.",
-      "no": "Liten rullesteinsvik besøkt av lokalbefolkningen.",
-      "da": "Lille rullestensvig besøgt af lokale.",
-      "fi": "Pieni pikkukivipoukama, jota paikalliset suosivat."
+      "es": "Playa virgen y exclusiva. Solo accesible por barco o caminata difícil. Arena gris fina y soledad total.",
+      "en": "Virgin and exclusive beach. Only accessible by boat or difficult hike. Fine grey sand and total solitude.",
+      "de": "Unberührter und exklusiver Strand. Nur per Boot oder schwieriger Wanderung erreichbar. Feiner grauer Sand und totale Einsamkeit.",
+      "fr": "Plage vierge et exclusive. Accessible uniquement par bateau ou randonnée difficile. Sable gris fin et solitude totale.",
+      "it": "Spiaggia vergine ed esclusiva. Accessibile solo in barca o camminata difficile. Sabbia grigia fine e solitudine totale.",
+      "nl": "Maagdelijk en exclusief strand. Alleen bereikbaar per boot of moeilijke wandeling. Fijn grijs zand en totale eenzaamheid.",
+      "sv": "Orörd och exklusiv strand. Endast tillgänglig med båt eller svår vandring. Fin grå sand och total ensamhet.",
+      "no": "Jomfruelig og eksklusiv strand. Kun tilgjengelig med båt eller vanskelig tur. Fin grå sand og total ensomhet.",
+      "da": "Jomfruelig og eksklusiv strand. Kun tilgængelig med båd eller svær vandretur. Fint gråt sand og total ensomhed.",
+      "fi": "Neitseellinen ja eksklusiivinen ranta. Pääsy vain veneellä tai vaikealla vaelluksella. Hienoa harmaata hiekkaa ja täydellinen yksinäisyys."
     },
     "webcam": null,
     "score": 3,
@@ -2319,12 +2208,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
+      "t_real": 21,
       "t_feel": 21,
-      "viento": 25,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
-      "sunset": 1775071375
+      "sunset": 1775071317
     },
     "detalles": [
       "Estimado por Clima"
@@ -2358,7 +2247,7 @@
     "clima": {
       "t_real": 21,
       "t_feel": 21,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071488
@@ -2395,7 +2284,7 @@
     "clima": {
       "t_real": 21,
       "t_feel": 21,
-      "viento": 22,
+      "viento": 26,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1775071488
@@ -2425,13 +2314,13 @@
       "fi": "Kylä, jonne pääsee vain kävellen tai veneellä."
     },
     "webcam": null,
-    "score": 3,
+    "score": 2,
     "bandera": "yellow",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 20,
-      "t_feel": 20,
+      "t_real": 19,
+      "t_feel": 19,
       "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -2471,7 +2360,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071446
     },
     "detalles": [
@@ -2504,11 +2393,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071401
     },
     "detalles": [
@@ -2545,7 +2434,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071451
     },
     "detalles": [
@@ -2578,11 +2467,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071405
     },
     "detalles": [
@@ -2615,11 +2504,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
+      "t_real": 23,
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071444
     },
     "detalles": [
@@ -2656,7 +2545,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071451
     },
     "detalles": [
@@ -2693,7 +2582,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071449
     },
     "detalles": [
@@ -2726,11 +2615,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
+      "t_real": 23,
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071448
     },
     "detalles": [
@@ -2767,7 +2656,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071455
     },
     "detalles": [
@@ -2804,7 +2693,7 @@
       "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071380
     },
     "detalles": [
@@ -2841,7 +2730,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071455
     },
     "detalles": [
@@ -2878,7 +2767,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071446
     },
     "detalles": [
@@ -2915,7 +2804,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071429
     },
     "detalles": [
@@ -2952,7 +2841,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071430
     },
     "detalles": [
@@ -2989,7 +2878,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071450
     },
     "detalles": [
@@ -3022,11 +2911,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
+      "t_real": 23,
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071453
     },
     "detalles": [
@@ -3063,7 +2952,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071450
     },
     "detalles": [
@@ -3096,11 +2985,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071403
     },
     "detalles": [
@@ -3133,11 +3022,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071403
     },
     "detalles": [
@@ -3170,11 +3059,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071378
     },
     "detalles": [
@@ -3207,11 +3096,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071386
     },
     "detalles": [
@@ -3244,11 +3133,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071417
     },
     "detalles": [
@@ -3285,7 +3174,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071424
     },
     "detalles": [
@@ -3318,12 +3207,123 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071403
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa de las Eras",
+    "municipio": "Fasnia",
+    "zona": "Este",
+    "coordenadas": [
+      28.188,
+      -16.418
+    ],
+    "descripcion": {
+      "es": "Protegida por escollera, agua como un plato. Arena negra y segura.",
+      "en": "Protected by breakwater, flat water. Black sand and safe.",
+      "de": "Durch Wellenbrecher geschützt, flaches Wasser. Schwarzer Sand und sicher.",
+      "fr": "Protégée par digue, eau plate. Sable noir et sûre.",
+      "it": "Protetta da scogliera, acqua piatta. Sabbia nera e sicura.",
+      "nl": "Beschermd door golfbreker, vlak water. Zwart zand en veilig.",
+      "sv": "Skyddad av vågbrytare, platt vatten. Svart sand och säker.",
+      "no": "Beskyttet av molo, flatt vann. Svart sand og trygg.",
+      "da": "Beskyttet af bølgebryder, fladt vand. Sort sand og sikker.",
+      "fi": "Aallonmurtajan suojaama, tyyni vesi. Mustaa hiekkaa ja turvallinen."
+    },
+    "webcam": null,
+    "score": 0,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 29,
+      "cielo": "Algo de nubes",
+      "visibilidad": 10000,
+      "sunset": 1775071376
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa de los Roques",
+    "municipio": "Fasnia",
+    "zona": "Este",
+    "coordenadas": [
+      28.195,
+      -16.412
+    ],
+    "descripcion": {
+      "es": "Entorno salvaje con grandes roques volcánicos frente a la playa.",
+      "en": "Wild environment with large volcanic rocks facing the beach.",
+      "de": "Wilde Umgebung mit großen Vulkanfelsen vor dem Strand.",
+      "fr": "Environnement sauvage avec de grands rochers volcaniques face à la plage.",
+      "it": "Ambiente selvaggio con grandi rocce vulcaniche di fronte alla spiaggia.",
+      "nl": "Wilde omgeving met grote vulkanische rotsen tegenover het strand.",
+      "sv": "Vild miljö med stora vulkaniska klippor framför stranden.",
+      "no": "Ville omgivelser med store vulkanske steiner som vender mot stranden.",
+      "da": "Vilde omgivelser med store vulkanske klipper der vender mod stranden.",
+      "fi": "Villi ympäristö suurilla vulkaanisilla kivillä rannan edessä."
+    },
+    "webcam": null,
+    "score": 0,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 29,
+      "cielo": "Algo de nubes",
+      "visibilidad": 10000,
+      "sunset": 1775071375
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa del Abrigo",
+    "municipio": "Fasnia",
+    "zona": "Este",
+    "coordenadas": [
+      28.205,
+      -16.405
+    ],
+    "descripcion": {
+      "es": "Pequeña cala de callaos frecuentada por locales.",
+      "en": "Small pebble cove frequented by locals.",
+      "de": "Kleine Kieselbucht, von Einheimischen besucht.",
+      "fr": "Petite crique de galets fréquentée par les locaux.",
+      "it": "Piccola caletta di ciottoli frequentata da locali.",
+      "nl": "Kleine kiezelbaai bezocht door de lokale bevolking.",
+      "sv": "Liten klapperstensvik som besöks av lokalbefolkningen.",
+      "no": "Liten rullesteinsvik besøkt av lokalbefolkningen.",
+      "da": "Lille rullestensvig besøgt af lokale.",
+      "fi": "Pieni pikkukivipoukama, jota paikalliset suosivat."
+    },
+    "webcam": null,
+    "score": 0,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 29,
+      "cielo": "Algo de nubes",
+      "visibilidad": 10000,
+      "sunset": 1775071375
     },
     "detalles": [
       "Estimado por Clima"
@@ -3355,11 +3355,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071383
     },
     "detalles": [
@@ -3392,11 +3392,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071384
     },
     "detalles": [
@@ -3429,11 +3429,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071387
     },
     "detalles": [
@@ -3466,11 +3466,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071383
     },
     "detalles": [
@@ -3503,11 +3503,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071397
     },
     "detalles": [
@@ -3540,11 +3540,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071408
     },
     "detalles": [
@@ -3577,11 +3577,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071413
     },
     "detalles": [
@@ -3618,7 +3618,7 @@
       "t_feel": 24,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071420
     },
     "detalles": [
@@ -3651,11 +3651,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 23,
+      "t_feel": 23,
       "viento": 33,
       "cielo": "Cielo claro",
-      "visibilidad": 6000,
+      "visibilidad": 10000,
       "sunset": 1775071399
     },
     "detalles": [
