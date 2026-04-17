@@ -25,49 +25,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 9,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454364
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "El Médano",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0435,
-      -16.538
-    ],
-    "descripcion": {
-      "es": "La meca del windsurf y kitesurf. Playa de arena natural con ambiente bohemio y deportivo, y vistas espectaculares a Montaña Roja.",
-      "en": "The mecca of windsurfing and kitesurfing. Natural sand beach with a bohemian and sporty atmosphere, and spectacular views of Red Mountain.",
-      "de": "Das Mekka für Windsurfen und Kitesurfen. Natursandstrand mit Bohème- und Sportatmosphäre und spektakulärem Blick auf den Roten Berg.",
-      "fr": "La Mecque du windsurf et du kitesurf. Plage de sable naturel avec une ambiance bohème et sportive, et des vues spectaculaires.",
-      "it": "La mecca del windsurf e kitesurf. Spiaggia di sabbia naturale con atmosfera bohémien e sportiva, e vista spettacolare sulla Montagna Rossa.",
-      "nl": "Het mekka van windsurfen en kitesurfen. Natuurlijk zandstrand met een bohemien en sportieve sfeer, en spectaculair uitzicht.",
-      "sv": "Mekka för vindsurfing och kitesurfing. Naturlig sandstrand med bohemisk och sportig atmosfär och spektakulär utsikt.",
-      "no": "Mekka for vindsurfing og kitesurfing. Naturlig sandstrand med bohemsk og sportslig atmosfære, og spektakulær utsikt.",
-      "da": "Mekkaet for vindsurfing og kitesurfing. Naturlig sandstrand med boheme og sporty atmosfære, og spektakulær udsigt.",
-      "fi": "Tuuli- ja leijasurffauksen mekka. Luonnonhiekkaranta boheemilla ja urheilullisella tunnelmalla sekä upeilla näkymillä."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/el-medano.html",
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 17,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454318
     },
     "detalles": [
       "Estimado por Clima"
@@ -99,9 +62,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 9,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 5,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454369
@@ -138,47 +101,10 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 14,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454345
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Tejita",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0315,
-      -16.5576
-    ],
-    "descripcion": {
-      "es": "La mayor playa de arena natural de la isla. Virgen y situada bajo el volcán Montaña Roja. Cuenta con una amplia zona nudista.",
-      "en": "The largest natural sand beach on the island. Virgin and located under the Red Mountain volcano. Has a large nudist area.",
-      "de": "Der größte natürliche Sandstrand der Insel. Unberührt und unter dem Vulkan Roter Berg gelegen. Hat einen großen FKK-Bereich.",
-      "fr": "La plus grande plage de sable naturel de l'île. Vierge et située sous le volcan Montagne Rouge. Dispose d'une grande zone nudiste.",
-      "it": "La più grande spiaggia di sabbia naturale dell'isola. Vergine e situata sotto il vulcano Montagna Rossa. Ha un'ampia zona nudista.",
-      "nl": "Het grootste natuurlijke zandstrand van het eiland. Maagdelijk en gelegen onder de vulkaan Rode Berg. Heeft een groot naaktstrand.",
-      "sv": "Öns största naturliga sandstrand. Orörd och belägen under vulkanen Röda berget. Har ett stort nudistområde.",
-      "no": "Den største naturlige sandstranden på øya. Jomfruelig og ligger under vulkanen Det røde fjellet. Har et stort nudistområde.",
-      "da": "Den største naturlige sandstrand på øen. Jomfruelig og beliggende under vulkanen Det Røde Bjerg. Har et stort nudistområde.",
-      "fi": "Saaren suurin luonnonhiekkaranta. Neitseellinen ja sijaitsee Punaisen vuoren alla. Siellä on laaja nudistialue."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-la-tejita.html",
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 17,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454322
     },
     "detalles": [
       "Estimado por Clima"
@@ -210,9 +136,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 9,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454361
@@ -247,9 +173,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 9,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 5,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454369
@@ -284,9 +210,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 9,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 5,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454366
@@ -323,7 +249,7 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 14,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454341
@@ -359,8 +285,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 25,
-      "t_feel": 24,
-      "viento": 14,
+      "t_feel": 25,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454336
@@ -396,8 +322,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 26,
-      "t_feel": 25,
-      "viento": 10,
+      "t_feel": 26,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454354
@@ -434,7 +360,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 27,
-      "viento": 3,
+      "viento": 1,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454403
@@ -469,9 +395,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 6,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 2,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454366
@@ -506,9 +432,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 8,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454374
@@ -545,7 +471,7 @@
     "clima": {
       "t_real": 21,
       "t_feel": 21,
-      "viento": 17,
+      "viento": 18,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454284
@@ -581,8 +507,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 25,
-      "t_feel": 24,
-      "viento": 16,
+      "t_feel": 25,
+      "viento": 19,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454300
@@ -617,7 +543,7 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
+      "t_real": 25,
       "t_feel": 24,
       "viento": 13,
       "cielo": "Nubes",
@@ -654,9 +580,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 8,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454374
@@ -691,9 +617,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 9,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454364
@@ -728,9 +654,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 11,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454344
@@ -765,9 +691,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 11,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454346
@@ -802,9 +728,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 9,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 5,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454368
@@ -839,9 +765,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 9,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 5,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454372
@@ -876,9 +802,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 8,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454376
@@ -913,86 +839,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 9,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 5,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454368
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Leocadio Machado",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.04,
-      -16.545
-    ],
-    "descripcion": {
-      "es": "Playa amplia de arena dorada, continuación de El Médano. Espectáculo de cometas de Kitesurf.",
-      "en": "Wide golden sand beach, continuation of El Médano. Spectacle of Kitesurf kites.",
-      "de": "Breiter goldener Sandstrand, Fortsetzung von El Médano. Spektakel der Kitesurf-Drachen.",
-      "fr": "Large plage de sable doré, continuation d'El Médano. Spectacle de cerfs-volants de Kitesurf.",
-      "it": "Ampia spiaggia di sabbia dorata, continuazione di El Médano. Spettacolo di aquiloni da Kitesurf.",
-      "nl": "Breed goudkleurig zandstrand, vervolg van El Médano. Schouwspel van Kitesurf-vliegers.",
-      "sv": "Bred gyllene sandstrand, fortsättning på El Médano. Skådespel av Kitesurf-drakar.",
-      "no": "Bred gyllen sandstrand, fortsettelse av El Médano. Skue av Kitesurf-drager.",
-      "da": "Bred gylden sandstrand, fortsættelse af El Médano. Skue af Kitesurf-drager.",
-      "fi": "Leveä kultahiekkainen ranta, El Médanon jatke. Leijasurffausleijojen spektaakkeli."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 17,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454319
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Montaña Roja",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.032,
-      -16.55
-    ],
-    "descripcion": {
-      "es": "Pequeñas calas íntimas de arena y roca a los pies del volcán. Privacidad cerca del Médano.",
-      "en": "Small intimate sand and rock coves at the foot of the volcano. Privacy near El Médano.",
-      "de": "Kleine intime Sand- und Felsbuchten am Fuße des Vulkans. Privatsphäre in der Nähe von El Médano.",
-      "fr": "Petites criques intimes de sable et de roche au pied du volcan. Intimité près d'El Médano.",
-      "it": "Piccole calette intime di sabbia e roccia ai piedi del vulcano. Privacy vicino a El Médano.",
-      "nl": "Kleine intieme zand- en rotsbaaien aan de voet van de vulkaan. Privacy in de buurt van El Médano.",
-      "sv": "Små intima sand- och stenvikar vid foten av vulkanen. Avskildhet nära El Médano.",
-      "no": "Små intime sand- og steinviker ved foten av vulkanen. Privatliv nær El Médano.",
-      "da": "Små intime sand- og klippebugter ved foden af vulkanen. Privatliv nær El Médano.",
-      "fi": "Pieniä intiimejä hiekka- ja kivipoukamia tulivuoren juurella. Yksityisyyttä lähellä El Médanoa."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 17,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454320
     },
     "detalles": [
       "Estimado por Clima"
@@ -1026,7 +878,7 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 14,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454343
@@ -1062,8 +914,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 25,
-      "t_feel": 24,
-      "viento": 14,
+      "t_feel": 25,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454334
@@ -1099,8 +951,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 25,
-      "t_feel": 24,
-      "viento": 14,
+      "t_feel": 25,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454332
@@ -1136,8 +988,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 26,
-      "t_feel": 25,
-      "viento": 10,
+      "t_feel": 26,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454351
@@ -1174,7 +1026,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454392
@@ -1209,9 +1061,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 9,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454389
@@ -1248,7 +1100,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454398
@@ -1284,7 +1136,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 22,
+      "t_feel": 23,
       "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
@@ -1321,7 +1173,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 22,
+      "t_feel": 23,
       "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
@@ -1357,7 +1209,7 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
+      "t_real": 25,
       "t_feel": 24,
       "viento": 13,
       "cielo": "Nubes",
@@ -1431,49 +1283,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 25,
-      "viento": 13,
+      "viento": 15,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454299
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "El Tajao",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.11,
-      -16.468
-    ],
-    "descripcion": {
-      "es": "Cala de piedras en pueblo gastronómico. Baño rápido y mariscada local.",
-      "en": "Pebble cove in gastronomic village. Quick swim and local seafood feast.",
-      "de": "Steinbucht im Gastronomiedorf. Schnelles Bad und lokales Meeresfrüchteessen.",
-      "fr": "Crique de galets dans un village gastronomique. Baignade rapide et festin de fruits de mer local.",
-      "it": "Caletta di sassi in villaggio gastronomico. Bagno veloce e abbuffata di pesce locale.",
-      "nl": "Kiezelbaai in gastronomisch dorp. Snelle duik en lokaal zeevruchtenfestijn.",
-      "sv": "Stenvik i gastronomisk by. Snabbt dopp och lokal skaldjursfest.",
-      "no": "Steinvik i gastronomisk landsby. Rask dukkert og lokalt sjømatmåltid.",
-      "da": "Stenvig i gastronomisk landsby. Hurtig dukkert og lokalt skaldyrsmåltid.",
-      "fi": "Kivinen poukama gastronomisessa kylässä. Nopea uinti ja paikallinen äyriäisateria."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 24,
-      "viento": 18,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454305
     },
     "detalles": [
       "Estimado por Clima"
@@ -1507,7 +1322,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 13,
+      "viento": 15,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454382
@@ -1544,7 +1359,7 @@
     "clima": {
       "t_real": 22,
       "t_feel": 21,
-      "viento": 12,
+      "viento": 14,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454404
@@ -1581,7 +1396,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 11,
+      "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454361
@@ -1618,7 +1433,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 11,
+      "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454362
@@ -1653,49 +1468,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 8,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454381
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "San Blas",
-    "municipio": "San Miguel",
-    "zona": "Sur",
-    "coordenadas": [
-      28.028,
-      -16.605
-    ],
-    "descripcion": {
-      "es": "Paisaje lunar junto al mar. Formas volcánicas y pequeñas calas de arena negra.",
-      "en": "Lunar landscape by the sea. Volcanic shapes and small black sand coves.",
-      "de": "Mondlandschaft am Meer. Vulkanische Formen und kleine schwarze Sandbuchten.",
-      "fr": "Paysage lunaire en bord de mer. Formes volcaniques et petites criques de sable noir.",
-      "it": "Paesaggio lunare in riva al mare. Forme vulcaniche e piccole calette di sabbia nera.",
-      "nl": "Maanlandschap aan zee. Vulkanische vormen en kleine zwarte zandbaaien.",
-      "sv": "Månlandskap vid havet. Vulkaniska former och små svarta sandvikar.",
-      "no": "Månelandskap ved sjøen. Vulkanske former og små svarte sandviker.",
-      "da": "Månelandskab ved havet. Vulkanske former og små sorte sandbugter.",
-      "fi": "Kuu-maisema meren äärellä. Vulkaanisia muotoja ja pieniä mustahiekkaisia poukamia."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 16,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454333
     },
     "detalles": [
       "Estimado por Clima"
@@ -1727,9 +1505,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 13,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454340
@@ -1765,7 +1543,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 22,
+      "t_feel": 23,
       "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
@@ -1802,7 +1580,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 22,
+      "t_feel": 23,
       "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
@@ -1839,7 +1617,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 22,
+      "t_feel": 23,
       "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
@@ -1876,48 +1654,11 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 23,
-      "t_feel": 22,
+      "t_feel": 23,
       "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454295
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa del Horno",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.038,
-      -16.552
-    ],
-    "descripcion": {
-      "es": "Cala resguardada y solitaria cerca de El Confital.",
-      "en": "Sheltered and solitary cove near El Confital.",
-      "de": "Geschützte und einsame Bucht in der Nähe von El Confital.",
-      "fr": "Crique abritée et solitaire près d'El Confital.",
-      "it": "Caletta riparata e solitaria vicino a El Confital.",
-      "nl": "Beschutte en eenzame baai bij El Confital.",
-      "sv": "Skyddad och ensam vik nära El Confital.",
-      "no": "Skjermet og ensom vik nær El Confital.",
-      "da": "Beskyttet og ensom bugt nær El Confital.",
-      "fi": "Suojainen ja yksinäinen poukama lähellä El Confitalia."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 17,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454319
     },
     "detalles": [
       "Estimado por Clima"
@@ -1951,7 +1692,7 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 16,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454298
@@ -1988,7 +1729,7 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 16,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454297
@@ -2025,269 +1766,10 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 16,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454297
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa de la Jaca",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.125,
-      -16.455
-    ],
-    "descripcion": {
-      "es": "Piscina natural y playa en barrio pesquero auténtico.",
-      "en": "Natural pool and beach in authentic fishing neighborhood.",
-      "de": "Natürliches Becken und Strand in authentischem Fischerviertel.",
-      "fr": "Piscine naturelle et plage dans un quartier de pêcheurs authentique.",
-      "it": "Piscina naturale e spiaggia in autentico quartiere di pescatori.",
-      "nl": "Natuurlijk zwembad en strand in authentieke visserswijk.",
-      "sv": "Naturlig pool och strand i autentiskt fiskekvarter.",
-      "no": "Naturlig basseng og strand i autentisk fiskerområde.",
-      "da": "Naturlig pool og strand i autentisk fiskerkvarter.",
-      "fi": "Luonnonallas ja ranta aidossa kalastajakaupunginosassa."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 24,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454303
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa de las Maretas",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.118,
-      -16.46
-    ],
-    "descripcion": {
-      "es": "Zona tranquila con fondos rocosos, ideal snorkel.",
-      "en": "Quiet area with rocky seabeds, ideal for snorkeling.",
-      "de": "Ruhige Gegend mit felsigem Grund, ideal zum Schnorcheln.",
-      "fr": "Zone calme avec fonds rocheux, idéal snorkeling.",
-      "it": "Zona tranquilla con fondali rocciosi, ideale per snorkeling.",
-      "nl": "Rustige omgeving met rotsachtige bodem, ideaal om te snorkelen.",
-      "sv": "Lugnt område med klippig botten, perfekt för snorkling.",
-      "no": "Rolig område med steinete bunn, ideelt for snorkling.",
-      "da": "Roligt område med klippebund, ideelt til snorkling.",
-      "fi": "Rauhallinen alue kivisellä pohjalla, ihanteellinen snorklaukseen."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 24,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454303
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Callao Hondo",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.105,
-      -16.475
-    ],
-    "descripcion": {
-      "es": "Cala salvaje de piedras blancas y aguas cristalinas.",
-      "en": "Wild cove of white stones and crystal clear waters.",
-      "de": "Wilde Bucht aus weißen Steinen und kristallklarem Wasser.",
-      "fr": "Crique sauvage de pierres blanches et eaux cristallines.",
-      "it": "Caletta selvaggia di pietre bianche e acque cristalline.",
-      "nl": "Wilde baai met witte stenen en kristalhelder water.",
-      "sv": "Vild vik med vita stenar och kristallklart vatten.",
-      "no": "Vill vik med hvite steiner og krystallklart vann.",
-      "da": "Vild bugt med hvide sten og krystalklart vand.",
-      "fi": "Villi valkokivinen poukama kristallinkirkkaalla vedellä."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 24,
-      "viento": 18,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454306
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Listada",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.13,
-      -16.45
-    ],
-    "descripcion": {
-      "es": "Barrio costero con encanto y zonas de baño protegidas.",
-      "en": "Charming coastal neighborhood with protected swimming areas.",
-      "de": "Charmantes Küstenviertel mit geschützten Badebereichen.",
-      "fr": "Quartier côtier charmant avec zones de baignade protégées.",
-      "it": "Affascinante quartiere costiero con zone balneari protette.",
-      "nl": "Charmante kustwijk met beschermde zwemgebieden.",
-      "sv": "Charmigt kustområde med skyddade badplatser.",
-      "no": "Sjarmerende kystnabolag med beskyttede badeområder.",
-      "da": "Charmerende kystkvarter med beskyttede badeområder.",
-      "fi": "Viehättävä rannikkokaupunginosa suojaisilla uimapaikoilla."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 24,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454303
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa Pelada",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0582,
-      -16.5216
-    ],
-    "descripcion": {
-      "es": "Playa virgen de arena dorada tras un cráter. Nudista.",
-      "en": "Virgin golden sand beach behind a crater. Nudist.",
-      "de": "Unberührter goldener Sandstrand hinter einem Krater. FKK.",
-      "fr": "Plage vierge de sable doré derrière un cratère. Nudiste.",
-      "it": "Spiaggia vergine di sabbia dorata dietro un cratere. Nudista.",
-      "nl": "Maagdelijk goudkleurig zandstrand achter een krater. Naaktstrand.",
-      "sv": "Orörd gyllene sandstrand bakom en krater. Nudist.",
-      "no": "Jomfruelig gyllen sandstrand bak et krater. Nudist.",
-      "da": "Jomfruelig gylden sandstrand bag et krater. Nudist.",
-      "fi": "Neitseellinen kultahiekkainen ranta kraatterin takana. Nudisti."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 24,
-      "t_feel": 23,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454315
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Mareta",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.028,
-      -16.57
-    ],
-    "descripcion": {
-      "es": "Callaos y charcos naturales para explorar en bajamar.",
-      "en": "Pebbles and natural pools to explore at low tide.",
-      "de": "Kiesel und natürliche Becken zum Erkunden bei Ebbe.",
-      "fr": "Galets et piscines naturelles à explorer à marée basse.",
-      "it": "Ciottoli e piscine naturali da esplorare con la bassa marea.",
-      "nl": "Kiezels en natuurlijke poelen om te verkennen bij eb.",
-      "sv": "Stenar och naturliga pooler att utforska vid lågvatten.",
-      "no": "Rullestein og naturlige bassenger å utforske ved lavvann.",
-      "da": "Småsten og naturlige pools at udforske ved lavvande.",
-      "fi": "Kiviä ja luonnonaltaita tutkittavaksi laskuveden aikaan."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454325
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Los Abrigos",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.028,
-      -16.59
-    ],
-    "descripcion": {
-      "es": "Calas volcánicas junto al famoso puerto gastronómico.",
-      "en": "Volcanic coves next to the famous gastronomic port.",
-      "de": "Vulkanische Buchten neben dem berühmten Gastronomiehafen.",
-      "fr": "Criques volcaniques à côté du célèbre port gastronomique.",
-      "it": "Calette vulcaniche accanto al famoso porto gastronomico.",
-      "nl": "Vulkanische baaien naast de beroemde gastronomische haven.",
-      "sv": "Vulkaniska vikar bredvid den berömda gastronomiska hamnen.",
-      "no": "Vulkanske viker ved siden av den berømte gastronomiske havnen.",
-      "da": "Vulkanske bugter ved siden af den berømte gastronomiske havn.",
-      "fi": "Vulkaanisia poukamia kuuluisan gastronomisen sataman vieressä."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 16,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454329
     },
     "detalles": [
       "Estimado por Clima"
@@ -2319,49 +1801,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 13,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454336
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Jaquita",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0502,
-      -16.5302
-    ],
-    "descripcion": {
-      "es": "Playa tranquila cerca del Médano con búnkeres antiguos.",
-      "en": "Quiet beach near El Médano with old bunkers.",
-      "de": "Ruhiger Strand in der Nähe von El Médano mit alten Bunkern.",
-      "fr": "Plage tranquille près d'El Médano avec d'anciens bunkers.",
-      "it": "Spiaggia tranquilla vicino a El Médano con vecchi bunker.",
-      "nl": "Rustig strand bij El Médano met oude bunkers.",
-      "sv": "Lugn strand nära El Médano med gamla bunkrar.",
-      "no": "Rolig strand nær El Médano med gamle bunkere.",
-      "da": "Rolig strand nær El Médano med gamle bunkere.",
-      "fi": "Rauhallinen ranta lähellä El Médanoa vanhoilla bunkkereilla."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 24,
-      "t_feel": 23,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454316
     },
     "detalles": [
       "Estimado por Clima"
@@ -2395,7 +1840,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454398
@@ -2432,7 +1877,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 27,
-      "viento": 3,
+      "viento": 2,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454399
@@ -2469,7 +1914,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454394
@@ -2506,7 +1951,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 27,
-      "viento": 3,
+      "viento": 1,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454402
@@ -2543,84 +1988,10 @@
     "clima": {
       "t_real": 24,
       "t_feel": 24,
-      "viento": 11,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454410
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Las Arenas",
-    "municipio": "Buenavista del Norte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.375,
-      -16.865
-    ],
-    "descripcion": {
-      "es": "Costa volcánica con senderos y calas de roca.",
-      "en": "Volcanic coast with trails and rock coves.",
-      "de": "Vulkanküste mit Wegen und Felsbuchten.",
-      "fr": "Côte volcanique avec sentiers et criques rocheuses.",
-      "it": "Costa vulcanica con sentieri e calette rocciose.",
-      "nl": "Vulkanische kust met paden en rotsbaaien.",
-      "sv": "Vulkanisk kust med stigar och klippvikar.",
-      "no": "Vulkansk kyst med stier og klippeviker.",
-      "da": "Vulkansk kyst med stier og klippebugter.",
-      "fi": "Vulkaaninen rannikko poluilla ja kivipoukamilla."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454416
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "El Fraile",
-    "municipio": "Buenavista del Norte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.38,
-      -16.86
-    ],
-    "descripcion": {
-      "es": "Cala salvaje bajo el macizo de Teno. Aislamiento.",
-      "en": "Wild cove under Teno massif. Isolation.",
-      "de": "Wilde Bucht unter dem Teno-Massiv. Isolation.",
-      "fr": "Crique sauvage sous le massif de Teno. Isolement.",
-      "it": "Caletta selvaggia sotto il massiccio del Teno. Isolamento.",
-      "nl": "Wilde baai onder het Teno-massief. Isolatie.",
-      "sv": "Vild vik under Teno-massivet. Isolering.",
-      "no": "Vill vik under Teno-massivet. Isolasjon.",
-      "da": "Vild bugt under Teno-massivet. Isolation.",
-      "fi": "Villi poukama Teno-massiivin alla. Eristäytyminen."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 22,
-      "t_feel": 22,
-      "viento": 20,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454416
     },
     "detalles": [
       "Estimado por Clima"
@@ -2654,7 +2025,7 @@
     "clima": {
       "t_real": 24,
       "t_feel": 24,
-      "viento": 15,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454395
@@ -2691,7 +2062,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 12,
+      "viento": 14,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454368
@@ -2728,7 +2099,7 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 14,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454343
@@ -2763,9 +2134,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 25,
-      "viento": 10,
+      "viento": 11,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454348
@@ -2802,7 +2173,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 11,
+      "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454357
@@ -2837,9 +2208,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 21,
-      "t_feel": 21,
-      "viento": 18,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 20,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454324
@@ -2876,7 +2247,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454398
@@ -2913,7 +2284,7 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 14,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454345
@@ -2950,47 +2321,10 @@
     "clima": {
       "t_real": 25,
       "t_feel": 25,
-      "viento": 14,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454345
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Las Teresitas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
-    "coordenadas": [
-      28.5096,
-      -16.1869
-    ],
-    "descripcion": {
-      "es": "La playa más emblemática de la capital. Kilómetros de arena dorada y aguas tranquilas protegidas por un rompeolas, ideal para familias y caminar.",
-      "en": "The capital's most iconic beach. Kilometers of golden sand and calm waters protected by a breakwater, ideal for families and walking.",
-      "de": "Der emblematischste Strand der Hauptstadt. Kilometerlanger goldener Sand und ruhiges Wasser, geschützt durch einen Wellenbrecher, ideal für Familien.",
-      "fr": "La plage la plus emblématique de la capitale. Des kilomètres de sable doré et des eaux calmes protégées par une digue, idéal pour les familles.",
-      "it": "La spiaggia più emblematica della capitale. Chilometri di sabbia dorata e acque calme protette da una scogliera, ideale per famiglie.",
-      "nl": "Het meest emblematische strand van de hoofdstad. Kilometers goudkleurig zand en kalm water beschermd door een golfbreker, ideaal voor gezinnen.",
-      "sv": "Huvudstadens mest emblematiska strand. Kilometer av gyllene sand och lugnt vatten skyddat av en vågbrytare, perfekt för familjer.",
-      "no": "Hovedstadens mest emblematiske strand. Kilometer med gyllen sand og rolig vann beskyttet av en molo, ideelt for familier.",
-      "da": "Hovedstadens mest emblematiske strand. Kilometer af gyldent sand og roligt vand beskyttet af en bølgebryder, ideel til familier.",
-      "fi": "Pääkaupungin tunnetuin ranta. Kilometrejä kultaista hiekkaa ja aallonmurtajan suojaama tyyni vesi, ihanteellinen perheille."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-teresitas.html",
-    "score": 7,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
       "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
-      "sunset": 1776454261
+      "sunset": 1776454345
     },
     "detalles": [
       "Estimado por Clima"
@@ -3034,43 +2368,6 @@
     ]
   },
   {
-    "nombre": "Las Gaviotas",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Metropolitana",
-    "coordenadas": [
-      28.5135,
-      -16.1755
-    ],
-    "descripcion": {
-      "es": "Playa de arena negra volcánica bajo acantilados. Tradición nudista y ambiente local tranquilo. Perfecta para desconectar.",
-      "en": "Volcanic black sand beach under cliffs. Nudist tradition and quiet local atmosphere. Perfect for disconnecting.",
-      "de": "Vulkanischer schwarzer Sandstrand unter Klippen. FKK-Tradition und ruhige lokale Atmosphäre. Perfekt zum Abschalten.",
-      "fr": "Plage de sable noir volcanique sous les falaises. Tradition naturiste et ambiance locale calme. Parfait pour déconnecter.",
-      "it": "Spiaggia di sabbia nera vulcanica sotto le scogliere. Tradizione nudista e atmosfera locale tranquilla. Perfetta per staccare.",
-      "nl": "Zwart vulkanisch zandstrand onder kliffen. Naturistische traditie en rustige lokale sfeer. Perfect om te ontsnappen.",
-      "sv": "Vulkanisk svart sandstrand under klippor. Nudisttradition och lugn lokal atmosfär. Perfekt för avkoppling.",
-      "no": "Vulkansk svart sandstrand under klipper. Nudisttradisjon og rolig lokal atmosfære. Perfekt for å koble av.",
-      "da": "Vulkansk sort sandstrand under klipper. Nudisttradition og rolig lokal atmosfære. Perfekt til at koble af.",
-      "fi": "Vulkaaninen mustahiekkainen ranta kallioiden alla. Nudistiperinne ja rauhallinen paikallinen tunnelma. Täydellinen irtautumiseen."
-    },
-    "webcam": null,
-    "score": 7,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 16,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454259
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
     "nombre": "Antequera",
     "municipio": "Santa Cruz de Tenerife",
     "zona": "Anaga",
@@ -3098,7 +2395,7 @@
     "clima": {
       "t_real": 18,
       "t_feel": 18,
-      "viento": 17,
+      "viento": 16,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454250
@@ -3134,48 +2431,11 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 19,
-      "t_feel": 18,
-      "viento": 14,
+      "t_feel": 19,
+      "viento": 15,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454295
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Cueva del Agua",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.56,
-      -16.3
-    ],
-    "descripcion": {
-      "es": "Rincón aislado y jurásico en Anaga.",
-      "en": "Isolated and Jurassic corner in Anaga.",
-      "de": "Abgelegener und jurassischer Winkel in Anaga.",
-      "fr": "Coin isolé et jurassique à Anaga.",
-      "it": "Angolo isolato e giurassico ad Anaga.",
-      "nl": "Afgelegen en Jurassic hoekje in Anaga.",
-      "sv": "Isolerad och jurassisk hörna i Anaga.",
-      "no": "Isolert og jurassisk hjørne i Anaga.",
-      "da": "Isoleret og jurassisk hjørne i Anaga.",
-      "fi": "Eristäytynyt ja jurakautinen kulma Anagassa."
-    },
-    "webcam": null,
-    "score": 7,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 18,
-      "t_feel": 18,
-      "viento": 17,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454292
     },
     "detalles": [
       "Estimado por Clima"
@@ -3246,10 +2506,84 @@
     "clima": {
       "t_real": 19,
       "t_feel": 19,
-      "viento": 19,
+      "viento": 20,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454296
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Las Teresitas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "coordenadas": [
+      28.5096,
+      -16.1869
+    ],
+    "descripcion": {
+      "es": "La playa más emblemática de la capital. Kilómetros de arena dorada y aguas tranquilas protegidas por un rompeolas, ideal para familias y caminar.",
+      "en": "The capital's most iconic beach. Kilometers of golden sand and calm waters protected by a breakwater, ideal for families and walking.",
+      "de": "Der emblematischste Strand der Hauptstadt. Kilometerlanger goldener Sand und ruhiges Wasser, geschützt durch einen Wellenbrecher, ideal für Familien.",
+      "fr": "La plage la plus emblématique de la capitale. Des kilomètres de sable doré et des eaux calmes protégées par une digue, idéal pour les familles.",
+      "it": "La spiaggia più emblematica della capitale. Chilometri di sabbia dorata e acque calme protette da una scogliera, ideale per famiglie.",
+      "nl": "Het meest emblematische strand van de hoofdstad. Kilometers goudkleurig zand en kalm water beschermd door een golfbreker, ideaal voor gezinnen.",
+      "sv": "Huvudstadens mest emblematiska strand. Kilometer av gyllene sand och lugnt vatten skyddat av en vågbrytare, perfekt för familjer.",
+      "no": "Hovedstadens mest emblematiske strand. Kilometer med gyllen sand og rolig vann beskyttet av en molo, ideelt for familier.",
+      "da": "Hovedstadens mest emblematiske strand. Kilometer af gyldent sand og roligt vand beskyttet af en bølgebryder, ideel til familier.",
+      "fi": "Pääkaupungin tunnetuin ranta. Kilometrejä kultaista hiekkaa ja aallonmurtajan suojaama tyyni vesi, ihanteellinen perheille."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-las-teresitas.html",
+    "score": 4,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 16,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454261
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Las Gaviotas",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Metropolitana",
+    "coordenadas": [
+      28.5135,
+      -16.1755
+    ],
+    "descripcion": {
+      "es": "Playa de arena negra volcánica bajo acantilados. Tradición nudista y ambiente local tranquilo. Perfecta para desconectar.",
+      "en": "Volcanic black sand beach under cliffs. Nudist tradition and quiet local atmosphere. Perfect for disconnecting.",
+      "de": "Vulkanischer schwarzer Sandstrand unter Klippen. FKK-Tradition und ruhige lokale Atmosphäre. Perfekt zum Abschalten.",
+      "fr": "Plage de sable noir volcanique sous les falaises. Tradition naturiste et ambiance locale calme. Parfait pour déconnecter.",
+      "it": "Spiaggia di sabbia nera vulcanica sotto le scogliere. Tradizione nudista e atmosfera locale tranquilla. Perfetta per staccare.",
+      "nl": "Zwart vulkanisch zandstrand onder kliffen. Naturistische traditie en rustige lokale sfeer. Perfect om te ontsnappen.",
+      "sv": "Vulkanisk svart sandstrand under klippor. Nudisttradition och lugn lokal atmosfär. Perfekt för avkoppling.",
+      "no": "Vulkansk svart sandstrand under klipper. Nudisttradisjon og rolig lokal atmosfære. Perfekt for å koble av.",
+      "da": "Vulkansk sort sandstrand under klipper. Nudisttradition og rolig lokal atmosfære. Perfekt til at koble af.",
+      "fi": "Vulkaaninen mustahiekkainen ranta kallioiden alla. Nudistiperinne ja rauhallinen paikallinen tunnelma. Täydellinen irtautumiseen."
+    },
+    "webcam": null,
+    "score": 4,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 16,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454259
     },
     "detalles": [
       "Estimado por Clima"
@@ -3283,7 +2617,7 @@
     "clima": {
       "t_real": 17,
       "t_feel": 17,
-      "viento": 16,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454267
@@ -3320,7 +2654,7 @@
     "clima": {
       "t_real": 17,
       "t_feel": 17,
-      "viento": 16,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454267
@@ -3355,12 +2689,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 17,
-      "t_feel": 17,
+      "t_real": 16,
+      "t_feel": 16,
       "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454270
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Cueva del Agua",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.56,
+      -16.3
+    ],
+    "descripcion": {
+      "es": "Rincón aislado y jurásico en Anaga.",
+      "en": "Isolated and Jurassic corner in Anaga.",
+      "de": "Abgelegener und jurassischer Winkel in Anaga.",
+      "fr": "Coin isolé et jurassique à Anaga.",
+      "it": "Angolo isolato e giurassico ad Anaga.",
+      "nl": "Afgelegen en Jurassic hoekje in Anaga.",
+      "sv": "Isolerad och jurassisk hörna i Anaga.",
+      "no": "Isolert og jurassisk hjørne i Anaga.",
+      "da": "Isoleret og jurassisk hjørne i Anaga.",
+      "fi": "Eristäytynyt ja jurakautinen kulma Anagassa."
+    },
+    "webcam": null,
+    "score": 4,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 17,
+      "t_feel": 17,
+      "viento": 19,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454292
     },
     "detalles": [
       "Estimado por Clima"
@@ -3393,11 +2764,85 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 16,
-      "t_feel": 16,
-      "viento": 16,
+      "t_feel": 15,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454280
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "El Médano",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0435,
+      -16.538
+    ],
+    "descripcion": {
+      "es": "La meca del windsurf y kitesurf. Playa de arena natural con ambiente bohemio y deportivo, y vistas espectaculares a Montaña Roja.",
+      "en": "The mecca of windsurfing and kitesurfing. Natural sand beach with a bohemian and sporty atmosphere, and spectacular views of Red Mountain.",
+      "de": "Das Mekka für Windsurfen und Kitesurfen. Natursandstrand mit Bohème- und Sportatmosphäre und spektakulärem Blick auf den Roten Berg.",
+      "fr": "La Mecque du windsurf et du kitesurf. Plage de sable naturel avec une ambiance bohème et sportive, et des vues spectaculaires.",
+      "it": "La mecca del windsurf e kitesurf. Spiaggia di sabbia naturale con atmosfera bohémien e sportiva, e vista spettacolare sulla Montagna Rossa.",
+      "nl": "Het mekka van windsurfen en kitesurfen. Natuurlijk zandstrand met een bohemien en sportieve sfeer, en spectaculair uitzicht.",
+      "sv": "Mekka för vindsurfing och kitesurfing. Naturlig sandstrand med bohemisk och sportig atmosfär och spektakulär utsikt.",
+      "no": "Mekka for vindsurfing og kitesurfing. Naturlig sandstrand med bohemsk og sportslig atmosfære, og spektakulær utsikt.",
+      "da": "Mekkaet for vindsurfing og kitesurfing. Naturlig sandstrand med boheme og sporty atmosfære, og spektakulær udsigt.",
+      "fi": "Tuuli- ja leijasurffauksen mekka. Luonnonhiekkaranta boheemilla ja urheilullisella tunnelmalla sekä upeilla näkymillä."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/el-medano.html",
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 21,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454318
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Tejita",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0315,
+      -16.5576
+    ],
+    "descripcion": {
+      "es": "La mayor playa de arena natural de la isla. Virgen y situada bajo el volcán Montaña Roja. Cuenta con una amplia zona nudista.",
+      "en": "The largest natural sand beach on the island. Virgin and located under the Red Mountain volcano. Has a large nudist area.",
+      "de": "Der größte natürliche Sandstrand der Insel. Unberührt und unter dem Vulkan Roter Berg gelegen. Hat einen großen FKK-Bereich.",
+      "fr": "La plus grande plage de sable naturel de l'île. Vierge et située sous le volcan Montagne Rouge. Dispose d'une grande zone nudiste.",
+      "it": "La più grande spiaggia di sabbia naturale dell'isola. Vergine e situata sotto il vulcano Montagna Rossa. Ha un'ampia zona nudista.",
+      "nl": "Het grootste natuurlijke zandstrand van het eiland. Maagdelijk en gelegen onder de vulkaan Rode Berg. Heeft een groot naaktstrand.",
+      "sv": "Öns största naturliga sandstrand. Orörd och belägen under vulkanen Röda berget. Har ett stort nudistområde.",
+      "no": "Den største naturlige sandstranden på øya. Jomfruelig og ligger under vulkanen Det røde fjellet. Har et stort nudistområde.",
+      "da": "Den største naturlige sandstrand på øen. Jomfruelig og beliggende under vulkanen Det Røde Bjerg. Har et stort nudistområde.",
+      "fi": "Saaren suurin luonnonhiekkaranta. Neitseellinen ja sijaitsee Punaisen vuoren alla. Siellä on laaja nudistialue."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-la-tejita.html",
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 21,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454322
     },
     "detalles": [
       "Estimado por Clima"
@@ -3431,10 +2876,84 @@
     "clima": {
       "t_real": 21,
       "t_feel": 21,
-      "viento": 21,
+      "viento": 24,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454318
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Leocadio Machado",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.04,
+      -16.545
+    ],
+    "descripcion": {
+      "es": "Playa amplia de arena dorada, continuación de El Médano. Espectáculo de cometas de Kitesurf.",
+      "en": "Wide golden sand beach, continuation of El Médano. Spectacle of Kitesurf kites.",
+      "de": "Breiter goldener Sandstrand, Fortsetzung von El Médano. Spektakel der Kitesurf-Drachen.",
+      "fr": "Large plage de sable doré, continuation d'El Médano. Spectacle de cerfs-volants de Kitesurf.",
+      "it": "Ampia spiaggia di sabbia dorata, continuazione di El Médano. Spettacolo di aquiloni da Kitesurf.",
+      "nl": "Breed goudkleurig zandstrand, vervolg van El Médano. Schouwspel van Kitesurf-vliegers.",
+      "sv": "Bred gyllene sandstrand, fortsättning på El Médano. Skådespel av Kitesurf-drakar.",
+      "no": "Bred gyllen sandstrand, fortsettelse av El Médano. Skue av Kitesurf-drager.",
+      "da": "Bred gylden sandstrand, fortsættelse af El Médano. Skue af Kitesurf-drager.",
+      "fi": "Leveä kultahiekkainen ranta, El Médanon jatke. Leijasurffausleijojen spektaakkeli."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 21,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454319
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Montaña Roja",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.032,
+      -16.55
+    ],
+    "descripcion": {
+      "es": "Pequeñas calas íntimas de arena y roca a los pies del volcán. Privacidad cerca del Médano.",
+      "en": "Small intimate sand and rock coves at the foot of the volcano. Privacy near El Médano.",
+      "de": "Kleine intime Sand- und Felsbuchten am Fuße des Vulkans. Privatsphäre in der Nähe von El Médano.",
+      "fr": "Petites criques intimes de sable et de roche au pied du volcan. Intimité près d'El Médano.",
+      "it": "Piccole calette intime di sabbia e roccia ai piedi del vulcano. Privacy vicino a El Médano.",
+      "nl": "Kleine intieme zand- en rotsbaaien aan de voet van de vulkaan. Privacy in de buurt van El Médano.",
+      "sv": "Små intima sand- och stenvikar vid foten av vulkanen. Avskildhet nära El Médano.",
+      "no": "Små intime sand- og steinviker ved foten av vulkanen. Privatliv nær El Médano.",
+      "da": "Små intime sand- og klippebugter ved foden af vulkanen. Privatliv nær El Médano.",
+      "fi": "Pieniä intiimejä hiekka- ja kivipoukamia tulivuoren juurella. Yksityisyyttä lähellä El Médanoa."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 21,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454320
     },
     "detalles": [
       "Estimado por Clima"
@@ -3468,10 +2987,84 @@
     "clima": {
       "t_real": 20,
       "t_feel": 20,
-      "viento": 24,
+      "viento": 27,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454318
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Bajamar",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.556,
+      -16.345
+    ],
+    "descripcion": {
+      "es": "Famosas piscinas naturales frente al mar abierto. Bandera Azul y espectáculo de olas.",
+      "en": "Famous natural pools facing the open sea. Blue Flag and wave spectacle.",
+      "de": "Berühmte natürliche Becken vor dem offenen Meer. Blaue Flagge und Wellenspektakel.",
+      "fr": "Célèbres piscines naturelles face à la mer ouverte. Pavillon Bleu et spectacle de vagues.",
+      "it": "Famose piscine naturali di fronte al mare aperto. Bandiera Blu e spettacolo di onde.",
+      "nl": "Beroemde natuurlijke zwembaden tegenover de open zee. Blauwe Vlag en golfspektakel.",
+      "sv": "Kända naturliga pooler mot det öppna havet. Blå Flagg och vågskådespel.",
+      "no": "Kjente naturlige bassenger mot åpent hav. Blått Flagg og bølgeskuespill.",
+      "da": "Berømte naturlige pools mod det åbne hav. Blå Flag og bølgespektakel.",
+      "fi": "Kuuluisat luonnonaltaat avomerta vastapäätä. Sininen lippu ja aaltospektaakkeli."
+    },
+    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/bajamar-piscinas-naturales.html",
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 19,
+      "t_feel": 20,
+      "viento": 24,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454302
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "El Arenal",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.558,
+      -16.34
+    ],
+    "descripcion": {
+      "es": "Joya escondida de arena negra entre Bajamar y La Punta. Olas potentes, acceso a pie.",
+      "en": "Hidden black sand jewel between Bajamar and La Punta. Powerful waves, foot access.",
+      "de": "Verstecktes schwarzes Sandjuwel zwischen Bajamar und La Punta. Starke Wellen, Zugang zu Fuß.",
+      "fr": "Joyau caché de sable noir entre Bajamar et La Punta. Vagues puissantes, accès à pied.",
+      "it": "Gioiello nascosto di sabbia nera tra Bajamar e La Punta. Onde potenti, accesso a piedi.",
+      "nl": "Verborgen juweel van zwart zand tussen Bajamar en La Punta. Krachtige golven, toegang te voet.",
+      "sv": "Dold svart sandjuvel mellan Bajamar och La Punta. Kraftiga vågor, tillgång till fots.",
+      "no": "Skjult svart sandjuvel mellom Bajamar og La Punta. Kraftige bølger, tilgang til fots.",
+      "da": "Skjult sort sandjuvel mellem Bajamar og La Punta. Kraftige bølger, adgang til fods.",
+      "fi": "Piilotettu mustahiekkainen jalokivi Bajamarin ja La Puntan välissä. Voimakkaat aallot, pääsy kävellen."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 19,
+      "t_feel": 20,
+      "viento": 24,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454302
     },
     "detalles": [
       "Estimado por Clima"
@@ -3505,10 +3098,491 @@
     "clima": {
       "t_real": 20,
       "t_feel": 20,
-      "viento": 22,
+      "viento": 25,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454311
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "El Tajao",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.11,
+      -16.468
+    ],
+    "descripcion": {
+      "es": "Cala de piedras en pueblo gastronómico. Baño rápido y mariscada local.",
+      "en": "Pebble cove in gastronomic village. Quick swim and local seafood feast.",
+      "de": "Steinbucht im Gastronomiedorf. Schnelles Bad und lokales Meeresfrüchteessen.",
+      "fr": "Crique de galets dans un village gastronomique. Baignade rapide et festin de fruits de mer local.",
+      "it": "Caletta di sassi in villaggio gastronomico. Bagno veloce e abbuffata di pesce locale.",
+      "nl": "Kiezelbaai in gastronomisch dorp. Snelle duik en lokaal zeevruchtenfestijn.",
+      "sv": "Stenvik i gastronomisk by. Snabbt dopp och lokal skaldjursfest.",
+      "no": "Steinvik i gastronomisk landsby. Rask dukkert og lokalt sjømatmåltid.",
+      "da": "Stenvig i gastronomisk landsby. Hurtig dukkert og lokalt skaldyrsmåltid.",
+      "fi": "Kivinen poukama gastronomisessa kylässä. Nopea uinti ja paikallinen äyriäisateria."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 22,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454305
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "San Blas",
+    "municipio": "San Miguel",
+    "zona": "Sur",
+    "coordenadas": [
+      28.028,
+      -16.605
+    ],
+    "descripcion": {
+      "es": "Paisaje lunar junto al mar. Formas volcánicas y pequeñas calas de arena negra.",
+      "en": "Lunar landscape by the sea. Volcanic shapes and small black sand coves.",
+      "de": "Mondlandschaft am Meer. Vulkanische Formen und kleine schwarze Sandbuchten.",
+      "fr": "Paysage lunaire en bord de mer. Formes volcaniques et petites criques de sable noir.",
+      "it": "Paesaggio lunare in riva al mare. Forme vulcaniche e piccole calette di sabbia nera.",
+      "nl": "Maanlandschap aan zee. Vulkanische vormen en kleine zwarte zandbaaien.",
+      "sv": "Månlandskap vid havet. Vulkaniska former och små svarta sandvikar.",
+      "no": "Månelandskap ved sjøen. Vulkanske former og små svarte sandviker.",
+      "da": "Månelandskab ved havet. Vulkanske former og små sorte sandbugter.",
+      "fi": "Kuu-maisema meren äärellä. Vulkaanisia muotoja ja pieniä mustahiekkaisia poukamia."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 21,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454333
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa del Horno",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.038,
+      -16.552
+    ],
+    "descripcion": {
+      "es": "Cala resguardada y solitaria cerca de El Confital.",
+      "en": "Sheltered and solitary cove near El Confital.",
+      "de": "Geschützte und einsame Bucht in der Nähe von El Confital.",
+      "fr": "Crique abritée et solitaire près d'El Confital.",
+      "it": "Caletta riparata e solitaria vicino a El Confital.",
+      "nl": "Beschutte en eenzame baai bij El Confital.",
+      "sv": "Skyddad och ensam vik nära El Confital.",
+      "no": "Skjermet og ensom vik nær El Confital.",
+      "da": "Beskyttet og ensom bugt nær El Confital.",
+      "fi": "Suojainen ja yksinäinen poukama lähellä El Confitalia."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 21,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454319
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa de la Jaca",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.125,
+      -16.455
+    ],
+    "descripcion": {
+      "es": "Piscina natural y playa en barrio pesquero auténtico.",
+      "en": "Natural pool and beach in authentic fishing neighborhood.",
+      "de": "Natürliches Becken und Strand in authentischem Fischerviertel.",
+      "fr": "Piscine naturelle et plage dans un quartier de pêcheurs authentique.",
+      "it": "Piscina naturale e spiaggia in autentico quartiere di pescatori.",
+      "nl": "Natuurlijk zwembad en strand in authentieke visserswijk.",
+      "sv": "Naturlig pool och strand i autentiskt fiskekvarter.",
+      "no": "Naturlig basseng og strand i autentisk fiskerområde.",
+      "da": "Naturlig pool og strand i autentisk fiskerkvarter.",
+      "fi": "Luonnonallas ja ranta aidossa kalastajakaupunginosassa."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 25,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454303
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa de las Maretas",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.118,
+      -16.46
+    ],
+    "descripcion": {
+      "es": "Zona tranquila con fondos rocosos, ideal snorkel.",
+      "en": "Quiet area with rocky seabeds, ideal for snorkeling.",
+      "de": "Ruhige Gegend mit felsigem Grund, ideal zum Schnorcheln.",
+      "fr": "Zone calme avec fonds rocheux, idéal snorkeling.",
+      "it": "Zona tranquilla con fondali rocciosi, ideale per snorkeling.",
+      "nl": "Rustige omgeving met rotsachtige bodem, ideaal om te snorkelen.",
+      "sv": "Lugnt område med klippig botten, perfekt för snorkling.",
+      "no": "Rolig område med steinete bunn, ideelt for snorkling.",
+      "da": "Roligt område med klippebund, ideelt til snorkling.",
+      "fi": "Rauhallinen alue kivisellä pohjalla, ihanteellinen snorklaukseen."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 25,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454303
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Callao Hondo",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.105,
+      -16.475
+    ],
+    "descripcion": {
+      "es": "Cala salvaje de piedras blancas y aguas cristalinas.",
+      "en": "Wild cove of white stones and crystal clear waters.",
+      "de": "Wilde Bucht aus weißen Steinen und kristallklarem Wasser.",
+      "fr": "Crique sauvage de pierres blanches et eaux cristallines.",
+      "it": "Caletta selvaggia di pietre bianche e acque cristalline.",
+      "nl": "Wilde baai met witte stenen en kristalhelder water.",
+      "sv": "Vild vik med vita stenar och kristallklart vatten.",
+      "no": "Vill vik med hvite steiner og krystallklart vann.",
+      "da": "Vild bugt med hvide sten og krystalklart vand.",
+      "fi": "Villi valkokivinen poukama kristallinkirkkaalla vedellä."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 22,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454306
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Listada",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.13,
+      -16.45
+    ],
+    "descripcion": {
+      "es": "Barrio costero con encanto y zonas de baño protegidas.",
+      "en": "Charming coastal neighborhood with protected swimming areas.",
+      "de": "Charmantes Küstenviertel mit geschützten Badebereichen.",
+      "fr": "Quartier côtier charmant avec zones de baignade protégées.",
+      "it": "Affascinante quartiere costiero con zone balneari protette.",
+      "nl": "Charmante kustwijk met beschermde zwemgebieden.",
+      "sv": "Charmigt kustområde med skyddade badplatser.",
+      "no": "Sjarmerende kystnabolag med beskyttede badeområder.",
+      "da": "Charmerende kystkvarter med beskyttede badeområder.",
+      "fi": "Viehättävä rannikkokaupunginosa suojaisilla uimapaikoilla."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 25,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454303
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa Pelada",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0582,
+      -16.5216
+    ],
+    "descripcion": {
+      "es": "Playa virgen de arena dorada tras un cráter. Nudista.",
+      "en": "Virgin golden sand beach behind a crater. Nudist.",
+      "de": "Unberührter goldener Sandstrand hinter einem Krater. FKK.",
+      "fr": "Plage vierge de sable doré derrière un cratère. Nudiste.",
+      "it": "Spiaggia vergine di sabbia dorata dietro un cratere. Nudista.",
+      "nl": "Maagdelijk goudkleurig zandstrand achter een krater. Naaktstrand.",
+      "sv": "Orörd gyllene sandstrand bakom en krater. Nudist.",
+      "no": "Jomfruelig gyllen sandstrand bak et krater. Nudist.",
+      "da": "Jomfruelig gylden sandstrand bag et krater. Nudist.",
+      "fi": "Neitseellinen kultahiekkainen ranta kraatterin takana. Nudisti."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 26,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454315
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Mareta",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.028,
+      -16.57
+    ],
+    "descripcion": {
+      "es": "Callaos y charcos naturales para explorar en bajamar.",
+      "en": "Pebbles and natural pools to explore at low tide.",
+      "de": "Kiesel und natürliche Becken zum Erkunden bei Ebbe.",
+      "fr": "Galets et piscines naturelles à explorer à marée basse.",
+      "it": "Ciottoli e piscine naturali da esplorare con la bassa marea.",
+      "nl": "Kiezels en natuurlijke poelen om te verkennen bij eb.",
+      "sv": "Stenar och naturliga pooler att utforska vid lågvatten.",
+      "no": "Rullestein og naturlige bassenger å utforske ved lavvann.",
+      "da": "Småsten og naturlige pools at udforske ved lavvande.",
+      "fi": "Kiviä ja luonnonaltaita tutkittavaksi laskuveden aikaan."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 26,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454325
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Los Abrigos",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.028,
+      -16.59
+    ],
+    "descripcion": {
+      "es": "Calas volcánicas junto al famoso puerto gastronómico.",
+      "en": "Volcanic coves next to the famous gastronomic port.",
+      "de": "Vulkanische Buchten neben dem berühmten Gastronomiehafen.",
+      "fr": "Criques volcaniques à côté du célèbre port gastronomique.",
+      "it": "Calette vulcaniche accanto al famoso porto gastronomico.",
+      "nl": "Vulkanische baaien naast de beroemde gastronomische haven.",
+      "sv": "Vulkaniska vikar bredvid den berömda gastronomiska hamnen.",
+      "no": "Vulkanske viker ved siden av den berømte gastronomiske havnen.",
+      "da": "Vulkanske bugter ved siden af den berømte gastronomiske havn.",
+      "fi": "Vulkaanisia poukamia kuuluisan gastronomisen sataman vieressä."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 21,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454329
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Jaquita",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0502,
+      -16.5302
+    ],
+    "descripcion": {
+      "es": "Playa tranquila cerca del Médano con búnkeres antiguos.",
+      "en": "Quiet beach near El Médano with old bunkers.",
+      "de": "Ruhiger Strand in der Nähe von El Médano mit alten Bunkern.",
+      "fr": "Plage tranquille près d'El Médano avec d'anciens bunkers.",
+      "it": "Spiaggia tranquilla vicino a El Médano con vecchi bunker.",
+      "nl": "Rustig strand bij El Médano met oude bunkers.",
+      "sv": "Lugn strand nära El Médano med gamla bunkrar.",
+      "no": "Rolig strand nær El Médano med gamle bunkere.",
+      "da": "Rolig strand nær El Médano med gamle bunkere.",
+      "fi": "Rauhallinen ranta lähellä El Médanoa vanhoilla bunkkereilla."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 26,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454316
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Las Arenas",
+    "municipio": "Buenavista del Norte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.375,
+      -16.865
+    ],
+    "descripcion": {
+      "es": "Costa volcánica con senderos y calas de roca.",
+      "en": "Volcanic coast with trails and rock coves.",
+      "de": "Vulkanküste mit Wegen und Felsbuchten.",
+      "fr": "Côte volcanique avec sentiers et criques rocheuses.",
+      "it": "Costa vulcanica con sentieri e calette rocciose.",
+      "nl": "Vulkanische kust met paden en rotsbaaien.",
+      "sv": "Vulkanisk kust med stigar och klippvikar.",
+      "no": "Vulkansk kyst med stier og klippeviker.",
+      "da": "Vulkansk kyst med stier og klippebugter.",
+      "fi": "Vulkaaninen rannikko poluilla ja kivipoukamilla."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 22,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454416
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "El Fraile",
+    "municipio": "Buenavista del Norte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.38,
+      -16.86
+    ],
+    "descripcion": {
+      "es": "Cala salvaje bajo el macizo de Teno. Aislamiento.",
+      "en": "Wild cove under Teno massif. Isolation.",
+      "de": "Wilde Bucht unter dem Teno-Massiv. Isolation.",
+      "fr": "Crique sauvage sous le massif de Teno. Isolement.",
+      "it": "Caletta selvaggia sotto il massiccio del Teno. Isolamento.",
+      "nl": "Wilde baai onder het Teno-massief. Isolatie.",
+      "sv": "Vild vik under Teno-massivet. Isolering.",
+      "no": "Vill vik under Teno-massivet. Isolasjon.",
+      "da": "Vild bugt under Teno-massivet. Isolation.",
+      "fi": "Villi poukama Teno-massiivin alla. Eristäytyminen."
+    },
+    "webcam": null,
+    "score": 1,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 22,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1776454416
     },
     "detalles": [
       "Estimado por Clima"
@@ -3542,7 +3616,7 @@
     "clima": {
       "t_real": 21,
       "t_feel": 21,
-      "viento": 21,
+      "viento": 24,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454322
@@ -3579,84 +3653,10 @@
     "clima": {
       "t_real": 21,
       "t_feel": 21,
-      "viento": 21,
+      "viento": 24,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1776454318
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Bajamar",
-    "municipio": "La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.556,
-      -16.345
-    ],
-    "descripcion": {
-      "es": "Famosas piscinas naturales frente al mar abierto. Bandera Azul y espectáculo de olas.",
-      "en": "Famous natural pools facing the open sea. Blue Flag and wave spectacle.",
-      "de": "Berühmte natürliche Becken vor dem offenen Meer. Blaue Flagge und Wellenspektakel.",
-      "fr": "Célèbres piscines naturelles face à la mer ouverte. Pavillon Bleu et spectacle de vagues.",
-      "it": "Famose piscine naturali di fronte al mare aperto. Bandiera Blu e spettacolo di onde.",
-      "nl": "Beroemde natuurlijke zwembaden tegenover de open zee. Blauwe Vlag en golfspektakel.",
-      "sv": "Kända naturliga pooler mot det öppna havet. Blå Flagg och vågskådespel.",
-      "no": "Kjente naturlige bassenger mot åpent hav. Blått Flagg og bølgeskuespill.",
-      "da": "Berømte naturlige pools mod det åbne hav. Blå Flag og bølgespektakel.",
-      "fi": "Kuuluisat luonnonaltaat avomerta vastapäätä. Sininen lippu ja aaltospektaakkeli."
-    },
-    "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/bajamar-piscinas-naturales.html",
-    "score": 0,
-    "bandera": "yellow",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454302
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "El Arenal",
-    "municipio": "La Laguna",
-    "zona": "Norte",
-    "coordenadas": [
-      28.558,
-      -16.34
-    ],
-    "descripcion": {
-      "es": "Joya escondida de arena negra entre Bajamar y La Punta. Olas potentes, acceso a pie.",
-      "en": "Hidden black sand jewel between Bajamar and La Punta. Powerful waves, foot access.",
-      "de": "Verstecktes schwarzes Sandjuwel zwischen Bajamar und La Punta. Starke Wellen, Zugang zu Fuß.",
-      "fr": "Joyau caché de sable noir entre Bajamar et La Punta. Vagues puissantes, accès à pied.",
-      "it": "Gioiello nascosto di sabbia nera tra Bajamar e La Punta. Onde potenti, accesso a piedi.",
-      "nl": "Verborgen juweel van zwart zand tussen Bajamar en La Punta. Krachtige golven, toegang te voet.",
-      "sv": "Dold svart sandjuvel mellan Bajamar och La Punta. Kraftiga vågor, tillgång till fots.",
-      "no": "Skjult svart sandjuvel mellom Bajamar og La Punta. Kraftige bølger, tilgang til fots.",
-      "da": "Skjult sort sandjuvel mellem Bajamar og La Punta. Kraftige bølger, adgang til fods.",
-      "fi": "Piilotettu mustahiekkainen jalokivi Bajamarin ja La Puntan välissä. Voimakkaat aallot, pääsy kävellen."
-    },
-    "webcam": null,
-    "score": 0,
-    "bandera": "yellow",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 19,
-      "t_feel": 19,
-      "viento": 22,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1776454302
     },
     "detalles": [
       "Estimado por Clima"
