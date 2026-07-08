@@ -25,9 +25,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541213
@@ -62,9 +62,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 15,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541167
@@ -99,9 +99,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541221
@@ -136,9 +136,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 15,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541170
@@ -173,9 +173,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541211
@@ -210,9 +210,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541221
@@ -247,9 +247,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541217
@@ -284,9 +284,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 32,
-      "t_feel": 34,
-      "viento": 9,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541267
@@ -321,9 +321,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541216
@@ -358,9 +358,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 9,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541228
@@ -397,7 +397,7 @@
     "clima": {
       "t_real": 33,
       "t_feel": 33,
-      "viento": 17,
+      "viento": 18,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541156
@@ -432,9 +432,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 15,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541162
@@ -469,9 +469,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 9,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541228
@@ -506,9 +506,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541213
@@ -543,9 +543,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541191
@@ -580,9 +580,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541192
@@ -617,9 +617,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541220
@@ -654,9 +654,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 10,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541225
@@ -691,9 +691,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 9,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541231
@@ -728,9 +728,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541220
@@ -765,9 +765,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 15,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541168
@@ -802,9 +802,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 15,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541168
@@ -839,9 +839,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541251
@@ -876,9 +876,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 24,
-      "viento": 3,
+      "t_real": 26,
+      "t_feel": 25,
+      "viento": 8,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541247
@@ -913,9 +913,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541258
@@ -950,9 +950,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 15,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541162
@@ -988,8 +988,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 33,
-      "t_feel": 33,
-      "viento": 14,
+      "t_feel": 35,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541157
@@ -1024,8 +1024,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 26,
+      "t_feel": 26,
       "viento": 16,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1061,9 +1061,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
+      "t_real": 28,
       "t_feel": 28,
-      "viento": 14,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541277
@@ -1098,9 +1098,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 25,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541238
@@ -1135,9 +1135,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541181
@@ -1172,9 +1172,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541187
@@ -1209,9 +1209,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 15,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541168
@@ -1247,8 +1247,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 33,
-      "t_feel": 33,
-      "viento": 18,
+      "t_feel": 35,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541158
@@ -1284,8 +1284,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 33,
-      "t_feel": 33,
-      "viento": 18,
+      "t_feel": 35,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541157
@@ -1321,8 +1321,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 33,
-      "t_feel": 33,
-      "viento": 18,
+      "t_feel": 35,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541157
@@ -1431,8 +1431,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 26,
+      "t_feel": 26,
       "viento": 16,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1469,7 +1469,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 33,
-      "t_feel": 34,
+      "t_feel": 35,
       "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1505,9 +1505,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 16,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541165
@@ -1542,9 +1542,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541173
@@ -1579,9 +1579,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541177
@@ -1616,9 +1616,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 3,
+      "viento": 5,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541183
@@ -1653,9 +1653,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
+      "t_real": 26,
       "t_feel": 26,
-      "viento": 16,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541166
@@ -1690,9 +1690,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541258
@@ -1727,9 +1727,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 8,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541260
@@ -1764,9 +1764,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541254
@@ -1801,9 +1801,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 9,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541266
@@ -1840,7 +1840,7 @@
     "clima": {
       "t_real": 28,
       "t_feel": 30,
-      "viento": 19,
+      "viento": 20,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541278
@@ -1876,7 +1876,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 30,
-      "t_feel": 32,
+      "t_feel": 33,
       "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1912,12 +1912,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 8,
+      "t_real": 31,
+      "t_feel": 38,
+      "viento": 19,
       "cielo": "Muy nuboso",
-      "visibilidad": 10000,
+      "visibilidad": 4757,
       "sunset": 1783541179
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Tamadite",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
+    "coordenadas": [
+      28.565,
+      -16.25
+    ],
+    "descripcion": {
+      "es": "Final del barranco de Afur. Espectacular.",
+      "en": "End of Afur ravine. Spectacular.",
+      "de": "Ende der Afur-Schlucht. Spektakulär.",
+      "fr": "Fin du ravin d'Afur. Spectaculaire.",
+      "it": "Fine del burrone di Afur. Spettacolare.",
+      "nl": "Einde van de Afur-kloof. Spectaculair.",
+      "sv": "Slutet av Afur-ravinen. Spektakulär.",
+      "no": "Slutten av Afur-ravinen. Spektakulær.",
+      "da": "Enden af Afur-kløften. Spektakulær.",
+      "fi": "Afurin rotkon pää. Upea."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 20,
+      "t_feel": 21,
+      "viento": 20,
+      "cielo": "Muy nuboso",
+      "visibilidad": 5505,
+      "sunset": 1783541168
     },
     "detalles": [
       "Estimado por Clima"
@@ -1949,9 +1986,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1783541258
@@ -1986,11 +2023,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 8,
+      "t_real": 32,
+      "t_feel": 39,
+      "viento": 17,
       "cielo": "Muy nuboso",
-      "visibilidad": 10000,
+      "visibilidad": 4491,
       "sunset": 1783541184
     },
     "detalles": [
@@ -2023,11 +2060,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 8,
+      "t_real": 33,
+      "t_feel": 40,
+      "viento": 13,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 5914,
       "sunset": 1783541201
     },
     "detalles": [
@@ -2060,8 +2097,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
+      "t_real": 33,
+      "t_feel": 35,
       "viento": 18,
       "cielo": "Nubes dispersas",
       "visibilidad": 10000,
@@ -2097,11 +2134,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 8,
+      "t_real": 33,
+      "t_feel": 40,
+      "viento": 14,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 5403,
       "sunset": 1783541202
     },
     "detalles": [
@@ -2134,9 +2171,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 12,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1783541169
@@ -2171,11 +2208,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 8,
+      "t_real": 32,
+      "t_feel": 39,
+      "viento": 15,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 5030,
       "sunset": 1783541190
     },
     "detalles": [
@@ -2208,11 +2245,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 8,
+      "t_real": 32,
+      "t_feel": 39,
+      "viento": 15,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 5030,
       "sunset": 1783541190
     },
     "detalles": [
@@ -2245,49 +2282,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 8,
+      "t_real": 32,
+      "t_feel": 39,
+      "viento": 14,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 4935,
       "sunset": 1783541197
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Nea",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.402,
-      -16.305
-    ],
-    "descripcion": {
-      "es": "Playa de arena negra fina con parque marítimo. Familiar y cercana a Santa Cruz.",
-      "en": "Fine black sand beach with maritime park. Family-friendly and close to Santa Cruz.",
-      "de": "Feiner schwarzer Sandstrand mit Meerespark. Familienfreundlich und nah an Santa Cruz.",
-      "fr": "Plage de sable noir fin avec parc maritime. Familiale et proche de Santa Cruz.",
-      "it": "Spiaggia di sabbia nera fine con parco marittimo. Familiare e vicina a Santa Cruz.",
-      "nl": "Fijn zwart zandstrand met maritiem park. Gezinsvriendelijk en dicht bij Santa Cruz.",
-      "sv": "Fin svart sandstrand med maritim park. Familjevänlig och nära Santa Cruz.",
-      "no": "Fin svart sandstrand med maritim park. Familievennlig og nær Santa Cruz.",
-      "da": "Fin sort sandstrand med maritim park. Familievenlig og tæt på Santa Cruz.",
-      "fi": "Hieno mustahiekkainen ranta meripuistolla. Perheystävällinen ja lähellä Santa Cruzia."
-    },
-    "webcam": null,
-    "score": 9,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 20,
-      "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
-      "sunset": 1783541159
     },
     "detalles": [
       "Estimado por Clima"
@@ -2319,11 +2319,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 8,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 13,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 5914,
       "sunset": 1783541204
     },
     "detalles": [
@@ -2356,11 +2356,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 8,
+      "t_real": 32,
+      "t_feel": 34,
+      "viento": 13,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 5914,
       "sunset": 1783541201
     },
     "detalles": [
@@ -2393,11 +2393,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 12,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 11,
       "cielo": "Nubes dispersas",
-      "visibilidad": 10000,
+      "visibilidad": 7511,
       "sunset": 1783541205
     },
     "detalles": [
@@ -2430,11 +2430,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 33,
+      "t_feel": 35,
       "viento": 10,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9296,
       "sunset": 1783541221
     },
     "detalles": [
@@ -2467,11 +2467,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 32,
+      "t_feel": 35,
       "viento": 10,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9296,
       "sunset": 1783541218
     },
     "detalles": [
@@ -2504,11 +2504,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 10,
+      "t_real": 32,
+      "t_feel": 35,
+      "viento": 9,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9825,
       "sunset": 1783541213
     },
     "detalles": [
@@ -2541,9 +2541,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 32,
+      "t_feel": 33,
+      "viento": 6,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541230
@@ -2578,11 +2578,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 33,
+      "t_feel": 35,
       "viento": 10,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9296,
       "sunset": 1783541220
     },
     "detalles": [
@@ -2615,11 +2615,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 10,
+      "t_real": 32,
+      "t_feel": 34,
+      "viento": 9,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9825,
       "sunset": 1783541211
     },
     "detalles": [
@@ -2652,11 +2652,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 10,
+      "t_real": 31,
+      "t_feel": 32,
+      "viento": 9,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9825,
       "sunset": 1783541210
     },
     "detalles": [
@@ -2689,9 +2689,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 6,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541227
@@ -2726,9 +2726,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 13,
+      "t_real": 32,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541169
@@ -2763,9 +2763,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 13,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541167
@@ -2800,9 +2800,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 32,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 10,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541256
@@ -2838,8 +2838,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 30,
-      "t_feel": 30,
-      "viento": 7,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541236
@@ -2875,8 +2875,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 30,
-      "t_feel": 30,
-      "viento": 7,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541237
@@ -2911,9 +2911,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 13,
+      "t_real": 32,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541169
@@ -2948,9 +2948,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 13,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541165
@@ -2985,9 +2985,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 13,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541167
@@ -3022,9 +3022,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 13,
+      "t_real": 32,
+      "t_feel": 35,
+      "viento": 3,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541169
@@ -3061,7 +3061,7 @@
     "clima": {
       "t_real": 32,
       "t_feel": 33,
-      "viento": 8,
+      "viento": 7,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541243
@@ -3096,11 +3096,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 33,
+      "t_feel": 35,
       "viento": 10,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9296,
       "sunset": 1783541220
     },
     "detalles": [
@@ -3133,8 +3133,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
+      "t_real": 32,
+      "t_feel": 33,
       "viento": 7,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
@@ -3170,9 +3170,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 7,
+      "t_real": 33,
+      "t_feel": 33,
+      "viento": 6,
       "cielo": "Algo de nubes",
       "visibilidad": 10000,
       "sunset": 1783541233
@@ -3207,11 +3207,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 33,
+      "t_feel": 35,
       "viento": 10,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9296,
       "sunset": 1783541221
     },
     "detalles": [
@@ -3244,11 +3244,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 33,
+      "t_feel": 35,
       "viento": 10,
       "cielo": "Algo de nubes",
-      "visibilidad": 10000,
+      "visibilidad": 9296,
       "sunset": 1783541221
     },
     "detalles": [
@@ -3281,11 +3281,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 22,
+      "t_feel": 22,
       "viento": 22,
       "cielo": "Muy nuboso",
-      "visibilidad": 10000,
+      "visibilidad": 6773,
       "sunset": 1783541156
     },
     "detalles": [
@@ -3318,11 +3318,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
+      "t_real": 22,
+      "t_feel": 22,
       "viento": 22,
       "cielo": "Muy nuboso",
-      "visibilidad": 10000,
+      "visibilidad": 6773,
       "sunset": 1783541156
     },
     "detalles": [
@@ -3355,11 +3355,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
+      "t_real": 33,
+      "t_feel": 40,
       "viento": 21,
       "cielo": "Muy nuboso",
-      "visibilidad": 10000,
+      "visibilidad": 5367,
       "sunset": 1783541152
     },
     "detalles": [
@@ -3441,43 +3441,6 @@
     ]
   },
   {
-    "nombre": "Tamadite",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
-    "coordenadas": [
-      28.565,
-      -16.25
-    ],
-    "descripcion": {
-      "es": "Final del barranco de Afur. Espectacular.",
-      "en": "End of Afur ravine. Spectacular.",
-      "de": "Ende der Afur-Schlucht. Spektakulär.",
-      "fr": "Fin du ravin d'Afur. Spectaculaire.",
-      "it": "Fine del burrone di Afur. Spettacolare.",
-      "nl": "Einde van de Afur-kloof. Spectaculair.",
-      "sv": "Slutet av Afur-ravinen. Spektakulär.",
-      "no": "Slutten av Afur-ravinen. Spektakulær.",
-      "da": "Enden af Afur-kløften. Spektakulær.",
-      "fi": "Afurin rotkon pää. Upea."
-    },
-    "webcam": null,
-    "score": 3,
-    "bandera": "yellow",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 24,
-      "t_feel": 25,
-      "viento": 21,
-      "cielo": "Muy nuboso",
-      "visibilidad": 10000,
-      "sunset": 1783541168
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
     "nombre": "Las Teresitas",
     "municipio": "Santa Cruz de Tenerife",
     "zona": "Metropolitana",
@@ -3503,9 +3466,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 25,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 24,
       "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1783541145
@@ -3541,7 +3504,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 24,
-      "t_feel": 25,
+      "t_feel": 24,
       "viento": 23,
       "cielo": "Nubes dispersas",
       "visibilidad": 10000,
@@ -3577,9 +3540,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 25,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 24,
       "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1783541143
@@ -3614,12 +3577,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 26,
+      "t_real": 22,
+      "t_feel": 23,
+      "viento": 25,
       "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1783541135
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Nea",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.402,
+      -16.305
+    ],
+    "descripcion": {
+      "es": "Playa de arena negra fina con parque marítimo. Familiar y cercana a Santa Cruz.",
+      "en": "Fine black sand beach with maritime park. Family-friendly and close to Santa Cruz.",
+      "de": "Feiner schwarzer Sandstrand mit Meerespark. Familienfreundlich und nah an Santa Cruz.",
+      "fr": "Plage de sable noir fin avec parc maritime. Familiale et proche de Santa Cruz.",
+      "it": "Spiaggia di sabbia nera fine con parco marittimo. Familiare e vicina a Santa Cruz.",
+      "nl": "Fijn zwart zandstrand met maritiem park. Gezinsvriendelijk en dicht bij Santa Cruz.",
+      "sv": "Fin svart sandstrand med maritim park. Familjevänlig och nära Santa Cruz.",
+      "no": "Fin svart sandstrand med maritim park. Familievennlig og nær Santa Cruz.",
+      "da": "Fin sort sandstrand med maritim park. Familievenlig og tæt på Santa Cruz.",
+      "fi": "Hieno mustahiekkainen ranta meripuistolla. Perheystävällinen ja lähellä Santa Cruzia."
+    },
+    "webcam": null,
+    "score": 2,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 21,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1783541159
     },
     "detalles": [
       "Estimado por Clima"
@@ -3651,9 +3651,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
+      "t_real": 23,
       "t_feel": 24,
-      "viento": 24,
+      "viento": 23,
       "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1783541144
