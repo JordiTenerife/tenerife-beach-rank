@@ -25,9 +25,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 22,
+      "t_feel": 23,
+      "viento": 19,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145849
@@ -63,7 +63,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -99,9 +99,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 18,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145857
@@ -137,7 +137,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -173,9 +173,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145925
@@ -210,9 +210,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 22,
+      "t_feel": 23,
+      "viento": 19,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145847
@@ -285,7 +285,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -322,7 +322,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -358,9 +358,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 18,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145859
@@ -395,9 +395,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 18,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145859
@@ -432,9 +432,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145923
@@ -469,9 +469,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145917
@@ -506,9 +506,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145934
@@ -543,9 +543,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 30,
-      "viento": 8,
+      "t_real": 31,
+      "t_feel": 33,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145972
@@ -618,48 +618,11 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 7,
+      "t_feel": 29,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145934
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Radazul",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.398,
-      -16.31
-    ],
-    "descripcion": {
-      "es": "Paraíso del buceo y la apnea. Aguas profundas y cristalinas, plataformas de salto y pequeñas playas de arena.",
-      "en": "Diving and freediving paradise. Deep crystal clear waters, jumping platforms, and small sandy beaches.",
-      "de": "Paradies für Tauchen und Freitauchen. Tiefes kristallklares Wasser, Sprungplattformen und kleine Sandstrände.",
-      "fr": "Paradis de la plongée et de l'apnée. Eaux profondes et cristallines, plateformes de saut et petites plages de sable.",
-      "it": "Paradiso delle immersioni e dell'apnea. Acque profonde e cristalline, piattaforme per tuffi e piccole spiagge di sabbia.",
-      "nl": "Paradijs voor duiken en freediven. Diep kristalhelder water, springplatforms en kleine zandstranden.",
-      "sv": "Paradis för dykning och fridykning. Djupt kristallklart vatten, hopplattformar och små sandstränder.",
-      "no": "Paradis for dykking og fridykking. Dypt krystallklart vann, hoppeplattformer og små sandstrender.",
-      "da": "Paradis for dykning og fridykning. Dybt krystalklart vand, hoppeplatforme og små sandstrande.",
-      "fi": "Sukelluksen ja vapaasukelluksen paratiisi. Syvää kristallinkirkasta vettä, hyppytorneja ja pieniä hiekkarantoja."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 5,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1784145864
     },
     "detalles": [
       "Estimado por Clima"
@@ -691,9 +654,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 19,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145867
@@ -729,8 +692,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 7,
+      "t_feel": 29,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145934
@@ -765,9 +728,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 27,
-      "viento": 18,
+      "t_real": 23,
+      "t_feel": 23,
+      "viento": 19,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145839
@@ -802,9 +765,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 5,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 19,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145856
@@ -840,7 +803,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -877,7 +840,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -914,7 +877,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -951,7 +914,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -989,7 +952,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 28,
-      "viento": 4,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145931
@@ -1026,7 +989,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 27,
-      "viento": 7,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145937
@@ -1062,7 +1025,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1098,9 +1061,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145924
@@ -1135,9 +1098,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145915
@@ -1172,9 +1135,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 24,
-      "viento": 3,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145914
@@ -1209,9 +1172,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145931
@@ -1248,7 +1211,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 27,
-      "viento": 10,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145957
@@ -1285,7 +1248,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 9,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145953
@@ -1321,8 +1284,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 10,
+      "t_feel": 27,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145964
@@ -1357,9 +1320,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145873
@@ -1394,9 +1357,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145873
@@ -1431,9 +1394,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145872
@@ -1468,49 +1431,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 19,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145867
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Nea",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.402,
-      -16.305
-    ],
-    "descripcion": {
-      "es": "Playa de arena negra fina con parque marítimo. Familiar y cercana a Santa Cruz.",
-      "en": "Fine black sand beach with maritime park. Family-friendly and close to Santa Cruz.",
-      "de": "Feiner schwarzer Sandstrand mit Meerespark. Familienfreundlich und nah an Santa Cruz.",
-      "fr": "Plage de sable noir fin avec parc maritime. Familiale et proche de Santa Cruz.",
-      "it": "Spiaggia di sabbia nera fine con parco marittimo. Familiare e vicina a Santa Cruz.",
-      "nl": "Fijn zwart zandstrand met maritiem park. Gezinsvriendelijk en dicht bij Santa Cruz.",
-      "sv": "Fin svart sandstrand med maritim park. Familjevänlig och nära Santa Cruz.",
-      "no": "Fin svart sandstrand med maritim park. Familievennlig og nær Santa Cruz.",
-      "da": "Fin sort sandstrand med maritim park. Familievenlig og tæt på Santa Cruz.",
-      "fi": "Hieno mustahiekkainen ranta meripuistolla. Perheystävällinen ja lähellä Santa Cruzia."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 5,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1784145863
     },
     "detalles": [
       "Estimado por Clima"
@@ -1542,9 +1468,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 11,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145960
@@ -1579,9 +1505,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 11,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 16,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145981
@@ -1616,9 +1542,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 11,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145940
@@ -1653,9 +1579,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 23,
-      "t_feel": 23,
-      "viento": 11,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145941
@@ -1692,7 +1618,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 9,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145944
@@ -1765,7 +1691,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1801,9 +1727,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145873
@@ -1838,9 +1764,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145870
@@ -1875,9 +1801,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145872
@@ -1912,9 +1838,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 17,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145873
@@ -1950,7 +1876,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1987,7 +1913,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -2024,7 +1950,7 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -2061,8 +1987,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 10,
+      "t_feel": 27,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145964
@@ -2099,7 +2025,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 27,
-      "viento": 9,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145965
@@ -2135,8 +2061,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 10,
+      "t_feel": 27,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145959
@@ -2173,7 +2099,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 27,
-      "viento": 8,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145971
@@ -2208,86 +2134,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 28,
-      "viento": 14,
+      "t_real": 28,
+      "t_feel": 29,
+      "viento": 18,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145983
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Las Arenas",
-    "municipio": "Buenavista del Norte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.375,
-      -16.865
-    ],
-    "descripcion": {
-      "es": "Costa volcánica con senderos y calas de roca.",
-      "en": "Volcanic coast with trails and rock coves.",
-      "de": "Vulkanküste mit Wegen und Felsbuchten.",
-      "fr": "Côte volcanique avec sentiers et criques rocheuses.",
-      "it": "Costa vulcanica con sentieri e calette rocciose.",
-      "nl": "Vulkanische kust met paden en rotsbaaien.",
-      "sv": "Vulkanisk kust med stigar och klippvikar.",
-      "no": "Vulkansk kyst med stier og klippeviker.",
-      "da": "Vulkansk kyst med stier og klippebugter.",
-      "fi": "Vulkaaninen rannikko poluilla ja kivipoukamilla."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 19,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1784145994
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "El Fraile",
-    "municipio": "Buenavista del Norte",
-    "zona": "Norte",
-    "coordenadas": [
-      28.38,
-      -16.86
-    ],
-    "descripcion": {
-      "es": "Cala salvaje bajo el macizo de Teno. Aislamiento.",
-      "en": "Wild cove under Teno massif. Isolation.",
-      "de": "Wilde Bucht unter dem Teno-Massiv. Isolation.",
-      "fr": "Crique sauvage sous le massif de Teno. Isolement.",
-      "it": "Caletta selvaggia sotto il massiccio del Teno. Isolamento.",
-      "nl": "Wilde baai onder het Teno-massief. Isolatie.",
-      "sv": "Vild vik under Teno-massivet. Isolering.",
-      "no": "Vill vik under Teno-massivet. Isolasjon.",
-      "da": "Vild bugt under Teno-massivet. Isolation.",
-      "fi": "Villi poukama Teno-massiivin alla. Eristäytyminen."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 19,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1784145994
     },
     "detalles": [
       "Estimado por Clima"
@@ -2319,9 +2171,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 14,
+      "t_real": 27,
+      "t_feel": 28,
+      "viento": 17,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145974
@@ -2356,9 +2208,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 11,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145948
@@ -2393,9 +2245,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145924
@@ -2430,9 +2282,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 3,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145928
@@ -2467,9 +2319,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145937
@@ -2479,24 +2331,24 @@
     ]
   },
   {
-    "nombre": "El Caletón",
-    "municipio": "La Matanza",
-    "zona": "Norte",
+    "nombre": "Cueva del Agua",
+    "municipio": "Santa Cruz de Tenerife",
+    "zona": "Anaga",
     "coordenadas": [
-      28.465,
-      -16.46
+      28.56,
+      -16.3
     ],
     "descripcion": {
-      "es": "Zona de baño tranquila con mucho sol.",
-      "en": "Quiet swimming area with lots of sun.",
-      "de": "Ruhiger Badebereich mit viel Sonne.",
-      "fr": "Zone de baignade calme avec beaucoup de soleil.",
-      "it": "Zona balneare tranquilla con molto sole.",
-      "nl": "Rustig zwemgebied met veel zon.",
-      "sv": "Lugnt badområde med mycket sol.",
-      "no": "Rolig badeområde med mye sol.",
-      "da": "Roligt badeområde med masser af sol.",
-      "fi": "Rauhallinen uimapaikka paljolla auringolla."
+      "es": "Rincón aislado y jurásico en Anaga.",
+      "en": "Isolated and Jurassic corner in Anaga.",
+      "de": "Abgelegener und jurassischer Winkel in Anaga.",
+      "fr": "Coin isolé et jurassique à Anaga.",
+      "it": "Angolo isolato e giurassico ad Anaga.",
+      "nl": "Afgelegen en Jurassic hoekje in Anaga.",
+      "sv": "Isolerad och jurassisk hörna i Anaga.",
+      "no": "Isolert og jurassisk hjørne i Anaga.",
+      "da": "Isoleret og jurassisk hjørne i Anaga.",
+      "fi": "Eristäytynyt ja jurakautinen kulma Anagassa."
     },
     "webcam": null,
     "score": 10,
@@ -2509,7 +2361,7 @@
       "viento": 19,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
-      "sunset": 1784145909
+      "sunset": 1784145883
     },
     "detalles": [
       "Estimado por Clima"
@@ -2541,9 +2393,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 25,
-      "viento": 17,
+      "t_real": 21,
+      "t_feel": 21,
+      "viento": 19,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145871
@@ -2579,8 +2431,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 24,
-      "t_feel": 25,
-      "viento": 17,
+      "t_feel": 24,
+      "viento": 18,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145847
@@ -2616,11 +2468,48 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 10,
+      "t_feel": 27,
+      "viento": 12,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145963
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "San Juanito",
+    "municipio": "La Laguna",
+    "zona": "Norte",
+    "coordenadas": [
+      28.5715,
+      -16.3139
+    ],
+    "descripcion": {
+      "es": "Charcos cerca del faro de Punta del Hidalgo.",
+      "en": "Pools near Punta del Hidalgo lighthouse.",
+      "de": "Becken in der Nähe des Leuchtturms Punta del Hidalgo.",
+      "fr": "Piscines près du phare de Punta del Hidalgo.",
+      "it": "Piscine vicino al faro di Punta del Hidalgo.",
+      "nl": "Zwembaden bij de vuurtoren van Punta del Hidalgo.",
+      "sv": "Pooler nära fyren Punta del Hidalgo.",
+      "no": "Bassenger nær fyret Punta del Hidalgo.",
+      "da": "Pools nær fyrtårnet Punta del Hidalgo.",
+      "fi": "Altaita Punta del Hidalgon majakan lähellä."
+    },
+    "webcam": null,
+    "score": 10,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 20,
+      "cielo": "Cielo claro",
+      "visibilidad": 10000,
+      "sunset": 1784145887
     },
     "detalles": [
       "Estimado por Clima"
@@ -2652,9 +2541,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145925
@@ -2689,9 +2578,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 6,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145925
@@ -2727,8 +2616,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 24,
+      "t_feel": 29,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145874
@@ -2764,8 +2653,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 24,
+      "t_feel": 29,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145877
@@ -2800,12 +2689,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 24,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145905
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Radazul",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.398,
+      -16.31
+    ],
+    "descripcion": {
+      "es": "Paraíso del buceo y la apnea. Aguas profundas y cristalinas, plataformas de salto y pequeñas playas de arena.",
+      "en": "Diving and freediving paradise. Deep crystal clear waters, jumping platforms, and small sandy beaches.",
+      "de": "Paradies für Tauchen und Freitauchen. Tiefes kristallklares Wasser, Sprungplattformen und kleine Sandstrände.",
+      "fr": "Paradis de la plongée et de l'apnée. Eaux profondes et cristallines, plateformes de saut et petites plages de sable.",
+      "it": "Paradiso delle immersioni e dell'apnea. Acque profonde e cristalline, piattaforme per tuffi e piccole spiagge di sabbia.",
+      "nl": "Paradijs voor duiken en freediven. Diep kristalhelder water, springplatforms en kleine zandstranden.",
+      "sv": "Paradis för dykning och fridykning. Djupt kristallklart vatten, hopplattformar och små sandstränder.",
+      "no": "Paradis for dykking og fridykking. Dypt krystallklart vann, hoppeplattformer og små sandstrender.",
+      "da": "Paradis for dykning og fridykning. Dybt krystalklart vand, hoppeplatforme og små sandstrande.",
+      "fi": "Sukelluksen ja vapaasukelluksen paratiisi. Syvää kristallinkirkasta vettä, hyppytorneja ja pieniä hiekkarantoja."
+    },
+    "webcam": null,
+    "score": 3,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 22,
+      "cielo": "Cielo claro",
+      "visibilidad": 10000,
+      "sunset": 1784145864
     },
     "detalles": [
       "Estimado por Clima"
@@ -2837,9 +2763,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 25,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 28,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145862
@@ -2876,7 +2802,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 28,
-      "viento": 24,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145875
@@ -2913,7 +2839,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 28,
-      "viento": 24,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145875
@@ -2948,9 +2874,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 25,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145906
@@ -2985,9 +2911,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145893
@@ -3022,9 +2948,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145893
@@ -3059,12 +2985,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 24,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145900
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Nea",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.402,
+      -16.305
+    ],
+    "descripcion": {
+      "es": "Playa de arena negra fina con parque marítimo. Familiar y cercana a Santa Cruz.",
+      "en": "Fine black sand beach with maritime park. Family-friendly and close to Santa Cruz.",
+      "de": "Feiner schwarzer Sandstrand mit Meerespark. Familienfreundlich und nah an Santa Cruz.",
+      "fr": "Plage de sable noir fin avec parc maritime. Familiale et proche de Santa Cruz.",
+      "it": "Spiaggia di sabbia nera fine con parco marittimo. Familiare e vicina a Santa Cruz.",
+      "nl": "Fijn zwart zandstrand met maritiem park. Gezinsvriendelijk en dicht bij Santa Cruz.",
+      "sv": "Fin svart sandstrand med maritim park. Familjevänlig och nära Santa Cruz.",
+      "no": "Fin svart sandstrand med maritim park. Familievennlig og nær Santa Cruz.",
+      "da": "Fin sort sandstrand med maritim park. Familievenlig og tæt på Santa Cruz.",
+      "fi": "Hieno mustahiekkainen ranta meripuistolla. Perheystävällinen ja lähellä Santa Cruzia."
+    },
+    "webcam": null,
+    "score": 3,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 22,
+      "cielo": "Cielo claro",
+      "visibilidad": 10000,
+      "sunset": 1784145863
     },
     "detalles": [
       "Estimado por Clima"
@@ -3096,49 +3059,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 21,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 24,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145863
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "El Tajao",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.11,
-      -16.468
-    ],
-    "descripcion": {
-      "es": "Cala de piedras en pueblo gastronómico. Baño rápido y mariscada local.",
-      "en": "Pebble cove in gastronomic village. Quick swim and local seafood feast.",
-      "de": "Steinbucht im Gastronomiedorf. Schnelles Bad und lokales Meeresfrüchteessen.",
-      "fr": "Crique de galets dans un village gastronomique. Baignade rapide et festin de fruits de mer local.",
-      "it": "Caletta di sassi in villaggio gastronomico. Bagno veloce e abbuffata di pesce locale.",
-      "nl": "Kiezelbaai in gastronomisch dorp. Snelle duik en lokaal zeevruchtenfestijn.",
-      "sv": "Stenvik i gastronomisk by. Snabbt dopp och lokal skaldjursfest.",
-      "no": "Steinvik i gastronomisk landsby. Rask dukkert og lokalt sjømatmåltid.",
-      "da": "Stenvig i gastronomisk landsby. Hurtig dukkert og lokalt skaldyrsmåltid.",
-      "fi": "Kivinen poukama gastronomisessa kylässä. Nopea uinti ja paikallinen äyriäisateria."
-    },
-    "webcam": null,
-    "score": 3,
-    "bandera": "yellow",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 27,
-      "t_feel": 27,
-      "viento": 27,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1784145865
     },
     "detalles": [
       "Estimado por Clima"
@@ -3172,7 +3098,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 28,
-      "viento": 24,
+      "viento": 22,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145875
@@ -3207,9 +3133,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 26,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145863
@@ -3244,9 +3170,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 26,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145863
@@ -3281,49 +3207,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 26,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145863
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Callao Hondo",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.105,
-      -16.475
-    ],
-    "descripcion": {
-      "es": "Cala salvaje de piedras blancas y aguas cristalinas.",
-      "en": "Wild cove of white stones and crystal clear waters.",
-      "de": "Wilde Bucht aus weißen Steinen und kristallklarem Wasser.",
-      "fr": "Crique sauvage de pierres blanches et eaux cristallines.",
-      "it": "Caletta selvaggia di pietre bianche e acque cristalline.",
-      "nl": "Wilde baai met witte stenen en kristalhelder water.",
-      "sv": "Vild vik med vita stenar och kristallklart vatten.",
-      "no": "Vill vik med hvite steiner og krystallklart vann.",
-      "da": "Vild bugt med hvide sten og krystalklart vand.",
-      "fi": "Villi valkokivinen poukama kristallinkirkkaalla vedellä."
-    },
-    "webcam": null,
-    "score": 3,
-    "bandera": "yellow",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 27,
-      "t_feel": 27,
-      "viento": 27,
-      "cielo": "Cielo claro",
-      "visibilidad": 10000,
-      "sunset": 1784145866
     },
     "detalles": [
       "Estimado por Clima"
@@ -3356,8 +3245,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 27,
-      "t_feel": 28,
-      "viento": 28,
+      "t_feel": 29,
+      "viento": 27,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145872
@@ -3394,10 +3283,84 @@
     "clima": {
       "t_real": 27,
       "t_feel": 28,
-      "viento": 28,
+      "viento": 27,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145873
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Las Arenas",
+    "municipio": "Buenavista del Norte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.375,
+      -16.865
+    ],
+    "descripcion": {
+      "es": "Costa volcánica con senderos y calas de roca.",
+      "en": "Volcanic coast with trails and rock coves.",
+      "de": "Vulkanküste mit Wegen und Felsbuchten.",
+      "fr": "Côte volcanique avec sentiers et criques rocheuses.",
+      "it": "Costa vulcanica con sentieri e calette rocciose.",
+      "nl": "Vulkanische kust met paden en rotsbaaien.",
+      "sv": "Vulkanisk kust med stigar och klippvikar.",
+      "no": "Vulkansk kyst med stier og klippeviker.",
+      "da": "Vulkansk kyst med stier og klippebugter.",
+      "fi": "Vulkaaninen rannikko poluilla ja kivipoukamilla."
+    },
+    "webcam": null,
+    "score": 3,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 22,
+      "cielo": "Cielo claro",
+      "visibilidad": 10000,
+      "sunset": 1784145994
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "El Fraile",
+    "municipio": "Buenavista del Norte",
+    "zona": "Norte",
+    "coordenadas": [
+      28.38,
+      -16.86
+    ],
+    "descripcion": {
+      "es": "Cala salvaje bajo el macizo de Teno. Aislamiento.",
+      "en": "Wild cove under Teno massif. Isolation.",
+      "de": "Wilde Bucht unter dem Teno-Massiv. Isolation.",
+      "fr": "Crique sauvage sous le massif de Teno. Isolement.",
+      "it": "Caletta selvaggia sotto il massiccio del Teno. Isolamento.",
+      "nl": "Wilde baai onder het Teno-massief. Isolatie.",
+      "sv": "Vild vik under Teno-massivet. Isolering.",
+      "no": "Vill vik under Teno-massivet. Isolasjon.",
+      "da": "Vild bugt under Teno-massivet. Isolation.",
+      "fi": "Villi poukama Teno-massiivin alla. Eristäytyminen."
+    },
+    "webcam": null,
+    "score": 3,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 22,
+      "cielo": "Cielo claro",
+      "visibilidad": 10000,
+      "sunset": 1784145994
     },
     "detalles": [
       "Estimado por Clima"
@@ -3429,9 +3392,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 30,
+      "viento": 24,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145908
@@ -3466,9 +3429,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 25,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 29,
+      "viento": 24,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145905
@@ -3478,24 +3441,24 @@
     ]
   },
   {
-    "nombre": "Cueva del Agua",
-    "municipio": "Santa Cruz de Tenerife",
-    "zona": "Anaga",
+    "nombre": "El Caletón",
+    "municipio": "La Matanza",
+    "zona": "Norte",
     "coordenadas": [
-      28.56,
-      -16.3
+      28.465,
+      -16.46
     ],
     "descripcion": {
-      "es": "Rincón aislado y jurásico en Anaga.",
-      "en": "Isolated and Jurassic corner in Anaga.",
-      "de": "Abgelegener und jurassischer Winkel in Anaga.",
-      "fr": "Coin isolé et jurassique à Anaga.",
-      "it": "Angolo isolato e giurassico ad Anaga.",
-      "nl": "Afgelegen en Jurassic hoekje in Anaga.",
-      "sv": "Isolerad och jurassisk hörna i Anaga.",
-      "no": "Isolert og jurassisk hjørne i Anaga.",
-      "da": "Isoleret og jurassisk hjørne i Anaga.",
-      "fi": "Eristäytynyt ja jurakautinen kulma Anagassa."
+      "es": "Zona de baño tranquila con mucho sol.",
+      "en": "Quiet swimming area with lots of sun.",
+      "de": "Ruhiger Badebereich mit viel Sonne.",
+      "fr": "Zone de baignade calme avec beaucoup de soleil.",
+      "it": "Zona balneare tranquilla con molto sole.",
+      "nl": "Rustig zwemgebied met veel zon.",
+      "sv": "Lugnt badområde med mycket sol.",
+      "no": "Rolig badeområde med mye sol.",
+      "da": "Roligt badeområde med masser af sol.",
+      "fi": "Rauhallinen uimapaikka paljolla auringolla."
     },
     "webcam": null,
     "score": 3,
@@ -3503,49 +3466,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 25,
+      "t_real": 27,
+      "t_feel": 30,
       "viento": 23,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
-      "sunset": 1784145883
+      "sunset": 1784145909
     },
     "detalles": [
       "Estimado por Clima"
     ]
   },
   {
-    "nombre": "San Juanito",
-    "municipio": "La Laguna",
-    "zona": "Norte",
+    "nombre": "El Tajao",
+    "municipio": "Arico",
+    "zona": "Este",
     "coordenadas": [
-      28.5715,
-      -16.3139
+      28.11,
+      -16.468
     ],
     "descripcion": {
-      "es": "Charcos cerca del faro de Punta del Hidalgo.",
-      "en": "Pools near Punta del Hidalgo lighthouse.",
-      "de": "Becken in der Nähe des Leuchtturms Punta del Hidalgo.",
-      "fr": "Piscines près du phare de Punta del Hidalgo.",
-      "it": "Piscine vicino al faro di Punta del Hidalgo.",
-      "nl": "Zwembaden bij de vuurtoren van Punta del Hidalgo.",
-      "sv": "Pooler nära fyren Punta del Hidalgo.",
-      "no": "Bassenger nær fyret Punta del Hidalgo.",
-      "da": "Pools nær fyrtårnet Punta del Hidalgo.",
-      "fi": "Altaita Punta del Hidalgon majakan lähellä."
+      "es": "Cala de piedras en pueblo gastronómico. Baño rápido y mariscada local.",
+      "en": "Pebble cove in gastronomic village. Quick swim and local seafood feast.",
+      "de": "Steinbucht im Gastronomiedorf. Schnelles Bad und lokales Meeresfrüchteessen.",
+      "fr": "Crique de galets dans un village gastronomique. Baignade rapide et festin de fruits de mer local.",
+      "it": "Caletta di sassi in villaggio gastronomico. Bagno veloce e abbuffata di pesce locale.",
+      "nl": "Kiezelbaai in gastronomisch dorp. Snelle duik en lokaal zeevruchtenfestijn.",
+      "sv": "Stenvik i gastronomisk by. Snabbt dopp och lokal skaldjursfest.",
+      "no": "Steinvik i gastronomisk landsby. Rask dukkert og lokalt sjømatmåltid.",
+      "da": "Stenvig i gastronomisk landsby. Hurtig dukkert og lokalt skaldyrsmåltid.",
+      "fi": "Kivinen poukama gastronomisessa kylässä. Nopea uinti ja paikallinen äyriäisateria."
     },
     "webcam": null,
-    "score": 3,
+    "score": 0,
     "bandera": "yellow",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 23,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 29,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
-      "sunset": 1784145887
+      "sunset": 1784145865
     },
     "detalles": [
       "Estimado por Clima"
@@ -3577,9 +3540,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 29,
+      "t_real": 27,
+      "t_feel": 28,
+      "viento": 31,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145864
@@ -3614,12 +3577,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 29,
+      "t_real": 27,
+      "t_feel": 28,
+      "viento": 31,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145864
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Callao Hondo",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.105,
+      -16.475
+    ],
+    "descripcion": {
+      "es": "Cala salvaje de piedras blancas y aguas cristalinas.",
+      "en": "Wild cove of white stones and crystal clear waters.",
+      "de": "Wilde Bucht aus weißen Steinen und kristallklarem Wasser.",
+      "fr": "Crique sauvage de pierres blanches et eaux cristallines.",
+      "it": "Caletta selvaggia di pietre bianche e acque cristalline.",
+      "nl": "Wilde baai met witte stenen en kristalhelder water.",
+      "sv": "Vild vik med vita stenar och kristallklart vatten.",
+      "no": "Vill vik med hvite steiner og krystallklart vann.",
+      "da": "Vild bugt med hvide sten og krystalklart vand.",
+      "fi": "Villi valkokivinen poukama kristallinkirkkaalla vedellä."
+    },
+    "webcam": null,
+    "score": 0,
+    "bandera": "yellow",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 29,
+      "cielo": "Cielo claro",
+      "visibilidad": 10000,
+      "sunset": 1784145866
     },
     "detalles": [
       "Estimado por Clima"
@@ -3651,9 +3651,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 29,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 31,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1784145863
