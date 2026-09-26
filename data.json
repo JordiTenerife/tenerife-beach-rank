@@ -25,9 +25,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449034
@@ -62,9 +62,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449165
@@ -101,7 +101,7 @@
     "clima": {
       "t_real": 29,
       "t_feel": 28,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449033
@@ -136,9 +136,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449168
@@ -173,9 +173,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 2,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449123
@@ -210,9 +210,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449031
@@ -247,9 +247,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449163
@@ -284,9 +284,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449168
@@ -321,9 +321,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449167
@@ -358,9 +358,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 28,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449035
@@ -395,9 +395,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 28,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449035
@@ -432,9 +432,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 2,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449120
@@ -469,9 +469,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 11,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449114
@@ -506,9 +506,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
+      "t_real": 30,
       "t_feel": 31,
-      "viento": 2,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449134
@@ -543,9 +543,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 29,
-      "viento": 4,
+      "t_real": 28,
+      "t_feel": 28,
+      "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449192
@@ -580,9 +580,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449167
@@ -617,9 +617,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449172
@@ -656,47 +656,10 @@
     "clima": {
       "t_real": 30,
       "t_feel": 29,
-      "viento": 14,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449091
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Radazul",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.398,
-      -16.31
-    ],
-    "descripcion": {
-      "es": "Paraíso del buceo y la apnea. Aguas profundas y cristalinas, plataformas de salto y pequeñas playas de arena.",
-      "en": "Diving and freediving paradise. Deep crystal clear waters, jumping platforms, and small sandy beaches.",
-      "de": "Paradies für Tauchen und Freitauchen. Tiefes kristallklares Wasser, Sprungplattformen und kleine Sandstrände.",
-      "fr": "Paradis de la plongée et de l'apnée. Eaux profondes et cristallines, plateformes de saut et petites plages de sable.",
-      "it": "Paradiso delle immersioni e dell'apnea. Acque profonde e cristalline, piattaforme per tuffi e piccole spiagge di sabbia.",
-      "nl": "Paradijs voor duiken en freediven. Diep kristalhelder water, springplatforms en kleine zandstranden.",
-      "sv": "Paradis för dykning och fridykning. Djupt kristallklart vatten, hopplattformar och små sandstränder.",
-      "no": "Paradis for dykking og fridykking. Dypt krystallklart vann, hoppeplattformer og små sandstrender.",
-      "da": "Paradis for dykning og fridykning. Dybt krystalklart vand, hoppeplatforme og små sandstrande.",
-      "fi": "Sukelluksen ja vapaasukelluksen paratiisi. Syvää kristallinkirkasta vettä, hyppytorneja ja pieniä hiekkarantoja."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 30,
-      "t_feel": 29,
-      "viento": 14,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1790449064
     },
     "detalles": [
       "Estimado por Clima"
@@ -728,9 +691,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449172
@@ -765,9 +728,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 29,
-      "viento": 8,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449021
@@ -802,9 +765,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449044
@@ -839,9 +802,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449165
@@ -876,9 +839,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449149
@@ -913,9 +876,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449151
@@ -950,9 +913,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449168
@@ -987,9 +950,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449171
@@ -1024,9 +987,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 31,
-      "viento": 2,
+      "t_real": 33,
+      "t_feel": 36,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449174
@@ -1061,9 +1024,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449168
@@ -1098,9 +1061,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 2,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449121
@@ -1137,7 +1100,7 @@
     "clima": {
       "t_real": 30,
       "t_feel": 30,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449112
@@ -1174,7 +1137,7 @@
     "clima": {
       "t_real": 29,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449110
@@ -1211,7 +1174,7 @@
     "clima": {
       "t_real": 31,
       "t_feel": 31,
-      "viento": 2,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449131
@@ -1248,7 +1211,7 @@
     "clima": {
       "t_real": 30,
       "t_feel": 29,
-      "viento": 14,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449091
@@ -1283,9 +1246,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 33,
+      "t_feel": 38,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449185
@@ -1320,9 +1283,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 29,
-      "viento": 3,
+      "t_real": 33,
+      "t_feel": 35,
+      "viento": 5,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449183
@@ -1357,9 +1320,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449190
@@ -1394,9 +1357,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449071
@@ -1431,9 +1394,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449071
@@ -1470,47 +1433,10 @@
     "clima": {
       "t_real": 29,
       "t_feel": 28,
-      "viento": 14,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449081
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Nea",
-    "municipio": "El Rosario",
-    "zona": "Este",
-    "coordenadas": [
-      28.402,
-      -16.305
-    ],
-    "descripcion": {
-      "es": "Playa de arena negra fina con parque marítimo. Familiar y cercana a Santa Cruz.",
-      "en": "Fine black sand beach with maritime park. Family-friendly and close to Santa Cruz.",
-      "de": "Feiner schwarzer Sandstrand mit Meerespark. Familienfreundlich und nah an Santa Cruz.",
-      "fr": "Plage de sable noir fin avec parc maritime. Familiale et proche de Santa Cruz.",
-      "it": "Spiaggia di sabbia nera fine con parco marittimo. Familiare e vicina a Santa Cruz.",
-      "nl": "Fijn zwart zandstrand met maritiem park. Gezinsvriendelijk en dicht bij Santa Cruz.",
-      "sv": "Fin svart sandstrand med maritim park. Familjevänlig och nära Santa Cruz.",
-      "no": "Fin svart sandstrand med maritim park. Familievennlig og nær Santa Cruz.",
-      "da": "Fin sort sandstrand med maritim park. Familievenlig og tæt på Santa Cruz.",
-      "fi": "Hieno mustahiekkainen ranta meripuistolla. Perheystävällinen ja lähellä Santa Cruzia."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 30,
-      "t_feel": 29,
-      "viento": 14,
-      "cielo": "Nubes",
-      "visibilidad": 10000,
-      "sunset": 1790449063
     },
     "detalles": [
       "Estimado por Clima"
@@ -1542,9 +1468,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 31,
-      "viento": 15,
+      "t_real": 30,
+      "t_feel": 30,
+      "viento": 8,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449163
@@ -1580,8 +1506,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 30,
-      "t_feel": 33,
-      "viento": 9,
+      "t_feel": 31,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449185
@@ -1618,7 +1544,7 @@
     "clima": {
       "t_real": 28,
       "t_feel": 28,
-      "viento": 14,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449142
@@ -1655,7 +1581,7 @@
     "clima": {
       "t_real": 28,
       "t_feel": 28,
-      "viento": 14,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449143
@@ -1690,9 +1616,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 2,
+      "t_real": 32,
+      "t_feel": 36,
+      "viento": 1,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449177
@@ -1727,9 +1653,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 31,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449136
@@ -1764,9 +1690,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449144
@@ -1801,9 +1727,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449128
@@ -1838,9 +1764,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449133
@@ -1875,9 +1801,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449140
@@ -1912,9 +1838,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449190
@@ -1949,9 +1875,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 29,
-      "viento": 5,
+      "t_real": 27,
+      "t_feel": 28,
+      "viento": 10,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449191
@@ -1986,9 +1912,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 33,
+      "t_feel": 38,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449187
@@ -2024,8 +1950,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 28,
-      "t_feel": 29,
-      "viento": 4,
+      "t_feel": 28,
+      "viento": 13,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449192
@@ -2062,7 +1988,7 @@
     "clima": {
       "t_real": 27,
       "t_feel": 28,
-      "viento": 1,
+      "viento": 17,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449197
@@ -2099,7 +2025,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 15,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449197
@@ -2136,7 +2062,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 15,
+      "viento": 12,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449197
@@ -2171,9 +2097,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 33,
-      "viento": 14,
+      "t_real": 30,
+      "t_feel": 32,
+      "viento": 10,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449177
@@ -2208,9 +2134,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 31,
-      "viento": 15,
+      "t_real": 30,
+      "t_feel": 30,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449148
@@ -2245,12 +2171,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 2,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449121
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Los Roques",
+    "municipio": "Los Realejos",
+    "zona": "Norte",
+    "coordenadas": [
+      28.398,
+      -16.575
+    ],
+    "descripcion": {
+      "es": "Playa fotogénica con grandes roques volcánicos.",
+      "en": "Photogenic beach with large volcanic rocks.",
+      "de": "Fotogener Strand mit großen Vulkanfelsen.",
+      "fr": "Plage photogénique avec de grands rochers volcaniques.",
+      "it": "Spiaggia fotogenica con grandi rocce vulcaniche.",
+      "nl": "Fotogeniek strand met grote vulkanische rotsen.",
+      "sv": "Fotogenisk strand med stora vulkaniska klippor.",
+      "no": "Fotogen strand med store vulkanske steiner.",
+      "da": "Fotogen strand med store vulkanske klipper.",
+      "fi": "Valokuvauksellinen ranta suurilla vulkaanisilla kivillä."
+    },
+    "webcam": null,
+    "score": 8,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 30,
+      "t_feel": 30,
+      "viento": 3,
+      "cielo": "Nubes",
+      "visibilidad": 10000,
+      "sunset": 1790449127
     },
     "detalles": [
       "Estimado por Clima"
@@ -2283,8 +2246,8 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 31,
-      "t_feel": 32,
-      "viento": 2,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449137
@@ -2321,7 +2284,7 @@
     "clima": {
       "t_real": 30,
       "t_feel": 29,
-      "viento": 14,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449096
@@ -2358,7 +2321,7 @@
     "clima": {
       "t_real": 29,
       "t_feel": 28,
-      "viento": 14,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449091
@@ -2393,9 +2356,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 30,
+      "t_real": 29,
       "t_feel": 29,
-      "viento": 14,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449099
@@ -2432,7 +2395,7 @@
     "clima": {
       "t_real": 28,
       "t_feel": 27,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449061
@@ -2467,9 +2430,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
+      "t_real": 29,
       "t_feel": 28,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449049
@@ -2504,9 +2467,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 28,
-      "viento": 10,
+      "t_real": 29,
+      "t_feel": 30,
+      "viento": 4,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449022
@@ -2541,9 +2504,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 27,
+      "t_feel": 27,
+      "viento": 7,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449191
@@ -2578,9 +2541,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
+      "t_real": 30,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449064
@@ -2615,9 +2578,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 2,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449123
@@ -2652,9 +2615,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 2,
+      "t_real": 30,
+      "t_feel": 31,
+      "viento": 3,
       "cielo": "Nubes",
       "visibilidad": 10000,
       "sunset": 1790449123
@@ -2689,9 +2652,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449120
@@ -2726,12 +2689,86 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449125
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Radazul",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.398,
+      -16.31
+    ],
+    "descripcion": {
+      "es": "Paraíso del buceo y la apnea. Aguas profundas y cristalinas, plataformas de salto y pequeñas playas de arena.",
+      "en": "Diving and freediving paradise. Deep crystal clear waters, jumping platforms, and small sandy beaches.",
+      "de": "Paradies für Tauchen und Freitauchen. Tiefes kristallklares Wasser, Sprungplattformen und kleine Sandstrände.",
+      "fr": "Paradis de la plongée et de l'apnée. Eaux profondes et cristallines, plateformes de saut et petites plages de sable.",
+      "it": "Paradiso delle immersioni e dell'apnea. Acque profonde e cristalline, piattaforme per tuffi e piccole spiagge di sabbia.",
+      "nl": "Paradijs voor duiken en freediven. Diep kristalhelder water, springplatforms en kleine zandstranden.",
+      "sv": "Paradis för dykning och fridykning. Djupt kristallklart vatten, hopplattformar och små sandstränder.",
+      "no": "Paradis for dykking og fridykking. Dypt krystallklart vann, hoppeplattformer og små sandstrender.",
+      "da": "Paradis for dykning og fridykning. Dybt krystalklart vand, hoppeplatforme og små sandstrande.",
+      "fi": "Sukelluksen ja vapaasukelluksen paratiisi. Syvää kristallinkirkasta vettä, hyppytorneja ja pieniä hiekkarantoja."
+    },
+    "webcam": null,
+    "score": 5,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 30,
+      "t_feel": 29,
+      "viento": 6,
+      "cielo": "Lluvia ligera",
+      "visibilidad": 10000,
+      "sunset": 1790449064
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Abades",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.14,
+      -16.44
+    ],
+    "descripcion": {
+      "es": "Playa de arena clara frente al pueblo fantasma. Fondos marinos ricos ideales para snorkel y buceo de iniciación.",
+      "en": "Light sand beach facing the ghost town. Rich seabeds ideal for snorkeling and beginner diving.",
+      "de": "Heller Sandstrand gegenüber der Geisterstadt. Reiche Meeresgründe, ideal zum Schnorcheln und für Tauchanfänger.",
+      "fr": "Plage de sable clair face à la ville fantôme. Fonds marins riches, idéaux pour le snorkeling et la plongée débutant.",
+      "it": "Spiaggia di sabbia chiara di fronte alla città fantasma. Fondali ricchi ideali per snorkeling e immersioni per principianti.",
+      "nl": "Licht zandstrand tegenover de spookstad. Rijke zeebodems ideaal voor snorkelen en beginnende duikers.",
+      "sv": "Ljus sandstrand mittemot spökstaden. Rika havsbottnar perfekta för snorkling och nybörjardykning.",
+      "no": "Lys sandstrand som vender mot spøkelsesbyen. Rike havbunner ideelle for snorkling og nybegynnerdykking.",
+      "da": "Lys sandstrand overfor spøgelsesbyen. Rige havbunde ideelle til snorkling og begynderdykning.",
+      "fi": "Vaaleahiekkainen ranta kummituskaupunkia vastapäätä. Rikkaat merenpohjat ihanteellisia snorklaukseen ja aloittelijasukellukseen."
+    },
+    "webcam": null,
+    "score": 5,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
+      "cielo": "Lluvia ligera",
+      "visibilidad": 8992,
+      "sunset": 1790449096
     },
     "detalles": [
       "Estimado por Clima"
@@ -2763,11 +2800,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
+      "t_real": 30,
       "t_feel": 30,
-      "viento": 6,
-      "cielo": "Lluvia ligera",
-      "visibilidad": 5877,
+      "viento": 4,
+      "cielo": "Lluvia moderada",
+      "visibilidad": 10000,
       "sunset": 1790449080
     },
     "detalles": [
@@ -2800,9 +2837,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449122
@@ -2837,9 +2874,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449123
@@ -2874,11 +2911,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 30,
+      "t_real": 29,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
+      "visibilidad": 5738,
       "sunset": 1790449077
     },
     "detalles": [
@@ -2913,7 +2950,7 @@
     "clima": {
       "t_real": 30,
       "t_feel": 29,
-      "viento": 14,
+      "viento": 6,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449076
@@ -2948,11 +2985,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 11,
+      "t_real": 29,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
+      "visibilidad": 5738,
       "sunset": 1790449078
     },
     "detalles": [
@@ -2985,12 +3022,49 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
+      "t_real": 30,
       "t_feel": 30,
+      "viento": 4,
+      "cielo": "Lluvia moderada",
+      "visibilidad": 10000,
+      "sunset": 1790449080
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Nea",
+    "municipio": "El Rosario",
+    "zona": "Este",
+    "coordenadas": [
+      28.402,
+      -16.305
+    ],
+    "descripcion": {
+      "es": "Playa de arena negra fina con parque marítimo. Familiar y cercana a Santa Cruz.",
+      "en": "Fine black sand beach with maritime park. Family-friendly and close to Santa Cruz.",
+      "de": "Feiner schwarzer Sandstrand mit Meerespark. Familienfreundlich und nah an Santa Cruz.",
+      "fr": "Plage de sable noir fin avec parc maritime. Familiale et proche de Santa Cruz.",
+      "it": "Spiaggia di sabbia nera fine con parco marittimo. Familiare e vicina a Santa Cruz.",
+      "nl": "Fijn zwart zandstrand met maritiem park. Gezinsvriendelijk en dicht bij Santa Cruz.",
+      "sv": "Fin svart sandstrand med maritim park. Familjevänlig och nära Santa Cruz.",
+      "no": "Fin svart sandstrand med maritim park. Familievennlig og nær Santa Cruz.",
+      "da": "Fin sort sandstrand med maritim park. Familievenlig og tæt på Santa Cruz.",
+      "fi": "Hieno mustahiekkainen ranta meripuistolla. Perheystävällinen ja lähellä Santa Cruzia."
+    },
+    "webcam": null,
+    "score": 5,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 30,
+      "t_feel": 29,
       "viento": 6,
       "cielo": "Lluvia ligera",
-      "visibilidad": 5877,
-      "sunset": 1790449080
+      "visibilidad": 10000,
+      "sunset": 1790449063
     },
     "detalles": [
       "Estimado por Clima"
@@ -3022,11 +3096,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 30,
-      "t_feel": 30,
-      "viento": 6,
-      "cielo": "Lluvia ligera",
-      "visibilidad": 3184,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
+      "cielo": "Lluvia moderada",
+      "visibilidad": 3667,
       "sunset": 1790449094
     },
     "detalles": [
@@ -3059,11 +3133,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
-      "visibilidad": 5122,
+      "visibilidad": 10000,
       "sunset": 1790449103
     },
     "detalles": [
@@ -3096,11 +3170,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 30,
+      "t_real": 29,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
+      "visibilidad": 5738,
       "sunset": 1790449077
     },
     "detalles": [
@@ -3133,11 +3207,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 11,
+      "t_real": 29,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
+      "visibilidad": 5738,
       "sunset": 1790449078
     },
     "detalles": [
@@ -3170,11 +3244,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 30,
-      "viento": 11,
+      "t_real": 29,
+      "t_feel": 29,
+      "viento": 6,
       "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
+      "visibilidad": 5738,
       "sunset": 1790449078
     },
     "detalles": [
@@ -3207,11 +3281,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 30,
+      "t_real": 29,
       "t_feel": 29,
-      "viento": 11,
+      "viento": 6,
       "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
+      "visibilidad": 5738,
       "sunset": 1790449077
     },
     "detalles": [
@@ -3244,9 +3318,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449122
@@ -3281,11 +3355,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 31,
-      "t_feel": 29,
-      "viento": 3,
+      "t_real": 33,
+      "t_feel": 40,
+      "viento": 5,
       "cielo": "Lluvia ligera",
-      "visibilidad": 7676,
+      "visibilidad": 8215,
       "sunset": 1790449091
     },
     "detalles": [
@@ -3319,10 +3393,10 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 31,
-      "t_feel": 29,
-      "viento": 3,
+      "t_feel": 36,
+      "viento": 5,
       "cielo": "Lluvia ligera",
-      "visibilidad": 7676,
+      "visibilidad": 8215,
       "sunset": 1790449089
     },
     "detalles": [
@@ -3356,10 +3430,10 @@
     "origen": "Estimado",
     "clima": {
       "t_real": 31,
-      "t_feel": 29,
-      "viento": 3,
+      "t_feel": 36,
+      "viento": 5,
       "cielo": "Lluvia ligera",
-      "visibilidad": 7676,
+      "visibilidad": 8215,
       "sunset": 1790449089
     },
     "detalles": [
@@ -3392,11 +3466,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
-      "visibilidad": 6585,
+      "visibilidad": 10000,
       "sunset": 1790449100
     },
     "detalles": [
@@ -3429,11 +3503,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
-      "visibilidad": 6585,
+      "visibilidad": 10000,
       "sunset": 1790449101
     },
     "detalles": [
@@ -3466,11 +3540,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
-      "visibilidad": 5122,
+      "visibilidad": 10000,
       "sunset": 1790449105
     },
     "detalles": [
@@ -3503,11 +3577,11 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 30,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
-      "visibilidad": 6585,
+      "visibilidad": 10000,
       "sunset": 1790449099
     },
     "detalles": [
@@ -3540,9 +3614,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449116
@@ -3577,86 +3651,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 29,
-      "t_feel": 32,
-      "viento": 6,
+      "t_real": 33,
+      "t_feel": 34,
+      "viento": 17,
       "cielo": "Lluvia ligera",
       "visibilidad": 10000,
       "sunset": 1790449118
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Los Roques",
-    "municipio": "Los Realejos",
-    "zona": "Norte",
-    "coordenadas": [
-      28.398,
-      -16.575
-    ],
-    "descripcion": {
-      "es": "Playa fotogénica con grandes roques volcánicos.",
-      "en": "Photogenic beach with large volcanic rocks.",
-      "de": "Fotogener Strand mit großen Vulkanfelsen.",
-      "fr": "Plage photogénique avec de grands rochers volcaniques.",
-      "it": "Spiaggia fotogenica con grandi rocce vulcaniche.",
-      "nl": "Fotogeniek strand met grote vulkanische rotsen.",
-      "sv": "Fotogenisk strand med stora vulkaniska klippor.",
-      "no": "Fotogen strand med store vulkanske steiner.",
-      "da": "Fotogen strand med store vulkanske klipper.",
-      "fi": "Valokuvauksellinen ranta suurilla vulkaanisilla kivillä."
-    },
-    "webcam": null,
-    "score": 5,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 30,
-      "t_feel": 30,
-      "viento": 2,
-      "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
-      "sunset": 1790449127
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Abades",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.14,
-      -16.44
-    ],
-    "descripcion": {
-      "es": "Playa de arena clara frente al pueblo fantasma. Fondos marinos ricos ideales para snorkel y buceo de iniciación.",
-      "en": "Light sand beach facing the ghost town. Rich seabeds ideal for snorkeling and beginner diving.",
-      "de": "Heller Sandstrand gegenüber der Geisterstadt. Reiche Meeresgründe, ideal zum Schnorcheln und für Tauchanfänger.",
-      "fr": "Plage de sable clair face à la ville fantôme. Fonds marins riches, idéaux pour le snorkeling et la plongée débutant.",
-      "it": "Spiaggia di sabbia chiara di fronte alla città fantasma. Fondali ricchi ideali per snorkeling e immersioni per principianti.",
-      "nl": "Licht zandstrand tegenover de spookstad. Rijke zeebodems ideaal voor snorkelen en beginnende duikers.",
-      "sv": "Ljus sandstrand mittemot spökstaden. Rika havsbottnar perfekta för snorkling och nybörjardykning.",
-      "no": "Lys sandstrand som vender mot spøkelsesbyen. Rike havbunner ideelle for snorkling og nybegynnerdykking.",
-      "da": "Lys sandstrand overfor spøgelsesbyen. Rige havbunde ideelle til snorkling og begynderdykning.",
-      "fi": "Vaaleahiekkainen ranta kummituskaupunkia vastapäätä. Rikkaat merenpohjat ihanteellisia snorklaukseen ja aloittelijasukellukseen."
-    },
-    "webcam": null,
-    "score": 3,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 30,
-      "t_feel": 33,
-      "viento": 6,
-      "cielo": "Lluvia ligera",
-      "visibilidad": 2554,
-      "sunset": 1790449096
     },
     "detalles": [
       "Estimado por Clima"
