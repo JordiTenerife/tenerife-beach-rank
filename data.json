@@ -25,9 +25,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 13,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708018
@@ -62,9 +62,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708153
@@ -99,9 +99,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 29,
-      "viento": 11,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708017
@@ -136,9 +136,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708156
@@ -173,9 +173,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708108
@@ -210,9 +210,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 13,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708016
@@ -247,9 +247,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708151
@@ -284,9 +284,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708156
@@ -321,9 +321,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708155
@@ -358,9 +358,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 15,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708020
@@ -395,9 +395,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 15,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708020
@@ -432,9 +432,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708105
@@ -469,9 +469,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708099
@@ -506,9 +506,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708119
@@ -543,9 +543,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 27,
-      "viento": 7,
+      "t_real": 22,
+      "t_feel": 23,
+      "viento": 13,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708178
@@ -580,9 +580,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708154
@@ -617,9 +617,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708159
@@ -654,9 +654,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708075
@@ -691,9 +691,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 13,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708049
@@ -728,9 +728,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708159
@@ -765,9 +765,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 31,
-      "viento": 12,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 13,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708005
@@ -802,9 +802,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 31,
-      "viento": 13,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708029
@@ -839,9 +839,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708153
@@ -876,9 +876,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708137
@@ -913,9 +913,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708138
@@ -950,9 +950,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708155
@@ -987,9 +987,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708158
@@ -1024,8 +1024,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 31,
+      "t_real": 26,
+      "t_feel": 26,
       "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -1061,9 +1061,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708155
@@ -1098,9 +1098,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708106
@@ -1135,9 +1135,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708097
@@ -1172,9 +1172,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 6,
+      "t_real": 23,
+      "t_feel": 24,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708096
@@ -1209,9 +1209,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 30,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708116
@@ -1246,9 +1246,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708075
@@ -1283,9 +1283,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 31,
-      "viento": 6,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708172
@@ -1320,9 +1320,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 10,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708170
@@ -1359,7 +1359,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 6,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708176
@@ -1394,9 +1394,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708063
@@ -1431,9 +1431,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708061
@@ -1468,9 +1468,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708063
@@ -1505,9 +1505,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 13,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708056
@@ -1542,9 +1542,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 13,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708056
@@ -1579,9 +1579,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 5,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708066
@@ -1616,9 +1616,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 13,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708048
@@ -1653,9 +1653,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Muy nuboso",
       "visibilidad": 10000,
       "sunset": 1790708090
@@ -1690,9 +1690,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 27,
-      "viento": 8,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708148
@@ -1727,9 +1727,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 27,
-      "viento": 7,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708170
@@ -1764,9 +1764,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 25,
-      "viento": 6,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708127
@@ -1801,9 +1801,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 24,
-      "t_feel": 25,
-      "viento": 6,
+      "t_real": 22,
+      "t_feel": 22,
+      "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708128
@@ -1838,9 +1838,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 30,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708164
@@ -1875,9 +1875,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 32,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708124
@@ -1912,9 +1912,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708132
@@ -1949,9 +1949,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708063
@@ -1986,9 +1986,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708064
@@ -2023,9 +2023,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708063
@@ -2060,86 +2060,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 3,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708063
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa de la Jaca",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.125,
-      -16.455
-    ],
-    "descripcion": {
-      "es": "Piscina natural y playa en barrio pesquero auténtico.",
-      "en": "Natural pool and beach in authentic fishing neighborhood.",
-      "de": "Natürliches Becken und Strand in authentischem Fischerviertel.",
-      "fr": "Piscine naturelle et plage dans un quartier de pêcheurs authentique.",
-      "it": "Piscina naturale e spiaggia in autentico quartiere di pescatori.",
-      "nl": "Natuurlijk zwembad en strand in authentieke visserswijk.",
-      "sv": "Naturlig pool och strand i autentiskt fiskekvarter.",
-      "no": "Naturlig basseng og strand i autentisk fiskerområde.",
-      "da": "Naturlig pool og strand i autentisk fiskerkvarter.",
-      "fi": "Luonnonallas ja ranta aidossa kalastajakaupunginosassa."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Muy nuboso",
-      "visibilidad": 10000,
-      "sunset": 1790708087
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa de las Maretas",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.118,
-      -16.46
-    ],
-    "descripcion": {
-      "es": "Zona tranquila con fondos rocosos, ideal snorkel.",
-      "en": "Quiet area with rocky seabeds, ideal for snorkeling.",
-      "de": "Ruhige Gegend mit felsigem Grund, ideal zum Schnorcheln.",
-      "fr": "Zone calme avec fonds rocheux, idéal snorkeling.",
-      "it": "Zona tranquilla con fondali rocciosi, ideale per snorkeling.",
-      "nl": "Rustige omgeving met rotsachtige bodem, ideaal om te snorkelen.",
-      "sv": "Lugnt område med klippig botten, perfekt för snorkling.",
-      "no": "Rolig område med steinete bunn, ideelt for snorkling.",
-      "da": "Roligt område med klippebund, ideelt til snorkling.",
-      "fi": "Rauhallinen alue kivisellä pohjalla, ihanteellinen snorklaukseen."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Muy nuboso",
-      "visibilidad": 10000,
-      "sunset": 1790708088
     },
     "detalles": [
       "Estimado por Clima"
@@ -2171,49 +2097,12 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Muy nuboso",
       "visibilidad": 10000,
       "sunset": 1790708092
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Listada",
-    "municipio": "Arico",
-    "zona": "Este",
-    "coordenadas": [
-      28.13,
-      -16.45
-    ],
-    "descripcion": {
-      "es": "Barrio costero con encanto y zonas de baño protegidas.",
-      "en": "Charming coastal neighborhood with protected swimming areas.",
-      "de": "Charmantes Küstenviertel mit geschützten Badebereichen.",
-      "fr": "Quartier côtier charmant avec zones de baignade protégées.",
-      "it": "Affascinante quartiere costiero con zone balneari protette.",
-      "nl": "Charmante kustwijk met beschermde zwemgebieden.",
-      "sv": "Charmigt kustområde med skyddade badplatser.",
-      "no": "Sjarmerende kystnabolag med beskyttede badeområder.",
-      "da": "Charmerende kystkvarter med beskyttede badeområder.",
-      "fi": "Viehättävä rannikkokaupunginosa suojaisilla uimapaikoilla."
-    },
-    "webcam": null,
-    "score": 10,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 32,
-      "viento": 11,
-      "cielo": "Muy nuboso",
-      "visibilidad": 10000,
-      "sunset": 1790708086
     },
     "detalles": [
       "Estimado por Clima"
@@ -2245,9 +2134,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708115
@@ -2282,9 +2171,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708120
@@ -2319,9 +2208,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708128
@@ -2358,7 +2247,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 6,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708176
@@ -2395,7 +2284,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 6,
+      "viento": 13,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708177
@@ -2430,9 +2319,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 31,
-      "viento": 6,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708174
@@ -2467,9 +2356,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 27,
-      "viento": 7,
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 13,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708178
@@ -2504,9 +2393,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 27,
-      "viento": 7,
+      "t_real": 22,
+      "t_feel": 23,
+      "viento": 15,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708183
@@ -2541,9 +2430,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 22,
+      "t_feel": 23,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708182
@@ -2578,9 +2467,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 3,
+      "t_real": 22,
+      "t_feel": 23,
+      "viento": 11,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708182
@@ -2615,9 +2504,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 7,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708162
@@ -2652,8 +2541,8 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
+      "t_real": 24,
+      "t_feel": 25,
       "viento": 7,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
@@ -2689,9 +2578,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708106
@@ -2726,9 +2615,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 26,
-      "t_feel": 26,
-      "viento": 6,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708113
@@ -2763,9 +2652,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 30,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708122
@@ -2800,9 +2689,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708080
@@ -2837,9 +2726,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 5,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708076
@@ -2874,9 +2763,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 30,
-      "viento": 7,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708084
@@ -2911,9 +2800,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 27,
-      "viento": 13,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708045
@@ -2948,9 +2837,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 14,
+      "t_real": 24,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708033
@@ -2985,9 +2874,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 28,
-      "viento": 10,
+      "t_real": 24,
+      "t_feel": 24,
+      "viento": 13,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708006
@@ -3024,7 +2913,7 @@
     "clima": {
       "t_real": 26,
       "t_feel": 26,
-      "viento": 6,
+      "viento": 14,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708177
@@ -3059,9 +2948,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 9,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708048
@@ -3096,9 +2985,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708108
@@ -3133,9 +3022,9 @@
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 27,
-      "t_feel": 29,
-      "viento": 6,
+      "t_real": 25,
+      "t_feel": 25,
+      "viento": 2,
       "cielo": "Cielo claro",
       "visibilidad": 10000,
       "sunset": 1790708108
@@ -3165,15 +3054,15 @@
       "fi": "Tuuli- ja leijasurffauksen mekka. Luonnonhiekkaranta boheemilla ja urheilullisella tunnelmalla sekä upeilla näkymillä."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/el-medano.html",
-    "score": 8,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Algo de nubes",
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708108
     },
@@ -3202,202 +3091,17 @@
       "fi": "Saaren suurin luonnonhiekkaranta. Neitseellinen ja sijaitsee Punaisen vuoren alla. Siellä on laaja nudistialue."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/playa-la-tejita.html",
-    "score": 8,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Algo de nubes",
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708112
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Leocadio Machado",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.04,
-      -16.545
-    ],
-    "descripcion": {
-      "es": "Playa amplia de arena dorada, continuación de El Médano. Espectáculo de cometas de Kitesurf.",
-      "en": "Wide golden sand beach, continuation of El Médano. Spectacle of Kitesurf kites.",
-      "de": "Breiter goldener Sandstrand, Fortsetzung von El Médano. Spektakel der Kitesurf-Drachen.",
-      "fr": "Large plage de sable doré, continuation d'El Médano. Spectacle de cerfs-volants de Kitesurf.",
-      "it": "Ampia spiaggia di sabbia dorata, continuazione di El Médano. Spettacolo di aquiloni da Kitesurf.",
-      "nl": "Breed goudkleurig zandstrand, vervolg van El Médano. Schouwspel van Kitesurf-vliegers.",
-      "sv": "Bred gyllene sandstrand, fortsättning på El Médano. Skådespel av Kitesurf-drakar.",
-      "no": "Bred gyllen sandstrand, fortsettelse av El Médano. Skue av Kitesurf-drager.",
-      "da": "Bred gylden sandstrand, fortsættelse af El Médano. Skue af Kitesurf-drager.",
-      "fi": "Leveä kultahiekkainen ranta, El Médanon jatke. Leijasurffausleijojen spektaakkeli."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Algo de nubes",
-      "visibilidad": 10000,
-      "sunset": 1790708109
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Montaña Roja",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.032,
-      -16.55
-    ],
-    "descripcion": {
-      "es": "Pequeñas calas íntimas de arena y roca a los pies del volcán. Privacidad cerca del Médano.",
-      "en": "Small intimate sand and rock coves at the foot of the volcano. Privacy near El Médano.",
-      "de": "Kleine intime Sand- und Felsbuchten am Fuße des Vulkans. Privatsphäre in der Nähe von El Médano.",
-      "fr": "Petites criques intimes de sable et de roche au pied du volcan. Intimité près d'El Médano.",
-      "it": "Piccole calette intime di sabbia e roccia ai piedi del vulcano. Privacy vicino a El Médano.",
-      "nl": "Kleine intieme zand- en rotsbaaien aan de voet van de vulkaan. Privacy in de buurt van El Médano.",
-      "sv": "Små intima sand- och stenvikar vid foten av vulkanen. Avskildhet nära El Médano.",
-      "no": "Små intime sand- og steinviker ved foten av vulkanen. Privatliv nær El Médano.",
-      "da": "Små intime sand- og klippebugter ved foden af vulkanen. Privatliv nær El Médano.",
-      "fi": "Pieniä intiimejä hiekka- ja kivipoukamia tulivuoren juurella. Yksityisyyttä lähellä El Médanoa."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Algo de nubes",
-      "visibilidad": 10000,
-      "sunset": 1790708111
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa del Horno",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.038,
-      -16.552
-    ],
-    "descripcion": {
-      "es": "Cala resguardada y solitaria cerca de El Confital.",
-      "en": "Sheltered and solitary cove near El Confital.",
-      "de": "Geschützte und einsame Bucht in der Nähe von El Confital.",
-      "fr": "Crique abritée et solitaire près d'El Confital.",
-      "it": "Caletta riparata e solitaria vicino a El Confital.",
-      "nl": "Beschutte en eenzame baai bij El Confital.",
-      "sv": "Skyddad och ensam vik nära El Confital.",
-      "no": "Skjermet og ensom vik nær El Confital.",
-      "da": "Beskyttet og ensom bugt nær El Confital.",
-      "fi": "Suojainen ja yksinäinen poukama lähellä El Confitalia."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Algo de nubes",
-      "visibilidad": 10000,
-      "sunset": 1790708109
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "Playa Pelada",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0582,
-      -16.5216
-    ],
-    "descripcion": {
-      "es": "Playa virgen de arena dorada tras un cráter. Nudista.",
-      "en": "Virgin golden sand beach behind a crater. Nudist.",
-      "de": "Unberührter goldener Sandstrand hinter einem Krater. FKK.",
-      "fr": "Plage vierge de sable doré derrière un cratère. Nudiste.",
-      "it": "Spiaggia vergine di sabbia dorata dietro un cratere. Nudista.",
-      "nl": "Maagdelijk goudkleurig zandstrand achter een krater. Naaktstrand.",
-      "sv": "Orörd gyllene sandstrand bakom en krater. Nudist.",
-      "no": "Jomfruelig gyllen sandstrand bak et krater. Nudist.",
-      "da": "Jomfruelig gylden sandstrand bag et krater. Nudist.",
-      "fi": "Neitseellinen kultahiekkainen ranta kraatterin takana. Nudisti."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Algo de nubes",
-      "visibilidad": 10000,
-      "sunset": 1790708103
-    },
-    "detalles": [
-      "Estimado por Clima"
-    ]
-  },
-  {
-    "nombre": "La Jaquita",
-    "municipio": "Granadilla",
-    "zona": "Sur",
-    "coordenadas": [
-      28.0502,
-      -16.5302
-    ],
-    "descripcion": {
-      "es": "Playa tranquila cerca del Médano con búnkeres antiguos.",
-      "en": "Quiet beach near El Médano with old bunkers.",
-      "de": "Ruhiger Strand in der Nähe von El Médano mit alten Bunkern.",
-      "fr": "Plage tranquille près d'El Médano avec d'anciens bunkers.",
-      "it": "Spiaggia tranquilla vicino a El Médano con vecchi bunker.",
-      "nl": "Rustig strand bij El Médano met oude bunkers.",
-      "sv": "Lugn strand nära El Médano med gamla bunkrar.",
-      "no": "Rolig strand nær El Médano med gamle bunkere.",
-      "da": "Rolig strand nær El Médano med gamle bunkere.",
-      "fi": "Rauhallinen ranta lähellä El Médanoa vanhoilla bunkkereilla."
-    },
-    "webcam": null,
-    "score": 8,
-    "bandera": "green",
-    "avisos": [],
-    "origen": "Estimado",
-    "clima": {
-      "t_real": 28,
-      "t_feel": 33,
-      "viento": 11,
-      "cielo": "Algo de nubes",
-      "visibilidad": 10000,
-      "sunset": 1790708106
     },
     "detalles": [
       "Estimado por Clima"
@@ -3424,15 +3128,15 @@
       "fi": "Vaaleahiekkainen ranta kummituskaupunkia vastapäätä. Rikkaat merenpohjat ihanteellisia snorklaukseen ja aloittelijasukellukseen."
     },
     "webcam": null,
-    "score": 5,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 32,
-      "viento": 11,
-      "cielo": "Lluvia ligera",
+      "t_real": 26,
+      "t_feel": 27,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708083
     },
@@ -3461,17 +3165,91 @@
       "fi": "Laaja ja rauhallinen mustahiekkainen ranta. Erittäin paikallinen, koira-alue ja pitkä rantakatu."
     },
     "webcam": "https://www.skylinewebcams.com/es/webcam/espana/canarias/santa-cruz-de-tenerife/puertito-de-guimar.html",
-    "score": 5,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
+      "t_real": 25,
+      "t_feel": 26,
       "viento": 3,
-      "cielo": "Lluvia ligera",
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708066
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Leocadio Machado",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.04,
+      -16.545
+    ],
+    "descripcion": {
+      "es": "Playa amplia de arena dorada, continuación de El Médano. Espectáculo de cometas de Kitesurf.",
+      "en": "Wide golden sand beach, continuation of El Médano. Spectacle of Kitesurf kites.",
+      "de": "Breiter goldener Sandstrand, Fortsetzung von El Médano. Spektakel der Kitesurf-Drachen.",
+      "fr": "Large plage de sable doré, continuation d'El Médano. Spectacle de cerfs-volants de Kitesurf.",
+      "it": "Ampia spiaggia di sabbia dorata, continuazione di El Médano. Spettacolo di aquiloni da Kitesurf.",
+      "nl": "Breed goudkleurig zandstrand, vervolg van El Médano. Schouwspel van Kitesurf-vliegers.",
+      "sv": "Bred gyllene sandstrand, fortsättning på El Médano. Skådespel av Kitesurf-drakar.",
+      "no": "Bred gyllen sandstrand, fortsettelse av El Médano. Skue av Kitesurf-drager.",
+      "da": "Bred gylden sandstrand, fortsættelse af El Médano. Skue af Kitesurf-drager.",
+      "fi": "Leveä kultahiekkainen ranta, El Médanon jatke. Leijasurffausleijojen spektaakkeli."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708109
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Montaña Roja",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.032,
+      -16.55
+    ],
+    "descripcion": {
+      "es": "Pequeñas calas íntimas de arena y roca a los pies del volcán. Privacidad cerca del Médano.",
+      "en": "Small intimate sand and rock coves at the foot of the volcano. Privacy near El Médano.",
+      "de": "Kleine intime Sand- und Felsbuchten am Fuße des Vulkans. Privatsphäre in der Nähe von El Médano.",
+      "fr": "Petites criques intimes de sable et de roche au pied du volcan. Intimité près d'El Médano.",
+      "it": "Piccole calette intime di sabbia e roccia ai piedi del vulcano. Privacy vicino a El Médano.",
+      "nl": "Kleine intieme zand- en rotsbaaien aan de voet van de vulkaan. Privacy in de buurt van El Médano.",
+      "sv": "Små intima sand- och stenvikar vid foten av vulkanen. Avskildhet nära El Médano.",
+      "no": "Små intime sand- og steinviker ved foten av vulkanen. Privatliv nær El Médano.",
+      "da": "Små intime sand- og klippebugter ved foden af vulkanen. Privatliv nær El Médano.",
+      "fi": "Pieniä intiimejä hiekka- ja kivipoukamia tulivuoren juurella. Yksityisyyttä lähellä El Médanoa."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708111
     },
     "detalles": [
       "Estimado por Clima"
@@ -3498,15 +3276,15 @@
       "fi": "Rustiikkinen kiviranta. Erittäin rauhallinen, ihanteellinen irtautumiseen tai kalastukseen."
     },
     "webcam": null,
-    "score": 5,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
+      "t_real": 25,
+      "t_feel": 26,
       "viento": 3,
-      "cielo": "Lluvia ligera",
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708066
     },
@@ -3535,17 +3313,54 @@
       "fi": "Viehättävä rannikkokylä. Pieni kultahiekkainen ranta erittäin suojassa tuulelta."
     },
     "webcam": null,
-    "score": 5,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 31,
-      "viento": 11,
-      "cielo": "Lluvia ligera",
-      "visibilidad": 10000,
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 8723,
       "sunset": 1790708080
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa del Horno",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.038,
+      -16.552
+    ],
+    "descripcion": {
+      "es": "Cala resguardada y solitaria cerca de El Confital.",
+      "en": "Sheltered and solitary cove near El Confital.",
+      "de": "Geschützte und einsame Bucht in der Nähe von El Confital.",
+      "fr": "Crique abritée et solitaire près d'El Confital.",
+      "it": "Caletta riparata e solitaria vicino a El Confital.",
+      "nl": "Beschutte en eenzame baai bij El Confital.",
+      "sv": "Skyddad och ensam vik nära El Confital.",
+      "no": "Skjermet og ensom vik nær El Confital.",
+      "da": "Beskyttet og ensom bugt nær El Confital.",
+      "fi": "Suojainen ja yksinäinen poukama lähellä El Confitalia."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708109
     },
     "detalles": [
       "Estimado por Clima"
@@ -3572,15 +3387,15 @@
       "fi": "Aallonmurtajan suojaama, tyyni vesi. Mustaa hiekkaa ja turvallinen."
     },
     "webcam": null,
-    "score": 5,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
-      "cielo": "Lluvia ligera",
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 2,
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708077
     },
@@ -3609,15 +3424,15 @@
       "fi": "Villi ympäristö suurilla vulkaanisilla kivillä rannan edessä."
     },
     "webcam": null,
-    "score": 5,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
-      "cielo": "Lluvia ligera",
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 2,
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708076
     },
@@ -3646,17 +3461,202 @@
       "fi": "Pieni pikkukivipoukama, jota paikalliset suosivat."
     },
     "webcam": null,
-    "score": 5,
+    "score": 9,
     "bandera": "green",
     "avisos": [],
     "origen": "Estimado",
     "clima": {
-      "t_real": 28,
-      "t_feel": 30,
-      "viento": 5,
-      "cielo": "Lluvia ligera",
+      "t_real": 25,
+      "t_feel": 26,
+      "viento": 2,
+      "cielo": "Nubes dispersas",
       "visibilidad": 10000,
       "sunset": 1790708076
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa de la Jaca",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.125,
+      -16.455
+    ],
+    "descripcion": {
+      "es": "Piscina natural y playa en barrio pesquero auténtico.",
+      "en": "Natural pool and beach in authentic fishing neighborhood.",
+      "de": "Natürliches Becken und Strand in authentischem Fischerviertel.",
+      "fr": "Piscine naturelle et plage dans un quartier de pêcheurs authentique.",
+      "it": "Piscina naturale e spiaggia in autentico quartiere di pescatori.",
+      "nl": "Natuurlijk zwembad en strand in authentieke visserswijk.",
+      "sv": "Naturlig pool och strand i autentiskt fiskekvarter.",
+      "no": "Naturlig basseng og strand i autentisk fiskerområde.",
+      "da": "Naturlig pool og strand i autentisk fiskerkvarter.",
+      "fi": "Luonnonallas ja ranta aidossa kalastajakaupunginosassa."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708087
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa de las Maretas",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.118,
+      -16.46
+    ],
+    "descripcion": {
+      "es": "Zona tranquila con fondos rocosos, ideal snorkel.",
+      "en": "Quiet area with rocky seabeds, ideal for snorkeling.",
+      "de": "Ruhige Gegend mit felsigem Grund, ideal zum Schnorcheln.",
+      "fr": "Zone calme avec fonds rocheux, idéal snorkeling.",
+      "it": "Zona tranquilla con fondali rocciosi, ideale per snorkeling.",
+      "nl": "Rustige omgeving met rotsachtige bodem, ideaal om te snorkelen.",
+      "sv": "Lugnt område med klippig botten, perfekt för snorkling.",
+      "no": "Rolig område med steinete bunn, ideelt for snorkling.",
+      "da": "Roligt område med klippebund, ideelt til snorkling.",
+      "fi": "Rauhallinen alue kivisellä pohjalla, ihanteellinen snorklaukseen."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708088
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Listada",
+    "municipio": "Arico",
+    "zona": "Este",
+    "coordenadas": [
+      28.13,
+      -16.45
+    ],
+    "descripcion": {
+      "es": "Barrio costero con encanto y zonas de baño protegidas.",
+      "en": "Charming coastal neighborhood with protected swimming areas.",
+      "de": "Charmantes Küstenviertel mit geschützten Badebereichen.",
+      "fr": "Quartier côtier charmant avec zones de baignade protégées.",
+      "it": "Affascinante quartiere costiero con zone balneari protette.",
+      "nl": "Charmante kustwijk met beschermde zwemgebieden.",
+      "sv": "Charmigt kustområde med skyddade badplatser.",
+      "no": "Sjarmerende kystnabolag med beskyttede badeområder.",
+      "da": "Charmerende kystkvarter med beskyttede badeområder.",
+      "fi": "Viehättävä rannikkokaupunginosa suojaisilla uimapaikoilla."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 27,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708086
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "Playa Pelada",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0582,
+      -16.5216
+    ],
+    "descripcion": {
+      "es": "Playa virgen de arena dorada tras un cráter. Nudista.",
+      "en": "Virgin golden sand beach behind a crater. Nudist.",
+      "de": "Unberührter goldener Sandstrand hinter einem Krater. FKK.",
+      "fr": "Plage vierge de sable doré derrière un cratère. Nudiste.",
+      "it": "Spiaggia vergine di sabbia dorata dietro un cratere. Nudista.",
+      "nl": "Maagdelijk goudkleurig zandstrand achter een krater. Naaktstrand.",
+      "sv": "Orörd gyllene sandstrand bakom en krater. Nudist.",
+      "no": "Jomfruelig gyllen sandstrand bak et krater. Nudist.",
+      "da": "Jomfruelig gylden sandstrand bag et krater. Nudist.",
+      "fi": "Neitseellinen kultahiekkainen ranta kraatterin takana. Nudisti."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708103
+    },
+    "detalles": [
+      "Estimado por Clima"
+    ]
+  },
+  {
+    "nombre": "La Jaquita",
+    "municipio": "Granadilla",
+    "zona": "Sur",
+    "coordenadas": [
+      28.0502,
+      -16.5302
+    ],
+    "descripcion": {
+      "es": "Playa tranquila cerca del Médano con búnkeres antiguos.",
+      "en": "Quiet beach near El Médano with old bunkers.",
+      "de": "Ruhiger Strand in der Nähe von El Médano mit alten Bunkern.",
+      "fr": "Plage tranquille près d'El Médano avec d'anciens bunkers.",
+      "it": "Spiaggia tranquilla vicino a El Médano con vecchi bunker.",
+      "nl": "Rustig strand bij El Médano met oude bunkers.",
+      "sv": "Lugn strand nära El Médano med gamla bunkrar.",
+      "no": "Rolig strand nær El Médano med gamle bunkere.",
+      "da": "Rolig strand nær El Médano med gamle bunkere.",
+      "fi": "Rauhallinen ranta lähellä El Médanoa vanhoilla bunkkereilla."
+    },
+    "webcam": null,
+    "score": 9,
+    "bandera": "green",
+    "avisos": [],
+    "origen": "Estimado",
+    "clima": {
+      "t_real": 26,
+      "t_feel": 26,
+      "viento": 15,
+      "cielo": "Nubes dispersas",
+      "visibilidad": 10000,
+      "sunset": 1790708106
     },
     "detalles": [
       "Estimado por Clima"
